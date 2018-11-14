@@ -40,3 +40,10 @@ links:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+
+comments:
+---
+layout: default
+comments:true
+#other options
+---
