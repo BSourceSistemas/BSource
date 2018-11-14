@@ -1,7 +1,7 @@
 # Site settings
 title: BLOG BSOURCE
 description: A blog about lorem ipsum dolor sit amet
-baseurl: "/Blog" # the subpath of your site, e.g. /blog
+baseurl: "/CARDS" # the subpath of your site, e.g. /blog
 url: "https://bsourcesistemas.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
@@ -9,7 +9,7 @@ username: BSource
 user_description: Consultoria em sistemas
 email: contato@bsource.com.br
 twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
+github_username:  bsourcesistemas
 gplus_username:  lorem_ipsum
 disqus_username: lorem_ipsum
 
