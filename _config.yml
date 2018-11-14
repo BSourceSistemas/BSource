@@ -5,8 +5,8 @@ baseurl: "/BLOG" # the subpath of your site, e.g. /blog
 url: "https://bsourcesistemas.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: BSource
-user_description: Consultoria em sistemas
+username: Daniel da Cunha Bueno 
+user_description: Desenvelvedor e Socio/Propietario da Empresa BSource Consultoria
 email: contato@bsource.com.br
 twitter_username: lorem_ipsum
 github_username:  bsourcesistemas
