@@ -42,5 +42,6 @@ links:
 exclude: ['package.json', 'src', 'node_modules']
 
 # Disqus Comments
-
-
+disqus:
+  shortname: bsourcesistemas
+  
