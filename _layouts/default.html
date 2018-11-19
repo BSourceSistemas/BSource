@@ -17,10 +17,13 @@ layout: compress
 
     <body>
         {% include svg-icons.html %}
-        {% include header-default.html %}
+        {% include header-default.html %}       
             <section class="content">
                 {{ content }}
             </section>
         {% include footer.html %}
+        {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
     </body>
 </html>
