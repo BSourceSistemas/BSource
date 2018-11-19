@@ -7,7 +7,7 @@ description: 'Novidades Sencha Ext JS'
 main-class: 'noticias'
 color: '#B31917'
 tags:
-- noticias
+- noticias,ExtJS
 categories:
 twitter_text: 'Put your twitter description here.'
 introduction: 'Saiba mais sobre o mais recente anuncio da sencha o sencha community Edition'

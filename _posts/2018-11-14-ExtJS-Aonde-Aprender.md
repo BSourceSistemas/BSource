@@ -5,7 +5,7 @@ date:   2018-11-01 17:05:20 -0200
 image: '/assets/img/'
 description: 'Introdução ao Ext JS'
 tags: 
-- iniciante
+- iniciante,ExtJS
 main-class: 'iniciante'
 color: '#55780d'
 twitter_text: 'Put your twitter description here.'

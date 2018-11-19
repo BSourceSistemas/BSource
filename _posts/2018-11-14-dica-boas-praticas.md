@@ -6,7 +6,7 @@ description: "Detalhes fazem a diferença"
 main-class: 'dicas'
 color: '#637a91'
 tags:
-- "dicarapida"
+- "dicarapida",ExtJS
 twitter_text: "Favicons, touch icons e tile icons..."
 introduction: "Saiba mais sobre praticas que irão te ajudar a organizar e aumentar a performance de seus projetos."
 ---
