@@ -7,7 +7,7 @@ main-class: 'dicas'
 color: '#637a91'
 tags:
 - "dicarapida"
-twitter_text: "Favicons, touch icons e tile icons..."
+twitter_text: "Melhore a performance do seu código"
 introduction: "Saiba mais sobre praticas que irão te ajudar a organizar e aumentar a performance de seus projetos."
 ---
 
