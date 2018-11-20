@@ -1,6 +1,6 @@
 # Site settings
 title: Blog Bsource
-description: A blog about lorem ipsum dolor sit amet
+description: Um blog sobre Sencha ExtjS
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.bsource.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
