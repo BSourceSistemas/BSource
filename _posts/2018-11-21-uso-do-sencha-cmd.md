@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Introdução ao Sencha Cmd"
 date: 2018-11-21 11:22:19
-image: '/assets/img/teste-imagem.png'
+image: '/assets/img/'
 description:
 main-class: cmd
 color: '#2da0c3'
@@ -135,7 +135,7 @@ Exibe a versão atual e os comandos de nível superior diponíveis, Por exemplo:
 {% highlight ruby %}
 
 Sencha Cmd v6.0.0.202
-...
+... 
 
 Options
    --beta, -be - Enable beta package repositories
