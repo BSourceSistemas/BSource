@@ -91,7 +91,7 @@ Cada guia permite a exibição de uma visualização de vídeo de 30 segundos em
 
 ### Faça o Download e teste 
 
-Se voce esta com vontade de aprender a fazer aplicações web, baixe ja o Ext JS (CE) concerteza ela sera uma grande ferramenta de aprendizagem em sua jornada. Se você ja começou a usar o Ext JS (CE) deixe uma mensagem nos comentarios dando o seu feedback, tenho certeza que eu e muitos aqui estão ansiosos por isso.
+Se voce esta com vontade de aprender a fazer aplicações web, baixe ja o Ext JS (CE) concerteza ela sera uma grande ferramenta de aprendizagem em sua jornada. Se você ja começou a usar o Ext JS (CE) deixe uma mensagem nos comentários dando o seu feedback, tenho certeza que eu e muitos aqui estão ansiosos por isso.
 
 
 
