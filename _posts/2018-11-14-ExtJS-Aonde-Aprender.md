@@ -6,6 +6,7 @@ image: '/assets/img/'
 description: 'Introdução ao Ext JS'
 tags: 
 - iniciante
+- extjs
 main-class: 'iniciante'
 color: '#55780d'
 twitter_text: 'Put your twitter description here.'
