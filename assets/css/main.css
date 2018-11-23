@@ -334,7 +334,7 @@ a.slideButton,
 	border-radius: .188rem;
 	width: 2.5rem;
 	height: 2.5rem;
-	fill: #005f97
+	fill: #fcfcfc
 }
 
 .icon-search {
@@ -358,7 +358,7 @@ aside {
 	padding: 2.5rem 0 0;
 	top: 0;
 	right: -15rem;
-	background-color: #005f97;
+	background-color: #1b1b1b;
 	z-index: 20;
 	box-shadow: inset -10px -1px 15px -9px rgba(0, 0, 0, 0.5);
 }
@@ -1286,6 +1286,7 @@ main {
 	margin-left: auto;
 	padding-left: 0;
 	padding-right: 0;
+	color:#ffff
 }
 
 .tag-title:before,
@@ -1765,7 +1766,7 @@ footer a {
 }
 
 .post-noticias aside {
-	background-color: #b31917;
+	background-color: #1b1b1b;
 }
 
 .post-noticias aside nav li a:hover {
@@ -1787,7 +1788,7 @@ footer a {
 }
 
 .post-noticias footer {
-	background-color: #b31917
+	background-color: #313131
 }
 
 .post-cmd .title-category {
@@ -1872,7 +1873,7 @@ footer a {
 }
 
 .post-cmd aside {
-	background-color: #2da0c3;
+	background-color: #1b1b1b;
 }
 
 .post-cmd aside nav li a:hover {
@@ -1894,7 +1895,7 @@ footer a {
 }
 
 .post-cmd footer {
-	background-color: #2da0c3
+	background-color: #313131
 }
 
 .post-js .title-category {
@@ -1979,7 +1980,7 @@ footer a {
 }
 
 .post-js aside {
-	background-color: #d6ba32;
+	background-color: #1b1b1b;
 }
 
 .post-js aside nav li a:hover {
@@ -2001,7 +2002,7 @@ footer a {
 }
 
 .post-js footer {
-	background-color: #d6ba32
+	background-color: #313131
 }
 
 .post-html .title-category {
@@ -2300,7 +2301,7 @@ footer a {
 }
 
 .post-dicas aside {
-	background-color: #637a91;
+	background-color: #1b1b1b;
 }
 
 .post-dicas aside nav li a:hover {
@@ -2322,7 +2323,7 @@ footer a {
 }
 
 .post-dicas footer {
-	background-color: #637a91
+	background-color: #313131
 }
 
 .post-iniciante .title-category {
@@ -2407,7 +2408,7 @@ footer a {
 }
 
 .post-iniciante aside {
-	background-color: #7aab13;
+	background-color: #1b1b1b;
 }
 
 .post-iniciante aside nav li a:hover {
@@ -2429,5 +2430,5 @@ footer a {
 }
 
 .post-iniciante footer {
-	background-color: #7aab13
+	background-color: #313131
 }
