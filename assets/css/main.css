@@ -240,7 +240,7 @@ h4 {
 	padding: .938rem;
 	margin: .125rem;
 	border-radius: 50%;
-	border: .125rem solid #fff;
+	border: .125rem solid #fff;	
 	line-height: 0;
 	transition: all .7s;
 }
@@ -260,6 +260,7 @@ h4 {
 
 .icons-home a:hover {
 	background: #fff;
+	
 }
 
 .icons-home a:hover .icon {
@@ -847,6 +848,7 @@ main {
 	margin: 0 .938rem 3.125rem;
 	display: inline-block;
 	border: 1px solid rgb(0, 0, 0);
+	background-color: #1b1b1b;
 	border-radius: 5px;
 	min-height: 17.813rem;
 	transition: all .3s;
@@ -872,7 +874,7 @@ main {
 
 .box-item .box-body time {
 	font-size: .875rem;
-	color: #1b1b1b	
+	color: #ffffff	
 }
 
 .box-item .box-body h2 {
@@ -886,7 +888,7 @@ main {
 
 .box-item .box-body p {
 	margin: 0 0 1.25rem;
-	color: #1b1b1b;
+	color: #ffffff;
 	font-size: .875rem;
 	line-height: 1.375rem;	
 }
