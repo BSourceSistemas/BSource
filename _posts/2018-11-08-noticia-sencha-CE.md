@@ -2,7 +2,7 @@
 layout: post
 title: "Anuncio do Sencha Ext Versão da Comunidade"
 date: 2018-11-08 20:34:26
-image: '/assets/img/'
+image: '/assets/img/BSOURCE-img.png'
 description: 'Novidades Sencha Ext JS'
 main-class: 'noticias'
 color: '#B31917'
