@@ -1610,8 +1610,9 @@ pre span {
 }
 
 .author .name a:hover {
-	color: #ffffff
+	color: #d6ba32;
 }
+
 
 @media only screen and (min-width:37.5rem) {
 	.author .name a {
