@@ -8,6 +8,7 @@ color: '#637a91'
 tags:
 - "dicarapida"
 - extjs
+categories: Dicas 
 twitter_text: "Melhore a performance do seu código"
 introduction: "Saiba mais sobre praticas que irão te ajudar a organizar e aumentar a performance de seus projetos."
 ---
@@ -22,13 +23,13 @@ Isso não afetara a performance do seu codigo mais fará ficar mais dificil segu
 ![Folder](https://cdn.sencha.com/img/20130702-top-10-ext/top-10-ext-01.png)
 **todas as views estão em juntas ficando totalmente "bagunçado"**
 ![folder2](https://cdn.sencha.com/img/20130702-top-10-ext/top-10-ext-02.png)
-**views organizadas por função lógica, ficando muito mais fácil para se trabalhar**.
+<b>views organizadas por função lógica, ficando muito mais fácil para se trabalhar</b>.
 
 ### Aprenda a diferença entre classic e modern 
 
-**Classic Tollkit**: o kit de ferramentas clássico é o novo nome para o Ext JS tradicional e destina-se ao uso em aplicativos de desktop. Ele fornece suporte tradicional a aplicativos Ext JS para a maioria dos navegadores de desktop, laptops e tablets habilitados para tela sensível ao toque.
+<b>Classic Tollkit</b>: o kit de ferramentas clássico é o novo nome para o Ext JS tradicional e destina-se ao uso em aplicativos de desktop. Ele fornece suporte tradicional a aplicativos Ext JS para a maioria dos navegadores de desktop, laptops e tablets habilitados para tela sensível ao toque.
 
-**Modern Tollkit**: o kit de ferramentas moderno é o novo nome do Sencha Touch e destina-se ao uso para aplicativos móveis. Já que é melhor para um navegador cruzado e também para a experiência entre dispositivos. Ele estende o suporte a aplicativos HTML5 para todos os navegadores modernos de desktop para mobile. Evite ID’s 
+<b>Modern Tollkit</b>: o kit de ferramentas moderno é o novo nome do Sencha Touch e destina-se ao uso para aplicativos móveis. Já que é melhor para um navegador cruzado e também para a experiência entre dispositivos. Ele estende o suporte a aplicativos HTML5 para todos os navegadores modernos de desktop para mobile. Evite ID’s 
 
 ### Evite o uso de ID's
 
@@ -49,7 +50,7 @@ Não é recomendado o uso de ID para os seus componentes, porque cada id deve se
     }]
 {% endhighlight %}
 
-**Exemplo de mau uso X: atribuir um 'id' duplicado a um componente causara uma colisão de nomes.**
+Exemplo de mau uso X: atribuir um 'id' duplicado a um componente causara uma colisão de nomes.
 
 Em vez disso, se você quiser identificar manualmente cada componente, basta substituir o 'id' por 'itemId', como mostrado no exemplo Y. Isso resolve o conflito de nomes e ainda podemos obter uma referência ao componente via itemId. Há muitas maneiras de recuperar uma referência a um componente via itemId. Alguns métodos são mostrados no exemplo Z.
 
@@ -70,7 +71,7 @@ Em vez disso, se você quiser identificar manualmente cada componente, basta sub
 	 }]
 {% endhighlight %}
 
-**Exemplo Y, boa prática: Crie items ID.**
+<b>Exemplo Y, boa prática: Crie items ID.</b>
 
 {% highlight ruby %}
 
@@ -83,7 +84,7 @@ var pictureSaveButton = Ext.ComponentQuery.consulta ( '#picturetoolbar> #savebut
 
 {% endhighlight %}
 
-**Exemplo Z, boa prática: refêrenciando componentes por itemId.**
+<b>Exemplo Z, boa prática: refêrenciando componentes por itemId.</b>
 
 ### Tente não aninhar funções 
 
@@ -119,7 +120,7 @@ layout : 'ajuste',
 	    colunas :  [{ ... }] 
 	}]
 {% endhighlight %}
-**Exemplo 2: A grid ja é um panel, use apenas as propiedades do painel diretamente no grid**
+Exemplo 2: A grid ja é um panel, use apenas as propiedades do painel diretamente no grid
 
 ### Nomeie seus xtypes com cautela 
 

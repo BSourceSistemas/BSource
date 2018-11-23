@@ -11,7 +11,7 @@ tags:
 - tutorial
 - extjs
 - iniciante
-categories:
+categories: Guias Básicos.
 twitter_text:
 introduction: 'Aqui você vera um guia básico sobre Sencha Cmd.'
 ---
@@ -43,7 +43,7 @@ O Sencha Cmd possui diversos recursos que trabalham em conjunto com o ExtJS e o 
 
 Sencha Cmd tem suporte a partir da versões do Sencha ExtJS 4.1 e Sencha Touch 2.1. Alguns Recursos do Sencha Cmd precisam do suporte de dramework que só estão disponiveis nessas versões ou nas versões anteriores. Alguns comandos podem ser usados por versões mais antigas do sencha frameworks ou javascript em geral.
 
-### **Setup**
+### Setup
 
 O instalador do sencha cmd inclui todo o necessario para você criar aplicações em ExtJS, faça o download do sencha Cmd aqui:
 
