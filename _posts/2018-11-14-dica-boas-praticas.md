@@ -7,7 +7,7 @@ description: "Detalhes fazem a diferença"
 main-class: 'dicas'
 color: '#637a91'
 tags:
-- "dicarapida"
+- "dicarápida"
 - extjs
 categories: Dicas 
 twitter_text: "Melhore a performance do seu código"
