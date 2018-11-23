@@ -19,7 +19,7 @@ introduction: 'Aqui você vera um guia básico sobre Sencha Cmd.'
 Olá Pessoal 
 Nesse breve artigo abordaremos o uso do Sencha Cmd, desde o processo de instalação e seus comandos.
 
-### **Introdução ao Sencha Cmd**
+### Introdução ao Sencha Cmd
 
 O Sencha Cmd é uma ferramenta de linha de comando que possui todos os recursos necessários para criar, testar e publicar aplicações Sencha ExtJS e Sencha Touch.
 
@@ -39,7 +39,7 @@ O Sencha Cmd possui diversos recursos que trabalham em conjunto com o ExtJS e o 
 
 •<b>Ferramentas que geram código</b>: São usadas para gerar aplicativos inteiros e estende-los com novos componentes MVC.
 
-### **Compatibilidade**
+### Compatibilidade
 
 Sencha Cmd tem suporte a partir da versões do Sencha ExtJS 4.1 e Sencha Touch 2.1. Alguns Recursos do Sencha Cmd precisam do suporte de dramework que só estão disponiveis nessas versões ou nas versões anteriores. Alguns comandos podem ser usados por versões mais antigas do sencha frameworks ou javascript em geral.
 
@@ -49,7 +49,7 @@ O instalador do sencha cmd inclui todo o necessario para você criar aplicaçõe
 
 • <a href="https://www.sencha.com/products/sencha-cmd/" target="_blank">Sencha Cmd</a>
 
-### **Uso de versões mais antigas**
+### Uso de versões mais antigas
 
 Se você estiver usando uma versão mais antiga do que a 4.1 do extjs ou a 2.1 do sencha touch, será necessário a verificação da opção "Extensão de bússola" no instalador:
 

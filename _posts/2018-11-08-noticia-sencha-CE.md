@@ -11,7 +11,7 @@ tags:
 - extjs
 categories:
 twitter_text: 'Put your twitter description here.'
-introduction: 'Saiba mais sobre o mais recente anuncio da sencha o sencha community Edition'
+introduction: 'Saiba mais sobre o mais recente anuncio da sencha o sencha community Edition.'
 ---
 
 Olá pessoal
