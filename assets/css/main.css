@@ -645,7 +645,7 @@ body.search-overlay:after {
 
 .post-content .tags a {
 	font-size: .875rem;
-	color: #005f97;
+	color: #fafafa;
 	display: inline-block;
 	border: 1px solid #005f97;
 	border-radius: .313rem;
@@ -671,7 +671,7 @@ body {
 }
 
 .header-post {
-	background-color: #005f97;
+	background-color: #1b1b1b;
 }
 
 .header-post .content {
@@ -1080,7 +1080,7 @@ main {
 }
 
 .post-content a {
-	color: #005f97;
+	color: #ffffff;
 	border-bottom: 2px dashed #005f97;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
