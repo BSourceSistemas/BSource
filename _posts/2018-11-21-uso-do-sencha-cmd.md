@@ -11,7 +11,7 @@ tags:
 - tutorial
 - extjs
 - iniciante
-categories: Guias Básicos.
+categories: Guiabásico
 twitter_text:
 introduction: 'Aqui você vera um guia básico sobre Sencha Cmd.'
 ---
