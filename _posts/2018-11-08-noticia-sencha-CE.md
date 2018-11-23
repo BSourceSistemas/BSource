@@ -9,7 +9,7 @@ color: '#B31917'
 tags:
 - noticias
 - extjs
-categories: Informação
+categories: # Informação
 twitter_text: 'Put your twitter description here.'
 introduction: 'Saiba mais sobre o mais recente anuncio da sencha o sencha community Edition.'
 ---
