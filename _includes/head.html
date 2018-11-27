@@ -37,15 +37,11 @@
     <meta itemprop="image" content="{{ "/assets/img/BSOURCE-img.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
     <!-- Social: whatsapp -->
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{page.image }}">
-    {% else %}
-    <meta property="og:image" content="{{ "/assets/img/blog-author.jpg" | prepend: site.baseurl | prepend: site.url }}">
-    {% endif %}
-    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:site_name" content="{{ site.title }}">
+    <meta name=”description” content=”Enjoy.” />
+    <meta name=”keywords” content=”video />
+    <meta name=”theme-color” content=”#ff0000″ />
+    <meta property=”og:image” content=”/assets/img/BSOURCEimg.png” />
+    <meta property=”fb:app_id” content=”87741124305″ />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://blog.bsource.com.br//assets/img/icons/faviconn.ico">
