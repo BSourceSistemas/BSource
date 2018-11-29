@@ -14,7 +14,7 @@
     $("#close").hide();
   });
 
-  // Search
+  // Search 
   var bs = {
     close: $(".icon-remove-sign"),
     searchform: $(".search-form"),
