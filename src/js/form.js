@@ -1,3 +1,5 @@
+/* Form.js arquivo criado para realizar teste na criação do form cadastro  */
+
 <script src="https://unpkg.com/vue@2.4.2"></script>
 <script src="https://unpkg.com/vee-validate@2.0.0-rc.8"></script>
 <script type="text/javascript">
