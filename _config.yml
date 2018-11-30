@@ -37,7 +37,6 @@ links:
     url: /tags
   - title: Sobre 
     url: /about
- 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
 
@@ -45,6 +44,13 @@ exclude: ['package.json', 'src', 'node_modules']
 disqus:
   shortname: bsourcesistemas
 
-#Time Zone
-timezone: 
+# coleção de colaboradores do site 
+collections:
+  authors:
+  output: true
+
+  #puglins
+
+  plugins:
+  - jemoji
   

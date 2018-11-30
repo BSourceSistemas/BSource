@@ -123,7 +123,7 @@ Depois que tiver um pouco de experiência leia: Ext JS 3.0 Cookbook.
 
 Segue o link - 
 <https://loiane.com/2011/11/curso-de-extjs-4-gratuito/>.  
-Espero que essas indicações ajudem no seu processo de aprendizagem, bons estudos e aguardem que   mais posts sobre Ext JS estão por vir.  
+Espero que essas indicações ajudem no seu processo de aprendizagem, se você tem alguma boa referência de fonte de aprendizado ExtJS (livros, Blogs, Videos) que não foi citada aqui, por favor deixe nos comentários . Bons estudos e aguardem que mais posts sobre Ext JS estão por vir.  
 
 
 

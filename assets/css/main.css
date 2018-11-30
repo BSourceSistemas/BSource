@@ -332,7 +332,7 @@ a.slideButton,
 .icon-menu {
 	cursor: pointer;
 	padding: .313rem;
-	border-radius: .188rem;
+	border-radius: .88rem;
 	width: 2.5rem;
 	height: 2.5rem;
 	fill: #fcfcfc
@@ -692,7 +692,7 @@ body {
 
 .bar-header .logo {
 	margin: 0;
-	line-height: 2.188rem
+	line-height: 2.188rem;
 }
 
 .bar-header .logo a {
@@ -708,7 +708,7 @@ body {
 
 @media only screen and (min-width:37.5rem) {
 	.bar-header .logo a:after {
-		content: 'BSource'
+		content:url("https://i.ibb.co/K7MQZHr/bsource-contato-newslater22.png");
 	}
 }
 
@@ -1543,8 +1543,121 @@ pre span {
 	color: #a6e22e
 }
 
+
+.formularioBS {
+	background: #313131;
+	display: table;
+	width: 100%;
+	padding: 2.5rem 0;
+	margin: 2.5rem 0;
+}
+
+@media only screen and (min-width:37.5rem) {
+	.formularioBS {
+		padding: 3.125rem 0
+	}
+}
+
+.formularioBS .details {
+	margin: auto;
+	max-width: 50rem;
+	padding: 0 1.25rem;
+}
+
+@media only screen and (max-width:37.5rem) {
+	.formularioBS .details {
+		text-align: center
+	}
+}
+
+.formularioBS img {
+	border-radius: 0%;
+	display: block;
+	margin: auto;
+}
+
+@media only screen and (min-width:37.5rem) {
+	.formularioBS img {
+		float: left;
+		margin-right: 3.125rem
+	}
+}
+
+.formularioBS .def {
+	color: #808080;
+	font-size: 1.125rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	margin: .625rem;
+}
+
+@media only screen and (min-width:37.5rem) {
+	.formularioBS .def {
+		margin: 0;
+		padding-top: 1.563rem
+	}
+}
+
+.formularioBS .name {
+	margin: 0;
+}
+
+.formularioBS .name a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 1.875rem;
+}
+
+.formularioBS .name a:hover {
+	color: #d6ba32;
+}
+
+
+@media only screen and (min-width:37.5rem) {
+	.formularioBS .name a {
+		font-size: 2.813rem
+	}
+}
+
+.formularioBS .desc {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	margin: .625rem;
+	font-size: 1rem;
+}
+
+@media only screen and (min-width:37.5rem) {
+	.formularioBS .desc {
+		font-size: 1.25rem
+	}
+}
+
+.formularioBS .email,
+.formularioBS .github {
+	text-decoration: none;
+	color: #005f97
+}
+
+.button {
+    background-color: #005f97;
+    border: none;
+    color: rgb(255, 254, 254);
+    padding: 5px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+ 
 .author {
-	background: #1b1b1b;
+	background:#1b1b1b;
 	display: table;
 	width: 100%;
 	padding: 2.5rem 0;
