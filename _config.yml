@@ -38,7 +38,7 @@ links:
   - title: Sobre 
     url: /about
   - title: Contato
-    url: /Contato
+    url: /contato
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

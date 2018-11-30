@@ -2,10 +2,11 @@
 layout: minimal
 title: "Contato"
 permalink: /contato/index.html
+image: '/assets/img/series.png'
 description: "Entre em Contato Conosco"
 ---
 
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 
 <body>
@@ -28,7 +29,7 @@ description: "Entre em Contato Conosco"
          placeholder="Your name..." is a great way to hint to the customer what kind of
          value you're expecting in the field and will not be submitted when they submit the form.
     --> 
-    <form>
+    <!--<form>
             <dl>
                 <dt><label for="nome" style="margin-left: 540px; color: white;">nome : </label></dt>
                 <dt style="padding-left:540px;"><textarea rows="1" id="nome" name="title" placeholder="Seu Nome" style="padding-left:100px;"></textarea></dt>
@@ -37,7 +38,7 @@ description: "Entre em Contato Conosco"
         
 
     <!-- type="email" a field for editing an e-mail address. -->
-    <form>
+    <!--<form>
             <dl>
                 <dt><label for="E-mail" style="margin-left: 540px; color: white;">E-mail : </label></dt>
                 <dt style="padding-left:540px;"><textarea rows="1" id="E-mail" name="E-mail" placeholder="Seu E-mail" style="padding-left:100px;"></textarea></dt>
@@ -47,7 +48,7 @@ description: "Entre em Contato Conosco"
     <!-- textarea is a multi-line plain-text editing control, useful when you want to 
          allow users to enter a sizeable amount of free-form text. 
      -->
-     <label for="Mensagem" style=" margin-left:540px; color: white;">Mensagem</label>
+    <!-- <label for="Mensagem" style=" margin-left:540px; color: white;">Mensagem</label>
     <dt style="padding-left:540px;"><textarea rows="7" id="Mensagem" name="Mensagem" placeholder="Sua Mensagem" style="padding-left:100px;"></textarea></dt>
    <br><br>
 
@@ -56,14 +57,14 @@ description: "Entre em Contato Conosco"
          always get a "no" or "yes" value. Without that the subscribe value will not
          be sent if the field is unchecked.
     -->
-    <input type="hidden" name="subscribe" value="no">
+   <!-- <input type="hidden" name="subscribe" value="no">
     <label for="checkbox" style="margin-left:540px;color: white;"><input type="checkbox" id="checkbox" name="Siga" value="yes" checked>Submit.
     </label><br><br>
 
     <!-- force older browsers to submit your form data as UTF8. It helps ensure all submissions to your form will be encoded the same way.
          See https://intercom.help/formkeep/frequently-asked-questions/why-do-you-include-the-utf8-hidden-field-in-your-example-forms
     -->
-    <input type="hidden" name="utf8" value="✓">
+   <!-- <input type="hidden" name="utf8" value="✓">
 
     <!-- There are certain names for common fields that browers will treat specially
         and autofill values for the user automatically. If you can use these names for
@@ -95,9 +96,88 @@ description: "Entre em Contato Conosco"
           "url"
     -->
 
-    <button type="Enviar" style="margin-left:540px;">Enviar</button>
+   <!-- <button type="Enviar" style="margin-left:540px;">Enviar</button>
     <button type="reset">Resetar informações</button>
+  </form>-->
+
+  letoken" method="POST" target="_blank" id="weeblyform">
+  
+  <!-- For detailed information check out these two sites
+  https://www.w3schools.com/tags/att_input_type.asp
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_%3Cinput%3E_types
+  -->
+  
+  <!-- type="text" A single-line text field. Line-breaks are automatically removed from the input value.
+  placeholder="Your name..." is a great way to hint to the customer what kind of
+  value you're expecting in the field and will not be submitted when they submit the form.
+  -->
+  <div class='wsite-form-field'><label class='wsite-form-label'>First Name</label>
+  <div class="wsite-form-input-container">
+  <input class="wsite-form-input wsite-input wsite-input-width-200px" style="background-color: #fff" type="text" name="first_name" placeholder="John">
+  </div>
+  </div>
+  
+  <div class='wsite-form-field'><label class='wsite-form-label'>Last Name</label>
+  <div class="wsite-form-input-container">
+  <input class="wsite-form-input wsite-input wsite-input-width-200px" style="background-color: #fff" type="text" name="last_name" placeholder="Smith">
+  </div>
+  </div>
+  
+  <div class='wsite-form-field'><label class='wsite-form-label'>Email</label>
+  <div class="wsite-form-input-container">
+  <input class="wsite-form-input wsite-input wsite-input-width-200px" style="background-color: #fff" type="email" name="email" placeholder="john@example.com">
+  </div>
+  </div>
+  
+  <!-- textarea is a multi-line plain-text editing control, useful when you want to
+  allow users to enter a sizeable amount of free-form text.
+  -->
+  <div class='wsite-form-field'><label class='wsite-form-label'>Subject</label>
+  <div class="wsite-form-input-container">
+  <textarea id="subject" name="subject" placeholder="Reason for contacting us" rows="5"></textarea>
+  </div>
+  </div>
+  
+  <!-- force older browsers to submit your form data as UTF8. It helps ensure all submissions to your form will be encoded the same way.
+  See https://intercom.help/formkeep/frequently-asked-questions/why-do-you-include-the-utf8-hidden-field-in-your-example-forms
+  -->
+  <input type="hidden" name="utf8" value="✓">
+  
+  <!-- There are certain names for common fields that browers will treat specially
+  and autofill values for the user automatically. If you can use these names for
+  your fields you should. See the url below for more detailed information about them
+  https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill
+  "name"
+  "organization-title"
+  "organization"
+  "street-address"
+  "address-line1"
+  "address-line2"
+  "address-line3"
+  "address-level4"
+  "address-level3"
+  "address-level2"
+  "address-level1"
+  "country"
+  "country-name"
+  "email"
+  "postal-code"
+  "language"
+  "bday"
+  "bday-day"
+  "bday-month"
+  "bday-year"
+  "sex"
+  "tel"
+  "tel-extension"
+  "url"
+  -->
+  
+  <button style="padding:15px; margin: 15px 0 0 0;" type="submit">SUBMIT</button>
   </form>
+  </div>
+  
+  
 
 
 
