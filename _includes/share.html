@@ -14,26 +14,8 @@
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Compartilhe no Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
-   <script  type= "text/javascript">
-        function verificarbrowser(){
-            if( navigator.userAgent.match(/Android/i)
-                 || navigator.userAgent.match(/webOS/i)
-                 || navigator.userAgent.match(/iPhone/i)
-                 || navigator.userAgent.match(/iPad/i)
-                 || navigator.userAgent.match(/iPod/i)
-                 || navigator.userAgent.match(/BlackBerry/i)
-                 || navigator.userAgent.match(/Windows Phone/i)
-            ){
-              <input type="Compartilhe no Whatsapp" href="whatsapp://send?text={{ site.url }}{{ page.url }}"
-    data-action= "share/whatsapp/share"title="compartilhe no whatsapp"/>
-            }
-            else {
-            hidden:true;
-            }
-        }      
-   </script>
-   <!-- <a aria-label="Compartilhe no Whatsapp" href="whatsapp://send?text={{ site.url }}{{ page.url }}"
-    data-action= "share/whatsapp/share"title="compartilhe no whatsapp">
-     <svg class="icon icon-whatsapp"><use xlink:href="#icon-whatsapp"></use></svg>
-     </a> -->
+    <a aria-label="Compartilhe no Whatsapp" href="whatsapp://send?text={{ site.url }}{{ page.url }}"
+   data-action= "share/whatsapp/share"title="compartilhe no whatsapp">
+    <svg class="icon icon-whatsapp"><use xlink:href="#icon-whatsapp"></use></svg>
+    </a>
 </section>
