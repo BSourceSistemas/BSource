@@ -5,4 +5,4 @@ permalink: /autor/:name
 picture:
 ---
 
-**BSource**
+Desenvolvedor 

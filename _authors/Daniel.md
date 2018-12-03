@@ -5,5 +5,4 @@ values:
 permalink: /autor/:name
 picture: /assets/img/blog-author
 ---
-
-**Bsource**
+Desenvolvedor
