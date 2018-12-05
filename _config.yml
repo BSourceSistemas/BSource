@@ -54,6 +54,10 @@ collections:
   plugins:
   - jemoji
 
+lang: en
+languages: ["en", "pt"]
+permalink: pretty
 
 
   
+
