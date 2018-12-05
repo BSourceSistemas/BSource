@@ -4,6 +4,7 @@ title: "Dicas de boas praticas em Ext JS"
 date: 2018-11-14 21:31:05
 image: '/assets/img/BSOURCEimg.png'
 description: "Detalhes fazem a diferença"
+feature_image: 'BSOURCEimg.png'
 main-class: 'dicas'
 color: '#637a91'
 tags:

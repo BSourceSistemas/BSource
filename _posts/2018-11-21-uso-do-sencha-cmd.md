@@ -4,7 +4,7 @@ comments: true
 title: "Introdução ao Sencha Cmd"
 date: 2018-11-21 11:22:19
 image: '/assets/img/BSOURCEimg.png'
-description:
+description: ''
 main-class: cmd
 color: '#2da0c3'
 tags: 
@@ -111,7 +111,7 @@ Simples o sencha possui um recurso chamado <b>sencha upgrade</b> que faz isso po
 {% endhighlight %}
 Se você colocar o comando sem o <b>--check</b> o sencha cmd fara o download e instalação automatica para a versão mais recente disponivel.
 
-{% highlight ruby %}
+{% highlight ruby %} n
     sencha upgrade
 {% endhighlight %}
 
