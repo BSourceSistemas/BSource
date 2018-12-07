@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Anuncio do Sencha Stencils 4.0"
 date: 2018-12-07 13:30:43
-image: '/assets/img/'
+image: 'https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif'
 description: 'Novos recursos para o Sencha Stencils'
 main-class: 'noticias'
 color: '#B31917'
@@ -17,7 +17,7 @@ introduction: Confira o que há de novo na versão do Sencha Stencils 4.0
 
 Olá Pessoal tudo certo?
 
-Nesse pequeno post <strike>(eu acho que será)</strike> falarei sobre as novidades da nova versão do Sencha Stencils a versão 4.0 que foi anunciada no dia 06 de dezembro de 2018.
+Nesse pequeno post <strike>eu acho que será</strike> falarei sobre as novidades da nova versão do Sencha Stencils a versão 4.0 que foi anunciada no dia 06 de dezembro de 2018.
 
 ## Novidades
 
@@ -46,3 +46,5 @@ Janela Classic Grafite e barra de Navegação Stencils
 ### Conclusão 
 
 A Sencha esta captando as tendências do mercado de design para implementar as ferramentas mais utilizados por esse ramo em suas aplicações ExtJS atravez do Sencha Stencils.
+
+
