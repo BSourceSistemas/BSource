@@ -14,7 +14,7 @@ twitter_text: 'Put your twitter description here.'
 introduction: 'Saiba mais sobre esse framework java script fantástico, saiba sua historia e recomendações para o inicio de seu aprendizado em Ext JS'
 ---
 
-Olá pessoal.
+Olá pessoal tudo certo?
 
 Estou aqui para apresentar o Ext JS e compartilhar um pouco sobre recomendações para facilitar o aprendizado desse framework fantástico.
 

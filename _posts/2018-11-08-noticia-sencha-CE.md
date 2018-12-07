@@ -16,7 +16,7 @@ twitter_text: 'Put your twitter description here.'
 introduction: 'Saiba mais sobre o mais recente anuncio da sencha o sencha community Edition.'
 ---
 
-Olá pessoal
+Olá pessoal tudo certo?
 Hoje falaremos sobre o mais recente anuncio da Sencha, ontem (dia 06/11/2018) foi revelado a versão Sencha Ext Community Edition.
 
 ### Afinal o que é Ext Community Edition?

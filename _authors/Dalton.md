@@ -5,4 +5,4 @@ permalink: /autor/:name
 picture:
 ---
 
-Desenvolvedor 
+Senior Software Enginer em aplicações web e mobile (#C,Sencha Ext JS, Xamarin).

@@ -13,10 +13,10 @@ tags:
 - iniciante
 categories: Guiabasico
 twitter_text:
-introduction: 'Aqui você vera um guia basico sobre Sencha Cmd.'
+introduction: 'Aqui você vera um guia básico sobre Sencha Cmd.'
 ---
 
-Olá Pessoal 
+Olá Pessoal tudo certo?
 Nesse breve artigo abordaremos o uso do Sencha Cmd, desde o processo de instalação e seus comandos.
 
 ### Introdução ao Sencha Cmd

@@ -13,18 +13,19 @@ github_username:  bsourcesistemas
 gplus_username:  lorem_ipsum
 disqus_username: lorem_ipsum
 
+# User settings 2
+#username2: Dalton Eduardo da Silveira
+user_description: Senior Software Enginer em aplicações web e mobile (#C,Sencha Ext JS, Xamarin).
+email: 
+twitter_username: BSourceSistemas
+github_username:  bsourcesistemas
+gplus_username:  lorem_ipsum
+disqus_username: lorem_ipsum
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-
-
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
 
 # Links to include in menu navigation
 # For external links add external: true
@@ -37,6 +38,15 @@ links:
     url: /tags
   - title: Sobre 
     url: /about
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
 
@@ -47,7 +57,7 @@ disqus:
 # coleção de colaboradores do site 
 collections:
   authors:
-  output: true
+  output: true 
 
   #puglins
 

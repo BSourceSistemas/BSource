@@ -9,6 +9,7 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-129298107-1');
+  
 </script>
 
 <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f1acb10-24c0-4742-aeae-24841994f914-loader.js"></script>
@@ -22,13 +23,13 @@
             <article role="article" id="post" class="post-content" itemprop="articleBody">
                 {{ content }}
             </article>
-           <!-- {% include formularioBS.html %}-->
-              {% include share.html %}
+                    
+            {% include formularioBS.html %}
             {% include author.html %}        
          {% if site.disqus.shortname %}
             {% include comments.html %}
-          {% endif %}                    
-            {% include footer.html %}        
+         {% endif %}                    
+            {% include footer.html %}     
         </section>
     </body>
 </html>

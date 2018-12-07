@@ -1395,7 +1395,7 @@ pre {
 	background: #222;
 	width: 100%;
 	padding: 1.25rem 0;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	margin: 1.875rem 0;
 	font-size: .875rem;
 }
@@ -1550,11 +1550,12 @@ pre span {
 
 
 .formularioBS {
+	background-image: url("https://i.ibb.co/prnzMNG/bsource-contato-newslater22.png");
 	background: #313131;
 	display: table;
 	width: 100%;
 	padding: 2.5rem 0;
-	margin: 2.5rem 0;
+	margin: auto ;
 }
 
 @media only screen and (min-width:37.5rem) {
@@ -1577,7 +1578,7 @@ pre span {
 
 .formularioBS img {
 	border-radius: 0%;
-	display: block;
+	display: flex;
 	margin: auto;
 }
 
@@ -1655,12 +1656,12 @@ pre span {
     padding: 5px 32px;
     text-align: right;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 16px;
     margin: 5px 2px;
     cursor: pointer;
 }
- 
+
 .author {
 	background:#1b1b1b;
 	display: table;
@@ -2554,4 +2555,123 @@ footer a {
 	background-color: #313131
 }
 
+/* setup geral do form
+
+/* Setup a reasonable default font */
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif
+   }
+   
+   /* Style all select, textareas and input types except color, radio, checkbox */
+   input:not([type=color]):not([type=radio]):not([type=checkbox]), select, textarea {
+	   width: 100%; /* Full width */
+	   padding: 10px; /* Some padding */  
+	   border: 1px solid #ccc; /* Gray border */
+	   border-radius: 4px; /* Rounded borders */
+	   box-sizing: border-box; /* Make sure that padding and width stays in place */
+	   margin-top: px; /* Add a top margin */
+	   margin-bottom: 16px; /* Bottom margin */
+   }
+   
+   /* Style textarea elements */
+   textarea {
+	   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+   }
+   
+   /* increase the size of the select element to match others */
+   select {
+	 height: 4em;
+   }
+   
+   /* add some space between the radio options*/
+   input[type=radio] {
+	 margin-left: 10px;
+	 margin-right: 5px;
+   }
+   
+   /* add some space between the checkbox options*/
+   input[type=checkbox] {
+	 margin-right: 20px;
+   }
+   
+   /* Style the submit button with a specific background color etc */
+   button[type=submit] {
+	   background-color: #14b2cf;
+	   color: white;
+	   padding: 12px 20px;
+	   border: none;
+	   border-radius: 8px;
+	   cursor: pointer;
+	   font-weight: bold;
+   }
+   
+   /* When moving the mouse over the submit button, add a darker color */
+   button[type=submit]:hover {
+	   background-color: #1091A9;
+   }
+   
+   /* Style the reset button with a specific background color etc */
+   button[type=reset] {
+	   background-color: #ddd;
+	   color: #cd4747;
+	   padding: 12px 20px;
+	   border: none;
+	   border-radius: 8px;
+	   cursor: pointer;
+	   font-weight: bold;
+   }
+   
+   /* When moving the mouse over the submit button, add a darker color */
+   button[type=reset]:hover {
+	   background-color: #A72600;
+	   color: white;
+   }
+   
+   /* Add a background color and some padding around the form */
+   .container {
+	   border-radius: 5px;
+	   background-color: #f2f2f2;
+	   padding: 20px;
+   }
+   
+@media only screen and (min-width:37.5rem) {
+	.formularioBS {
+		padding: 3.125rem 0
+	}
+}
+
+.formularioBS .details {
+	margin: auto;
+	max-width: 50rem;
+	padding: 0 1.25rem;
+}
+
+@media only screen and (max-width:37.5rem) {
+	.formularioBS .details {
+		text-align: center
+	}
+}
+
+.formularioBS img {
+	border-radius: 0%;
+	display: block;
+	margin: auto;
+}
+.center
+{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+}
+#contato.content
+{
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 30 px 120px;
+
+}
+
+}
 
