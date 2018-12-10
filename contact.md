@@ -14,7 +14,7 @@ permalink: /contato/
 
 <div class="container">
 
-  <h2>Fale com nossa equipe</h2>
+  <h2>Fale com a nossa equipe</h2>
 
   <div id="form" class="contact-form">
     <form accept-charset="UTF-8" method="POST" action="https://formspree.io/murilo.santos@bsource.com.br" 
