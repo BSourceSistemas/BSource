@@ -2791,5 +2791,18 @@ body.has-push-menu.push-menu-to-right .progress-bar{
 .contact-form [v-cloak]{
     display:none
 }
+	html {
+      height: 100%;
+    }
+
+    body {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content {
+      flex: 1;
+    }
 }
 
