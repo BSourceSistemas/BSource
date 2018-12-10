@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dicas de boas praticas em Ext JS"
+title: "Dicas de boas práticas em Ext JS"
 date: 2018-11-14 21:31:05
 image: '/assets/img/BSOURCEimg.png'
 description: "Detalhes fazem a diferença"
@@ -12,7 +12,7 @@ tags:
 - extjs
 categories: Dicas 
 twitter_text: "Melhore a performance do seu código"
-introduction: "Saiba mais sobre praticas que irão te ajudar a organizar e aumentar a performance de seus projetos."
+introduction: "Saiba mais sobre práticas que irão te ajudar a organizar e aumentar a performance de seus projetos."
 ---
 
 Olá pessoal tudo certo?

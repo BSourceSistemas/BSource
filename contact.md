@@ -21,7 +21,7 @@ permalink: /contato/
     v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
         <input type="hidden" name="_subject" value="Novo Contato!" />
-        <input type="hidden" name="_next" value="{{ site.url }}/contato/menssagem-enviada/" />
+        <input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
         <input type="hidden" name="_language" value="en" />
 
         <input type="text" name="name" placeholder="Seu Nome" v-validate="'required'"
