@@ -2674,6 +2674,122 @@ body {
 
 }
 
-
+progress{
+    display:inline-block;
+    vertical-align:baseline;
+}
+body.has-push-menu,body.has-push-menu aside,body.has-push-menu .progress-bar{
+    -webkit-transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    transition:all .3s ease;
+}
+body.has-push-menu,body.has-push-menu aside,body.has-push-menu .progress-bar{
+    -webkit-transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    transition:all .3s ease;
+}
+body.has-push-menu.push-menu-to-right .progress-bar{
+    left:15rem
+}
+.progress-bar{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:-100%;
+    display:block;
+    width:100%;
+    background-color:#fff;
+    padding:.625rem;
+    -webkit-transition:bottom .5s;
+    transition:bottom .5s;
+    border-top:1px solid #f2f2f2;
+}
+.progress-bar .bar{
+    display:block;
+    width:100%;
+    height:1.125rem;
+    padding:.313rem 3.125rem
+}
+.progress-bar .completed{
+    float:left;
+    display:block;
+    height:8px;
+    background-color:#ff0a16
+}
+.progress-bar .remaining{
+    float:left;
+    display:block;
+    height:.5rem;
+    background-color:#ccc
+}
+.progress-bar .time-completed,.progress-bar .time-remaining{
+    color:#333
+}
+.progress-bar .time-completed{
+    float:left
+}
+.progress-bar .time-remaining{
+    float:right
+}
+.contact-form{
+    font-family:'Titillium Web','Helvetica Neue',Helvetica,sans-serif;
+    font-weight:700;
+    font-style:normal;
+    padding:.625rem;
+}
+.contact-form fieldset{
+    border:none;
+    font-weight:normal
+}
+.contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    outline:none;
+    display:block;
+    color:#333;
+    width:100%;
+    padding:7px;
+    border:none;
+    border-bottom:1px solid #ddd;
+    margin-bottom:10px;
+    font-family:inherit;
+    font-size:1.125rem;
+    height:2.813rem;
+}
+.contact-form input[type="text"].has-error,.contact-form input[type="email"].has-error,.contact-form textarea.has-error{
+    border-color:#f04242
+}
+.contact-form textarea{
+    height:12.5rem
+}
+.contact-form span{
+    display:block;
+    font-size:.875rem;
+    color:#f04242;
+    padding-bottom:.625rem
+}
+/*formulario layout */
+.contact-form button[type="submit"]{
+    display:block;
+    padding:19px 39px 18px 39px;
+    color:#fff;
+    background:#ff0a16;
+    font-size:1.125rem;
+    width:100%;
+    border:1px solid #ba0009;
+    border-width:1px 1px 3px;
+    margin-top:3.125rem;
+    margin-bottom:.625rem;
+    cursor:pointer;
+    -webkit-transition:all .3s;
+    transition:all .3s;
+    outline:none;
+}
+.contact-form button[type="submit"]:hover{
+    background:#d4000a
+}
+.contact-form [v-cloak]{
+    display:none
+}
 }
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Ext JS, o que é? Aonde aprender?"
 date:   2018-11-01 17:05:20 -0200
-image: '/assets/img/BSOURCEimg.png'
+image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkbFCPBIBo_ZxskTPoxK_bwqQlzPbsJ3ThYHsz9qhwSMzr7UsL9A'
 description: 'Introdução ao Ext JS'
 tags: 
 - iniciante

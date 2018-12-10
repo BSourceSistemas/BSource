@@ -38,6 +38,8 @@ links:
     url: /tags
   - title: Sobre 
     url: /about
+  - title: Contato
+    url: /contato
 
 
 # html minify
