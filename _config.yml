@@ -40,6 +40,8 @@ links:
     url: /about
   - title: Contato
     url: /contato
+  - title:
+    url: /leads
 
 
 # html minify
