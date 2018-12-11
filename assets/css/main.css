@@ -2820,7 +2820,14 @@ html, body {
 
     .content {
       flex: 1;
+	}
+	
+	.linha { 
+	   width:100%; 
+	}
+	.botoes {
+	   margin: 0 auto 0 auto; text-align: center;   
     }
->>>>>>> 9a11bba46886d2b2382fae1a3e10cdcc773fb8a5
+
 }
 

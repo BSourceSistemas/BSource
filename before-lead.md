@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /leads/
+permalink: /leads
 ---
 
 <style type="text/css" media="screen">
@@ -14,6 +14,6 @@ permalink: /leads/
 
 <div class="container">
   <img src="/assets/img/message.gif" width="540" alt="Mensagem enviada!">
-  <p><strong>Preenchimento efetuado!</strong></p>
-  <p>Obrigado por Preencher nosso Formulário!</p>
+  <p><strong>Preenchimento Efetuado!</strong></p>
+  <p>Agradecemos seu suporte, assim que sair um novo post você recebera uma notificação!</p>
 </div>

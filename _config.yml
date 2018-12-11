@@ -39,8 +39,9 @@ links:
   - title: Sobre 
     url: /about
   - title: Contato
-    url: /contato
-  - title:
+    url: /contato 
+  - title: Newsletter
+    url: /newsletter
     url: /leads
 
 

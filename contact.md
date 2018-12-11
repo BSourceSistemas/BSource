@@ -17,7 +17,7 @@ permalink: /contato/
   <h2>Fale com a nossa equipe</h2>
 
   <div id="form" class="contact-form">
-    <form accept-charset="UTF-8" method="POST" action="https://formspree.io/murilo.santos@bsource.com.br" 
+    <form accept-charset="UTF-8" method="POST" action="https://formspree.io/midia@bsource.com.br" 
     v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
         <input type="hidden" name="_subject" value="Novo Contato!" />
