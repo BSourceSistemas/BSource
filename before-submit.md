@@ -15,5 +15,5 @@ permalink: /contato/mensagem-enviada/
 <div class="container">
   <img src="/assets/img/message.gif" width="540" alt="Mensagem enviada!">
   <p><strong>Mensagem Enviada!</strong></p>
-  <p>Obrigado por nós mandar uma mensagem, reponderemos assim que for possível.</p>
+  <p>Obrigado por nós mandar uma mensagem, responderemos assim que for possível.</p>
 </div>
