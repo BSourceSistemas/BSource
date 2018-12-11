@@ -2583,7 +2583,7 @@ body {
    
    /* increase the size of the select element to match others */
    select {
-	 height: 4em;
+	 height: 3em;
    }
    
    /* add some space between the radio options*/
@@ -2601,7 +2601,7 @@ body {
    button[type=submit] {
 	   background-color: #14b2cf;
 	   color: white;
-	   padding: 32px 70px;
+	   padding: 22px 30px;
 	   border: none;
 	   border-radius: 8px;
 	   cursor: pointer;
@@ -2617,7 +2617,7 @@ body {
    button[type=reset] {
 	   background-color: #ddd;
 	   color: #cd4747;
-	   padding: 32px 70px;
+	   padding: 22px 30px;
 	   border: none;
 	   border-radius: 8px;
 	   cursor: pointer;
