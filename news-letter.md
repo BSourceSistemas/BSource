@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: minimal
+title: Quer saber mais sobre ExtJS? 
 permalink: /newsletter
+description: Inscreva-se!
 ---
 
-<hr><br>
+<br>
 
 <section class="formularioBS" itemprop="formularioBS;">
     <div class="center">

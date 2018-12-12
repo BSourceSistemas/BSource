@@ -34,11 +34,9 @@ permalink: /contato/
 
         <!--Importando Script Jquery-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
         <textarea name="message" onkeyup="adjust_textarea(this)" placeholder="Sua Mensagem" v-validate="'required'"
                   :class="{ 'has-error': errors.has('message') }"></textarea>
         <span v-if="errors.has('message')" v-cloak>${ errors.first('message') }</span>
-
         <button type="submit">Enviar</button>
       </fieldset>
     </form>
@@ -46,10 +44,6 @@ permalink: /contato/
 
 </div>
 
-<script type="text/javascript">
-function adjust_textarea(h) {
-    h.style.height = "200px";
-    h.style.height = (h.scrollHeight)+"px";
 }
 </script>
 
