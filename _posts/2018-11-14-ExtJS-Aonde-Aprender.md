@@ -11,7 +11,7 @@ main-class: 'iniciante'
 color: '#55780d'
 categories: Dicas
 twitter_text: 'Put your twitter description here.'
-introduction: 'Saiba mais sobre esse framework java script fantástico, saiba sua historia e recomendações para o inicio de seu aprendizado em Ext JS'
+introduction: 'Saiba mais sobre esse framework java script fantástico, e recomendações para o inicio de seu aprendizado em Ext JS'
 ---
 
 Olá pessoal tudo certo?
