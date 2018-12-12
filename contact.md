@@ -17,7 +17,7 @@ permalink: /contato/
   <h2>Fale com a nossa equipe</h2>
 
   <div id="form" class="contact-form">
-    <form accept-charset="UTF-8" method="POST" action="https://formspree.io/midia@bsource.com.br" 
+    <form accept-charset="UTF-8" method="POST" action="https://blog.bsource.com.br/contato/mensagem-enviada/" 
     v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
         <input type="hidden" name="_subject" value="Novo Contato!" />
@@ -31,6 +31,9 @@ permalink: /contato/
         <input type="text" name="email" placeholder="Seu e-mail" v-validate="'required|email'"
                :class="{ 'has-error': errors.has('email') }">
         <span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
+
+        <!--Importando Script Jquery-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
         <textarea name="message" onkeyup="adjust_textarea(this)" placeholder="Sua Mensagem" v-validate="'required'"
                   :class="{ 'has-error': errors.has('message') }"></textarea>
