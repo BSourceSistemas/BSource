@@ -44,8 +44,7 @@ permalink: /contato/
 
 </div>
 
-}
-</script>
+
 
 <script src="https://unpkg.com/vue@2.4.2"></script>
 <script src="https://unpkg.com/vee-validate@2.0.0-rc.8"></script>
