@@ -2,13 +2,13 @@
 layout: post
 title: "Dicas de boas práticas em Ext JS"
 date: 2018-11-14 21:31:05
-image: '/assets/img/BSOURCEimg.png'
+image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Ig2Yl5opscs8BpVPH5aS4kjOidnUvPxvzaC5nodHh9o7BnEC'
 description: "Detalhes fazem a diferença"
 feature_image: 'BSOURCEimg.png'
 main-class: 'dicas'
 color: '#637a91'
 tags:
-- "dicarápida"
+- dicarápida
 - extjs
 categories: Dicas 
 twitter_text: "Melhore a performance do seu código"
