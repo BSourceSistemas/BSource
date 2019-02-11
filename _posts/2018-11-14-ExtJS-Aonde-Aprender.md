@@ -101,28 +101,34 @@ O pacote exportador contém classes que você pode usar para criar documentos do
 Suporte ao leitor de tela (acessibilidade). 
 ## **Aonde posso aprender?** 
 Conheça o site da Sencha: O site da Sencha é bem completo com documentações, fórum para tirar dúvidas, exemplos de código fonte etc.
-Página principal do ExtJS: <https://www.sencha.com/products/extjs/#overview> – Tem vários links nessa página, você pode usar algum deles como referência.
-Exemplos e Demos: <https://examples.sencha.com/extjs/>	 - Essa página dá uma boa base ao desenvolvimento.
+Página principal do ExtJS: <a href="https://www.sencha.com/products/extjs/#overview" target="_blank">Pagina Principal Ext JS</a> – Tem vários links nessa página, você pode usar algum deles como referência.
+Exemplos e Demos: <a href="https://examples.sencha.com/extjs/" target="_blank">Exemplos</a>	 - Essa página dá uma boa base ao desenvolvimento.
 
 **Documentação:** A documentação é ótima e o layout é amigável, mas funciona apenas para consultas online (modo de consulta offline é um assunto a ser tratado em breve em outro post).
 
-**Tutoriais:** <https://www.sencha.com/blog/category/tutorials/> - Os tutoriais são excelentes tendo muito conteúdo para se aproveitar.
+**Tutoriais:** <a href="https://www.sencha.com/blog/category/tutorials/" target="_blank">Tutorial Sencha</a> - Os tutoriais são excelentes tendo muito conteúdo para se aproveitar.
 
-**Blogs:** <https://www.sencha.com/blog/> - Não deixe de conferir esse blog e muito completo.
-<https://wemersonjanuario.com.br/blog/> - Um blog de um MVP Sencha vale a pena conferir.
+**Blogs:** <a href= "https://www.sencha.com/blog/" target="_blank">Blog da Sencha</a> - Não deixe de conferir esse blog e muito completo.
+<a href="https://wemersonjanuario.com.br/blog/" target="_blank">Blog do Wemerson</a> - Um blog de um MVP Sencha vale a pena conferir.
 
-**Fóruns:** <https://www.sencha.com/forum/>  - O fórum da Sencha é ótimo e os profissionais que dão suporte para a comunidade são excelentes. 
-<http://forum.extjs.com.br/>	- O fórum da comunidade brasileira também é bem ativo com muitos usuários com lastro para dar suporte e tirar dúvidas que podem estar travando seu projeto.
+**Fóruns:** <a href= "https://www.sencha.com/forum/" target="_blank">Fórum da Sencha</a>  - O fórum da Sencha é ótimo e os profissionais que dão suporte para a comunidade são excelentes. 
+<a href= "http://forum.extjs.com.br/" target="_blank">Fórum da Comunidade Brasileira</a>	- O fórum da comunidade brasileira também é bem ativo com muitos usuários com lastro para dar suporte e tirar dúvidas que podem estar travando seu projeto.
 
-**Livros:**  Existem poucos livros sobre Ext Js no mercado, mas são livros muito bons!
+**Livros:**  Existem poucos livros sobre Ext JS no mercado, mas são livros muito bons!
 Para começar a aprender Ext JS recomendo: Learning Ext JS 3.2 e/ou Ext JS in Action
 Ext JS Essentials, Ext Js 4 First Look. 
 Depois que tiver um pouco de experiência leia: Ext JS 3.0 Cookbook.
 
 **Cursos:** Uma super indicação são os cursos de Ext JS 4 ministrados de maneira gratuita pela Loiane Groner pra quem não a conhece ela trabalha como Gerente de Desenvolvimento de Projetos no Citibank (maior instituição financeira do mundo), em São Paulo. Possui mais de 10 anos de experiência em Ti. Autora do livro Ext JS 4 First Look, publicado e lançado mundialmente em inglês em janeiro/2012 aqui estão algumas de suas condecorações: Google Developer Expert, Microsoft MVP, Oracle Developer Champion.
 
-Segue o link - 
-<https://loiane.com/2011/11/curso-de-extjs-4-gratuito/>.  
+**Nosso Canal no Youtube:** No inicio de 2019 iniciamos uma série de videos sobre Ext JS, lá você irá aprender como criar sua primeira aplicação web e entendera mais sobre o funcionamento desse framework fantástico
+
+Segue os links -   
+
+<a href="https://loiane.com/2011/11/curso-de-extjs-4-gratuito/." target="_blank">Curso Loiane</a>
+
+<a href="https://www.youtube.com/channel/UCtUt5-tLjHflqiIoNJwrqNQ?view_as=subscriber" target="_blank">Canal da BSource</a>
+
 Espero que essas indicações ajudem no seu processo de aprendizagem, se você tem alguma boa referência de fonte de aprendizado ExtJS (livros, Blogs, Videos) que não foi citada aqui, por favor deixe nos comentários . Bons estudos e aguardem que mais posts sobre Ext JS estão por vir.  
 
 

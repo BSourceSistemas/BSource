@@ -75,10 +75,11 @@ gulp.task('js', function(){
  * Imagemin Task
  */
 gulp.task('imagemin', function() {
-	return gulp.src('src/img/**/*.{jpg,png,gif}')
+	return gulp.src/*('src/img/**//*/*.{jpg,png,gif}')*/((env.p) ? 'src/js/**/*.js' : ['src/js/**/*.js', '!src/js/analytics.js'])
 		.pipe(plumber())
 		.pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
-		.pipe(gulp.dest('assets/img/'));
+		.pipe(gulp.dest('assets/img/'))
+		.pipe(gulp.dest('assets/js/'));
 });
 
 /**
@@ -97,3 +98,6 @@ gulp.task('watch', function () {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['js', 'stylus', 'browser-sync', 'watch']);
+
+
+
