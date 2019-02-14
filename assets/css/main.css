@@ -2792,7 +2792,7 @@ body.has-push-menu.push-menu-to-right .progress-bar{
 .contact-form [v-cloak]{
     display:none
 }
-<<<<<<< HEAD
+
 html, body {
 	height: 100%;
   }
@@ -2807,7 +2807,6 @@ html, body {
 	flex-shrink: 0;
   }
 
-=======
 	html {
       height: 100%;
     }
@@ -2827,7 +2826,8 @@ html, body {
 	}
 	.botoes {
 	   margin: 0 auto 0 auto; text-align: center;   
-    }
+	}
+	
 
 }
 
