@@ -199,7 +199,7 @@ Isso se aplica também aos packages. Ao executar comandos como <b>sencha package
 
 #### Problemas
 
- Se vocês tiverem algum problema ou questões sobre Sencha Cmd, por favor deixe seu comentário.
+ Se vocês tiverem algum problema ou questões sobre Sencha Cmd, por favor deixe seu comentário que nós tentaremos solucionar sua dúvida.
 
 
 
