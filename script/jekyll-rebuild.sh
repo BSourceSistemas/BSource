@@ -24,8 +24,8 @@ cd _site
 git config user.email "murilo.santos@bsource.com.br"
 git config user.name "murilobds"
 git commit -a -m "rebuild pages" --allow-empty
-git push origin master
+git push origin gh-pages
 
 # remove last empty commit
 git reset HEAD~
-git push origin master --force
+git push origin gh-pages --force
