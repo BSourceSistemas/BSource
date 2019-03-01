@@ -19,7 +19,7 @@ Olá pessoal tudo certo?
 
 Nesse post falaremos mais sobre a nova versão do Sencha ExtJS que está indo pra sua versão 6.7, essa versão traz com ela aprimoramentos do kit de ferramentas Modern entre eles suporte a filtragem de grid, bloqueio de grid, rolagem virtual para grid infinito, chip de material, multiseleção de combobox e no colorpicker. O kit de ferramentas do ExtJS 6.7 também inclui aprimoramentos no kit de ferramentas Classic como aprimoramento de componentes para grid, calendário, painel, gráficos, window, comobobox, tabs e dashboard. O jetBrains, Eclipse e Visual Studio puglins agora suportam as últimas versões de IDE.
 
-###Destaques do Sencha ExtJS 6.7
+## Destaques do Sencha ExtJS 6.7
 
 Novos recursos modernos nesta versão incluem:
 
@@ -45,7 +45,7 @@ Ext atualizações de ferramentas JS nesta versão incluem:
 
 •**Plugin do Eclipse IDE** - suporte ao mais recente Eclipse Neon, Oxygen e Photon
 
-•**4 Ext JS Examples** - suporte ao Ext JS 6.7 e open tooling
+•**4 Exemplos de ExtJS** - suporte ao Ext JS 6.7 e open tooling
 
 •**Plugin do Visual Studio IDE** - suportando o Visual Studio 2017
 
@@ -63,15 +63,15 @@ Ext atualizações de ferramentas JS nesta versão incluem:
 Filtragem de Grid
 Ext Modern 6.7 O Modern Grid fornece filtragem de grid , para que os usuários finais possam exibir registros de grid que atendam aos critérios especificados. Além do filtro de texto, o filtro da coluna de grid suporta os seguintes filtros de grid:
 
-1. Filtro de grid de texto que limita os resultados aos valores correspondentes ao texto específico.
+1.Filtro de grid de texto que limita os resultados aos valores correspondentes ao texto específico.
 
-2. Filtro de grid boolean que limita os resultados a valores correspondentes a verdadeiro ou falso.
+2.Filtro de grid boolean que limita os resultados a valores correspondentes a verdadeiro ou falso.
 
-3. Filtro de grid de data que limita os resultados a valores que correspondem a restrições de data específicas.
+3 Filtro de grid de data que limita os resultados a valores que correspondem a restrições de data específicas.
 
-4. Filtro de grid numérica que limita os resultados a valores que correspondem a restrições numéricas específicas.
+4.Filtro de grid numérica que limita os resultados a valores que correspondem a restrições numéricas específicas.
 
-5. É fornecido um exemplo do Kitchensink que mostra todos os recursos do plug-in do filtro de grid, incluindo a capacidade de gerenciar todos os filtros globalmente.
+5.É fornecido um exemplo do Kitchensink que mostra todos os recursos do plug-in do filtro de grid, incluindo a capacidade de gerenciar todos os filtros globalmente.
 
 ![Grid Filters](https://www.sencha.com/wp-content/uploads/2019/02/kitchenSinkScreenshot1.png)
 
@@ -127,29 +127,29 @@ O Ext JS 6.7 fornece um scroller virtual que permite um intervalo de rolagem al�
  {% endhighlight %}
 ![foto scroller](https://www.sencha.com/wp-content/uploads/2019/02/virtualscroller.png)
 
-### Novidades no ExtJS 6.7 Tolling 
+## Novidades no ExtJS 6.7 Tolling 
 
-## ExtGen Templates
+### ExtGen Templates
 
 O ExtGen 6.7 agora contém modelos atualizados para a criação de aplicativos de desktop e móveis que suportam a estrutura Ext JS 6.7. Os modelos permitem que você use o kit de ferramentas clássico e moderno. Você pode criar aplicativos de desktop e móveis usando apenas o Modern toolkit ou criar aplicativos universais com kits de ferramentas Clássicos e Modernos.
 
-## Melhor compactação com Sencha Cmd
+### Melhor compactação com Sencha Cmd
 
 O Sencha Cmd 6.7 vem com um compilador de fechamento atualizado que aprimora seu controle sobre as opções de compactação. O Cmd 6.7 fornece opções para alterar facilmente os níveis de compactação para aprimorar a ofuscação de código e reduzir o tamanho do footprint para atender às suas necessidades. A API do compilador de fechamento fornece diferentes níveis de compactação e notas de lançamento incluem exemplos sobre o uso dessas opções.
 
-## Suporte ao JetBrains 2018+IDE
+### Suporte ao JetBrains 2018+IDE
 
 Os plugins do JetBrain IDE são atualizados para suportar aplicativos gerados usando o ExtGen e disponíveis no
 <a href = ”https://plugins.jetbrains.com/plugin/7740-sencha-ext-js” target="_blank">jetbrains</a> . O preenchimento de código, geração de código, navegação de código, inspeção de código, refatoração de código e pesquisa de documentação agora são suportados para aplicativos ExtGen. O plugin atualizado suporta os IDEs mais recentes do JetBrains, que incluem IntelliJ 2018+, WebStorm 2018+, PhpStorm 2018+, RubyMine 2018+ e PyCharm 2018+.
 
 ![Suporte ao jetbrains](https://www.sencha.com/wp-content/uploads/2019/02/jetBrainsIDE.png)
 
-## Suporte ao Eclipse Latest IDE
+### Suporte ao Eclipse Latest IDE
 Os plug-ins do Eclipse IDE agora suportam aplicativos gerados com o ExtGen e estão disponíveis<a href = ”https://marketplace.eclipse.org/content/sencha-eclipse-plugin” target="_blank"> no eclipse marketplace</a>. O plug-in do Eclipse agora suporta IDEs do Eclipse Neon, Oxygen e Photon. O preenchimento de código, geração de código, navegação de código e consulta de documentação agora são suportados para todos os novos IDEs do Eclipse.
 
 ![Suporte ao Eclipse Latest](https://www.sencha.com/wp-content/uploads/2019/02/eclipseIIDe.png)
 
-## Suporte para o Visual Studio 2017
+### Suporte para o Visual Studio 2017
 
 O plugin Sencha Visual Studio agora é suportado para o Visual Studio 2017 e está disponível no<a href ="https://marketplace.visualstudio.com/items?itemName=SenchaVisualStudioPlugin.SenchaExtension" target="_blank">mercado</a>.O Plug-in IDE do Visual Studio 2017 oferece suporte a uma experiência de conclusão de código consistente dentro do IDE para:
 
@@ -164,7 +164,7 @@ O plug-in do Sencha Visual Studio que suporta 2015 continua disponível no <a hr
 
 ![imagem visualcode](https://www.sencha.com/wp-content/uploads/2019/02/VisualStudio.png)
 
-## Ext JS 6.7 Exemplos
+### Ext JS 6.7 Exemplos
 
 O Ext JS 6.7 fornece vários exemplos que são construídos usando open tooling. Você pode usar esses aplicativos para começar rapidamente com o Ext JS 6.7 e abrir ferramentas:
 
