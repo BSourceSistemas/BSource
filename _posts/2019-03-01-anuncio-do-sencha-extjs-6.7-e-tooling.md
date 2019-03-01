@@ -49,7 +49,7 @@ Ext atualizações de ferramentas JS nesta versão incluem:
 
 •**Plugin do Visual Studio IDE** - suportando o Visual Studio 2017
 
-###Experimente o ExtJS 6.7
+### Experimente o ExtJS 6.7
 
 •   Baixe a versão de <a href="https://www.sencha.com/products/extjs/evaluate/" target="_blank">avaliação</a>gratuita por 30 dias do Sencha ExtJS 6.7 com ferramentas open tooling
 
