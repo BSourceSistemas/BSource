@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Anuncio do Sencha Ext Versão da Comunidade"
+title: "Anúncio do Sencha Ext Versão da Comunidade"
 date: 2018-11-08 20:34:26
 image: '/assets/img/BSOURCEimg.png'
 description: 'Novidades Sencha Ext JS'
