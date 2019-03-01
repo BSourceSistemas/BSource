@@ -61,7 +61,7 @@ Ext atualizações de ferramentas JS nesta versão incluem:
 
 ### O que há de novo no Sencha Ext JS 6.7
 Filtragem de Grid
-Ext Modern 6.7 O Modern Grid fornece filtragem de grid , para que os usuários finais possam exibir registros de grid que atendam aos critérios especificados. Além do filtro de texto, o filtro da coluna de grid suporta os seguintes filtros de grid:
+Ext Modern 6.7 O Modern Grid fornece filtragem de grid, para que os usuários finais possam exibir registros de grid que atendam aos critérios especificados. Além do filtro de texto, o filtro da coluna de grid suporta os seguintes filtros de grid:
 
 1.Filtro de grid de texto que limita os resultados aos valores correspondentes ao texto específico.
 
@@ -77,7 +77,7 @@ Ext Modern 6.7 O Modern Grid fornece filtragem de grid , para que os usuários f
 
 ### Bloqueio de grid
 
-Ext 6.7 O Modern Grid fornece Grade de Bloqueio , para que os usuários finais possam bloquear colunas ou “congelar o painel” similar ao Excel. O Grid de bloqueio fornece um menu de coluna que fornece aos usuários a capacidade de bloquear uma coluna do grid na região esquerda ou na região direita. O menu da coluna do gride de bloqueio mostrará o status atual de bloqueio.
+Ext 6.7 O Modern Grid fornece Grid de Bloqueio , para que os usuários finais possam bloquear colunas ou “congelar o painel” similar ao Excel. O Grid de bloqueio fornece um menu de coluna que fornece aos usuários a capacidade de bloquear uma coluna do grid na região esquerda ou na região direita. O menu da coluna do gride de bloqueio mostrará o status atual de bloqueio.
 
 ![Bloqueio de grid](https://www.sencha.com/wp-content/uploads/2019/02/kitchenSinkScreenshot2.png)
 
@@ -117,7 +117,7 @@ ExtJS 6.7 fornece o Color Picker, para que os usuários finais possam selecionar
 ![foto colorpicker](https://www.sencha.com/wp-content/uploads/2019/02/colorpicker.png)
 
 ### Scroller Virtual
-O Ext JS 6.7 fornece um scroller virtual que permite um intervalo de rolagem além do intervalo normal de rolagem do navegador. A rolagem virtual é usada por padrão para todas as listas e grades infinitas. Isso permite um número de linhas muito maior que o intervalo de rolagem máximo normal do navegador.
+O Ext JS 6.7 fornece um scroller virtual que permite um intervalo de rolagem além do intervalo normal de rolagem do navegador. A rolagem virtual é usada por padrão para todas as listas e Grids infinitas. Isso permite um número de linhas muito maior que o intervalo de rolagem máximo normal do navegador.
 
 {% highlight ruby %}
     scrollable: {
@@ -173,7 +173,7 @@ Aplicativo Progressive Web App (PWA) de pilha completa -  <a href="https://githu
 Aplicativo de Amostra de Tutorial Moderno -  <a href="https://github.com/sencha-extjs-examples/ModernTutorial-Open-Tooling" target="_blank">Github Repo</a>
 Aplicativo de Amostra de Início Rápido -  <a href="https://github.com/sencha-extjs-examples/QuickStart-Open-Tooling" target="_blank">Github Repo</a>
 Mais recursos e melhorias de desempenho
-O Ext JS 6.7 inclui atualizações e aprimoramentos para vários componentes, bem como correções de bugs no kit de ferramentas Modern e Classic. O kit de ferramentas Ext JS 6.7 Classic inclui vários aprimoramentos em grade, calendário, painel, gráficos, janela, caixa de combinação, guias e painel. O Ext JS 6.7 suportou extensas fases de teste, incluindo testes automatizados com o Sencha Test, resultando em mais de mil casos de teste.
+O Ext JS 6.7 inclui atualizações e aprimoramentos para vários componentes, bem como correções de bugs no kit de ferramentas Modern e Classic. O kit de ferramentas Ext JS 6.7 Classic inclui vários aprimoramentos em Grid, calendário, painel, gráficos, janela, caixa de combinação, guias e painel. O Ext JS 6.7 suportou extensas fases de teste, incluindo testes automatizados com o Sencha Test, resultando em mais de mil casos de teste.
 
 ## Conclusão 
 
