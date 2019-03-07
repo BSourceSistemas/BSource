@@ -2123,110 +2123,110 @@ footer a {
 	background-color: #313131
 }
 
-.post-html .title-category {
+.post-tutorial .title-category {
 	color: #eb7728
 }
 
-.post-html .post-content h1,
-.post-html .post-content h2,
-.post-html .post-content h3,
-.post-html .post-content h4 {
+.post-tutorial .post-content h1,
+.post-tutorial .post-content h2,
+.post-tutorial .post-content h3,
+.post-tutorial .post-content h4 {
 	color: #eb7728
 }
 
-.post-html .post-content a {
+.post-tutorial .post-content a {
 	color: #eb7728;
 	border-bottom: 2px dashed #eb7728;
 }
 
-.post-html .post-content a:hover {
+.post-tutorial .post-content a:hover {
 	background-color: #eb7728;
 	color: #fff
 }
 
-.post-html .post-content strong {
+.post-tutorial .post-content strong {
 	color: #eb7728
 }
 
-.post-html .post-content p code,
-.post-html .post-content li code {
+.post-tutorial .post-content p code,
+.post-tutorial .post-content li code {
 	color: #eb7728
 }
 
-.post-html .post-content blockquote {
+.post-tutorial .post-content blockquote {
 	border-left: .313rem solid #eb7728
 }
 
-.post-html .header-post,
-.post-html .header-site {
+.post-tutorial .header-post,
+.post-tutorial .header-site {
 	background-color: #eb7728;
 }
 
-.post-html .header-post h1,
-.post-html .header-site h1 {
+.post-tutorial .header-post h1,
+.post-tutorial .header-site h1 {
 	text-shadow: 3px 3px #c95d13
 }
 
-.post-html .bar-header .logo a {
+.post-tutorial .bar-header .logo a {
 	color: #eb7728
 }
 
-.post-html .author .email,
-.post-html .author .github {
+.post-tutorial .author .email,
+.post-tutorial .author .github {
 	color: #eb7728
 }
 
-.post-html .share a:hover svg {
+.post-tutorial .share a:hover svg {
 	fill: #eb7728
 }
 
 @media only screen and (max-width:37.5rem) {
-	.post-html body.search-overlay:after {
+	.post-tutorial body.search-overlay:after {
 		background-color: #eb7728
 	}
 }
 
-.post-html .icon-menu {
+.post-tutorial .icon-menu {
 	fill: #eb7728
 }
 
-.post-html .box-body h2 {
+.post-tutorial .box-body h2 {
 	color: #eb7728
 }
 
-.post-html .box-body .tags a {
+.post-tutorial .box-body .tags a {
 	color: #eb7728;
 	border: 1px solid #eb7728;
 }
 
-.post-html .box-body .tags a:hover {
+.post-tutorial .box-body .tags a:hover {
 	color: #fff;
 	background: #eb7728
 }
 
-.post-html aside {
+.post-tutorial aside {
 	background-color: #eb7728;
 }
 
-.post-html aside nav li a:hover {
+.post-tutorial aside nav li a:hover {
 	color: #eb7728
 }
 
-.post-html .ribbon span {
+.post-tutorial .ribbon span {
 	background-color: #eb7728;
 }
 
-.post-html .ribbon span:before {
+.post-tutorial .ribbon span:before {
 	border-left: 3px solid #b05110;
 	border-top: 3px solid #b05110
 }
 
-.post-html .ribbon span:after {
+.post-tutorial .ribbon span:after {
 	border-right: 3px solid #b05110;
 	border-top: 3px solid #b05110
 }
 
-.post-html footer {
+.post-tutorial footer {
 	background-color: #eb7728
 }
 
