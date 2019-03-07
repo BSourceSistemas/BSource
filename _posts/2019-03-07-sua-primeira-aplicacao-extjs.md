@@ -1,0 +1,30 @@
+---
+layout: post
+comments: true
+title: "Sua Primeira aplicação com o Framework JavaScript ExtJS"
+date: 2019-03-07 20:01:29
+image: '/assets/img/'
+description: 'passo a passo primeira aplicação em ExtJS'
+tags: 
+- iniciante
+- extjs
+main-class: 'iniciante'
+color: '#55780d'
+categories: Dicas
+twitter_text: 'Saiba Como iniciar suas aplicações web com o framework javascript ExtJS.'
+introduction: 'Saiba mais sobre esse framework java script fantástico, e recomendações para o início de seu aprendizado em ExtJS.'
+---
+
+## Iniciando sua Aplicação Web
+
+Olá pessoal tudo certo? 
+
+Se você veio até aqui certamente está curioso para saber como programar a sua aplicação web utilizando o framework ExtJS e para você que ainda não conhece nosso canal no youtube deixarei aqui o vídeo passo a passo de como iniciar sua primeira aplicação ExtJS.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Y-BiAxkP6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Antes de ir embora
+
+Deixe sua suas dúvidas sobre ExtJS nos comentários, que tentaremos responder o maxímo de dúvidas possíveis, com seu feedback montaremos as próximas pautas para os vídeos, por hoje é só um abraço e até a proxíma
+
+
