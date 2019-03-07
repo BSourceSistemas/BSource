@@ -5,10 +5,10 @@ date: 2018-11-08 20:34:26
 image: '/assets/img/BSOURCEimg.png'
 description: 'Novidades Sencha Ext JS'
 author: 'Daniel'
-main-class: 'noticias'
+main-class: 'notícias'
 color: '#B31917'
 tags:
-- noticias
+- notícias
 - extjs
 categories:  Informação
 twitter_text: 'Novidade Sencha'

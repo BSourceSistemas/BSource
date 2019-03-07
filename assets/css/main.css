@@ -1808,110 +1808,110 @@ footer a {
 }
 
 
-.post-noticias .title-category {
+.post-notícias .title-category {
 	color: #b31917
 }
 
-.post-noticias .post-content h1,
-.post-noticias .post-content h2,
-.post-noticias .post-content h3,
-.post-noticias .post-content h4 {
+.post-notícias .post-content h1,
+.post-notícias .post-content h2,
+.post-notícias .post-content h3,
+.post-notícias .post-content h4 {
 	color: #ffffff
 }
 
-.post-noticias .post-content a {
+.post-notícias .post-content a {
 	color: #f5f5f5;
 	border-bottom: 2px dashed #b31917;
 }
 
-.post-noticias .post-content a:hover {
+.post-notícias .post-content a:hover {
 	background-color: #b31917;
 	color: #fff
 }
 
-.post-noticias .post-content strong {
+.post-notícias .post-content strong {
 	color: #ffffff
 }
 
-.post-noticias .post-content p code,
-.post-noticias .post-content li code {
+.post-notícias .post-content p code,
+.post-notícias .post-content li code {
 	color: #b31917
 }
 
-.post-noticias .post-content blockquote {
+.post-notícias .post-content blockquote {
 	border-left: .313rem solid #b31917
 }
 
-.post-noticias .header-post,
-.post-noticias .header-site {
+.post-notícias .header-post,
+.post-notícias .header-site {
 	background-color: #1b1b1b;
 }
 
-.post-noticias .header-post h1,
-.post-noticias .header-site h1 {
+.post-notícias .header-post h1,
+.post-notícias .header-site h1 {
 	text-shadow: 3px 3px #8f1412
 }
 
-.post-noticias .bar-header .logo a {
+.post-notícias .bar-header .logo a {
 	color: #ffffff
 }
 
-.post-noticias .author .email,
-.post-noticias .author .github {
+.post-notícias .author .email,
+.post-notícias .author .github {
 	color: #b31917
 }
 
-.post-noticias .share a:hover svg {
+.post-notícias .share a:hover svg {
 	fill: #b31917
 }
 
 @media only screen and (max-width:37.5rem) {
-	.post-noticias body.search-overlay:after {
+	.post-notícias body.search-overlay:after {
 		background-color: #b31917
 	}
 }
 
-.post-noticias .icon-menu {
+.post-notícias .icon-menu {
 	fill: #ffffff
 }
 
-.post-noticias .box-body h2 {
+.post-notícias .box-body h2 {
 	color: #b31917
 }
 
-.post-noticias .box-body .tags a {
+.post-notícias .box-body .tags a {
 	color: #b31917;
 	border: 1px solid #b31917;
 }
 
-.post-noticias .box-body .tags a:hover {
+.post-notícias .box-body .tags a:hover {
 	color: #fff;
 	background: #b31917
 }
 
-.post-noticias aside {
+.post-notícias aside {
 	background-color: #1b1b1b;
 }
 
-.post-noticias aside nav li a:hover {
+.post-notícias aside nav li a:hover {
 	color: #b31917
 }
 
-.post-noticias .ribbon span {
+.post-notícias .ribbon span {
 	background-color: #b31917;
 }
 
-.post-noticias .ribbon span:before {
+.post-notícias .ribbon span:before {
 	border-left: 3px solid #7d1210;
 	border-top: 3px solid #7d1210
 }
 
-.post-noticias .ribbon span:after {
+.post-notícias .ribbon span:after {
 	border-right: 3px solid #7d1210;
 	border-top: 3px solid #7d1210
 }
 
-.post-noticias footer {
+.post-notícias footer {
 	background-color: #313131
 }
 

@@ -5,10 +5,10 @@ title: "Anúncio do Sencha ExtJS 6.7 e Tooling"
 date: 2019-03-01 12:18:13
 image: '/assets/img/'
 description: 'Nova versão do Sencha ExtJS'
-main-class: 'noticias'
+main-class: 'notícias'
 color: '#B31917'
 tags:
-- noticias
+- notícias
 - extjs
 categories: Informação
 twitter_text:
@@ -23,7 +23,7 @@ Nesse post falaremos mais sobre a nova versão do Sencha ExtJS que está indo pr
 
 Novos recursos modernos nesta versão incluem:
 
-•**filtro no Grid**: exibe facilmente registros do grid que atendem a vários critérios de texto, boolean, data, filtros de números.
+•**Filtro no Grid**: exibe facilmente registros do grid que atendem a vários critérios de texto, boolean, data, filtros de números.
 
 •**Grid de bloqueio**: Semelhante ao Excel, bloqueia colunas na região esquerda ou direita.
 
@@ -35,7 +35,7 @@ Novos recursos modernos nesta versão incluem:
 
 •**Color picker**: Bonito com opções de HSVA e RGB.
 
-Ext atualizações de ferramentas JS nesta versão incluem:
+**Ext atualizações de ferramentas JS nesta versão incluem**:
 
 •**ExtGen** - Novos modelos de open tooling para suportar Ext JS 6.7
 
