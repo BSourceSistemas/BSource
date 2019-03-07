@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Dicas de boas práticas em Ext JS"
+title: "Dicas de boas práticas em ExtJS"
 date: 2018-11-14 21:31:05
-image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Ig2Yl5opscs8BpVPH5aS4kjOidnUvPxvzaC5nodHh9o7BnEC'
-description: "Detalhes fazem a diferença"
+image: '/assets/img/logo-bsource-login.png'
+description: "Detalhes fazem a diferença!"
 feature_image: 'BSOURCEimg.png'
 main-class: 'dicas'
 color: '#637a91'
