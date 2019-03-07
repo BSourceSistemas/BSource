@@ -1219,63 +1219,54 @@ main {
 	color: rgba(0, 0, 0, 0.6);
 	margin: 0;
 }
+.box-item .box-body .cover{
+    position:relative;
+}
 
+.box-item:hover .box-body .cover a:before{
+    -ms-filter:none;
+    -webkit-filter:none;
+    filter:none;
+    opacity:1
+}
+.box-item .box-body .cover a:before{
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter:alpha(opacity=0);
+    opacity:0;
+    background-color:rgba(0,0,0,0.7);
+    background-image:url("../../assets/img/icons/read.svg");
+    background-size:48px;
+    background-repeat:no-repeat;
+    background-position:center center;
+    content:'';
+    display:block;
+    width:5rem;
+    height:5rem;
+    border-radius:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-2.5rem;
+    margin-left:-2.5rem;
+    border:2px solid #fff;
+    z-index:1000
+}
+
+.box-item .box-body .cover .preload{
+	background:url("../../assets/img/icons/preloader.svg") center center no-repeat
+}
+
+@media only screen and (min-width:37.5rem){
+    .post-content img.post-cover{
+        margin-bottom:1.813rem
+    }
+}
 @media only screen and (max-width:37.5rem) {
 	.post-content blockquote p {
 		font-size: 1.125rem;
 		line-height: 1.5;
 		padding: 0
 	}
-}
-
-.post-content hr {
-	*zoom: 1;
-	width: auto;
-	max-width: 47.5rem;
-	float: none;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 0;
-	padding-right: 0;
-	border: 1px solid #ffffff;
-	margin: 50px auto
-}
-
-.post-content hr:before,
-.post-content hr:after {
-	content: '';
-	display: table
-}
-
-.post-content hr:after {
-	clear: both
-}
-
-.post-content>table {
-	margin: 3.125rem auto;
-}
-
-@media only screen and (max-width:37.5rem) {
-	.post-content>table {
-		display: none
-	}
-}
-
-.post-content>table th,
-.post-content>table td {
-	border: .125rem solid #ccc;
-	padding: .313rem
-}
-
-.post-content td>pre {
-	padding: 0;
-	margin: 0
-}
-
-.post-content td.gutter.gl {
-	padding-right: 1.563rem;
-	line-height: 1.5rem
 }
 
 .tag-title {
@@ -2671,7 +2662,7 @@ body {
 {
 	max-width: 640px;
 	margin: 0 auto;
-	padding: 30 px 120px;
+	padding: 30px 120px;
 
 }
 
@@ -2827,6 +2818,7 @@ html, body {
 	.botoes {
 	   margin: 0 auto 0 auto; text-align: center;   
 	}
+	
 }
 
 

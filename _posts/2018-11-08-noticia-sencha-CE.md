@@ -2,7 +2,7 @@
 layout: post
 title: "Anúncio do Sencha Ext Versão da Comunidade"
 date: 2018-11-08 20:34:26
-image: '/assets/img/BSOURCEimg.png'
+image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/v1551836833/mission_impossible_djiusi.jpg'
 description: 'Novidades Sencha Ext JS'
 author: 'Daniel'
 main-class: 'notícias'

@@ -2,7 +2,7 @@
 layout: post
 title:  "ExtJS, o que é? Aonde aprender?"
 date:   2018-11-01 17:05:20 -0200
-image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkbFCPBIBo_ZxskTPoxK_bwqQlzPbsJ3ThYHsz9qhwSMzr7UsL9A'
+image: '/assets/img/blog-author.jpg'
 description: 'Introdução ao ExtJS'
 tags: 
 - iniciante
@@ -10,8 +10,8 @@ tags:
 main-class: 'iniciante'
 color: '#55780d'
 categories: Dicas
-twitter_text: 'Put your twitter description here.'
-introduction: 'Saiba mais sobre esse framework java script fantástico, e recomendações para o inicio de seu aprendizado em ExtJS'
+twitter_text: 'Saiba mais sobre framework javascript ExtJS.'
+introduction: 'Saiba mais sobre esse framework java script fantástico, e recomendações para o início de seu aprendizado em ExtJS.'
 ---
 
 Olá pessoal tudo certo?
