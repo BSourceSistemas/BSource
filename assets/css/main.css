@@ -647,7 +647,7 @@ body.search-overlay:after {
 
 .post-content .tags a {
 	font-size: .875rem;
-	color: #fafafa;
+	color: #005f97;
 	display: inline-block;
 	border: 1px solid #005f97;
 	border-radius: .313rem;
@@ -660,7 +660,7 @@ body.search-overlay:after {
 .post-content .tags a:hover {
 	color: #00395b;
 	border: 1px solid #00395b;
-	background: #fff
+	background: #00395b
 }
 
 .img-rounded {
@@ -673,7 +673,7 @@ body {
 }
 
 .header-post {
-	background-color: #ffff;
+	background-color: #919191;
 }
 
 .header-post .content {
@@ -1546,24 +1546,24 @@ pre span {
 
 
 .formularioBS {
-	background-image: url("https://i.ibb.co/prnzMNG/bsource-contato-newslater22.png");
-	background: #919191;
+	background: white;
+	color:black;
 	display: table;
 	width: 100%;
-	padding: 2.5rem 0;
+	/* padding: 2.5rem 0; */
 	margin: auto ;
 }
 
 @media only screen and (min-width:37.5rem) {
-	.formularioBS {
-		padding: 3.125rem 0
-	}
+	/* .formularioBS { */
+		/* padding: 3.125rem 0 */
+	/* } */
 }
 
 .formularioBS .details {
 	margin: auto;
 	max-width: 50rem;
-	padding: 0 1.25rem;
+	/* padding: 0 1.25rem; */
 }
 
 @media only screen and (max-width:37.5rem) {
@@ -1879,9 +1879,6 @@ footer a {
 	background-color: #919191;
 }
 
-.post-notícias aside nav li a:hover {
-	color: #b31917
-}
 
 .post-notícias .ribbon span {
 	background-color: #b31917;
@@ -1971,9 +1968,6 @@ footer a {
 	background-color: #1b1b1b;
 }
 
-.post-cmd aside nav li a:hover {
-	color: #2da0c3
-}
 
 .post-cmd .ribbon span {
 	background-color: #2da0c3;
@@ -2064,9 +2058,6 @@ footer a {
 	background-color: #1b1b1b;
 }
 
-.post-js aside nav li a:hover {
-	color: #d6ba32
-}
 
 .post-js .ribbon span {
 	background-color: white;
@@ -2157,9 +2148,6 @@ footer a {
 	background-color: #919191;
 }
 
-.post-tutorial aside nav li a:hover {
-	color: #eb7728
-}
 
 .post-tutorial .ribbon span {
 	background-color: #eb7728;
@@ -2250,9 +2238,6 @@ footer a {
 	background-color: #7d669e;
 }
 
-.post-svg aside nav li a:hover {
-	color: #7d669e
-}
 
 .post-svg .ribbon span {
 	background-color: #7d669e;
@@ -2343,9 +2328,6 @@ footer a {
 	background-color: #919191;
 }
 
-.post-dicas aside nav li a:hover {
-	color: #637a91
-}
 
 .post-dicas .ribbon span {
 	background-color: #637a91;
@@ -2436,9 +2418,6 @@ footer a {
 	background-color: #919191;
 }
 
-.post-iniciante aside nav li a:hover {
-	color: #7aab13
-}
 
 .post-iniciante .ribbon span {
 	background-color: #7aab13;
@@ -2499,7 +2478,7 @@ body {
    
    /* Style the submit button with a specific background color etc */
    button[type=submit] {
-	   background-color: #14b2cf;
+	   background-color: #1B75BA;
 	   color: white;
 	   padding: 22px 30px;
 	   border: none;
@@ -2539,14 +2518,14 @@ body {
    
 @media only screen and (min-width:37.5rem) {
 	.formularioBS {
-		padding: 3.125rem 0
+		/* padding: 3.125rem 0 */
 	}
 }
 
 .formularioBS .details {
 	margin: auto;
 	max-width: 50rem;
-	padding: 0 1.25rem;
+	/* padding: 0 1.25rem; */
 }
 
 @media only screen and (max-width:37.5rem) {
