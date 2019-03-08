@@ -246,7 +246,7 @@ h4 {
 }
 
 .icons-home a .icon {
-	fill: #fff;
+	fill: #919191;
 	width: 18px;
 	height: 18px;
 }
@@ -684,7 +684,7 @@ body {
 .bar-header {
 	background: #ffff;
 	padding: .625rem 1.25rem;
-	box-shadow: 0 -3px 9px rgba(0, 0, 0, 0.89);
+	box-shadow: 0 -1px 9px rgba(0, 0, 0, 0.89);
 	position: fixed;
 	width: 100%;
 	z-index: 10;
