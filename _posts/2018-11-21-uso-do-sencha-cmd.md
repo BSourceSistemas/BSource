@@ -167,7 +167,7 @@ Categories
 
 Commands
    ant - Invoke Ant with helpful properties back to Sencha Cmd
-   audit - Search from the current folder for Ext JS frameworks and report their license
+   audit - Search from the current folder for ExtJS frameworks and report their license
    build - Builds a project from a legacy JSB3 file.
    config - Load a properties file or sets a configuration property
    help - Displays help for commands

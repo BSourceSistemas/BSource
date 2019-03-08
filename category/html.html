@@ -1,14 +1,14 @@
 ---
 layout: default
-main-class: 'html'
+main-class: 'tutorial'
 ---
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog" style="
 background-color: #1b1b1b;">
-    <h1 class="title-category">HTML</h1>
+    <h1 class="title-category">tutorial</h1>
     <div id="grid" class="row flex-grid">
     {% for post in site.posts %}
-        {% if post.main-class == 'html' %}
+        {% if post.main-class == 'tutorial' %}
             <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                 <span class="ribbon"><span>{{post.main-class}}</span></span>
                     <div class="box-body">

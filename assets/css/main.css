@@ -2821,7 +2821,22 @@ html, body {
 	.botoes {
 	   margin: 0 auto 0 auto; text-align: center;   
 	}
-	
+}
+.box-item:hover .box-body .new-post:after{
+    background-color:#000
+}
+.box-item .box-body .new-post:after{
+    content:'New post';
+    text-transform:uppercase;
+    display:inline-block;
+    background:#ff0a16;
+    color:#fff;
+    font-size:.813rem;
+    font-weight:700;
+    line-height:1.5rem;
+    padding:0 .5rem;
+    position:absolute;
+    margin-top:-2.187rem
 }
 
 

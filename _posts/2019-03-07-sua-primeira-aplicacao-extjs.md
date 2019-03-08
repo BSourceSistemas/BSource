@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: "Sua Primeira aplicação com o Framework JavaScript ExtJS"
 date: 2019-03-07 20:01:29
-image: '/assets/img/'
-description: 'passo a passo primeira aplicação em ExtJS'
+image: '/assets/img/BSOURCE.jpg'
+description: 'Passo a passo primeira aplicação em ExtJS'
 tags: 
 - iniciante
 - extjs
@@ -13,7 +13,7 @@ main-class: 'tutorial'
 color: '#55780d'
 categories: Guiabásico
 twitter_text: 'Saiba Como iniciar suas aplicações web com o framework javascript ExtJS.'
-introduction: 'Saiba mais sobre esse framework java script fantástico, e recomendações para o início de seu aprendizado em ExtJS.'
+introduction: 'Confira uma excelente opção pra você iniciante e/ou programador desktop migrar para web'
 ---
 
 ## Iniciando sua Aplicação Web

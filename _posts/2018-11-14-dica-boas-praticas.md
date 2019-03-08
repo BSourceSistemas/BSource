@@ -17,7 +17,8 @@ introduction: "Saiba mais sobre práticas que irão te ajudar a organizar e aume
 ---
 
 Olá pessoal tudo certo?
-Recentemente contei um pouco sobre as versões de Ext JS e sugestões de cursos para auxiliar a aprendizagem de vocês, hoje a proposta será contar um pouco sobre como trabalhar de maneira eficiente utilizando as boas práticas que esse framework nos oferece, bom vamos lá.
+
+Recentemente contei um pouco sobre as versões de ExtJS e sugestões de cursos para auxiliar a aprendizagem de vocês, hoje a proposta será contar um pouco sobre como trabalhar de maneira eficiente utilizando as boas práticas que esse framework nos oferece, bom vamos lá.
 
 ### Seja organizado na sua estrutura de suas pastas 
 
@@ -30,13 +31,13 @@ Isso não afetara a performance do seu codigo mais fará ficar mais dificil segu
 
 ### Aprenda a diferença entre classic e modern 
 
-<b>Classic Tollkit</b>: o kit de ferramentas clássico é o novo nome para o Ext JS tradicional e destina-se ao uso em aplicativos de desktop. Ele fornece suporte tradicional a aplicativos Ext JS para a maioria dos navegadores de desktop, laptops e tablets habilitados para tela sensível ao toque.
+<b>Classic Tollkit</b>: o kit de ferramentas clássico é o novo nome para o ExtJS tradicional e destina-se ao uso em aplicativos de desktop. Ele fornece suporte tradicional a aplicativos ExtJS para a maioria dos navegadores de desktop, laptops e tablets habilitados para tela sensível ao toque.
 
 <b>Modern Tollkit</b>: o kit de ferramentas moderno é o novo nome do Sencha Touch e destina-se ao uso para aplicativos móveis. Já que é melhor para um navegador cruzado e também para a experiência entre dispositivos. Ele estende o suporte a aplicativos HTML5 para todos os navegadores modernos de desktop para mobile. Evite ID’s 
 
 ### Evite o uso de ID's
 
-Não é recomendado o uso de ID para os seus componentes, porque cada id deve ser único. É muito fácil acidentalmente usar o mesmo id mais de uma vez, o que causará identificações de DOM duplicadas (colisões de nomes).Em vez disso, deixe a estrutura lidar com a geração de ids para você. Com o Ext JS ComponentQuery, não há motivo para precisar especificar um id em um componente Ext JS. O Exemplo X mostra dois segmentos de código de um aplicativo em que há dois botões de salvamento diferentes criados, ambos identificados com um id de 'savebutton', causando uma colisão de nomes. Embora seja óbvio no código abaixo, pode ser difícil identificar colisões de nomes em um aplicativo grande.
+Não é recomendado o uso de ID para os seus componentes, porque cada id deve ser único. É muito fácil acidentalmente usar o mesmo id mais de uma vez, o que causará identificações de DOM duplicadas (colisões de nomes).Em vez disso, deixe a estrutura lidar com a geração de ids para você. Com o ExtJS ComponentQuery, não há motivo para precisar especificar um id em um componente ExtJS. O Exemplo X mostra dois segmentos de código de um aplicativo em que há dois botões de salvamento diferentes criados, ambos identificados com um id de 'savebutton', causando uma colisão de nomes. Embora seja óbvio no código abaixo, pode ser difícil identificar colisões de nomes em um aplicativo grande.
 {% highlight ruby %}
         // aqui definimos o primeiro botão salvar 
     xtype:'barra de ferramentas',
@@ -95,7 +96,7 @@ Poupe seus colegas de trabalho de perder tempo depurando, não defina funções 
 
 ### Evite o uso desnecessário de panels
 
-Tente usar o componente Container sempre que puder invés de usar o Panel. O padrão do Ext JS é Panel, mas Container é um componente muito mais leve. Assegure-se de estar usando o Container em lugares que você não precisa da funcionalidade completa do Panel Component. veja exemplos aonde o panel e desnecessário e necessário abaixo:
+Tente usar o componente Container sempre que puder invés de usar o Panel. O padrão do ExtJS é Panel, mas Container é um componente muito mais leve. Assegure-se de estar usando o Container em lugares que você não precisa da funcionalidade completa do Panel Component. veja exemplos aonde o panel e desnecessário e necessário abaixo:
 
 {% highlight ruby %}
 
@@ -134,13 +135,13 @@ Leia sobre ele, teste ele, aprenda sobre ele, mas não edite ele! Se você fazer
 Se você quiser alterar o comportamento / aparência do framework, vá em frente, mas faça isso substituindo a classe (seja uma classe JS ou uma classe CSS) ou um método em um arquivo de script separado. Ao fazer isso, você pode removê-lo, se necessário, e acompanhá-lo quando se trata de revisar essas alterações quando novas versões são lançadas.
 
 ### Mantenha a documentação da API em mãos 
-Sempre recorra ao uso da documentação quando se deparar com qualquer problema no seu projeto ou estiver tentando algo novo, parafraseando a profissional **Loiane Groner** “O doc API é seu melhor amigo". A documentação é clara e fácil de se navegar, então faça o uso dela, e lembrasse de verificar se a documentação é compatível com sua versão de Ext JS <a href="https://docs.sencha.com/." target="_blank">Documentação</a>.	
+Sempre recorra ao uso da documentação quando se deparar com qualquer problema no seu projeto ou estiver tentando algo novo, parafraseando a profissional **Loiane Groner** “O doc API é seu melhor amigo". A documentação é clara e fácil de se navegar, então faça o uso dela, e lembrasse de verificar se a documentação é compatível com sua versão de ExtJS <a href="https://docs.sencha.com/." target="_blank">Documentação</a>.	
 
 ### Familiarizasse com o Sencha Cmd
 Sencha Cmd é a fundação para o desenvolvimento das suas aplicações em Sencha. Oferecendo recursos abrangentes de gerenciamento do ciclo de vida de seu projeto desde a criação da estrutura inicial até a geração de construções. Um bom lugar para entender mais sobre é o <a href="https://docs.sencha.com/cmd/6.6.0/." target="_blank">Sencha Cmd</a>
 
 ### Aprenda sobre Binding
-Binding no Ext JS é uma ferramenta essencial para aprender e aproveitar. Usando <a href="https://docs.sencha.com/extjs/6.2.0/guides/application_architecture/view_models_data_binding.html" target="_blank">binding</a> podemos criar um código muito mais claro que pode fazer muito mais.  
+Binding no ExtJS é uma ferramenta essencial para aprender e aproveitar. Usando <a href="https://docs.sencha.com/extjs/6.2.0/guides/application_architecture/view_models_data_binding.html" target="_blank">binding</a> podemos criar um código muito mais claro que pode fazer muito mais.  
 
 ###  Use o Fashion
 
