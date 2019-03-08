@@ -1,22 +1,4 @@
-Skip to content
- 
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- @murilobds Sign out
-2
-0 246 BSourceSistemas/BLOG
-forked from murilobds/CARDS
- Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
-BLOG/assets/css/main.css
-@BSleonardo BSleonardo Design changes
-6dcf1e9  18 minutes ago
-@murilobds @willianjusten @BSleonardo
-2757 lines (2329 sloc)  42.9 KB
-    
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -378,7 +360,7 @@ aside {
 	padding: 2.5rem 0 0;
 	top: 0;
 	right: -15rem;
-	background-color: #1b1b1b;
+	background-color: #919191;
 	z-index: 20;
 	box-shadow: inset -10px -1px 15px -9px rgba(0, 0, 0, 0.5);
 }
@@ -410,7 +392,7 @@ aside nav li a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	color:#d6ba32;
+	color:white;
 	border-top: 1px solid #fff;
 }
 
@@ -579,7 +561,7 @@ body.search-overlay:after {
 	width: 100%;
 	height: 100%;
 	min-height: 100%;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(255, 255, 255, 0.6);
 	content: '';
 }
 
@@ -691,7 +673,7 @@ body {
 }
 
 .header-post {
-	background-color: #1b1b1b;
+	background-color: #ffff;
 }
 
 .header-post .content {
@@ -996,7 +978,7 @@ main {
 .post {
 	position: relative;
 	top: 31.25rem;
-	background: rgb(49, 49, 49)
+	background: rgb(255, 255, 255)
 }
 
 .post-content {
@@ -1097,7 +1079,7 @@ main {
 
 .post-content p,
 .post-content li {
-	color: rgb(255, 253, 253);
+	color:black;
 }
 
 .post-content p code,
@@ -1107,7 +1089,7 @@ main {
 }
 
 .post-content a {
-	color: #ffffff;
+	color: #000000;
 	border-bottom: 2px dashed #005f97;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -1409,7 +1391,7 @@ pre {
 	background: #222;
 	width: 100%;
 	padding: 1.25rem 0;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	margin: 1.875rem 0;
 	font-size: .875rem;
 }
@@ -1480,7 +1462,7 @@ pre span {
 
 .highlight .err {
 	color: #960050;
-	background-color: #1e0010
+	background-color: #ffffff
 }
 
 .highlight .k,
@@ -1565,7 +1547,7 @@ pre span {
 
 .formularioBS {
 	background-image: url("https://i.ibb.co/prnzMNG/bsource-contato-newslater22.png");
-	background: white;
+	background: #919191;
 	display: table;
 	width: 100%;
 	padding: 2.5rem 0;
@@ -1633,7 +1615,7 @@ pre span {
 }
 
 .formularioBS .name a:hover {
-	color: #d6ba32;
+	color: white;
 }
 
 
@@ -1677,7 +1659,7 @@ pre span {
 }
 
 .author {
-	background:#1b1b1b;
+	background:#005f97;
 	display: table;
 	width: 100%;
 	padding: 2.5rem 0;
@@ -1745,7 +1727,7 @@ pre span {
 }
 
 .author .name a:hover {
-	color: #d6ba32;
+	color: white;
 }
 
 
@@ -1820,6 +1802,10 @@ footer a {
 	text-align: center;
 	margin: 0
 }
+.post-content a:hover {
+	background-color: #919191;
+	color: #fff
+}
 
 
 .post-notícias .title-category {
@@ -1830,7 +1816,7 @@ footer a {
 .post-notícias .post-content h2,
 .post-notícias .post-content h3,
 .post-notícias .post-content h4 {
-	color: #ffffff
+	color: #000000
 }
 
 .post-notícias .post-content a {
@@ -1844,7 +1830,7 @@ footer a {
 }
 
 .post-notícias .post-content strong {
-	color: #ffffff
+	color: black
 }
 
 .post-notícias .post-content p code,
@@ -1890,7 +1876,7 @@ footer a {
 }
 
 .post-notícias aside {
-	background-color: #1b1b1b;
+	background-color: #919191;
 }
 
 .post-notícias aside nav li a:hover {
@@ -1937,7 +1923,7 @@ footer a {
 }
 
 .post-cmd .post-content strong {
-	color: #ffffff
+	color: black
 }
 
 .post-cmd .post-content p code,
@@ -2019,17 +2005,17 @@ footer a {
 }
 
 .post-js .post-content a {
-	color: #d6ba32;
-	border-bottom: 2px dashed #d6ba32;
+	color: white;
+	border-bottom: 2px dashed white;
 }
 
 .post-js .post-content a:hover {
-	background-color: #d6ba32;
+	background-color: white;
 	color: #fff
 }
 
 .post-js .post-content strong {
-	color: #d6ba32
+	color:black
 }
 
 .post-js .post-content p code,
@@ -2043,7 +2029,7 @@ footer a {
 
 .post-js .header-post,
 .post-js .header-site {
-	background-color: #d6ba32;
+	background-color: white;
 }
 
 .post-js .header-post h1,
@@ -2083,7 +2069,7 @@ footer a {
 }
 
 .post-js .ribbon span {
-	background-color: #d6ba32;
+	background-color: white;
 }
 
 .post-js .ribbon span:before {
@@ -2122,7 +2108,7 @@ footer a {
 }
 
 .post-tutorial .post-content strong {
-	color: #eb7728
+	color: black
 }
 
 .post-tutorial .post-content p code,
@@ -2168,7 +2154,7 @@ footer a {
 }
 
 .post-tutorial aside {
-	background-color: #eb7728;
+	background-color: #919191;
 }
 
 .post-tutorial aside nav li a:hover {
@@ -2215,7 +2201,7 @@ footer a {
 }
 
 .post-svg .post-content strong {
-	color: #7d669e
+	color:black
 }
 
 .post-svg .post-content p code,
@@ -2294,21 +2280,21 @@ footer a {
 .post-dicas .post-content h2,
 .post-dicas .post-content h3,
 .post-dicas .post-content h4 {
-	color: #ffffff
+	color: #000
 }
 
 .post-dicas .post-content a {
-	color: #ffffff;
+	color: #000;
 	border-bottom: 2px dashed #637a91;
 }
 
 .post-dicas .post-content a:hover {
 	background-color: #637a91;
-	color: #fff
+	color: #000
 }
 
 .post-dicas .post-content strong {
-	color: #ffffff
+	color: black
 }
 
 .post-dicas .post-content p code,
@@ -2322,7 +2308,7 @@ footer a {
 
 .post-dicas .header-post,
 .post-dicas .header-site {
-	background-color: #1b1b1b;
+	background-color: #919191;
 }
 
 .post-dicas .header-post h1,
@@ -2354,7 +2340,7 @@ footer a {
 }
 
 .post-dicas aside {
-	background-color: #1b1b1b;
+	background-color: #919191;
 }
 
 .post-dicas aside nav li a:hover {
@@ -2387,58 +2373,58 @@ footer a {
 .post-iniciante .post-content h2,
 .post-iniciante .post-content h3,
 .post-iniciante .post-content h4 {
-	color: #ffffff
+	color: #000
 }
 
 .post-iniciante .post-content a {
-	color: #ffffff;
-	border-bottom: 2px dashed #7aab13;
+	color: #000000;
+	border-bottom: 2px dashed #1b75ba;
 }
 
 .post-iniciante .post-content a:hover {
-	background-color: #7aab13;
-	color: #fff
+	background-color: #919191;
+	color: black
 }
 
 .post-iniciante .post-content strong {
-	color: #ffffff
+	color: black
 }
 
 .post-iniciante .post-content p code,
 .post-iniciante .post-content li code {
-	color: #7aab13
+	color: #1b75ba
 }
 
 .post-iniciante .post-content blockquote {
-	border-left: .313rem solid #7aab13
+	border-left: .313rem solid #1b75ba
 }
 
 .post-iniciante .header-post,
 .post-iniciante .header-site {
-	background-color: #1b1b1b;
+	background-color: #919191;
 }
 
 .post-iniciante .header-post h1,
 .post-iniciante .header-site h1 {
-	text-shadow: 3px 3px #62890f
+	text-shadow: 3px 3px #1b75ba
 }
 
 .post-iniciante .bar-header .logo a {
-	color: #ffffff
+	color: #000000
 }
 
 .post-iniciante .author .email,
 .post-iniciante .author .github {
-	color: #7aab13
+	color: #1b75ba
 }
 
 .post-iniciante .share a:hover svg {
-	fill: #7aab13
+	fill: #1b75ba
 }
 
 @media only screen and (max-width:37.5rem) {
 	.post-iniciante body.search-overlay:after {
-		background-color: #7aab13
+		background-color: #1b75ba
 	}
 }
 
@@ -2447,7 +2433,7 @@ footer a {
 }
 
 .post-iniciante aside {
-	background-color: #1b1b1b;
+	background-color: #919191;
 }
 
 .post-iniciante aside nav li a:hover {
@@ -2743,7 +2729,7 @@ html, body {
 	}
 }
 .box-item:hover .box-body .new-post:after{
-    background-color:#000
+    background-color:#ffff
 }
 .box-item .box-body .new-post:after{
     content:'New post';
@@ -2772,20 +2758,3 @@ html, body {
 .box-item .box-body .tags a:hover {
 	color: #fff;
 	background: #1C75BA
-<<<<<<< HEAD
-}
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-=======
-}
->>>>>>> 6dcf1e967f7ed0a6f48b8bd84c6694764917b37e
