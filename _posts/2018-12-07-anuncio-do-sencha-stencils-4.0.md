@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Anúncio do Sencha Stencils 4.0"
 date: 2018-12-07 13:30:43
-image: 'https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif'
+image: '/assets/img/BSOURCE.jpg'
 description: 'Novos recursos para o Sencha Stencils'
 main-class: 'notícias'
 color: '#B31917'
