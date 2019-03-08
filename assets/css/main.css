@@ -682,7 +682,7 @@ body {
 }
 
 .bar-header {
-	background: #1b1b1b;
+	background: #ffff;
 	padding: .625rem 1.25rem;
 	box-shadow: 0 -3px 9px rgba(0, 0, 0, 0.89);
 	position: fixed;
