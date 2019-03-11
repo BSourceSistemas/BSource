@@ -9,22 +9,25 @@ description: Inscreva-se!
 
 <section class="formularioBS" itemprop="formularioBS;">
     <div class="center">
-        <img src="https://i.ibb.co/prnzMNG/bsource-contato-newslater22.png" align= "middle" alt="BSourceimg" style="margin:0 auto; margin-top: 0px;"><br>
+        <img src="/assets/img/logo-bsource.png" alt="BSourceimg" style="margin:0 auto; margin-top: 0px;"><br>
     </div>
+    <br>
+    <br>
+    <br>
       <form accept-charset="UTF-8" action="https://formkeep.com/f/4416f269695a" method="POST" 
       target="_blank" class="formularioBS" style="width: 100%; max-width: 600px;margin-left: 0px; margin: auto;"> 
-     <label for="name" style="color: white;">Nome</label>
+     <label for="name" style="color: black;">Nome</label>
      <input type="text" id="name" name="name" placeholder="Luis Fernando"><br>
-     <label  for="email" style=" color: white;">Email</label>
+     <label  for="email" style=" color: black;">Email</label>
       <input type="email" id="email" name="email" placeholder="luis@gmail.com"><br>
-        <label for="range" style=" color: white;">Qual a chance de você recomendar o nosso blog a um amigo?</label>
+        <label for="range" style=" color: black;">Qual a chance de você recomendar o nosso blog a um amigo?</label>
         <input type="range" id="range" name="range" min="0" max="10">
         <br><br>
          <input type="hidden" name="subscribe" value="no">
       
    <div class="linha">
             <div class="botoes"> 
-        <label for="checkbox" style="color: white;"><input type="checkbox" id="checkbox" name="subscribe" value="yes" checked>Desejo receber notificações de novos conteúdos
+        <label for="checkbox" style="color: black;"><input type="checkbox" id="checkbox" name="subscribe" value="yes" checked>Desejo receber notificações de novos conteúdos
         </label><br><br>
     
      

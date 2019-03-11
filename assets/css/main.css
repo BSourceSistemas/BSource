@@ -1807,6 +1807,82 @@ footer a {
 	color: #fff
 }
 
+<<<<<<< HEAD
+=======
+
+.post-notícias .title-category {
+	color: #b31917
+}
+
+.post-notícias .post-content h1,
+.post-notícias .post-content h2,
+.post-notícias .post-content h3,
+.post-notícias .post-content h4 {
+	color: #000000
+}
+
+.post-notícias .post-content a {
+	color: #f5f5f5;
+	border-bottom: 2px dashed #b31917;
+}
+
+.post-notícias .post-content a:hover {
+	background-color: #b31917;
+	color: #fff
+}
+
+.post-notícias .post-content strong {
+	color: black
+}
+
+.post-notícias .post-content p code,
+.post-notícias .post-content li code {
+	color: #b31917
+}
+
+.post-notícias .post-content blockquote {
+	border-left: .313rem solid #b31917
+}
+
+.post-notícias .header-post,
+.post-notícias .header-site {
+	background-color: #1b1b1b;
+}
+
+.post-notícias .header-post h1,
+.post-notícias .header-site h1 {
+	text-shadow: 3px 3px #8f1412
+}
+
+.post-notícias .bar-header .logo a {
+	color: #ffffff
+}
+
+.post-notícias .author .email,
+.post-notícias .author .github {
+	color: #b31917
+}
+
+.post-notícias .share a:hover svg {
+	fill: #b31917
+}
+
+@media only screen and (max-width:37.5rem) {
+	.post-notícias body.search-overlay:after {
+		background-color: #b31917
+	}
+}
+
+.post-notícias .icon-menu {
+	fill: white
+}
+
+.post-notícias aside {
+	background-color: #919191;
+}
+
+
+>>>>>>> 0034db260b833a96604e9b48b699800170b295c9
 .post-notícias .ribbon span {
 	background-color: #b31917;
 }
@@ -1821,6 +1897,84 @@ footer a {
 	border-top: 3px solid #7d1210
 }
 
+<<<<<<< HEAD
+=======
+.post-notícias footer {
+	background-color: #1B75BA
+}
+
+.post-cmd .title-category {
+	color: #2da0c3
+}
+
+.post-cmd .post-content h1,
+.post-cmd .post-content h2,
+.post-cmd .post-content h3,
+.post-cmd .post-content h4 {
+	color: #ffffff
+}
+
+.post-cmd .post-content a {
+	color: #ffffff;
+	border-bottom: 2px dashed #2da0c3;
+}
+
+.post-cmd .post-content a:hover {
+	background-color: #2da0c3;
+	color: #fff
+}
+
+.post-cmd .post-content strong {
+	color: black
+}
+
+.post-cmd .post-content p code,
+.post-cmd .post-content li code {
+	color: #2da0c3
+}
+
+.post-cmd .post-content blockquote {
+	border-left: .313rem solid #2da0c3
+}
+
+.post-cmd .header-post,
+.post-cmd .header-site {
+	background-color: #1b1b1b;
+}
+
+.post-cmd .header-post h1,
+.post-cmd .header-site h1 {
+	text-shadow: 3px 3px #2da0c3
+}
+
+.post-cmd .bar-header .logo a {
+	color: #ffffff
+}
+
+.post-cmd .author .email,
+.post-cmd .author .github {
+	color: #2da0c3
+}
+
+.post-cmd .share a:hover svg {
+	fill: #2da0c3
+}
+
+@media only screen and (max-width:37.5rem) {
+	.post-cmd body.search-overlay:after {
+		background-color: #2da0c3
+	}
+}
+
+.post-cmd .icon-menu {
+	fill: white
+}
+.post-cmd aside {
+	background-color: #1b1b1b;
+}
+
+
+>>>>>>> 0034db260b833a96604e9b48b699800170b295c9
 .post-cmd .ribbon span {
 	background-color: #2da0c3;
 }
@@ -1835,6 +1989,84 @@ footer a {
 	border-top: 3px solid #207088
 }
 
+<<<<<<< HEAD
+=======
+.post-cmd footer {
+	background-color: #1B75BA
+}
+
+.post-js .title-category {
+	color: #d6ba32
+}
+
+.post-js .post-content h1,
+.post-js .post-content h2,
+.post-js .post-content h3,
+.post-js .post-content h4 {
+	color: #d6ba32
+}
+
+.post-js .post-content a {
+	color: white;
+	border-bottom: 2px dashed white;
+}
+
+.post-js .post-content a:hover {
+	background-color: white;
+	color: #fff
+}
+
+.post-js .post-content strong {
+	color:black
+}
+
+.post-js .post-content p code,
+.post-js .post-content li code {
+	color: #d6ba32
+}
+
+.post-js .post-content blockquote {
+	border-left: .313rem solid #d6ba32
+}
+
+.post-js .header-post,
+.post-js .header-site {
+	background-color: white;
+}
+
+.post-js .header-post h1,
+.post-js .header-site h1 {
+	text-shadow: 3px 3px #b09823
+}
+
+.post-js .bar-header .logo a {
+	color: #d6ba32
+}
+
+.post-js .author .email,
+.post-js .author .github {
+	color: #d6ba32
+}
+
+.post-js .share a:hover svg {
+	fill: #d6ba32
+}
+
+@media only screen and (max-width:37.5rem) {
+	.post-js body.search-overlay:after {
+		background-color: #d6ba32
+	}
+}
+
+.post-js .icon-menu {
+	fill: white
+}
+
+.post-js aside {
+	background-color: #1b1b1b;
+}
+
+>>>>>>> 0034db260b833a96604e9b48b699800170b295c9
 
 .post-js .ribbon span {
 	background-color: white;
@@ -1850,6 +2082,84 @@ footer a {
 	border-top: 3px solid #9a851f
 }
 
+<<<<<<< HEAD
+=======
+.post-js footer {
+	background-color: #1B75BA
+}
+
+.post-tutorial .title-category {
+	color: #eb7728
+}
+
+.post-tutorial .post-content h1,
+.post-tutorial .post-content h2,
+.post-tutorial .post-content h3,
+.post-tutorial .post-content h4 {
+	color: #eb7728
+}
+
+.post-tutorial .post-content a {
+	color: #eb7728;
+	border-bottom: 2px dashed #eb7728;
+}
+
+.post-tutorial .post-content a:hover {
+	background-color: #eb7728;
+	color: #fff
+}
+
+.post-tutorial .post-content strong {
+	color: black
+}
+
+.post-tutorial .post-content p code,
+.post-tutorial .post-content li code {
+	color: #eb7728
+}
+
+.post-tutorial .post-content blockquote {
+	border-left: .313rem solid #eb7728
+}
+
+.post-tutorial .header-post,
+.post-tutorial .header-site {
+	background-color: #eb7728;
+}
+
+.post-tutorial .header-post h1,
+.post-tutorial .header-site h1 {
+	text-shadow: 3px 3px #c95d13
+}
+
+.post-tutorial .bar-header .logo a {
+	color: #eb7728
+}
+
+.post-tutorial .author .email,
+.post-tutorial .author .github {
+	color: #eb7728
+}
+
+.post-tutorial .share a:hover svg {
+	fill: #eb7728
+}
+
+@media only screen and (max-width:37.5rem) {
+	.post-tutorial body.search-overlay:after {
+		background-color: #eb7728
+	}
+}
+
+.post-tutorial .icon-menu {
+	fill: white
+}
+
+.post-tutorial aside {
+	background-color: #919191;
+}
+
+>>>>>>> 0034db260b833a96604e9b48b699800170b295c9
 
 .post-tutorial .ribbon span {
 	background-color: #eb7728;
@@ -1865,6 +2175,85 @@ footer a {
 	border-top: 3px solid #b05110
 }
 
+<<<<<<< HEAD
+=======
+.post-tutorial footer {
+	background-color: #1B75BA
+}
+
+.post-svg .title-category {
+	color: #7d669e
+}
+
+.post-svg .post-content h1,
+.post-svg .post-content h2,
+.post-svg .post-content h3,
+.post-svg .post-content h4 {
+	color: #7d669e
+}
+
+.post-svg .post-content a {
+	color: #7d669e;
+	border-bottom: 2px dashed #7d669e;
+}
+
+.post-svg .post-content a:hover {
+	background-color: #7d669e;
+	color: #fff
+}
+
+.post-svg .post-content strong {
+	color:black
+}
+
+.post-svg .post-content p code,
+.post-svg .post-content li code {
+	color: #7d669e
+}
+
+.post-svg .post-content blockquote {
+	border-left: .313rem solid #7d669e
+}
+
+.post-svg .header-post,
+.post-svg .header-site {
+	background-color: #7d669e;
+}
+
+.post-svg .header-post h1,
+.post-svg .header-site h1 {
+	text-shadow: 3px 3px #64517f
+}
+
+.post-svg .bar-header .logo a {
+	color: #7d669e
+}
+
+.post-svg .author .email,
+.post-svg .author .github {
+	color: #7d669e
+}
+
+.post-svg .share a:hover svg {
+	fill: #7d669e
+}
+
+@media only screen and (max-width:37.5rem) {
+	.post-svg body.search-overlay:after {
+		background-color: #7d669e
+	}
+}
+
+.post-svg .icon-menu {
+	fill: white
+}
+
+.post-svg aside {
+	background-color: #7d669e;
+}
+
+
+>>>>>>> 0034db260b833a96604e9b48b699800170b295c9
 .post-svg .ribbon span {
 	background-color: #7d669e;
 }
@@ -1969,6 +2358,81 @@ footer a {
 	background-color: #1B75BA
 }
 
+<<<<<<< HEAD
+=======
+.post-iniciante .title-category {
+	color: #7aab13
+}
+
+.post-iniciante .post-content h1,
+.post-iniciante .post-content h2,
+.post-iniciante .post-content h3,
+.post-iniciante .post-content h4 {
+	color: #000
+}
+
+.post-iniciante .post-content a {
+	color: #000000;
+	border-bottom: 2px dashed #1b75ba;
+}
+
+.post-iniciante .post-content a:hover {
+	background-color: #919191;
+	color: black
+}
+
+.post-iniciante .post-content strong {
+	color: black
+}
+
+.post-iniciante .post-content p code,
+.post-iniciante .post-content li code {
+	color: #1b75ba
+}
+
+.post-iniciante .post-content blockquote {
+	border-left: .313rem solid #1b75ba
+}
+
+.post-iniciante .header-post,
+.post-iniciante .header-site {
+	background-color: #919191;
+}
+
+.post-iniciante .header-post h1,
+.post-iniciante .header-site h1 {
+	text-shadow: 3px 3px #1b75ba
+}
+
+.post-iniciante .bar-header .logo a {
+	color: #000000
+}
+
+.post-iniciante .author .email,
+.post-iniciante .author .github {
+	color: #1b75ba
+}
+
+.post-iniciante .share a:hover svg {
+	fill: #1b75ba
+}
+
+@media only screen and (max-width:37.5rem) {
+	.post-iniciante body.search-overlay:after {
+		background-color: #1b75ba
+	}
+}
+
+.post-iniciante .icon-menu {
+	fill: white
+}
+
+.post-iniciante aside {
+	background-color: #919191;
+}
+
+
+>>>>>>> 0034db260b833a96604e9b48b699800170b295c9
 .post-iniciante .ribbon span {
 	background-color: #7aab13;
 }

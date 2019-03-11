@@ -13,24 +13,29 @@ background-color: #efefef;
             <span class="ribbon">
                 <a href="{{site.url}}{{site.baseurl}}/category/{{post.main-class}}"><span>{{post.main-class}}</span></a>
             </span>
-            <div style="height:80px;border-top-left-radius: 5px;border-top-right-radius: 5px;background-color: #dcdcdc; background-position: center center;background-repeat: no-repeat;background-image: url('{{post.image}}') ;background-size: 100%;"></div>
-            <div class="box-body"><!-- style="background-position: top !important;background-image: url('{{post.image}}') !important;background-size:cover!important;" -->
-                <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
-                <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date | date_to_string }}</time>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <h2 class="post-title" itemprop="name">
-                        {{ post.title }}
-                    </h2>
-                </a>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <p class="description">{{ post.introduction }}</p>
-                </a>
-                <div class="tags">
-                    {% for tag in post.tags %}
-                    <a href="{{site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
-                    {% endfor %}
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                <div href="{{ post.url | prepend: site.baseurl }}" style="height:80px;border-top-left-radius: 5px;border-top-right-radius: 5px;background-color: #dcdcdc; background-position: center center;background-repeat: no-repeat;background-image: url('{{post.image}}') ;background-size: 100%;"></div>
+
+                <div class="box-body">
+                    <!-- style="background-position: top !important;background-image: url('{{post.image}}') !important;background-size:cover!important;" -->
+                    <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
+                    <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date |
+                        date_to_string }}</time>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <h2 class="post-title" itemprop="name">
+                            {{ post.title }}
+                        </h2>
+                    </a>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <p class="description">{{ post.introduction }}</p>
+                    </a>
+                    <div class="tags">
+                        {% for tag in post.tags %}
+                        <a href="{{site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
                 </div>
-            </div>
+            </a>
         </article>
         {% endfor %}
     </div>
