@@ -1,46 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt" itemscope itemtype="http://schema.org/BlogPosting" {% if page.main-class %}class="post-{{ page.main-class }}"{% endif %}>
-    {% include head.html %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+<html lang="pt" itemscope itemtype="http://schema.org/BlogPosting" {% if page.main-class %}class="post-{{ page.main-class }}"
+    {% endif %}>
+{% include head.html %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129298107-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-129298107-1');
-  
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-129298107-1');
 </script>
 
 <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f1acb10-24c0-4742-aeae-24841994f914-loader.js"></script>
-   
+
 <body>
-        {% include minutes-to-read.html %}
-        {% include svg-icons.html %}
-        {% include header-post.html %}
-        <section class="post">
-            
-            <article role="article" id="post" class="post-content" itemprop="articleBody">
-                    
-                           <!----<span>{{ minutesText }}</span>-->    
-                {{ content }}
-            </article>
-            <div class="progress-bar" data-minutes="{{ totalMinutes }}">
-                    <span class="time-completed"></span>
-                    <span class="time-remaining"></span>
-                    <div class="bar">
-                        <span class="completed" style="width:0%;"></span>
-                        <span class="remaining" style="width:100%;"></span>
-                    </div>
-                </div>
-                    
-            {% include formularioBS.html %}
-            {% include author.html %}        
-         {% if site.disqus.shortname %}
-            {% include comments.html %}
-         {% endif %}                    
-            {% include footer.html %}     
-        </section>
-    </body>
-    
+    {% include minutes-to-read.html %}
+    {% include svg-icons.html %}
+    {% include header-post.html %}
+    <section class="post">
+
+        <article role="article" id="post" class="post-content" itemprop="articleBody">
+
+            <!----<span>{{ minutesText }}</span>-->
+            {{ content }}
+        </article>
+        <div class="progress-bar" data-minutes="{{ totalMinutes }}">
+            <span class="time-completed"></span>
+            <span class="time-remaining"></span>
+            <div class="bar">
+                <span class="completed" style="width:0%;"></span>
+                <span class="remaining" style="width:100%;"></span>
+            </div>
+        </div>
+
+        {% include formularioBS.html %}
+        {% include author.html %}
+        {% if site.disqus.shortname %}
+        {% include comments.html %}
+        {% endif %}
+    </section>
+    {% include footer.html %}
+</body>
+
 </html>

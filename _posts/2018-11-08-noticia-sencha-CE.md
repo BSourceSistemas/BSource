@@ -10,13 +10,14 @@ color: '#B31917'
 tags:
 - notícias
 - extjs
-categories:  Informação
+categories: 'informação' 
 twitter_text: 'Novidade Sencha'
 introduction: 'Saiba mais sobre o mais recente anuncio da sencha o sencha community Edition.'
 ---
 
 Olá pessoal tudo certo?
-Hoje falaremos sobre o mais recente anuncio da Sencha, ontem (dia 06/11/2018) foi revelado a versão Sencha Ext Community Edition.
+
+Hoje falaremos sobre o mais recente anuncio da Sencha, no dia 06/11/2018 foi revelado a versão Sencha Ext Community Edition.
 
 ### Afinal o que é Ext Community Edition?
 o Ext Community Edition é uma ferramenta simples e moderna que fornecem uma estrutura básica, centenas de componentes, tema material ferramentas OpenSource para que usuarios aspirantes em JavaScript possam criar aplicativos corporativos de plataforma cruzada de maneira facilitada e rápida, a comunidade pediu e a Sencha atendeu a demanda. Saiba um pouco mais da licença de uso comercial limitada - <a href="https://www.sencha.com/legal/sencha-software-license-agreement/" target="_blank">Leia Aqui</a>
@@ -71,7 +72,7 @@ npm i --save @sencha/ext-modern-treegrid
 {% endhighlight %}
 
 ![Repositorio](https://www.sencha.com/wp-content/uploads/2018/11/image3-1024x693.png)
-## Exemplo de aplicativos - turorial e guias 
+### Exemplo de aplicativos - tutorial e guias 
 
 O ExtJS fornece um tutorial de "Início Rápido" que demonstra como criar um player de pré-visualização de videoclipe personalizado, desenhando dados públicos do site do iTunes, especificamente os principais vídeos da avaliação de período mais recente. Os usuários podem criar um aplicativo que tenha:
 
@@ -84,7 +85,7 @@ Cada guia permite a exibição de uma visualização de vídeo de 30 segundos em
 
 ### Stencils - um kit de ferramentas completo de recursos da interface do usuário para projetar seus aplicativos
 
-<a href="https://www.sencha.com/products/extjs/communityedition/" target="_blank">Sencha Stencils</a> é um kit completo de recursos da interface do usuário que funciona com o ExtJS.Estênceis são fornecidos para o Adobe Illustrator, Sketch, Balsamiq e também estão dispóniveis como SVG/PNG para o uso com outros programas. Stencils contém todos os componentes e elestilos usados na estrutura ExtJS.
+<a href="https://www.sencha.com/products/extjs/communityedition/" target="_blank">Sencha Stencils</a> é um kit completo de recursos da interface do usuário que funciona com o ExtJS.Estênceis são fornecidos para o Adobe Illustrator, Sketch, Balsamiq e também estão dispóniveis como SVG/PNG para o uso com outros programas. 
 
 ### Fiddle -  utilitário on-line para criar, executar e compartilhar exemplos de código ExtJS
 
@@ -92,7 +93,7 @@ Cada guia permite a exibição de uma visualização de vídeo de 30 segundos em
 
 ### Faça o Download e teste 
 
-Se voce esta com vontade de aprender a fazer aplicações web, baixe ja o ExtJS (CE) concerteza ela sera uma grande ferramenta de aprendizagem em sua jornada. Se você ja começou a usar o ExtJS (CE) deixe uma mensagem nos comentários dando o seu feedback, tenho certeza que eu e muitos aqui estão ansiosos por isso.
+Se você esta com vontade de aprender a fazer aplicações web, baixe ja o ExtJS (CE) com certeza ela será uma grande ferramenta de aprendizagem em sua jornada. Se você ja começou a usar o ExtJS (CE) deixe uma mensagem nos comentários dando o seu feedback, tenho certeza que eu e muitos aqui estão ansiosos por isso.
 
 
 

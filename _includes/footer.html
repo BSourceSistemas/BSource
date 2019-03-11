@@ -1,10 +1,10 @@
 <body>
-        <div class="content" style=" background-color: #919191 !important"></div> 
-      <footer class="footer" style=" color: white;">
-            <p>Saiba mais sobre a <u><a href="http://www.bsource.com.br/" target="_blank">BSource</u></a> </p>       
-      </footer>
-      </body>
-       <!-- <div class="sharethis-inline-follow-buttons"></div>   -->
+    <div class="content" style=" background-color: #919191 !important"></div> 
+  <footer class="footer" style=" color: white;">
+        <p>Saiba mais sobre a <u><a href="http://www.bsource.com.br/" target="_blank">BSource</u></a> </p>       
+  </footer>
+  </body>
+   <!-- <div class="sharethis-inline-follow-buttons"></div>   -->
 <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f1acb10-24c0-4742-aeae-24841994f914-loader.js" ></script>
 
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}">
@@ -12,22 +12,22 @@ var disqus_loaded = false;
 
 function load_disqus()
 {
-    disqus_loaded = true;
-    var disqus_shortname = 'danielbueno';
-    var disqus_title = 'Perguntas e Respostas - ExtJS';
-    var disqus_url = '/perguntas-e-respostas-jekyll/';
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    var ldr = document.getElementById('disqus_loader');
+disqus_loaded = true;
+var disqus_shortname = 'danielbueno';
+var disqus_title = 'Perguntas e Respostas - ExtJS';
+var disqus_url = '/perguntas-e-respostas-jekyll/';
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+var ldr = document.getElementById('disqus_loader');
 };
 window.onscroll = function(e) {
-    if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
-        //hit bottom of page
-        if (disqus_loaded==false)
-            load_disqus()
-    }
-    
+if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
+    //hit bottom of page
+    if (disqus_loaded==false)
+        load_disqus()
+}
+
 };
 
 </script>
