@@ -475,10 +475,10 @@ input[type="search"]::-webkit-search-cancel-button {
 	font-weight: 300;
 	font-style: normal;
 	font-size: 1.625rem;
-	color: #fff;
+	color:black;
 	background-color: transparent;
 	border: 0;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #005f97;
 	border-radius: 0;
 	box-shadow: none;
 	background-clip: padding-box;
@@ -510,7 +510,7 @@ input[type="search"]::-webkit-search-cancel-button {
 	right: 0;
 	z-index: 1;
 	display: block;
-	fill: #fff;
+	fill: black;
 	width: 30px;
 	height: 30px;
 	text-align: center;
@@ -546,7 +546,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .search-form p,
 .search-form a,
 .search-form a:hover {
-	color: #fff
+	color:black
 }
 
 body.search-overlay {
@@ -628,8 +628,8 @@ body.search-overlay:after {
 }
 
 .search-list a:hover {
-	color: #b3b3b3;
-	border-bottom: 1px solid #b3b3b3
+	color: #1B75BA;
+	border-bottom: 1px solid #1B75BA
 }
 
 @media only screen and (min-width:48em) {
