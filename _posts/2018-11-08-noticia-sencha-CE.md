@@ -2,7 +2,7 @@
 layout: post
 title: "Anúncio do Sencha Ext Versão da Comunidade"
 date: 2018-11-08 20:34:26
-image: '/assets/img/BSOURCE.jpg'
+image: '/assets/img/logo-bsource.png'
 description: 'Novidades Sencha ExtJS'
 author: 'Daniel'
 main-class: 'notícias'
