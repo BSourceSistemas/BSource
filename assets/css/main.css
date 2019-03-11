@@ -1808,7 +1808,7 @@ footer a {
 }
 
 .title-category {
-	color: #b31917
+	color: #1B75BA
 }
 
 .post-notícias .ribbon span {
@@ -1973,78 +1973,6 @@ footer a {
 	background-color: #1B75BA
 }
 
-
-
-.post-iniciante .title-category {
-	color: #7aab13
-}
-
-.post-iniciante .post-content h1,
-.post-iniciante .post-content h2,
-.post-iniciante .post-content h3,
-.post-iniciante .post-content h4 {
-	color: #000
-}
-
-.post-iniciante .post-content a {
-	color: #000000;
-	border-bottom: 2px dashed #1b75ba;
-}
-
-.post-iniciante .post-content a:hover {
-	background-color: #919191;
-	color: black
-}
-
-.post-iniciante .post-content strong {
-	color: black
-}
-
-.post-iniciante .post-content p code,
-.post-iniciante .post-content li code {
-	color: #1b75ba
-}
-
-.post-iniciante .post-content blockquote {
-	border-left: .313rem solid #1b75ba
-}
-
-.post-iniciante .header-post,
-.post-iniciante .header-site {
-	background-color: #919191;
-}
-
-.post-iniciante .header-post h1,
-.post-iniciante .header-site h1 {
-	text-shadow: 3px 3px #1b75ba
-}
-
-.post-iniciante .bar-header .logo a {
-	color: #000000
-}
-
-.post-iniciante .author .email,
-.post-iniciante .author .github {
-	color: #1b75ba
-}
-
-.post-iniciante .share a:hover svg {
-	fill: #1b75ba
-}
-
-@media only screen and (max-width:37.5rem) {
-	.post-iniciante body.search-overlay:after {
-		background-color: #1b75ba
-	}
-}
-
-.post-iniciante .icon-menu {
-	fill: white
-}
-
-.post-iniciante aside {
-	background-color: #919191;
-}
 
 .post-iniciante .ribbon span {
 	background-color: #7aab13;
