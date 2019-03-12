@@ -140,7 +140,7 @@ O Sencha Cmd 6.7 vem com um compilador de fechamento atualizado que aprimora seu
 ### Suporte ao JetBrains 2018+IDE
 
 Os plugins do JetBrain IDE são atualizados para suportar aplicativos gerados usando o ExtGen e disponíveis no
-<a href = "https://plugins.jetbrains.com/plugin/7740-sencha-ext-js"target="blank">jetbrains</a> . O preenchimento de código, geração de código, navegação de código, inspeção de código, refatoração de código e pesquisa de documentação agora são suportados para aplicativos ExtGen. O plugin atualizado suporta os IDEs mais recentes do JetBrains, que incluem IntelliJ 2018+, WebStorm 2018+, PhpStorm 2018+, RubyMine 2018+ e PyCharm 2018+.
+<a href ="https://plugins.jetbrains.com/plugin/7740-sencha-ext-js" target="blank">jetbrains</a> . O preenchimento de código, geração de código, navegação de código, inspeção de código, refatoração de código e pesquisa de documentação agora são suportados para aplicativos ExtGen. O plugin atualizado suporta os IDEs mais recentes do JetBrains, que incluem IntelliJ 2018+, WebStorm 2018+, PhpStorm 2018+, RubyMine 2018+ e PyCharm 2018+.
 
 ![Suporte ao jetbrains](https://www.sencha.com/wp-content/uploads/2019/02/jetBrainsIDE.png)
 
@@ -180,7 +180,6 @@ Aplicação Stack Employee Directory (Coworkee) Github Repo -
 <a href="https://github.com/sencha-extjs-examples/Coworkee-Open-Tooling" target="blank">Github Repo</a>
 
 Aplicativo Progressive Web App (PWA) de pilha completa -  
-
 <a href="https://github.com/sencha-extjs-examples/PWA-Open-Tooling" target="blank">Github Repo</a>
 
 Aplicativo de Amostra de Tutorial Moderno -  
