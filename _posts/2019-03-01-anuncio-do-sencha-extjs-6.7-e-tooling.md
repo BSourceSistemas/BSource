@@ -139,15 +139,13 @@ O Sencha Cmd 6.7 vem com um compilador de fechamento atualizado que aprimora seu
 
 ### Suporte ao JetBrains 2018+IDE
 
-Os plugins do JetBrain IDE são atualizados para suportar aplicativos gerados usando o ExtGen e disponíveis no
-<a href ="https://plugins.jetbrains.com/plugin/7740-sencha-ext-js" target="blank">jetbrains</a> . O preenchimento de código, geração de código, navegação de código, inspeção de código, refatoração de código e pesquisa de documentação agora são suportados para aplicativos ExtGen. O plugin atualizado suporta os IDEs mais recentes do JetBrains, que incluem IntelliJ 2018+, WebStorm 2018+, PhpStorm 2018+, RubyMine 2018+ e PyCharm 2018+.
+Os plugins do JetBrain IDE são atualizados para suportar aplicativos gerados usando o ExtGen e disponíveis no jetbrains"https://plugins.jetbrains.com/plugin/7740-sencha-ext-js". O preenchimento de código, geração de código, navegação de código, inspeção de código, refatoração de código e pesquisa de documentação agora são suportados para aplicativos ExtGen. O plugin atualizado suporta os IDEs mais recentes do JetBrains, que incluem IntelliJ 2018+, WebStorm 2018+, PhpStorm 2018+, RubyMine 2018+ e PyCharm 2018+.
 
 ![Suporte ao jetbrains](https://www.sencha.com/wp-content/uploads/2019/02/jetBrainsIDE.png)
 
 ### Suporte ao Eclipse Latest IDE
 
-Os plug-ins do Eclipse IDE agora suportam aplicativos gerados com o ExtGen e estão disponíveis
-<a href="https://marketplace.eclipse.org/content/sencha-eclipse-plugin" target="blank"> no eclipse marketplace</a>. O plug-in do Eclipse agora suporta IDEs do Eclipse Neon, Oxygen e Photon. O preenchimento de código, geração de código, navegação de código e consulta de documentação agora são suportados para todos os novos IDEs do Eclipse.
+Os plug-ins do Eclipse IDE agora suportam aplicativos gerados com o ExtGen e estão disponíveis no eclipse marketplace https://marketplace.eclipse.org/content/sencha-eclipse-plugin. O plug-in do Eclipse agora suporta IDEs do Eclipse Neon, Oxygen e Photon. O preenchimento de código, geração de código, navegação de código e consulta de documentação agora são suportados para todos os novos IDEs do Eclipse.
 
 ![Suporte ao Eclipse Latest](https://www.sencha.com/wp-content/uploads/2019/02/eclipseIIDe.png)
 
