@@ -147,7 +147,7 @@ Os plugins do JetBrain IDE são atualizados para suportar aplicativos gerados us
 ### Suporte ao Eclipse Latest IDE
 
 Os plug-ins do Eclipse IDE agora suportam aplicativos gerados com o ExtGen e estão disponíveis
-<a href="https://marketplace.eclipse.org/content/sencha-eclipse-plugin"target="blank"> no eclipse marketplace</a>. O plug-in do Eclipse agora suporta IDEs do Eclipse Neon, Oxygen e Photon. O preenchimento de código, geração de código, navegação de código e consulta de documentação agora são suportados para todos os novos IDEs do Eclipse.
+<a href="https://marketplace.eclipse.org/content/sencha-eclipse-plugin" target="blank"> no eclipse marketplace</a>. O plug-in do Eclipse agora suporta IDEs do Eclipse Neon, Oxygen e Photon. O preenchimento de código, geração de código, navegação de código e consulta de documentação agora são suportados para todos os novos IDEs do Eclipse.
 
 ![Suporte ao Eclipse Latest](https://www.sencha.com/wp-content/uploads/2019/02/eclipseIIDe.png)
 
@@ -176,8 +176,8 @@ O plug-in do Sencha Visual Studio que suporta 2015 continua disponível no
 
 O Ext JS 6.7 fornece vários exemplos que são construídos usando open tooling. Você pode usar esses aplicativos para começar rapidamente com o Ext JS 6.7 e abrir ferramentas:
 
-Aplicação Stack Employee Directory (Coworkee) Github Repo - https://github.com/sencha-extjs-examples/Coworkee-Open-Tooling
-
+Aplicação Stack Employee Directory (Coworkee) Github Repo - 
+<a href="https://github.com/sencha-extjs-examples/Coworkee-Open-Tooling" target="blank">Github Repo</a>
 
 Aplicativo Progressive Web App (PWA) de pilha completa -  
 
