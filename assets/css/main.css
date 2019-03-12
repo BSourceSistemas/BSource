@@ -95,7 +95,7 @@ sub {
 }
 
 img {
-	border: 0
+	border: 0;	
 }
 
 svg:not(:root) {
@@ -2289,3 +2289,12 @@ html, body {
 .box-item .box-body .tags a:hover {
 	color: #fff;
 	background: #1C75BA
+}
+
+.image {
+	display: block;
+	max-width:230px;
+	max-height:95px;
+	width: auto;
+	height: auto;
+}

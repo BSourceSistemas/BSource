@@ -9,7 +9,7 @@ main-class: 'notícias'
 color: '#B31917'
 tags:
 - notícias
-- extjs
+- ExtJS
 categories: Informação
 twitter_text:
 introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS
@@ -41,19 +41,20 @@ Os principais recursos desta versão incluem:
 
 **Clientes ExtReact e ExtJs Enterprise
 
-•Você tem acesso aos pacotes ExtReact hospedados no registro npm privado do Sencha. Leia o <a href="http://docs.sencha.com/extreact/6.7.0/guides/getting_started.html"target="_blank">Guia de primeiros passos</a> e crie seus aplicativos React com componentes do ExtReact
+•Você tem acesso aos pacotes ExtReact hospedados no registro npm privado do Sencha. Leia o  http://docs.sencha.com/extreact/6.7.0/guides/getting_started.html e crie seus aplicativos React com componentes do ExtReact
 
-•<a href="https://support.sencha.com/"target="_blank">Download Sencha Themer</a> do Portal de Suporte
+•https://support.sencha.com/Download Sencha Themer do Portal de Suporte
 
 **Experimente o ExtReact 6.7**
 
-•Faça o Download da <a href="https://www.sencha.com/products/extreact/evaluate/"target="_blank">versão gratuita por 30 dias</a> do ExtReact 
+•Faça o Download da  versão gratuita por 30 dias do ExtReact  https://www.sencha.com/products/extreact/evaluate/versão 
 
-•Download Exemplos do ExtReact do <a href="https://github.com/sencha/ext-react/"target="_blank">github</a> e leia o <a href="https://docs.sencha.com/extreact/6.7.0/"target="_blank">Guia do ExtReact</a>
+•Download Exemplos do ExtReact https://github.com/sencha/ext-react/github e leia o Guia do ExtReact https://docs.sencha.com/extreact/6.7.0/
 
-•Veja os <a href="https://examples.sencha.com/ExtReact/6.7.0/kitchensink/" target="_blank">exemplos do ExtReact Kitchen Sink</a> e da <a href ="https://examples.sencha.com/ExtReact/6.7.0/conference-app/"target="_blank">Conference App</a> em qualquer dispositivo
+•Veja os exemplos do ExtReact Kitchen Sinkhttps://examples.sencha.com/ExtReact/6.7.0/kitchensink/ e da Conference App  em qualquer dispositivo
+https://examples.sencha.com/ExtReact/6.7.0/conference-app/
 
-•Leia o Tutorial do <a href="https://www.sencha.com/blog/learn-how-to-build-react-16-based-web-applications-with-the-sencha-grid/"target="_blank">ExtReact Grid</a> para aprender como adicionar o componente Grid ao seu aplicativo React
+•Leia o Tutorial do ExtReact Grid para aprender como adicionar o componente Grid ao seu aplicativo React https://www.sencha.com/blog/learn-how-to-build-react-16-based-web-applications-with-the-sencha-grid/
 
 ## Novidades no ExtReact 6.7
 
