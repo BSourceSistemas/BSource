@@ -176,8 +176,8 @@ O plug-in do Sencha Visual Studio que suporta 2015 continua disponível no
 
 O Ext JS 6.7 fornece vários exemplos que são construídos usando open tooling. Você pode usar esses aplicativos para começar rapidamente com o Ext JS 6.7 e abrir ferramentas:
 
-Aplicação Stack Employee Directory (Coworkee) - 
-<a href="https://github.com/sencha-extjs-examples/Coworkee-Open-Tooling"target="blank">Github Repo</a>
+Aplicação Stack Employee Directory (Coworkee) Github Repo - https://github.com/sencha-extjs-examples/Coworkee-Open-Tooling
+
 
 Aplicativo Progressive Web App (PWA) de pilha completa -  
 
