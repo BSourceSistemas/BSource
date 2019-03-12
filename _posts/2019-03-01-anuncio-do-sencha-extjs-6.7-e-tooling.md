@@ -17,7 +17,7 @@ introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS
 
 Olá pessoal tudo certo?
 
-Nesse post falaremos mais sobre a nova versão do Sencha ExtJS que está indo pra sua versão 6.7, essa versão traz com ela aprimoramentos do kit de ferramentas Modern entre eles suporte a filtragem de grid, bloqueio de grid, rolagem virtual para grid infinito, chip de material, multiseleção de combobox e no colorpicker. O kit de ferramentas do ExtJS 6.7 também inclui aprimoramentos no kit de ferramentas Classic como aprimoramento de componentes para grid, calendário, painel, gráficos, window, comobobox, tabs e dashboard. O jetBrains, Eclipse e Visual Studio puglins agora suportam as últimas versões de IDE.
+Nesse post falaremos mais sobre a nova versão do Sencha ExtJS que está indo pra sua versão 6.7, essa versão traz com ela aprimoramentos do kit de ferramentas Modern entre eles suporte a filtragem de grid, bloqueio de grid, rolagem virtual para grid infinito, chip de material, multiseleção de combobox e no colorpicker. O kit de ferramentas do ExtJS 6.7 também inclui aprimoramentos no kit de ferramentas Classic como aprimoramento de componentes para grid, calendário, painel, gráficos, window, combobox, tabs e dashboard. O jetBrains, Eclipse e Visual Studio puglins agora suportam as últimas versões de IDE.
 
 ## Destaques do Sencha ExtJS 6.7
 
@@ -55,7 +55,7 @@ Novos recursos modernos nesta versão incluem:
 
 •   Leia os primeiros <a href= "http://docs.sencha.com/extjs/6.7.0/guides/getting_started/open_tooling.html" target="blank">primeiros passos com open tooling</a>
 
-•   Veja os <a href= "https://examples.sencha.com/extjs/6.7.0/" target="_blank">exemplos</a> em ExtJS em qualquer dispositivo
+•   Veja os <a href= "https://examples.sencha.com/extjs/6.7.0/" target="blank">exemplos</a> em ExtJS em qualquer dispositivo
 
 •   Os clientes podem usar seu login do <a href= "https://support.sencha.com/#login" target="blank">Portal de suporte</a> * para obter acesso ao framework Ext JS, ao cmd e a todos os pacotes do Ext JS npm
 
@@ -151,12 +151,16 @@ Os plug-ins do Eclipse IDE agora suportam aplicativos gerados com o ExtGen e est
 
 ### Suporte para o Visual Studio 2017
 
-O plugin Sencha Visual Studio agora é suportado para o Visual Studio 2017 e está disponível no<a href ="https://marketplace.visualstudio.com/items?itemName=SenchaVisualStudioPlugin.SenchaExtension" target="blank">mercado</a>.O Plug-in IDE do Visual Studio 2017 oferece suporte a uma experiência de conclusão de código consistente dentro do IDE para:
+O plugin Sencha Visual Studio agora é suportado para o Visual Studio 2017 e está disponível no<a href ="https://marketplace.visualstudio.com/items?itemName=SenchaVisualStudioPlugin.SenchaExtension" target="blank"> mercado</a>.O Plug-in IDE do Visual Studio 2017 oferece suporte a uma experiência de conclusão de código consistente dentro do IDE para:
 
 •   Nomes de configuração, método e propriedade para todas as classes Ext JS e de usuário
+
 •   Propriedades de alias, como xtype, controller, viewModel e layout
+
 •   Objetos de nomes e ouvintes de eventos
+
 •   Métodos de controle nos ouvintes
+
 •   Propriedades do ViewModel em configurações de ligação
 
 Nota: Para ativar o suporte à conclusão de código Ext JS, você precisará desativar o serviço de linguagem JavaScript VS2017. 
@@ -168,11 +172,15 @@ O plug-in do Sencha Visual Studio que suporta 2015 continua disponível no <a hr
 
 O Ext JS 6.7 fornece vários exemplos que são construídos usando open tooling. Você pode usar esses aplicativos para começar rapidamente com o Ext JS 6.7 e abrir ferramentas:
 
-Aplicação Stack Employee Directory (Coworkee) - <a href="https://github.com/sencha-extjs-examples/Coworkee-Open-Tooling" target="blank">Github Repo</a>
+Aplicação Stack Employee Directory (Coworkee) - <a href="https://github.com/sencha-extjs-examples/Coworkee-Open-Tooling"target="blank">Github Repo</a>
+
 Aplicativo Progressive Web App (PWA) de pilha completa -  <a href="https://github.com/sencha-extjs-examples/PWA-Open-Tooling"target="blank">Github Repo</a>
-Aplicativo de Amostra de Tutorial Moderno -  <a href="https://github.com/sencha-extjs-examples/ModernTutorial-Open-Tooling" target="blank">Github Repo</a>
-Aplicativo de Amostra de Início Rápido -  <a href="https://github.com/sencha-extjs-examples/QuickStart-Open-Tooling" target="blank">Github Repo</a>
-Mais recursos e melhorias de desempenho
+
+Aplicativo de Amostra de Tutorial Moderno -  <a href="https://github.com/sencha-extjs-examples/ModernTutorial-Open-Tooling"target="blank">Github Repo</a>
+
+Aplicativo de Amostra de Início Rápido -  <a href="https://github.com/sencha-extjs-examples/QuickStart-Open-Tooling"target="blank">Github Repo</a>
+Mais recursos e melhorias de desempenho.
+
 O Ext JS 6.7 inclui atualizações e aprimoramentos para vários componentes, bem como correções de bugs no kit de ferramentas Modern e Classic. O kit de ferramentas Ext JS 6.7 Classic inclui vários aprimoramentos em Grid, calendário, painel, gráficos, janela, caixa de combinação, guias e painel. O Ext JS 6.7 suportou extensas fases de teste, incluindo testes automatizados com o Sencha Test, resultando em mais de mil casos de teste.
 
 ## Conclusão 
