@@ -398,7 +398,7 @@ auto. addEventListener ( 'pushsubscriptionchange' ,
 } ) ;
 {% endhighlight %}
 
-No manipulado de eventos, vocÊ precisa remover a assinatura antiga passada como um primeiro parâmetro do Application Server e salvar nova assinatura passada como um segundo paramêtro.
+No manipulado de eventos, você precisa remover a assinatura antiga passada como um primeiro parâmetro do Application Server e salvar nova assinatura passada como um segundo paramêtro.
 
 ### Suporte  
 
