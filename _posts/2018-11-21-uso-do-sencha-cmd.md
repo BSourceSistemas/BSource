@@ -4,13 +4,14 @@ comments: true
 title: "Introdução ao Sencha Cmd"
 date: 2018-11-21 11:22:19
 image: '/assets/img/SenchaCMD.png'
-description: ''
+description: 'Introdução ao Sencha CMD'
 main-class: cmd
 color: '#2da0c3'
 tags: 
 - Tutorial
 - ExtJS
 - Iniciante
+- CMD
 categories: Guiabásico
 twitter_text:
 introduction: 'Aqui você vera um guia básico sobre Sencha Cmd.'

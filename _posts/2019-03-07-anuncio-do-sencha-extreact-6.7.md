@@ -5,10 +5,10 @@ title: "Anúncio do Sencha ExtReact 6.7"
 date: 2019-03-07 12:27:15
 image: '/assets/img/ExtReact.png'
 description: 'Nova versão do Sencha ExtReact'
-main-class: 'notícias'
+main-class: 'Notícias'
 color: '#B31917'
 tags:
-- notícias
+- Notícias
 - ExtJS
 categories: Informação
 twitter_text:
@@ -16,6 +16,7 @@ introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS
 ---
 
 Olá pessoal tudo certo?
+
 Nesse post falaremos mais sobre a nova versão 6.7 do ExtReact a nova atualização que a sencha nos disponibilizou, ele vem com suporte ao ultimo React Framework versão 16.8.
 ExtReact 6.7 adicionou novos componentes e diversos aprimoramentos para componentes já existentes, incluindo novos recursos de grid e opções de combobox para formar componentes.
 

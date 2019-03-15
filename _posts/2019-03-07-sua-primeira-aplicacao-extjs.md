@@ -6,10 +6,10 @@ date: 2019-03-07 20:01:29
 image: '/assets/img/Tutorial.gif'
 description: 'Passo a passo primeira aplicação em ExtJS'
 tags: 
-- iniciante
-- extjs
-- tutorial
-main-class: 'tutorial'
+- Iniciante
+- ExtJS
+- Tutorial
+main-class: 'Tutorial'
 color: '#55780d'
 categories: 'Guiabásico'
 twitter_text: 'Saiba Como iniciar suas aplicações web com o framework javascript ExtJS.'
