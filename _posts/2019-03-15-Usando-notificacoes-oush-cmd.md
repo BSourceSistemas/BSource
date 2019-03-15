@@ -107,7 +107,7 @@ Primeiro, precisamos verificar se o navegador é compatível com Service Workers
 
 Se ambos forem suportados, nós registramos nosso service worker. Para esta etapa, chamamos o método navigator.serviceWorker.register () e passamos o caminho para o nosso arquivo do Service Worker como um parâmetro. Após essa etapa, o navegador baixará esse arquivo e o executará em um ambiente de trabalho de serviço. O arquivo do Service Worker é um arquivo JavaScript padrão, mas o navegador “dará acesso” às APIs do service worker, incluindo push. Se tudo funcionasse corretamente e não houvesse erros, a promessa retornada por register () será resolvida. Se houver algum tipo de erro, a promessa é rejeitada e precisamos lidar com esse caso, bem como quando o navegador não suporta os Trabalhadores do Serviço. Quando register () resolve, ele retorna um objeto ServiceWorkerRegistration que será usado na próxima rodada.
 
-### 2ª Rodada:Subscription 
+### 2ª Rodada: Subscription 
 
 A segunda rodada lida com a assinatura do Web Push Notifications. É quando você pergunta ao usuário se ele deseja receber notificações via Web do seu aplicativo e, se ele concordar, você o inscreve. Esta rodada envolve mais jogadores - aplicativos da Web, Navegador, servidor de aplicativos e Push Server e mais comunicações.
 

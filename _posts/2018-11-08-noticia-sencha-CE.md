@@ -12,7 +12,7 @@ tags:
 - ExTJS
 categories: 'Informação' 
 twitter_text: 'Novidade Sencha'
-introduction: 'Saiba mais sobre o mais recente anuncio da sencha o sencha community Edition.'
+introduction: 'Saiba mais sobre o mais recente anúncio da sencha o sencha community Edition.'
 ---
 
 Olá pessoal tudo certo?

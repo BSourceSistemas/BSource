@@ -18,7 +18,7 @@ introduction: 'Confira uma excelente opção pra você iniciante e/ou programado
 
 ## Iniciando sua Aplicação Web
 
-Olá pessoal tudo certo? 
+Olá pessoal, tudo certo? 
 
 Se você veio até aqui certamente está curioso para saber como programar a sua aplicação web com robusta, utilizando  framework ExtJS e para você que ainda não conhece nosso canal no youtube deixarei aqui o vídeo passo a passo de como iniciar sua primeira aplicação ExtJS.
 
