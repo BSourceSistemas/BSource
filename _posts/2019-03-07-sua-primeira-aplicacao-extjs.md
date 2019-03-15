@@ -10,7 +10,7 @@ tags:
 - ExtJS
 - Tutorial
 main-class: 'Tutorial'
-color: '#55780d'
+color: '#eb7728'
 categories: 'Guiabásico'
 twitter_text: 'Saiba Como iniciar suas aplicações web com o framework javascript ExtJS.'
 introduction: 'Confira uma excelente opção pra você iniciante e/ou programador desktop migrar para web'

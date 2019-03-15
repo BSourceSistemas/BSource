@@ -6,9 +6,8 @@ date: 2019-03-15 17:51:23
 image: '/assets/img/Tutorial.gif'
 description:
 main-class: 'Tutorial'
-color: '#55780d'
+color: '#EB7728'
 tags:
-- Dica
 - ExtJS
 - Tutorial
 categories: 'Guiabasico'

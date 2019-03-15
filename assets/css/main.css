@@ -1855,16 +1855,16 @@ footer a {
 }
 
 
-.post-tutorial .ribbon span {
+.post-Tutorial .ribbon span {
 	background-color: #eb7728;
 }
 
-.post-tutorial .ribbon span:before {
+.post-Tutorial .ribbon span:before {
 	border-left: 3px solid #b05110;
 	border-top: 3px solid #b05110
 }
 
-.post-tutorial .ribbon span:after {
+.post-Tutorial .ribbon span:after {
 	border-right: 3px solid #b05110;
 	border-top: 3px solid #b05110
 }
