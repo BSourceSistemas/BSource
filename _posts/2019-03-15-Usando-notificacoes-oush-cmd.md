@@ -392,7 +392,7 @@ Em qualquer caso, você pode lidar com essa situação observando o evento <a hr
 
 {% highlight ruby %}
 auto. addEventListener ( 'pushsubscriptionchange' , 
-  função ( registro , newSubscription , oldSubscription )  { 
+  function ( record , newSubscription , oldSubscription )  { 
     removePushSubscription ( oldSubscription ) ; 
     savePushSubscription ( newSubscription ) ; 
 } ) ;
