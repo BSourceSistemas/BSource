@@ -4,16 +4,16 @@ comments: true
 title: "Como Animar seus componentes ExtJS"
 date: 2019-03-15 17:51:23
 image: '/assets/img/Tutorial.gif'
-description:
+description: Deixe seu aplicativo mais amigável através de animações
 main-class: 'Tutorial'
 color: '#EB7728'
 tags:
 - ExtJS
 - Tutorial
-categories: 'Guiabasico'
+categories: 'Tutorial'
 twitter_text:
-introduction:
----
+introduction: Deixe seu aplicativo mais amigavel através de animações
+--- 
 
 Olá Pessoal, tudo certo?
 
@@ -65,6 +65,6 @@ Nota: Você poderia usar o mesmo conceito para exibir uma mensagem de confirmaç
 
 ## Resultado Final 
 
-![gif animacao](https://www.sencha.com/wp-content/uploads/2018/10/image1.gif)
+<img src="https://www.sencha.com/wp-content/uploads/2018/10/image1.gif" alt="" width="483" height="442" class="aligncenter size-full wp-image-30915">
 
 Espero que você ache essa dica útil, tenha um bom dia e até a próxima.
