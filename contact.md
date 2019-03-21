@@ -5,44 +5,47 @@ description: Duvidas? Fale conosco.
 permalink: /contato/
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 0px auto;
-    max-width: 600px;
-  }
-</style>
 
-<div class="container">
+<br>
 
-  <h2>Fale com a nossa equipe</h2>
+<section class="formularioBS" itemprop="formularioBS;">
+    <div class="center">
+        <img src="/assets/img/logo-bsource.png" alt="BSourceimg" style="margin:0 auto; margin-top: 0px;"><br>
+    </div>
+    <br>
+    <br>
+    <br>
+      <form accept-charset="UTF-8" action="https://formspree.io/media@bsource.com" method="POST" 
+      target="_blank" class="formularioBS" style="width: 100%; max-width: 600px;margin-left: 0px; margin: auto;"> 
+     <label for="name" style="color: black;">Nome</label>
+     <input type="text" id="name" name="name" placeholder="Luis Fernando"><br>
+     <label  for="email" style=" color: black;">Email</label>
+      <input type="email" id="email" name="email" placeholder="luis@gmail.com"><br>
+         <label for="subject">Comentários</label>
+    <textarea id="subject" name="subject" placeholder="Motivo do contato" rows="5"></textarea><br><br>
+        <br><br>
+         <input type="hidden" name="subscribe" value="no">
+      
+   <div class="linha">
+            <div class="botoes"> 
+        <label for="checkbox" style="color: black;"><input type="checkbox" id="checkbox" name="enviar" value="yes" checked>Desejo receber notificações de novos conteúdos
+        </label><br><br>
+    
+     
+        <input type="hidden" name="utf8" value="✓">
 
-  <div id="form" class="contact-form">
-    <form accept-charset="UTF-8" method="POST" action="https://blog.bsource.com.br/contato/mensagem-enviada/" 
-    v-on:submit.prevent="validateBeforeSubmit" ref="contact">
-      <fieldset>
-        <input type="hidden" name="_subject" value="Novo Contato!" />
-        <input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
-        <input type="hidden" name="_language" value="en" />
-
-        <input type="text" name="name" placeholder="Seu Nome" v-validate="'required'"
-               :class="{ 'has-error': errors.has('name') }">
-        <span v-if="errors.has('name')" v-cloak>${ errors.first('name') }</span>
-
-        <input type="text" name="email" placeholder="Seu e-mail" v-validate="'required|email'"
-               :class="{ 'has-error': errors.has('email') }">
-        <span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
-
-        <!--Importando Script Jquery-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <textarea name="message" onkeyup="adjust_textarea(this)" placeholder="Sua Mensagem" v-validate="'required'"
-                  :class="{ 'has-error': errors.has('message') }"></textarea>
-        <span v-if="errors.has('message')" v-cloak>${ errors.first('message') }</span>
-        <button type="submit">Enviar</button>
-      </fieldset>
-    </form>
-  </div>
-
-</div>
+   <div class="linha">
+            <div class="botoes">   
+    <button type="submit" style="margin: auto ;
+        margin-left: 25px;">Confirmar</button>
+        <button type="reset" style=" margin:auto;
+        margin-left: 5px;">Resetar os Campos</button>
+    <script type="text/javascript">
+function adjust_textarea(h) {
+    h.style.height = "200px";
+    h.style.height = (h.scrollHeight)+"px";
+}
+</script>
 
 <script src="https://unpkg.com/vue@2.4.2"></script>
 <script src="https://unpkg.com/vee-validate@2.0.0-rc.8"></script>

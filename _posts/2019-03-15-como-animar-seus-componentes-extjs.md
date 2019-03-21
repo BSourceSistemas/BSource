@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Como Animar seus componentes ExtJS"
+title: "Como animar seus componentes ExtJS"
 date: 2019-03-15 17:51:23
 image: '/assets/img/Tutorial.gif'
 description: Deixe seu aplicativo mais amigável através de animações
@@ -54,7 +54,7 @@ Ext.create('Ext.Window', {
 {% endhighlight %}
 ## Entendendo o código
 
-No Window **show**, pegamos o elemento do componente usando **win.getEI()** porque Element(Ext.dom.Element)é a classe que contém todos os métodos de animação, onde vocÊ pode chamar **element.animate(config)** e esta propiedade  config deve ser uma configuração válida para Ext.fx.Anim.
+No Window **show**, pegamos o elemento do componente usando **win.getEI()** porque Element(Ext.dom.Element)é a classe que contém todos os métodos de animação, onde você pode chamar **element.animate(config)** e esta propiedade  config deve ser uma configuração válida para Ext.fx.Anim.
 
 O ExtJS fornece algumas configurações predefinidas, como: fadeIn, fadeOut, frame, ghost, slideIn, slideOut,etc.
 
@@ -66,5 +66,6 @@ Nota: Você poderia usar o mesmo conceito para exibir uma mensagem de confirmaç
 ## Resultado Final 
 
 <img src="https://www.sencha.com/wp-content/uploads/2018/10/image1.gif" alt="" width="483" height="442" class="aligncenter size-full wp-image-30915">
+
 
 Espero que você ache essa dica útil, tenha um bom dia e até a próxima.
