@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Usando notificações por push para app da Web"
+title: "Usando notificações por push pra aplicações Web"
 date: 2019-03-15 12:35:54
 image: '/assets/img/SenchaCMD.png'
 description: 'Melhore seus app Web'

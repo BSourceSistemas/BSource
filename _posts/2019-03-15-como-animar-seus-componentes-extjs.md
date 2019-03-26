@@ -12,7 +12,7 @@ tags:
 - Tutorial
 categories: 'Tutorial'
 twitter_text:
-introduction: Deixe seu aplicativo mais amigavel através de animações
+introduction: Deixe seu aplicativo mais amigável através de animações
 --- 
 
 Olá Pessoal, tudo certo?
