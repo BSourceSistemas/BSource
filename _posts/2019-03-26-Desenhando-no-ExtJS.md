@@ -6,7 +6,7 @@ date: 2019-03-26 13:12:15
 image: '/assets/img/Tutorial.gif'
 description: Deixe sua aplicação web interativa
 main-class: 'Tutorial'
-color: '#eb7728'
+color: '#EB7728'
 tags:
 - ExtJS
 - Tutorial
