@@ -9,9 +9,9 @@ main-class: 'dicas'
 color: '#637a91'
 tags:
 - Dicarápida
-- ExTJS
+- ExtJS
 - Iniciante
-categories:
+categories: Dicas
 twitter_text:
 introduction:
 ---
