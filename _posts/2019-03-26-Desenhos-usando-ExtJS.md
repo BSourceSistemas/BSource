@@ -21,7 +21,7 @@ Muitos de vocês já devem estar familiarizados com o pacote Sencha Charting que
 É claro que você pode usar o HTML5 Canvas ou o SVG diretamente, mas eles geralmente levam a problemas em plataformas que não são suportadas. Lidar com problemas entre navegadores, diferenças entre telas regulares e de retina, animações, etc., não é uma tarefa fácil.
 O Ext JS Charts vem com um pacote de desenho que permite criar gráficos e animações arbitrários sem se preocupar com qual tecnologia um navegador em particular usa para renderizar seus desenhos. Seleciona automaticamente o renderizador mais apropriado (Canvas, SVG ou VML), dependendo do seu navegador. Sob o capô, o pacote de desenho segue o HTML5 Canvas como o modelo de API subjacente. Chamadas de API do Canvas são traduzidas automaticamente para SVG ou VML, se esses mecanismos forem necessários.
 
- Abordaremos vários recursos do pacote de desenho que vem com os Gráficos do Sencha e como eles foram implementados, para que você não tenha que lidar com problemas de compatibilidade entre navegadores.
+ Nesse artigo abordaremos o básico sobre os recursos do pacote de desenho que vem com os Gráficos do Sencha e como eles foram implementados, para que você não tenha que lidar com problemas de compatibilidade entre navegadores.
 
 ### Sprite Simples
 
