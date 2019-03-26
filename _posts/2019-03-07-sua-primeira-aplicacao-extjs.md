@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Sua Primeira aplicação com o Framework JavaScript ExtJS"
+title: "Sua primeira aplicação com o Framework JavaScript ExtJS"
 date: 2019-03-07 20:01:29
 image: '/assets/img/Tutorial.gif'
 description: 'Passo a passo primeira aplicação em ExtJS'
