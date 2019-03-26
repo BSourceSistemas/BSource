@@ -17,7 +17,7 @@ introduction: Deixando sua aplicação web mais interativa
 
 Olá pessoal tudo certo?
 
-Muitos de vocês já devem estar familiarizados com o pacote Sencha Charting que vem com o Sencha Ext JS . Ele permite que você crie rapidamente ótimas visualizações, como gráficos de colunas 3D ou gráficos de pizza 3D . Muitas vezes, os gráficos não são suficientes para sua aplicação web, um desenho interativo pode ser a solução que você sua aplicação procura.
+Muitos de vocês já devem estar familiarizados com o pacote Sencha Charting que vem com o Sencha Ext JS . Ele permite que você crie rapidamente ótimas visualizações, como gráficos de colunas 3D ou gráficos de pizza 3D . Muitas vezes, os gráficos não são suficientes para sua aplicação web, um desenho interativo pode ser a solução para a sua aplicação procura.
 É claro que você pode usar o HTML5 Canvas ou o SVG diretamente, mas eles geralmente levam a problemas em plataformas que não são suportadas. Lidar com problemas entre navegadores, diferenças entre telas regulares e de retina, animações, etc., não é uma tarefa fácil.
 O Ext JS Charts vem com um pacote de desenho que permite criar gráficos e animações arbitrários sem se preocupar com qual tecnologia um navegador em particular usa para renderizar seus desenhos. Seleciona automaticamente o renderizador mais apropriado (Canvas, SVG ou VML), dependendo do seu navegador. Sob o capô, o pacote de desenho segue o HTML5 Canvas como o modelo de API subjacente. Chamadas de API do Canvas são traduzidas automaticamente para SVG ou VML, se esses mecanismos forem necessários.
 
