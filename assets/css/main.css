@@ -1869,16 +1869,16 @@ footer a {
 	border-top: 3px solid #b05110
 }
 
-.post-svg .ribbon span {
+.post-ExtJS .ribbon span {
 	background-color: #7d669e;
 }
 
-.post-svg .ribbon span:before {
+.post-ExtJS .ribbon span:before {
 	border-left: 3px solid #57476f;
 	border-top: 3px solid #57476f
 }
 
-.post-svg .ribbon span:after {
+.post-ExtJS .ribbon span:after {
 	border-right: 3px solid #57476f;
 	border-top: 3px solid #57476f
 }
@@ -2293,4 +2293,10 @@ html, body {
 	width: auto;
 	height: auto;
 }
-
+.icon-clock,.icon-calendar{
+    width:.938rem;
+    height:.938rem;
+    fill:#a9a9a9;
+    vertical-align:middle;
+    margin-right:.188rem
+}

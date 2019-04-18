@@ -9,7 +9,7 @@ main-class: 'Notícias'
 color: '#B31917'
 tags:
 - Notícias
-- ExTJS
+- ExtJS
 categories: Informação
 twitter_text:
 introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS
