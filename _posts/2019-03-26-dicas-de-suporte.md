@@ -13,7 +13,7 @@ tags:
 - Iniciante
 categories: Dicas
 twitter_text:
-introduction:
+introduction: alguns macetes que podem ajuda-lo em seu trabalho
 ---
 Olá pessoal tudo certo?
 
