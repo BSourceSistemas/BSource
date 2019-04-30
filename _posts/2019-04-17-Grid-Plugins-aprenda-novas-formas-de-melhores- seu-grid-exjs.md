@@ -12,7 +12,7 @@ categories:
 - ExtJS
 - Tutorial
 twitter_text:
-introduction:
+introduction: Uso de puglins para melhorar o Grid da sua aplicação.
 ---
 
 Olá pessoal tudo certo?
