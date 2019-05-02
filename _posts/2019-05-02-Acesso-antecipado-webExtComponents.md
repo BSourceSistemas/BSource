@@ -57,6 +57,6 @@ Hoje dia 02/05/2019 a Sencha anunciou que o acesso antecipado ao ExtWebComponent
 
 ### Aprenda mais
 
-A sencha fara um seminário on-line no dia 8 de maio, às 10h, horário de Brasília (PDT) / 13h (horário de Brasília) e 18h (horário de Brasília), para saber mais e obter uma visualização detalhada de como usar os ExtWebComponents. Registre-se aqui: <a href="https://www.brighttalk.com/webcast/11505/357554" target="_blank">registrar</a>
+A sencha realizará um seminário on-line no dia 8 de maio, às 10h, horário de Brasília (PDT) / 13h (horário de Brasília) e 18h (horário de Brasília), para saber mais e obter uma visualização detalhada de como usar os ExtWebComponents. Registre-se aqui: <a href="https://www.brighttalk.com/webcast/11505/357554" target="_blank">registrar</a>
 
   
