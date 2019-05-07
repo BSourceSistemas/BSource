@@ -70,18 +70,7 @@ collections:
 
 future: false
 
-#multilanguage
-gem: 'jekyll-multiple-languages-plugin'
 
-#setup multilanguage
 
-url: https://blog.bsource.com.br/
-
-languages: ["en", "de"]
-exclude_from_localizations: ["assets", "CNAME"]
-defaultLang: en
-languageNames:
-  de: Deutsch
-  en: English
 
 
