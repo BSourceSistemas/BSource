@@ -45,8 +45,6 @@ links:
   - title: Newsletter
     url: /newsletter
     
-
-
 # html minify
 compress_html:
   clippings: all
@@ -61,14 +59,6 @@ exclude: ['package.json', 'src', 'node_modules']
 disqus:
   shortname: bsourcesistemas
 
-# coleção de colaboradores do site 
-collections:
-  authors:
-  output: true 
-
-#Schedule 
-
-future: false
 
 
 
