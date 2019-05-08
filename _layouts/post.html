@@ -23,7 +23,7 @@
 
         <article role="article" id="post" class="post-content" itemprop="articleBody">
                 
-
+    <body class="has-push-menu">
             <!----<span>{{ minutesText }}</span>-->
             {{ content }}
         </article>
@@ -41,11 +41,9 @@
         {% if site.disqus.shortname %}
         {% include comments.html %}
         {% endif %}
-        {% include footer.html %}
     </section>
-    
+    {% include footer.html %}
 </body>
 
 </html>
 
-<!-- class="has-push-menu"-->
