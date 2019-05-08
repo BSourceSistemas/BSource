@@ -40,7 +40,7 @@ Os principais recursos desta versão incluem:
 
 ## Baixar ExtReact 6.7 
 
-**Clientes ExtReact e ExtJS Enterprise
+**Clientes ExtReact e ExtJs Enterprise
 
 •Você tem acesso aos pacotes ExtReact hospedados no registro npm privado do Sencha. Leia o  http://docs.sencha.com/extreact/6.7.0/guides/getting_started.html e crie seus aplicativos React com componentes do ExtReact
 

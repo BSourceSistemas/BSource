@@ -1,4 +1,3 @@
-    
 (function( $, window, undefined ) {
   // Menu
   $("a#slide").click(function(){
@@ -15,7 +14,7 @@
     $("#close").hide();
   });
 
-  // Search
+  // Search 
   var bs = {
     close: $(".icon-remove-sign"),
     searchform: $(".search-form"),

@@ -59,8 +59,27 @@ exclude: ['package.json', 'src', 'node_modules']
 disqus:
   shortname: bsourcesistemas
 
+# coleção de colaboradores do site 
+collections:
+  authors:
+  output: true 
 
+#Schedule 
 
+future: false
 
+#multilanguage
+gem: 'jekyll-multiple-languages-plugin'
+
+#setup multilanguage
+
+url: http://www.example.com
+
+languages: ["en", "de"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: en
+languageNames:
+  de: Deutsch
+  en: English
 
 
