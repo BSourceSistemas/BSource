@@ -1362,7 +1362,7 @@ window.Zepto = Zepto, void 0 === window.$ && (window.$ = Zepto),
         }
 
         function i() {
-            var t, n = document.querySelector(".header-post.html .content");
+            var t, n = document.querySelector(".header-post .content");
             t = e.scrollY, t <= 500 && null != n && (n.style.transform = "translateY(" + -t / 3 + "px)", n.style.opacity = 1 - t / 500)
         }
         t("a#slide").click(function() {

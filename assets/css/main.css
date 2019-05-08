@@ -1236,7 +1236,7 @@ main {
     filter:alpha(opacity=0);
     opacity:0;
     background-color:rgba(0,0,0,0.7);
-    background-image:url("../../assets/img/icons/read.svg");
+    background-image:url("../../assets/img/read.svg");
     background-size:48px;
     background-repeat:no-repeat;
     background-position:center center;
@@ -1255,8 +1255,10 @@ main {
 }
 
 .box-item .box-body .cover .preload{
-	background:url("../../assets/img/icons/preloader.svg") center center no-repeat
+	background:url("../../assets/img/preloader.svg") center center no-repeat
+/* era background:url */
 }
+
 
 .post-content img.post-cover{
     margin-bottom:1.25rem;
