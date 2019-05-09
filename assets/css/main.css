@@ -2300,3 +2300,39 @@ html, body {
     vertical-align:middle;
     margin-right:.188rem
 }
+/*post-info teste */
+
+.box-item .box-info {
+	padding: .938rem
+}
+
+.post-content p.post-info {
+	font-family: 'Titillium Web', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: .813rem;
+	letter-spacing: 0;
+	color: #a9a9a9;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width:37.5rem) {
+	.post-content p.post-info {
+		font-size: 1rem
+	}
+}
+
+.post-content p.post-info span,
+.post-content p.post-info time {
+	vertical-align: middle
+}
+
+.post-content p.post-info time {
+	margin-right: .625rem;
+}
+
+@media only screen and (min-width:37.5rem) {
+	.post-content p.post-info time {
+		margin-right: 1.875rem
+	}
+}
