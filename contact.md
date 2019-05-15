@@ -6,33 +6,15 @@ permalink: /contato/
 ---
 <br>
 
-<form action="https://formspree.io/media@bsource.com.br" method="POST" target="_blank" class="formularioBS" style="width: 100%; max-width: 600px;margin-left: 0px; margin: auto;"> 
-    <div class="form-group">
-        <label for="nome">Nome:</label>
-        <input type="text" name="nome" id="nome" class="form-control">
-    </div>
-    <div class="form-group">
-        <label for="_replyto">Email:</label>
-        <input type="email" id="_replyto" name="_replyto" class="form-control">
-    </div>
-    <div class="form-group">
-        <label for="_subject">Assunto:</label>
-        <select name="_subject" id="_subject">
-            <option>Sugestão de Post</option>
-            <option>Consultoria</option>
-            <option>Dúvidas</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <label for="mensagem">Mensagem:</label>
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="form-control"></textarea>
-    </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-default" style="
-    width: 600px;
-">Enviar</button>
-    </div>
-</form>
+<form action="https://formspree.io/media@bsource.com.br" method="POST" target="_blank" class="formularioBS" style="width: 100%; max-width: 600px;margin: auto;"> 
+   <fieldset><input type="hidden" name="_subject" value="Novo contato!"> 
+   <input type="hidden" name="_next" value="https://blog.bsource.com.br/leads"> 
+   <input type="hidden" name="_language" value="pt"> 
+   <input type="text" name="nome" placeholder="Seu nome" class="" data-vv-id="_jgffphqqw" aria-required="true" aria-invalid="false"> <!---->
+    <input type="text" name="email" placeholder="Seu e-mail" class="" data-vv-id="_owa60l0p5" aria-required="true" aria-invalid="false"> <!----> 
+    <textarea name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" class="" data-vv-id="_oubcr77fc" aria-required="true" aria-invalid="false"></textarea> 
+    <!----> <button type="submit" class="btn btn-default" style="width: 600px;">Enviar</button>
+
 <!--
 <section class="formularioBS" itemprop="formularioBS;">
     <div class="center">
@@ -89,3 +71,4 @@ new Vue({
 });
 </script>
 -->
+
