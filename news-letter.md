@@ -15,7 +15,6 @@ description: Inscreva-se!
     <br>
 
     
-</form>
 <form action="https://formspree.io/media@bsource.com.br" method="POST" target="_blank" class="formularioBS" style="width: 100%; max-width: 600px;margin-left: 0px; margin: auto;"> 
     <fieldset><input type="hidden" name="_subject" value="Novo contato!"> <input type="hidden" name="_next" value="https://blog.bsource.com.br/thanks"> <input type="hidden" name="_language" value="pt"> <input type="text" name="nome" placeholder="Seu nome" class="" data-vv-id="_jgffphqqw" aria-required="true" aria-invalid="false"> <!----> <input type="text" name="email" placeholder="Seu e-mail" class="" data-vv-id="_owa60l0p5" aria-required="true" aria-invalid="false"> <!---->  
     <div class="form-group">
