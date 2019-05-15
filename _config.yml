@@ -33,7 +33,7 @@ permalink: pretty
 # For external links add external: true
 links:
   - title: Home
-    url: /
+    url: 
   - title: Series
     url: /series
   - title: Tags
@@ -73,7 +73,7 @@ gem: 'jekyll-multiple-languages-plugin'
 
 #setup multilanguage
 
-url: https://blog.bsource.com.br/
+url: https://blog.bsource.com.br
 
 languages: ["en", "de"]
 exclude_from_localizations: ["assets", "CNAME"]
