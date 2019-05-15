@@ -14,7 +14,7 @@ description: Inscreva-se!
     <br>
     <br>
 
-<form action="https://blog.bsource.com.br/leads" method="POST" target="_blank" class="formularioBS" style="width: 100%; max-width: 600px;margin-left: 0px; margin: auto;"> 
+<form action="https://formspree.io/media@bsource.com.br" method="POST" target="_blank" class="formularioBS" style="width: 100%; max-width: 600px;margin-left: 0px; margin: auto;"> 
     <div class="form-group">
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome" class="form-control">
