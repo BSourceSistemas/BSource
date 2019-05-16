@@ -17,7 +17,7 @@ introduction: Web components recebem um grande upgrade
 
 Óla pessoal, tudo certo?
 
-Hoje dia 02/05/2019 a Sencha anunciou que o acesso antecipado ao ExtWebComponents esta disponível, fique a notícia abaixo.
+Hoje dia 02/05/2019 a Sencha anunciou que o acesso antecipado ao ExtWebComponents esta disponível, fique com a notícia abaixo.
 
 ##  Destaques do acesso antecipado de ExtWebComponents
 
