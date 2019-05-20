@@ -1,6 +1,6 @@
 # Site settings
 title: Blog BSource
-description: Um blog sobre tecnologia em especial o framework Ext JS
+description: Um blog sobre tecnologia, em especial o framework Ext JS
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.bsource.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -75,8 +75,8 @@ gem: 'jekyll-multiple-languages-plugin'
 
 url: https://blog.bsource.com.br
 
-languages: ["en", "de"]
-exclude_from_localizations: ["assets", "CNAME"]
+languages: ["sv", "en", "de", "fr"]
+exclude_from_localizations: ["javascript", "images", "css"]
 defaultLang: en
 languageNames:
   de: Deutsch
@@ -84,5 +84,10 @@ languageNames:
 
 # Google Analytics
 google_analytics: UA-85665246-1
+
+# Plugins
+plugins:
+  - jemoji
+ 
 
 
