@@ -13,7 +13,7 @@ tags:
 - CMD
 categories: Carregamentodedados
 twitter_text:
-introduction: 'uma experiência de carregamento mais suave para o seu aplicativo corporativo'
+introduction: 'Uma experiência de carregamento mais suave para o seu aplicativo corporativo'
 ---
 
 Olá pessoal tudo certo?

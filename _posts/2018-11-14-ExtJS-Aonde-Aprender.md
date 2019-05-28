@@ -11,7 +11,7 @@ main-class: 'iniciante'
 color: '#55780d'
 categories: Dicas
 twitter_text: 'Saiba mais sobre framework javascript ExtJS.'
-introduction: 'Saiba mais sobre esse framework java script fantástico, e recomendações para o início de seu aprendizado em ExtJS.'
+introduction: 'Saiba mais sobre esse framework java script fantástico!'
 ---
 
 Olá pessoal tudo certo?

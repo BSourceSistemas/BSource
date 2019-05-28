@@ -14,7 +14,7 @@ tags:
 - CMD
 categories: Guiabásico
 twitter_text:
-introduction: 'Aqui você vera um guia básico sobre Sencha Cmd.'
+introduction: 'Guia básico sobre Sencha Cmd.'
 ---
 
 Olá Pessoal tudo certo?

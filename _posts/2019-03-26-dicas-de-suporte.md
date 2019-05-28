@@ -13,7 +13,7 @@ tags:
 - Iniciante
 categories: Dicas
 twitter_text:
-introduction:
+introduction: 'Dicas que podem facilitar seu trabalho de suporte'
 ---
 Olá pessoal tudo certo?
 
