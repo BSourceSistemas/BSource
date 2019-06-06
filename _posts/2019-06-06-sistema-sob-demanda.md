@@ -16,6 +16,8 @@ introduction: 'A chave para o crescimento de sua empresa'
 
 Olá, tudo certo?
 
+No artigo de hoje veremos o quão importante um sistema sob demanda pode ser para sua empresa e você vai ver alguns dos motivos do porque vale a pena o investimento nesse tipo de recurso.
+
 Atualmente ter um sistema corporativo exclusivo, pode ser a chave para pequenas, médias e grandes empresas serem mais competitivas e sobreviver a um mercado tão desafiador, veja algumas das principais funcionalidades que um Sistema sob demanda pode oferecer.
 
 **Estudo da empresa**
