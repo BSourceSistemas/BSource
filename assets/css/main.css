@@ -1844,16 +1844,16 @@ footer a {
 }
 
 
-.post-js .ribbon span {
-	background-color: white;
+.post-outros .ribbon span {
+	background-color:#9a851f;
 }
 
-.post-js .ribbon span:before {
+.post-outros .ribbon span:before {
 	border-left: 3px solid #9a851f;
 	border-top: 3px solid #9a851f
 }
 
-.post-js .ribbon span:after {
+.post-outros .ribbon span:after {
 	border-right: 3px solid #9a851f;
 	border-top: 3px solid #9a851f
 }
