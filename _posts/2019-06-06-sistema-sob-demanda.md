@@ -55,4 +55,4 @@ O Sistema vai ajudar a sua empresa direta ou indiretamente na redução de custo
 
 ## Conclusão
 
-Podemos notar que o sistema corporativo sob demanda é a melhor opção para as empresas que desejam melhorar os resultados corporativos e ao optar por essa ferramenta, só irá obter ganhos para a sua empresa, aumentar a produtividade, confiabilidade nas informações, números assertivos, auxilio na tomada de decisões, sua empresa terá uma gestão voltada para o seu negócio e planejada de acordo com as necessidades.
+Podemos notar que o sistema corporativo sob demanda é a melhor opção para as empresas que desejam melhorar os resultados corporativos e ao optar por essa ferramenta, só irá obter ganhos para a sua empresa, aumentar a produtividade, confiabilidade nas informações, números assertivos, auxilio na tomada de decisões, sua empresa terá uma gestão voltada para o seu negócio e planejamento de acordo com as necessidades.
