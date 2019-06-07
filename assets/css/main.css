@@ -360,7 +360,7 @@ aside {
 	padding: 2.5rem 0 0;
 	top: 0;
 	right: -15rem;
-	background-color: #919191;
+	background-color: #5a5a5af5;
 	z-index: 20;
 	box-shadow: inset -10px -1px 15px -9px rgba(0, 0, 0, 0.5);
 }
@@ -397,8 +397,8 @@ aside nav li a {
 }
 
 aside nav li a:hover {
-	color: #005f97;
-	background: #fff
+    color: #005f97;
+    background: #ffffffa6;
 }
 
 aside nav .feed {
@@ -864,9 +864,10 @@ main {
 }
 
 .box-item:hover {
-	box-shadow: 1px 2px 10px #196BAA
+	box-shadow: 1px 2px 10px #196BAA;
+	transform: scale(1.02);
 }
-
+ 
 .box-item a {
 	text-decoration: none;
 }
@@ -1956,7 +1957,7 @@ footer a {
 }
 
  aside {
-	background-color: #919191;
+	background-color: #5a5a5af5;
 }
 
 
@@ -2357,4 +2358,6 @@ html, body {
 	.rel hover {
 		 opacity: 1;    
 	}
+
 }
+
