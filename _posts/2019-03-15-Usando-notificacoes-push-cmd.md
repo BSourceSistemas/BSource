@@ -3,24 +3,24 @@ layout: post
 comments: true
 title: "Usando notificações por push pra aplicações Web"
 date: 2019-03-15 12:35:54
-image: '/assets/img/SenchaCMD.png'
-description: 'Melhore seus app Web'
+image: "/assets/img/SenchaCMD.png"
+description: "Melhore seus app Web"
 main-class: cmd
-color: '#2da0c3'
+color: "#2da0c3"
 tags:
-- Tutorial
-- ExtJS
-- CMD
+  - Tutorial
+  - ExtJS
+  - CMD
 categories: Dicas
 twitter_text:
-introduction: 'Adicionando notificações nativas que melhoram sua aplicação web'
+introduction: "Adicionando notificações nativas que melhoram sua aplicação web"
 ---
 
-Olá Pessoal tudo certo? 
+Olá Pessoal tudo certo?
 
 Hoje irei trazer um artigo de autoria da Sencha sobre como melhorar sua aplicação web através de notificações push e Webpush e seus conceitos, espero que ele ajude vocês com suas futuras aplicações web.
 
-## Protocolo de notificações por push da Web 
+## Protocolo de notificações por push da Web
 
 O protocolo Web Push Notifications é relativamente novo. Ele permite que os aplicativos da Web funcionem como aplicativos nativos e recebam mensagens enviadas de um servidor a qualquer momento, mesmo quando o aplicativo da Web não está ativo ou não está carregado no momento em um navegador. Isso permite envolver os usuários com notificações urgentes e relevantes quando eles não estiverem usando seu aplicativo e motivá-los a retornar ao aplicativo.
 
@@ -34,25 +34,25 @@ Antes de entrar nos detalhes da tecnologia, gostaria de falar um pouco sobre as 
 
 Aqui estão as diferenças:
 
-•Os Web Sockets só podem ser usados ​​quando uma página da Web é carregada e ativa. Mas o oposto ocorre com as notificações por push da Web, que podem ser usadas a qualquer momento, inclusive quando o aplicativo está ativo, inativo ou não carregado, e quando o navegador não está ativo ou está fechado.
+• Os Web Sockets só podem ser usados ​​quando uma página da Web é carregada e ativa. Mas o oposto ocorre com as notificações por push da Web, que podem ser usadas a qualquer momento, inclusive quando o aplicativo está ativo, inativo ou não carregado, e quando o navegador não está ativo ou está fechado.
 
-•Os dados enviados usando o Web Push devem ser criptografados e há um limite de tamanho por mensagem (não deve ser maior que 4Kb). Há também um limite de contagem para o número de mensagens que você pode enviar (o valor limite exato depende do navegador). Alguns navegadores (por exemplo, o Chrome) também podem exigir que uma notificação seja exibida ao usuário sempre que uma mensagem é recebida. Você não tem nenhuma dessas limitações quando usa Web Sockets: você pode enviar qualquer número de mensagens não criptografadas de qualquer tamanho e tratá-las como quiser; e você pode exibir uma notificação ou atualizar silenciosamente os dados em seu aplicativo ou até mesmo não fazer nada.
+• Os dados enviados usando o Web Push devem ser criptografados e há um limite de tamanho por mensagem (não deve ser maior que 4Kb). Há também um limite de contagem para o número de mensagens que você pode enviar (o valor limite exato depende do navegador). Alguns navegadores (por exemplo, o Chrome) também podem exigir que uma notificação seja exibida ao usuário sempre que uma mensagem é recebida. Você não tem nenhuma dessas limitações quando usa Web Sockets: você pode enviar qualquer número de mensagens não criptografadas de qualquer tamanho e tratá-las como quiser; e você pode exibir uma notificação ou atualizar silenciosamente os dados em seu aplicativo ou até mesmo não fazer nada.
 
-•A regra geral é usar o Web Sockets para enviar atualizações de dados comuns para seu aplicativo da Web quando um usuário estiver interagindo com o aplicativo. Use as notificações por push da Web para enviar mensagens urgentes e importantes a um usuário que precisam ser recebidas imediatamente, independentemente de o usuário estar ou não trabalhando com seu aplicativo no momento.
+• A regra geral é usar o Web Sockets para enviar atualizações de dados comuns para seu aplicativo da Web quando um usuário estiver interagindo com o aplicativo. Use as notificações por push da Web para enviar mensagens urgentes e importantes a um usuário que precisam ser recebidas imediatamente, independentemente de o usuário estar ou não trabalhando com seu aplicativo no momento.
 
 ## Conceitos Técnicos
 
 Vamos para os detalhes técnicos da tecnologia. Eu gostaria de explicar os detalhes usando um jogo com regras especiais, jogadores e rodadas. Vou começar descrevendo os jogadores do jogo. Existem 5 jogadores envolvidos neste jogo chamados Web Push Notifications:
 
-•Aplicação Web
+• Aplicação Web
 
-•Service Worker
+• Service Worker
 
-•Navegador
+• Navegador
 
-•Application Service
+• Application Service
 
-•Push Server
+• Push Server
 
 Push é um serviço implementado pelo fornecedor do navegador; é uma ponte de comunicação entre o seu servidor de aplicativos e um navegador. Ele é responsável por entregar mensagens do seu servidor de aplicativos para o navegador.
 
@@ -60,13 +60,13 @@ Push é um serviço implementado pelo fornecedor do navegador; é uma ponte de c
 
 Usando um jogo, demonstrarei como você pode adicionar notificações push da Web aos seus aplicativos. As regras deste jogo são definidas por várias especificações fornecidas pelo World Wide Web Consortium e pela Internet Engineering Task Force:
 
-•As comunicações entre o Navegador e o aplicativo da web ou o service worker associado a esse aplicativo são descritas na especificação do Push API.
+• As comunicações entre o Navegador e o aplicativo da web ou o service worker associado a esse aplicativo são descritas na especificação do Push API.
 
-•A exibição de diferentes tipos de notificações, bem como a manipulação de notificações, são descritas na especificação da API de Notificações.
+• A exibição de diferentes tipos de notificações, bem como a manipulação de notificações, são descritas na especificação da API de Notificações.
 
-•As comunicações entre o Application Server e o Push Server são definidas na especificação do Web Push Protocol.
+• As comunicações entre o Application Server e o Push Server são definidas na especificação do Web Push Protocol.
 
-•Há também especificações adicionais que descrevem a criptografia de mensagens push e a identificação do servidor de aplicativos que permitem ao servidor de aplicativos provar que tem permissão para enviar mensagens para o usuário.
+• Há também especificações adicionais que descrevem a criptografia de mensagens push e a identificação do servidor de aplicativos que permitem ao servidor de aplicativos provar que tem permissão para enviar mensagens para o usuário.
 
 ![jogo](https://www.sencha.com/wp-content/uploads/2017/08/web-push-notifications-img2-1024x485.png)
 
@@ -74,11 +74,11 @@ Usando um jogo, demonstrarei como você pode adicionar notificações push da We
 
 O jogo foi dividido em 4 rodadas para exemplificar o conceito e o alvo de cada uma delas e como você pode implementar todas as etapas no seu applicatiovo
 
-### 1º Rodada: Registro do Service Worker 
+### 1º Rodada: Registro do Service Worker
 
 As Notificações por Push Web exigem que o Service Worker lide com mensagens push, portanto, a primeira rodada será registrar seu service worker. Apenas o seu aplicativo da web e o navegador estão envolvidos nesta rodada. E esta rodada ocorre no carregamento da página.
 
-O aplicativo da Web envia uma solicitação a um navegador para registrar um Service Worker e o navegador responde com o objeto SeviceWorkerRegistration se o Service Worker foi 
+O aplicativo da Web envia uma solicitação a um navegador para registrar um Service Worker e o navegador responde com o objeto SeviceWorkerRegistration se o Service Worker foi
 registrado com êxito.
 
 ![service worker](https://www.sencha.com/wp-content/uploads/2017/08/web-push-notifications-img3-1024x623.png)
@@ -86,19 +86,19 @@ registrado com êxito.
 Para implementar essa rodada, adicione o seguinte código ao seu aplicativo Web
 
 {% highlight ruby %}
-if  ( 'serviceWorker'  no navegador )  { 
-  if  ( 'PushManager'  na window )  { 
-    navigator. serviceWorker . register ( 'ServiceWorker.js' ) . then ( function ( registration )  { 
-      // Inicializando
-    } ) 
-    . catch ( function ( )  { 
-      // tratamento de erros 
-    } ) ; 
-  }  else  { 
-    // tratamento de erros 
-  }
-}  else  { 
-  // tratamento de erros 
+if ( 'serviceWorker' no navegador ) {
+if ( 'PushManager' na window ) {
+navigator. serviceWorker . register ( 'ServiceWorker.js' ) . then ( function ( registration ) {
+// Inicializando
+} )
+. catch ( function ( ) {
+// tratamento de erros
+} ) ;
+} else {
+// tratamento de erros
+}
+} else {
+// tratamento de erros
 }
 
 {% endhighlight %}
@@ -107,7 +107,7 @@ Primeiro, precisamos verificar se o navegador é compatível com Service Workers
 
 Se ambos forem suportados, nós registramos nosso service worker. Para esta etapa, chamamos o método navigator.serviceWorker.register () e passamos o caminho para o nosso arquivo do Service Worker como um parâmetro. Após essa etapa, o navegador baixará esse arquivo e o executará em um ambiente de trabalho de serviço. O arquivo do Service Worker é um arquivo JavaScript padrão, mas o navegador “dará acesso” às APIs do service worker, incluindo push. Se tudo funcionasse corretamente e não houvesse erros, a promessa retornada por register () será resolvida. Se houver algum tipo de erro, a promessa é rejeitada e precisamos lidar com esse caso, bem como quando o navegador não suporta os Trabalhadores do Serviço. Quando register () resolve, ele retorna um objeto ServiceWorkerRegistration que será usado na próxima rodada.
 
-### 2ª Rodada: Subscription 
+### 2ª Rodada: Subscription
 
 A segunda rodada lida com a assinatura do Web Push Notifications. É quando você pergunta ao usuário se ele deseja receber notificações via Web do seu aplicativo e, se ele concordar, você o inscreve. Esta rodada envolve mais jogadores - aplicativos da Web, Navegador, servidor de aplicativos e Push Server e mais comunicações.
 
@@ -121,17 +121,17 @@ Seu WebApp é o principal dessa rodada, portanto, esse código deve ser adiciona
 
 {% highlight ruby %}
 navigator.serviceWorker.ready.then(function(registration) {
-  registration.pushManager.subscribe({
-    userVisibleOnly: true,
-    applicationServerKey: urlBase64ToUint8Array('...')
-  })
-  .then(function(subscription) {
-    // The subscription was successful
-    savePushSubscription(subscription);
-  })
-  .catch(function(e) {
-    //error handling
-  });
+registration.pushManager.subscribe({
+userVisibleOnly: true,
+applicationServerKey: urlBase64ToUint8Array('...')
+})
+.then(function(subscription) {
+// The subscription was successful
+savePushSubscription(subscription);
+})
+.catch(function(e) {
+//error handling
+});
 });
 {% endhighlight %}
 
@@ -143,19 +143,20 @@ Se o seu aplicativo da web não tiver permissões para mostrar notificações no
 
 {% highlight ruby %}
 Notification.requestPermission(function(result) {
-  if (result!== 'granted') {
-    //handle permissions deny
-  }
+if (result!== 'granted') {
+//handle permissions deny
+}
 });
 {% endhighlight %}
 
 ### Parâmetros de Assinatura
+
 Vamos ver o objeto de parâmetro passado para o método de inscrição:
 
 {% highlight ruby %}
-reg. pushManagerpushManager.subscribe ( { 
-  userVisibleOnly :  true , 
-  applicationServerKey :  new Uint8Array ( [ ... ] ) 
+reg. pushManagerpushManager.subscribe ( {
+userVisibleOnly : true ,
+applicationServerKey : new Uint8Array ( [ ... ] )
 } ) ;
 {% endhighlight %}
 
@@ -168,25 +169,25 @@ reg. pushManagerpushManager.subscribe ( {
 Vamos examinar o objeto PushSubscription que é retornado,resolvendo a promessa.Esse objeto PushSubscription está associado ao Service Worker que registramos na rodada anterior. Esta assinatura Push descreve a ponte de entrega para mensagens push
 
 {% highlight ruby%}
-interface PushSubscription { 
-  readonly atribute endpoint ; 
-  // "https: // {push_server_url} / {user_identifier}", 
-  function getKey ( ) ; 
-  // auth - autenticação secreta 
-  // p256dh - chave para criptografar mensagens 
+interface PushSubscription {
+readonly atribute endpoint ;
+// "https: // {push_server_url} / {user_identifier}",
+function getKey ( ) ;
+// auth - autenticação secreta
+// p256dh - chave para criptografar mensagens
 } ;
 {% endhighlight %}
 
 Ele contém duas partes importantes:
 
-•endpoint é um servidor de envio URl seguido por um identificador de usuário exclusivo. Essa URL é usada 
+•endpoint é um servidor de envio URl seguido por um identificador de usuário exclusivo. Essa URL é usada
 pelo servidor de aplicativos para enviar mensagens ao servidor de envio.
 
 •O método getKey retorna duas chaves: auth é um segredo de autenticação gerado pelo navegador e p256dh é uma chave P-256 ECDH pública que pode ser usada para criptografar mensagens push.
 
 Ambas as chaves serão usadas pelo servidor de aplicativos para enviar dados de mensagens ao service worker. O endpoint define para onde enviar mensagens push e as chaves definem como criptografá-las. Você precisa enviar os dois valores para o seu servidor de aplicativos e cabe a você como você os envia.
 
-3º Rodada: Mensagem Push 
+3º Rodada: Mensagem Push
 
 A terceira rodada está enviando mensagens push. Essa rodada ocorre quando algo urgente e relevante acontece e o usuário precisa saber. Por exemplo, se o voo do usuário está atrasado ou ele recebeu uma nova mensagem em um bate-papo.
 
@@ -201,12 +202,12 @@ Quando o servidor de envio recebe essa solicitação, ele responde com uma respo
 Pedido POST
 
 {% highlight ruby %}
-POST / { user_identifier } 
-Host HTTP / 1.1 :  { push_server_url } 
-TTL :  15 
-Content - Tipo : text / plain ; charset = utf8 
-Conteúdo - Comprimento :  36 
- 
+POST / { user_identifier }
+Host HTTP / 1.1 : { push_server_url }
+TTL : 15
+Content - Tipo : text / plain ; charset = utf8
+Conteúdo - Comprimento : 36
+
 { encrypted_message }
 
 {% endhighlight %}
@@ -219,7 +220,7 @@ Prefer respond-async
 
 •Time-to-Live: O servidor de envio pode melhorar a confiabilidade da entrega de mensagens de envio, armazenando mensagens de envio por um período. Algumas mensagens push não são úteis depois de um determinado período. Portanto, essas mensagens não devem ser entregues. É por isso que o servidor de aplicativos DEVE incluir o campo de cabeçalho TTL (Time-To-Live) na solicitação de entrega da mensagem de envio. O campo de cabeçalho TTL contém um valor em segundos que sugere quanto tempo uma mensagem de envio deve ser enfileirada pelo servidor de envio. Quando o período de TTL terminar, o servidor de envio NÃO DEVE tentar entregar a mensagem de envio ao navegador.
 
-TTL :  15
+TTL : 15
 
 •Urgência: Para um dispositivo alimentado por bateria, geralmente é crítico evitar o consumo de recursos para receber mensagens triviais, portanto, é útil se um servidor de aplicativos puder definir a urgência de uma mensagem e se o navegador puder solicitar apenas mensagens de urgência específica. . O servidor de aplicativos PODERÁ incluir a urgência da mensagem na solicitação de entrega da mensagem de envio. Os valores possíveis são “muito baixo” / “baixo” / “normal” / “alto”.
 
@@ -239,26 +240,23 @@ Você deve criptografar uma mensagem push usando curva elíptica Diffie-Hellman 
 
 Aqui está a <a href="https://github.com/web-push-libs/web-push" target="blank">biblioteca de criptografia para o Node.js</a> desenvolvido pelo Google. Existem também bibliotecas para outros idiomas.
 
-### Identificação voluntária do servidor de aplicativos 
+### Identificação voluntária do servidor de aplicativos
 
 É aqui que o nosso applicationServerKey que enviamos para o método de assinatura na rodada anterior desempenha seu papel. O servidor de aplicativos precisa provar que tem permissão para enviar notificações ao usuário, e o servidor de envio precisa validar essa etapa.
 
 Para fazer isso, o Servidor de Aplicativos adiciona um cabeçalho de Autorização, que contém informações assinadas com a chave privada, juntamente com sua chave pública - applicationServerKey - compartilhada com o Servidor de Envio quando o PushSubscription foi criado. Quando o servidor de envio recebe essa solicitação, ele valida essa assinatura, verifica se a solicitação foi assinada usando a chave privada associada ao applicationServerKey associado à PushSubscription que recebe a solicitação. Se a assinatura for válida, o servidor de envio saberá que é uma mensagem de envio válida do servidor de aplicativos autorizado. Ele fornece proteção de segurança que impede que qualquer outra pessoa envie mensagens para os usuários de um aplicativo.
 
+POST / { USER_IDENTIFIER } HTTP / 1.1
 
-POST / { USER_IDENTIFIER } HTTP / 1.1 
+host : { push_server_url }
 
-host :  { push_server_url } 
+TTL : 15
 
-TTL :  15
+Conteúdo - Comprimento : 136
 
-Conteúdo - Comprimento :  136 
-
-Autorização : Portador 
+Autorização : Portador
 
 eyJ0eXAi ... Crypto - Chave : p256ecdsa = BA1Hxzy ... { encrypted_message }
-
-
 
 O cabeçalho de autorização contém um JSON Web Token (JWT). Este token é uma forma de enviar uma mensagem a terceiros, para que o destinatário possa validar quem a enviou. Inclui as seguintes reivindicações:
 
@@ -276,14 +274,14 @@ O Servidor de Aplicativos enviou uma mensagem de envio ao usuário, o Servidor d
 A última etapa dessa rodada é feita pelo Service Worker. Este código deve ser adicionado ao seu Service Worker:
 
 {% highlight ruby %}
-auto. addEventListener ( 'push' ,  function ( event )  { 
-  var data = event. data . json ( ) ;
-  
-  event. waitUntil ( self.registration . showNotification ( data. title ,  { 
-    body : data. body , 
-    ícone : data. ícon , 
-    tag : data. tag 
-  } ) ) ;
+auto. addEventListener ( 'push' , function ( event ) {
+var data = event. data . json ( ) ;
+
+event. waitUntil ( self.registration . showNotification ( data. title , {
+body : data. body ,
+ícone : data. ícon ,
+tag : data. tag
+} ) ) ;
 } ) ;
 {% endhighlight %}
 
@@ -299,30 +297,30 @@ dois pontos importantes:
 O Service Worker precisa manipular um clique de Notificação.Uma das respostas mais comuns é fechar uma notificação e abrir uma janela / guia para um URL específico. Podemos fazer isso com a API clients.openWindow ().
 
 {% highlight ruby %}
-auto. addEventListener ( 'notificationclick' ,  function ( event )  { 
-  event. notification . close ( ) ; 
-  event. waitUntil ( clients. openWindow ( 'http://mywebsite.com' ) ) ; 
+auto. addEventListener ( 'notificationclick' , function ( event ) {
+event. notification . close ( ) ;
+event. waitUntil ( clients. openWindow ( 'http://mywebsite.com' ) ) ;
 } ) ;
 {% endhighlight %}
 
-### Notificações com ações 
+### Notificações com ações
 
 A notificação também pode conter ações - botões com algum texto. Você pode defini-los usando um parâmetro de ações do objeto de configuração de notificação. E, em seguida, no manipulador do notificationclick, você pode verificar qual botão foi clicado.
 
 {% highlight ruby %}
 self.registration.showNotification(data.title, {
-  body: data.body,
-  actions: [
-    { action: 'ok', title: 'Yes' },
-    { action: 'decline', title: 'No' }
-  ]
+body: data.body,
+actions: [
+{ action: 'ok', title: 'Yes' },
+{ action: 'decline', title: 'No' }
+]
 });
 …
- 
+
 self.addEventListener('notificationclick', function(event) {
-  if (event.action == 'ok') {
-    // do something
-  }
+if (event.action == 'ok') {
+// do something
+}
 });
 {% endhighlight %}
 
@@ -332,7 +330,7 @@ E a última coisa que lidar é um evento de notificação. Isso acontece quando 
 
 {% highlight ruby%}
 self.addEventListener('notificationclose', function(event) {
-  //do something
+//do something
 });
 {% endhighlight %}
 
@@ -341,16 +339,16 @@ Há uma exceção à regra para mostrar sempre uma notificação. Não é obriga
 Para lidar com este caso, podemos verificar se qualquer cliente de janela está focado e enviar a mensagem para cada cliente usando o método postMessage. Esse método é uma maneira comum de organizar um canal de comunicação entre um Service Worker e a página. E se nenhuma janela do cliente estiver focada, podemos mostrar uma notificação normal.
 
 {% highlight ruby %}
-if  ( concentrado )  { 
-  clientes. forEach ( função ( cliente ) { 
-    cliente. postMessage ( { 
-      message : data. message 
-    } ) ; 
-  } ) ; 
-}  else  { 
-  return self. registro . showNotification ( dados. título ,  { 
-    corpo : dados. mensagem 
-  } ) ; 
+if ( concentrado ) {
+clientes. forEach ( função ( cliente ) {
+cliente. postMessage ( {
+message : data. message
+} ) ;
+} ) ;
+} else {
+return self. registro . showNotification ( dados. título , {
+corpo : dados. mensagem
+} ) ;
 }
 {% endhighlight %}
 
@@ -367,17 +365,17 @@ Todo o processo é semelhante ao processo de assinatura. Seu aplicativo da web p
 Seu aplicativo da web é o player principal, e o código abaixo deve ser adicionado ao seu web App:
 
 {% highlight ruby %}
-cadastro. pushManager . getSubscription ( ) . então ( function ( subscription )  { 
-  if  ( assinatura )  { 
-    return subscription. unsubscribe ( ) . then ( função (com sucesso )  { 
-      removePushSubscription ( assinatura ) ; 
-    } ) . catch ( function ( e )  { 
-      // tratamento de erros
-    } ) ; 
-  } 
-} ) 
-. catch ( função ( erro )  { 
-  // tratamento de erros 
+cadastro. pushManager . getSubscription ( ) . então ( function ( subscription ) {
+if ( assinatura ) {
+return subscription. unsubscribe ( ) . then ( função (com sucesso ) {
+removePushSubscription ( assinatura ) ;
+} ) . catch ( function ( e ) {
+// tratamento de erros
+} ) ;
+}
+} )
+. catch ( função ( erro ) {
+// tratamento de erros
 } )
 {% endhighlight %}
 
@@ -391,16 +389,16 @@ Há também uma rodada adicional - vencimento da assinatura. Isso acontece quand
 Em qualquer caso, você pode lidar com essa situação observando o evento <a href="https://developer.mozilla.org/en-US/docs/Web/Events/pushsubscriptionchange" target="black"> pushsubscriptionchange</a> em seu Service Worker e fornecendo um manipulador de eventos; esse evento é acionado apenas neste caso específico.
 
 {% highlight ruby %}
-auto. addEventListener ( 'pushsubscriptionchange' , 
-  function ( record , newSubscription , oldSubscription )  { 
-    removePushSubscription ( oldSubscription ) ; 
-    savePushSubscription ( newSubscription ) ; 
+auto. addEventListener ( 'pushsubscriptionchange' ,
+function ( record , newSubscription , oldSubscription ) {
+removePushSubscription ( oldSubscription ) ;
+savePushSubscription ( newSubscription ) ;
 } ) ;
 {% endhighlight %}
 
 No manipulado de eventos, você precisa remover a assinatura antiga passada como um primeiro parâmetro do Application Server e salvar nova assinatura passada como um segundo paramêtro.
 
-### Suporte  
+### Suporte
 
 •**Browser**: Chrome, Firefox, Edge, Safari, Opera, IE
 
@@ -411,4 +409,3 @@ No manipulado de eventos, você precisa remover a assinatura antiga passada como
 ### Conclusão
 
 A tecnologia Web Push Notification está pronta para ser usada amplamente. Ele ajuda você a se comunicar com seus usuários de maneira mais eficiente, envolve os usuários ao fornecer notificações urgentes e relevantes e torna os aplicativos da Web melhores em geral.
-

@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt" itemscope itemtype="http://schema.org/BlogPosting" {% if page.main-class %}class="post-{{ page.main-class }}"
-    {% endif %}>
-{% include head.html %}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85665246-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html
+  lang="pt"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+  {%
+  if
+  page.main-class
+  %}class="post-{{ page.main - class }}"
+  {%
+  endif
+  %}
+>
+  {% include head.html %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-85665246-2"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag('config', 'UA-85665246-2');
+    gtag("config", "UA-85665246-2");
+  </script>
 
-</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics antigo-->
-<!----
+  <!-- Global site tag (gtag.js) - Google Analytics antigo-->
+  <!----
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129298107-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -25,44 +39,56 @@
     gtag('config', 'UA-129298107-1');
 </script>
 -->
-<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f1acb10-24c0-4742-aeae-24841994f914-loader.js"></script>
+  <script
+    type="text/javascript"
+    async
+    src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f1acb10-24c0-4742-aeae-24841994f914-loader.js"
+  ></script>
 
-<body class="has-push-menu">
-    {% include minutes-to-read.html %}
-    {% include svg-icons.html %}
-    {% include header-post.html %}
-    
+  <body class="has-push-menu">
+    {% include minutes-to-read.html %} {% include svg-icons.html %} {% include
+    header-post.html %}
+
     <section class="post">
+      <article
+        role="article"
+        id="post"
+        class="post-content"
+        itemprop="articleBody"
+      >
+        <p itemprop="post-info" class="post-info">
+          {% if page.date %}
+          <svg id="date" class="icon-calendar">
+            <use xlink:href="#icon-calendar"></use>
+          </svg>
+          <time
+            itemprop="datePublished"
+            datetime="{{ page.date | date_to_xmlschema }}"
+            class="date"
+          >
+            {% include date.html date=page.date %}
+          </time>
+          {% endif %}
+          <svg id="clock" class="icon-clock">
+            <use xlink:href="#icon-clock"></use>
+          </svg>
+          <span>{{ minutesText }}</span>
+        </p>
+        {{ content }}
+      </article>
 
-                <article role="article" id="post" class="post-content" itemprop="articleBody">
-                  
-                        <p itemprop="post-info" class="post-info">
-                            {% if page.date %}
-                                <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
-                                <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">
-                                    {% include date.html date=page.date %}
-                                </time>
-                            {% endif %}
-                            <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                            <span>{{ minutesText }}</span>
-                        </p>      
-                        {{ content }}
-                    </article>
-                
-
-            <!----<span>{{ minutesText }}</span>-->
-        <div class="progress-bar" data-minutes="{{ totalMinutes }}">
-            <span class="time-completed"></span>
-            <span class="time-remaining"></span>
-            <div class="bar">
-                <span class="completed" style="width:0%;"></span>
-                <span class="remaining" style="width:100%;"></span>
-            </div>
+      <!----<span>{{ minutesText }}</span>-->
+      <div class="progress-bar" data-minutes="{{ totalMinutes }}">
+        <span class="time-completed"></span>
+        <span class="time-remaining"></span>
+        <div class="bar">
+          <span class="completed" style="width:0%;"></span>
+          <span class="remaining" style="width:100%;"></span>
         </div>
+      </div>
 
-        {% include formularioBS.html %}
-        {% include author.html %}
-      <!----
+      {% include formularioBS.html %} {% include author.html %}
+      <!---- barra de progresso
         <div class="rect">
             
 
@@ -103,11 +129,8 @@
               {% endif %}
             {% endfor %}
           </div>--->
-        {% if site.disqus.shortname %}
-        {% include comments.html %}
-        {% endif %}
+      {% if site.disqus.shortname %} {% include comments.html %} {% endif %}
     </section>
     {% include footer.html %}
-</body>
-
+  </body>
 </html>

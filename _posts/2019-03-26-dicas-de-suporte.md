@@ -22,10 +22,11 @@ No artigo de hoje iremos abortadas algumas dicas básicas pra você iniciante em
 ## Usando o Font Awesome
 
 O Ext JS 6 vem com o novo tema Triton que usa ícones de fonte do Font Awesome para imagens de fundo. Mas, você sabia que poderia usar esses mesmos ícones (e muitos outros da extensa biblioteca Font Awesome) em seus componentes implementando as configurações `iconCls` e` glyph`?
+
 ### Ao usar o tema Triton
 
 Ao usar o tema Triton
-Você pode definir o ícone usando Font Awesome em componentes com a configuração `iconCls` como **Ext.panel.Panel** , **Ext.menu.Item** ,**Ext.button.Button** , etc. Basta usar a seguinte sintaxe:
+Você pode definir o ícone usando Font Awesome em componentes com a configuração `iconCls` como **Ext.panel.Panel**, **Ext.menu.Item**,  **Ext.button.Button** , etc. Basta usar a seguinte sintaxe:
 
 {% highlight ruby %}
 	// use 'x-fa' para adicionar defina a família de fontes para Font Awesome 
