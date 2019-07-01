@@ -277,4 +277,5 @@ writer: {
 
 Usando transform (), você pode fazer qualquer processamento dos dados necessários (por exemplo, remover a propriedade "id") antes de a solicitação ser enviada ao servidor. Das três opções, isso fornece o maior controle sobre a forma e o conteúdo dos dados que são enviados para o servidor. No entanto, também apresenta o maior risco de erros de dados, por isso deve ser usado com cuidado.
 
-Exemplo: usando transform (): https://fiddle.sencha.com/#fiddle/p05
+Exemplo: usando transform ():<a href="https://fiddle.sencha.com/#fiddle/p05" target="_blank"> Fiddle</a> 
+
