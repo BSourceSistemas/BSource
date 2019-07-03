@@ -34,6 +34,7 @@
     "minimist": "^1.2.0"
   },
   "dependencies": {
+    "froala-editor": "^3.0.1",
     "jeet": "=6.1.2",
     "kouto-swiss": "^0.11.14",
     "rupture": "^0.6.1"

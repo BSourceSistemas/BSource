@@ -985,13 +985,14 @@ main {
 .post-content {
 	padding: 2.5rem 0;
 }
-
+/*Comentado para teste de div no post
+/*
 .post-content img {
 	max-width: 100%;
 	margin: 1.875rem auto;
 	display: block
 }
-
+*/
 .post-content p,
 .post-content h1,
 .post-content h2,
@@ -2371,30 +2372,6 @@ html, body {
 	width: 100%;
 	position: absolute;
   }
-  
-  #hero-carousel{
-	img {
-	  left: 0;
-	  bottom: 0;
-	  min-width: 100%;
-	  min-height: 100%;
-	  max-width: none;
-	  width: auto;
-	  height: auto;
-	}
-	& i {
-	  position: absolute;
-	  top: 50%;
-	}
-  }
-  
-  .carousel-fade {
-	.carousel-inner {
-	  .item {
-		opacity: 0;
-		transition-property: opacity;
-	  }
-  
 	  .active {
 		opacity: 1;
 	  }
@@ -2410,9 +2387,59 @@ html, body {
 	  .prev.right {
 		opacity: 1;
 	  }
-	}
-  
 	.carousel-control {
 	  z-index: 2;
 	}
+	.docs-index .white-box .logos a {
+		max-width: 90px;
+		color: #252525;
+		display: inline-block;
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+	.docs-index .white-box .logos a+a {
+		margin-left: 20px;
+	}
+	.white-box {
+		padding: 30px;
+		background: #ffffff;
+		border-color: #252525;
+		color: #252525;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		position: relative;
+	}
+	.docs-index .white-box .logos a img+* {
+		margin-top: 5px;
+	}
+	.docs-index .white-box {
+		text-align: center;
+	}
+	.col-xs-12 {
+		width: 100%;
+	}
+	
+	body { font-family: sans-serif; }
+
+#main-menu .nav-bar { list-style:none; margin-top: 40px; }
+#main-menu .nav-bar li { display:inline; padding:0 10px; }
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: #333;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+.nav-bar .nav-button-home a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/home.gif") no-repeat 0px -2px transparent; }
+
+.nav-bar .nav-button-services a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/services.gif") no-repeat 0px -2px transparent; }
+
+.nav-bar .nav-button-products a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/products.gif") no-repeat 0px -2px transparent; }
+
+.responsive1 {
+	max-width: 100%;
+    height: auto;
   }
