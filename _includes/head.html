@@ -5,9 +5,8 @@
     <!-- <title>
       {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
     </title> -->
-    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <!-- ShareThis.js -->
-    <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c1103711c98570011922861&product=inline-share-buttons' async='async'></script>
+    <script src='//platform-api.sharethis.com/js/sharethis.js#property=5c1103711c98570011922861&product=inline-share-buttons' async='async'></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85665246-2"></script>
     <script>
@@ -19,10 +18,6 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-    <script
-    type="text/javascript"
-    async
-    src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f1acb10-24c0-4742-aeae-24841994f914-loader.js"
-    ></script>
+    <script src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f1acb10-24c0-4742-aeae-24841994f914-loader.js" async></script>
     {% seo %}    
 </head>
