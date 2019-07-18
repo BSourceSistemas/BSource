@@ -1,0 +1,297 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1046{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}{\f2\fnil\fcharset1 Cambria Math;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.17134}{\*\mmathPr\mmathFont2\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang22 ---\par
+layout: post\par
+comments: true\par
+title: "ExtReact"\par
+date: 2019-06-21 14:51:36\par
+image: "/assets/img/react.png"\par
+description: Construa aplica\'e7\'f5es robustas\par
+main-class: outros\par
+color: "#D6BA32"\par
+tags:\par
+  - ExtJS\par
+categories: Tecnologia\par
+twitter_text:\par
+introduction: A biblioteca javascript do momento.\par
+---\par
+\par
+Ol\'e1 pessoal, tudo certo?\par
+\par
+Hoje, irei falar sobre o React a biblioteca javascript do momento, e o ExtReact e por que us\'e1-lo e como fazer essas tecnologias rodar em sua m\'e1quina.\par
+\par
+## O que \'e9 React?\par
+\par
+React \'e9 uma biblioteca JavaScript para criar interfaces com o usu\'e1rio. \'c9 a camada de visualiza\'e7\'e3o para aplicativos da web.\par
+Foi criado pela primeira vez por Jordan Walke, um engenheiro de software que trabalha para o Facebook.\par
+O React foi implantado pela primeira vez no feed de not\'edcias do Facebook em 2011 e no Instagram.com em 2012, e em 2013, o c\'f3digo foi aberto para a comunidade, o que colaborou para sua grande populariza\'e7\'e3o.\par
+O React permite que os desenvolvedores criem grandes aplicativos da Web que podem alterar dados, sem recarregar a p\'e1gina. O principal objetivo do React \'e9 ser r\'e1pido, escal\'e1vel e simples. Funciona apenas em interfaces de usu\'e1rio no aplicativo. Isso corresponde \'e0 exibi\'e7\'e3o no modelo MVC. Ele pode ser usado com uma combina\'e7\'e3o de outras bibliotecas ou estruturas JavaScript, como o Angular JS no MV\par
+No cora\'e7\'e3o de todas as aplica\'e7\'f5es do React est\'e3o os componentes . Um componente \'e9 um m\'f3dulo independente que renderiza alguma sa\'edda. Podemos escrever elementos de interface como um bot\'e3o ou um campo de entrada como um componente React. Componentes s\'e3o compostos. Um componente pode incluir um ou mais componentes em sua sa\'edda.\par
+\par
+## Estrutura\par
+\par
+### Suporte Sistema de Tipos\par
+\par
+React vem com uma maneira embutida para validar adere\'e7os, estes s\'e3o chamados propTypes. Os componentes do react podem fazer parte de uma hierarquia de componentes maiores, portanto, uma boa pr\'e1tica \'e9 validar os tipos de dados prop. Pense em propTypes como a constru\'e7\'e3o de um sistema fortemente tipado dentro de cada componente. Esse tipo de sistema adiciona clareza nos componentes do react.\par
+Para declarar um validador propType, digamos que voc\'ea tenha um componente `MyReactComponent`. Este componente React possui um prop requerido chamado `myComponentPropertyde` string de tipo.\par
+\par
+Por exemplo:\par
+\par
+\{% highlight ruby %\}\par
+MyReactComponent.propTypes = \{\par
+myComponentProperty: PropTypes.stirng.isRequired\par
+\};\par
+\{% endhighlight %\}\par
+\par
+Ao declarar propTypes, \'e9 f\'e1cil para qualquer programador que examine o c\'f3digo entender sua inten\'e7\'e3o. Esses validadores lan\'e7ar\'e3o erros que aparecem no console quando voc\'ea passa o tipo errado.\par
+\par
+O React suporta muitos validadores propType que aprimoram o sistema de tipos. Tenha em mente que voc\'ea pode encadear `isRequired` para garantir que um aviso seja exibido quando o suporte estiver faltando.\par
+\par
+Aqui est\'e1 a lista completa de **tipos** de **props** :\par
+\par
+\f1\bullet  PropTypes.array: prop deve ser uma matriz\par
+\par
+\bullet  PropTypes.bool: prop deve ser um booleano\par
+\par
+\bullet  PropTypes.func: prop deve ser uma fun\f0\'e7\'e3o\par
+\par
+\f1\bullet  PropTypes.number: prop deve ser um n\f0\'famero\par
+\par
+\f1\bullet  PropTypes.object: prop deve ser um objeto\par
+\par
+\bullet  PropTypes.symbol: prop deve ser um s\f0\'edmbolo\par
+\par
+\f1\bullet  PropTypes.string: prop deve ser uma string\par
+\par
+PropTypes correspondem ao sistema de tipos primitivos dentro do JavaScript. Pense em propTypes como um superconjunto do sistema de tipos primitivos que agora valida o tipo que voc\f0\'ea passa para o componente.\par
+\par
+### Componentes\par
+\par
+O React combina a interface do usu\'e1rio e o comportamento dos componentes. Alguns componentes do ExtReact de forma<a href="https://examples.sencha.com/ExtReact/6.6.0/kitchensink/" target="_blank"> exemplificada</a>\par
+\par
+### Recursos\par
+\par
+**JSX**: Seu c\'f3digo e feito com formato jsx, que nada mais \'e9 do que um javascript com "splash" pra html, por\'e9m tamb\'e9m podemos escrever em JavaScript puro e usar frameworks por exemplo o Ext JS.\par
+\par
+**Native React**: \'c9 uma estrutura JavaScript para escrever aplicativos m\'f3veis reais e nativos para iOS e Android.Ele \'e9 baseado no React, a biblioteca JavaScript do Facebook para criar interfaces de usu\'e1rio, mas em vez de segmentar o navegador, ele segmenta plataformas m\'f3veis. Em outras palavras: os desenvolvedores da web agora podem escrever aplicativos m\'f3veis que parecem verdadeiramente \ldblquote nativos\rdblquote , tudo a partir do conforto de uma biblioteca JavaScript que j\'e1 conhecemos e amamos. Al\'e9m disso, como a maior parte do c\'f3digo que voc\'ea escreve pode ser compartilhado entre as plataformas, o React Native facilita o desenvolvimento simult\'e2neo para Android e iOS.\par
+\par
+### Componentes Flex\'edveis e Reutiliz\'e1veis\par
+\par
+Significa que a sua aplica\'e7\'e3o pode ser dividida em pequenos blocos / componentes. Eles anda podem ser mantidos e escal\'e1veis \u8203?\u8203?ap\'f3s serem divididos.\par
+Se voc\'ea tem experi\'eancia na cria\'e7\'e3o de sites, deve estar acostumado a ter todo o c\'f3digo HTML de uma p\'e1gina em um \'fanico arquivo.\par
+O que o React prop\'f5e \'e9 o contr\'e1rio: separar todo o c\'f3digo em pequenas partes (em arquivos diferentes), que se comportam como componentes reutiliz\'e1veis.\par
+Para entender melhor essa proposta, vamos analisar a p\'e1gina principal da Udacity:\par
+\par
+![telaudacy](https://cdn-images-1.medium.com/max/1000/0*Cb1aFNCElN-Z_-s8.)\par
+\par
+Pensando em uma hierarquia, \'e9 poss\'edvel organizar a p\'e1gina em componentes da seguinte maneira:\par
+\par
+\f1\bullet  Barra Newsletter (1)\par
+\par
+\bullet  Menu Superior (2)\par
+\par
+\bullet  Bot\f0\'e3o Menu (3)\par
+\par
+\f1\bullet  Bot\f0\'e3o Chamada (4)\par
+\par
+\f1\bullet  Painel Principal (5)\par
+\par
+\bullet  Painel Lateral (6)\par
+\par
+\bullet  Patrocinadores (7)\par
+\par
+Esse \f0\'e9 apenas um dos poss\'edveis modos de organiza\'e7\'e3o, claro: cabe ao desenvolvedor pensar como ser\'e1 a estrutura dos componentes.\par
+\par
+O importante aqui \'e9 entender que cada um desses componentes pode ser reutilizado em qualquer outra p\'e1gina do site, como o MenuSuperior.\par
+\par
+Uma vez que o desenvolvedor esteja familiarizado com a abstra\'e7\'e3o proposta pelo React, o trabalho se torna muito mais f\'e1cil\f1\u8202?e menos tempo \f0\'e9 gasto na cria\'e7\'e3o das aplica\'e7\'f5es.\par
+\par
+## Motivos para escolher React\par
+\par
+### Curva de Aprendizado\par
+\par
+Se voc\'ea j\'e1 possui alguma experi\'eancia com JavaScript, HTML e CSS vai aprender facilmente o React, enquanto Angular e Ember s\'e3o referidos como 'Linguagem espec\'edfica de dom\'ednio', o que significa que \'e9 dif\'edcil aprend\'ea-los.\par
+\par
+### Liga\'e7\'e3o de dados unidirecional\par
+\par
+\'c9 sempre f\'e1cil ver os dados mudando de lugar, isso ajuda a monitorar, e depurar componentes independentes do React rapidamente, especialmente em grandes aplica\'e7\'f5es.\par
+\par
+### Utilizado pelo Facebook\par
+\par
+\'c9 muito bom ter um time de tamanha qualidade que suporta a tecnologia que utilizamos.\par
+\par
+### Renderiza\'e7\'e3o no lado do servidor (one-way-data-binding)\par
+\par
+O recurso mencionado acima fornece a cria\'e7\'e3o de aplicativos da web isom\'f3rficos / universais. Ele acelera os carregamentos da p\'e1gina inicial porque os usu\'e1rios n\'e3o precisam esperar por carregamentos de JavaScript antes de exibir sites.\par
+\par
+## Desvantagens do ExtReact\par
+\par
+### Auto ritmo de desenvolvimento\par
+\par
+Essa desvantagem \'e9 apropriadamente descrita pelos desenvolvedores Michael Jackson e Ryan Florence na Modern Web: \ldblquote Caso voc\'ea n\'e3o tenha notado que estamos dirigindo um carro aqui com dois pneus furados, o cap\'f4 voou na frente do p\'e1ra-brisa, e n\'f3s temos n\'e3o h\'e1 mais pistas do que est\'e1 acontecendo!" O ambiente muda constantemente e os desenvolvedores precisam reaprender regularmente novas maneiras de fazer as coisas. Tudo est\'e1 evoluindo e alguns desenvolvedores n\'e3o est\'e3o confort\'e1veis \u8203?\u8203?em acompanhar esse ritmo.\par
+\par
+### Documenta\'e7\'e3o\par
+\par
+O problema com documenta\'e7\'e3o remonta a constantes lan\'e7amentos de novas ferramentas. Diferentes e novas bibliotecas como Redux e Reflux est\'e3o prometendo acelerar o trabalho de uma biblioteca ou melhorar todo o ecossistema React. No final, os desenvolvedores lutam para integrar essas ferramentas ao ReactJS. Alguns membros da comunidade acham que as tecnologias React est\'e3o se atualizando e acelerando t\'e3o r\'e1pido que n\'e3o h\'e1 tempo para escrever instru\'e7\'f5es adequadas. Para resolver isso, os desenvolvedores escrevem sua pr\'f3pria documenta\'e7\'e3o para ferramentas espec\'edficas usadas por eles em projetos atuais.\par
+\par
+### JSX pode ser uma barreira\par
+\par
+O ReactJS usa o JSX . \'c9 uma extens\'e3o de sintaxe, que permite misturar HTML com JavaScript. O JSX tem seus pr\'f3prios benef\'edcios (por exemplo, proteger c\'f3digo de inje\'e7\'f5es), mas alguns membros da comunidade de desenvolvimento consideram o JSX uma s\'e9ria desvantagem. Desenvolvedores e designers reclamam da complexidade do JSX e da consequente curva de aprendizado.\par
+\par
+## Como instalar em sua m\'e1quina\par
+\par
+Se interessou e e quer testar?\par
+\par
+basta ter a ultima vers\'e3o do node.js instalada em sua m\'e1quina, e seguir os seguintes passos no CMD\par
+\{% highlight ruby %\}\par
+npx create-react-app 'nome da pasta do projeto'\par
+\{% endhighlight %\}\par
+\par
+\{% highlight ruby %\}\par
+cd 'nome da pasta do projeto' 'nome da pasta do projeto' code\par
+\{% endhighlight %\}\par
+\par
+e pronto sua primeira aplica\'e7\'e3o em React j\'e1 estar\'e1 instalada agora para executa-l\'e1 basta digitar em seu prompt de comando\par
+\{% highlight ruby %\}\par
+npm start\par
+\{% endhighlight %\}\par
+\par
+sera gerado um localhost no seu navegador padr\'e3o com sua primeira aplica\'e7\'e3o, com o simbolo do React.\par
+\par
+## Facilitando seu desenvolvimento com ExtReact\par
+\par
+O React n\'e3o inclui nenhum componente pr\'e9 constru\'eddo, seus desenvolvedores precisam escolher construir esses componentes a partir do zero ou pegar um componente pronto da comunidade. Por\'e9m usando o ExtReact da Sencha, voc\'ea pode desenvolver aplicativos da Web mais rapidamente. O ExtReact inclui mais de 115 componentes de interface pr\'e9-configurados e pr\'e9-testados.\par
+Com Suporte a IE11+, Chrome, Chrome/Stock Browser on Android 4.4+, Firefox, Microsoft Edge no Windows 10, Safari no IOS9+, SAfari 9+, Opera\par
+\par
+Veja algumas telas exemplos abaixo:\par
+\par
+![React](https://www.sencha.com/wp-content/uploads/2019/06/productPage-tab-develop-ExtJS-KitchenSink.png)\par
+\par
+![React1](https://www.sencha.com/wp-content/uploads/2019/06/screen-ExtJS-Stencils.png)\par
+\par
+![React2](https://www.sencha.com/wp-content/uploads/2019/06/screen-ExtJS-Adaptive.png)\par
+\par
+![React3](https://www.sencha.com/wp-content/uploads/2019/06/screen-ExtJS-DataPackage.png)\par
+\par
+## Implementando o ExtReact em sua M\'e1quina\par
+\par
+### Requisitos do ExtReact\par
+\par
+Requisitos do ExtReact\par
+\par
+\f2\u10625?\f0  Node 8.11+\par
+\par
+\f2\u10625?\f0  NPM 6+\par
+\par
+\f2\u10625?\f0  Java 8 e 11\par
+\par
+\f2\u10625?\f0  Sencha Cmd\par
+\par
+para utilizar o ExtReact primeiro voc\'ea deve ter o Sencha CMD instalado em sua m\'e1quina, e o Sencha Cmd tem seus requisitos m\'ednimos que listei abaixo, vamos para os passos:\par
+\par
+Instale o Ruby, e em seu terminal de comando digite:\par
+\par
+### Instala\'e7\'e3o do Sencha Cmd\par
+\par
+Fa\'e7a o download do <a href="https://www.sencha.com/products/extjs/cmd-download/" target="_blank">Sencha Cmd </a>, e instale em sua m\'e1quina,\par
+\par
+![cmd](https://docs.sencha.com/cmd/6.7.0/guides/images/whats_new_cmd_compass.png)\par
+\par
+Voc\'ea tamb\'e9m precisar\'e1 instalar o Ruby para compilar temas e aplicativos que usam o Sass. Ruby difere pelo sistema operacional:\par
+\par
+Windows : Fa\'e7a o download do <a href="https://rubyinstaller.org/downloads/" target="_blank">Ruby</a> Obtenha a ".exe"vers\'e3o do arquivo do software e instale-o.\par
+Mac OS : Ruby \'e9 pr\'e9-instalado. Voc\'ea pode testar se o Ruby est\'e1 instalado com o comando Ruby -v .\par
+Ubuntu : Use o sudo apt-get install ruby2.0.0 para baixar o Ruby.\par
+Se voc\'ea usar o Cordova ou o PhoneGap, talvez tenha outros requisitos para essas ferramentas. Veja Integrando Com Cordova ou PhoneGap.\par
+\par
+O instalador adicionar\'e1 uma entrada \'e0 sua vari\'e1vel ambiental PATH.\par
+\par
+### Verique a instala\'e7\'e3o\par
+\par
+Para ver se o seu Sencha Cmd est\'e1 funcionando digite abra seu prompt de comando e digite:\par
+\par
+\{% highlight ruby%\}\par
+sencha\par
+\{% endhighlight%\}\par
+\par
+Veja se retorna essa resposta\par
+\par
+\{% highlight ruby%\}\par
+Sencha Cmd v6.0.0.202\par
+\{% endhighlight %\}\par
+\par
+Para verificar se h\'e1 alguma atualiza\'e7\'e3o no do Secha Cmd disponivel digite:\par
+\par
+\{% highlight ruby%\}\par
+sencha upgrade --check\par
+\{% endhighlight %\}\par
+\par
+E para fazer uma atualiza\'e7\'e3o da vers\'e3o mais recente digite o comando:\par
+\par
+\{% highlight ruby%\}\par
+sencha upgrade --check\par
+\{% endhighlight %\}\par
+\par
+se voc\'ea deseja saber um pouco mais sobre o sencha Cmd ja escrevemos um post sobre ele no blog confira: <a href="http://localhost:4000/guiab%C3%A1sico/2018/11/21/uso-do-sencha-cmd/" target="_blank">leia</a>\par
+\par
+### Instala\'e7\'e3o do ExtReact\par
+\par
+Agora que voc\'ea j\'e1 tem o React e o Sencha Cmd instalados em sua m\'e1quina (se n\'e3o instalou leia alguns paragrafos acima com o passo a passo de instala\'e7\'e3o do React e do Sencha Cmd.\par
+\par
+### Etapa 1: inscreva-se\par
+\par
+E come\'e7ar com a vers\'e3o Trial ou compre a licensa, Preencha o formul\'e1rio para se registrar e pe\'e7a o download, um e-mail sera enviado para seu e-mail com informa\'e7\'f5es de seu login e senha (importante para instala\'e7\'e3o) pois o ExtReact trabalha com Registro Npm Privado que oferece acesso imediato aos pacotes do ExtReact e aos pr\'e9-lan\'e7amentos antecipadamente.\par
+Vers\'e3o Trial :<a href="https://www.sencha.com/products/extreact/" target="_blank">\par
+Comece gratuitamente.\par
+\par
+**Nota:Clientes Ext JS, j\'e1 tem acesso ao ExtReact**\par
+\par
+### Etapa 2: fa\'e7a o login no reposit\'f3rio do NPM\par
+\par
+Depois de se inscrever ou comprar o produto, comece fazendo login no reposit\'f3rio com o @senchaescopo.\par
+\par
+\{% highlight ruby %\}\par
+npm login --registry=https://npm.sencha.com --scope=@sencha\par
+\{% endhighlight %\}\par
+Nota: Seu login \'e9 seu email por\'e9m se seu email tiver um @ ele sera trocado por .. isso a Sencha enviara seu login ja com essa altera\'e7\'e3o, mais vale citar para n\'e3o gerar confus\'e3o.\par
+\par
+### Etapa 3: instalar a CLI do App Generator\par
+\par
+Em seguida, instale o comando CLI do gerador de aplicativos ExtReact ext-react-gen. Isso permitir\'e1 que voc\'ea crie rapidamente um aplicativo ExtReact.\par
+\par
+\{% highlight ruby%\}\par
+npm install -g @sencha/ext-react-gen\par
+\{% endhighlight%\}\par
+\par
+### Etapa 4: criar um aplicativo\par
+\par
+ext-react-gen app -a - um aplicativo chamado MyApp sera gerado\par
+\par
+Ative as op\'e7\'f5es interativas e isso lhe perguntar\'e1 como construir seu aplicativo\par
+ext-react-gen app -i\par
+Se voc\'ea quiser ver e alterar os padr\'f5es para package.json clique digite **y** do contrario digite **n**\par
+Digitando y voc\'ea podera mudar o nome padr\'e3o de seu app, o tema (desing) que ele deve seguir, se voc\'ea quer usar linguagem JavaScript ou TypeScript.\par
+\par
+### Iniciando sua primeira aplica\'e7\'e3o\par
+\par
+Digite o comando em seu prompt\par
+\par
+\{% highlight ruby%\}\par
+sencha npm start\par
+\{% endhighlight %\}\par
+\par
+### Etapa 5: execute o novo aplicativo\par
+\par
+Inicie o aplicativo rec\'e9m-criado no navegador padr\'e3o com esses comandos.\par
+\par
+cd ./my-app\par
+npm start\par
+\par
+O reposit\'f3rio do ExtReact contem v\'e1rios aplicativos, vale a pena conferir para aprender mais:<a href=" {{\field{\*\fldinst{HYPERLINK https://github.com/sencha/ext-react }}{\fldrslt{https://github.com/sencha/ext-react\ul0\cf0}}}}\f0\fs22 " target="_blank">github</a>\par
+\par
+### Conclus\'e3o\par
+\par
+O React \'e9 atraente porque abrange muitas pr\'e1ticas de programa\'e7\'e3o dispon\'edveis no JavaScript al\'e9m de ter uma biblioteca leve e com a ajuda dos componentes pre construidos do ExtReact voc\'ea consegue criar aplica\'e7\'f5es ricas com um c\'f3digo limpo e de alta qualidade.\lang22\par
+}
+ 

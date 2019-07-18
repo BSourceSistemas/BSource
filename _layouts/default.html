@@ -1,34 +1,21 @@
 ---
 layout: compress
 ---
-
 <!DOCTYPE html>
 <html lang="pt" itemscope itemtype="http://schema.org/WebPage"
-    {% if page.main-class %}class="post-{{ page.main-class }}" {% endif %}>
+    {% if page.main-class %}class="post-{{ page.main}}-class" {% endif %}
+>
 {% include head.html %}
-{% seo %}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85665246-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-85665246-1');
-/*
-</script>
-
 <body>
     {% include svg-icons.html %}
     {% include header-default.html %}
-
     <section class="content">
         {{ content }}
     </section>
     {% include switch.html %}
     {% include footer.html %}
     {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
+        {% include analytics.html %}
     {% endif %}
 </body>
 

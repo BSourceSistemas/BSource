@@ -1145,7 +1145,7 @@ footer a {
 
 .post-outros .ribbon span:after {
 	border-right: 3px solid #9a851f;
-	border-top: 3px solid #9a851f
+	border-top: 3px solid #9a851f;
 }
 
 
@@ -1155,12 +1155,26 @@ footer a {
 
 .post-extjs .ribbon span:before {
 	border-left: 3px solid #57476f;
-	border-top: 3px solid #57476f
+	border-top: 3px solid #57476f;
 }
 
 .post-extjs .ribbon span:after {
 	border-right: 3px solid #57476f;
-	border-top: 3px solid #57476f
+	border-top: 3px solid #57476f;
+}
+
+.post-google .ribbon span {
+	background-color: #FF5733;
+}
+
+.post-google .ribbon span:before {
+	border-left: 3px solid #FF5733;
+	border-top: 3px solid #FF5733;
+}
+
+.post-google .ribbon span:after {
+	border-right: 3px solid #FF5733;
+	border-top: 3px solid #FF5733;
 }
 
 

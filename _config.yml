@@ -1,6 +1,6 @@
 # Site settings
 title: Blog BSource
-description: Um blog sobre tecnologia, em especial o framework Ext JS
+description: Criando Soluções, Conectando o Seu Negócio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.bsource.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -81,10 +81,8 @@ defaultLang: en
 languageNames:
   de: Deutsch
   en: English
-
 # Google Analytics
 google_analytics: UA-85665246-1
-
 # Plugins
 plugins:
   - jemoji
@@ -93,6 +91,3 @@ plugins:
   - liquid_reading_time
   - jekyll-seo-tag
  
-
-
-

@@ -10,7 +10,8 @@ layout: compress
   {%
   if
   page.main-class
-  %}class="post-{{ page.main - class }}"
+  %}
+  class="post-{{ page.main}}-class"
   {%
   endif
   %}
@@ -43,8 +44,7 @@ layout: compress
   {% include head.html %}
   <body class="has-push-menu">
     {% include svg-icons.html %} {% include header-post.html %}
-
-    <section class="post">
+  <section class="post">
       <article
         id="post"
         class="post-content"

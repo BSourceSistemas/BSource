@@ -6,48 +6,15 @@
   {%
   if
   page.main-class
-  %}class="post-{{ page.main - class }}"
+  %}
+  class="post-{{page.main}}-class"
   {%
   endif
   %}
 >
   {% include head.html %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=UA-85665246-2"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "UA-85665246-2");
-  </script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics antigo-->
-  <!----
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129298107-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-129298107-1');
-</script>
--->
-  <script
-    type="text/javascript"
-    async
-    src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f1acb10-24c0-4742-aeae-24841994f914-loader.js"
-  ></script>
-
   <body class="has-push-menu">
-    {% include minutes-to-read.html %} {% include svg-icons.html %} {% include
-    header-post.html %}
+    {% include minutes-to-read.html %} {% include svg-icons.html %} {% include header-post.html %}
 
     <section class="post">
       <article
