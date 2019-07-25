@@ -5,12 +5,8 @@ main-class: 'Tutorial'
 
 <main class="home" id="scroll" role="main" itemprop="mainContentOfPage" itemscope="itemscope"
     itemtype="http://schema.org/Blog">
-    <div id="grid" class="row flex-grid">
-        {% for post in site.posts %}
-        {% if post.main-class == 'Tutorial' %}
-        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post" {% endif %}>
-            <img src="assets/img/blog-image.png" data-url="{{ post.image }}" class="preload">
-        </a>
+    {% for post in site.posts %}
+    {% if post.main-class == 'Tutorial' %}
     </div>
     <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting"
         itemprop="blogPost">
