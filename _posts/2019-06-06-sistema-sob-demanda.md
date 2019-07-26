@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "As vantagens de um sistema sob demanda"
 date: 2019-06-06 12:54:29
-image: '/assets/img/sobmeida.gif'
+image: '/assets/img/sobmedida.gif'
 description: 'Investir é preciso'
 main-class: outros
 color: '#D6BA32'
