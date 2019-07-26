@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Aprenda novas maneiras de melhorar seu Grid ExtJS"
 date: 2019-04-17 14:29:08
-image: '/assets/img/ExtJS.png'
+image: '/assets/img/grafico.gif'
 description: Aprimore seu grid com uso de plugins
 main-class: "ExtJS"
 color:
