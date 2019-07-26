@@ -8,8 +8,8 @@ description: 'Investir é preciso'
 main-class: outros
 color: '#D6BA32'
 tags:  
-- outros
-categories: Investimento
+- investimento
+categories: outros
 twitter_text:
 introduction: 'A chave para o crescimento de sua empresa'
 ---
