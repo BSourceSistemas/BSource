@@ -134,6 +134,6 @@ irá servir automaticamente o aplicativo e lidar com dependências de ativos e u
 
 Para ver o recurso de carregamento dinâmico em ação, tente ativar nosso aplicativo de exemplo e abra um perfil de desenvolvedor. Quando você abre a guia "CONTACTFROMPKG" pela primeira vez, o aplicativo carregará dinamicamente o pacote NewDevCard e exibirá as informações de contato do perfil.
 
-<img src="/assets/img/packageloader.png" alt="dinamico">
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424154/packageloader_hli2qc.png" title= "load" alt="dinamico">
 
 Ao encapsular a funcionalidade em pacotes separados e aproveitar o carregamento dinâmico de pacotes, você pode melhorar significativamente a capacidade de resposta e a pegada do aplicativo. Seus usuários desfrutarão de uma experiência de usuário superior e não serão mais forçados a esperar que cada byte de seu aplicativo seja carregado quando eles realmente precisarem de apenas 20% dele. Você também economizará tempo durante o desenvolvimento e o teste, reduzindo os tempos de carregamento e permitindo que o Sencha Cmd carregue e assista de forma mais eficiente às compilações "dev".
