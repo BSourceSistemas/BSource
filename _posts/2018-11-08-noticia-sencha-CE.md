@@ -19,6 +19,7 @@ Olá pessoal tudo certo?
 Hoje falaremos sobre o mais recente anuncio da Sencha, no dia 06/11/2018 foi revelado a versão Sencha Ext Community Edition.
 
 ### Afinal o que é Ext Community Edition?
+
 o Ext Community Edition é uma ferramenta simples e moderna que fornecem uma estrutura básica, centenas de componentes, tema material ferramentas OpenSource para que usuarios aspirantes em JavaScript possam criar aplicativos corporativos de plataforma cruzada de maneira facilitada e rápida, a comunidade pediu e a Sencha atendeu a demanda. Saiba um pouco mais da licença de uso comercial limitada - <a href="https://www.sencha.com/legal/sencha-software-license-agreement/" target="_blank">Leia Aqui</a>
 
 <img src="/assets/img/bigdata.png" title="BigData" alt="Comunity Edition" class="responsive1"/>
