@@ -115,9 +115,6 @@ Exemplos e Demos: <a href="https://examples.sencha.com/extjs/" target="_blank">E
 
 **Tutoriais:** <a href="https://www.sencha.com/blog/category/tutorials/" target="_blank">Tutorial Sencha</a> - Os tutoriais são excelentes tendo muito conteúdo para se aproveitar.
 
-**Blogs:** <a href= "https://www.sencha.com/blog/" target="_blank">Blog da Sencha</a> - Não deixe de conferir esse blog e muito completo.
-<a href="https://wemersonjanuario.com.br/blog/" target="_blank">Blog do Wemerson</a> - Um blog de um MVP Sencha vale a pena conferir.
-
 **Fóruns:** <a href= "https://www.sencha.com/forum/" target="_blank">Fórum da Sencha</a>  - O fórum da Sencha é ótimo e os profissionais que dão suporte para a comunidade são excelentes. 
 <a href= "http://forum.extjs.com.br/" target="_blank">Fórum da Comunidade Brasileira</a>	- O fórum da comunidade brasileira também é bem ativo com muitos usuários com lastro para dar suporte e tirar dúvidas que podem estar travando seu projeto.
 
@@ -138,7 +135,8 @@ Segue os links abaixo:
 
 <a href="https://www.youtube.com/channel/UCtUt5-tLjHflqiIoNJwrqNQ?view_as=subscriber" target="_blank">Canal da BSource</a>
 
-Espero que essas indicações ajudem no seu processo de aprendizagem, se você tem alguma boa referência de fonte de aprendizado ExtJS (livros, Blogs, Videos) que não foi citada aqui, por favor deixe nos comentários . Bons estudos e aguardem que mais posts sobre ExtJS estão por vir.  
+Espero que essas indicações ajudem no seu processo de aprendizagem, se você tem alguma boa referência de fonte de aprendizado ExtJS (livros, Blogs, Vídeos) que não foi citada aqui, por favor deixe nos comentários . Bons estudos e aguardem que mais posts sobre ExtJS estão por vir.  
+
 
 
 
