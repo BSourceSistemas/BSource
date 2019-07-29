@@ -1646,14 +1646,14 @@ body {
 	.title-category {
 		color: #1B75BA
 	}
-	.post-noticias .ribbon span {
+	.post-notícias .ribbon span {
 		background-color: #b31917
 	}
-	.post-noticias .ribbon span:before {
+	.post-notícias .ribbon span:before {
 		border-left: 3px solid #7d1210;
 		border-top: 3px solid #7d1210
 	}
-	.post-noticias .ribbon span:after {
+	.post-notícias .ribbon span:after {
 		border-right: 3px solid #7d1210;
 		border-top: 3px solid #7d1210
 	}
