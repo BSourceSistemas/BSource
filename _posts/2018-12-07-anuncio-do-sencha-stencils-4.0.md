@@ -8,8 +8,7 @@ description: 'Novos recursos para o Sencha Stencils'
 main-class: 'noticias'
 color: '#B31917'
 tags:
-- notícias
-- ExtJS
+- Novidade
 categories: Informação
 twitter_text:
 introduction: Confira o que há de novo na versão do Sencha Stencils 4.0
