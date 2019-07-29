@@ -5,7 +5,7 @@ date: 2018-11-08 20:34:26
 image: '/assets/img/comunidade.png'
 description: 'Novidades Sencha ExtJS'
 author: 'Daniel'
-main-class: 'notícias'
+main-class: 'noticias'
 color: '#B31917'
 tags:
 - notícias
