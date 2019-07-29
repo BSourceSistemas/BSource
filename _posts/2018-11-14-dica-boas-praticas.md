@@ -8,7 +8,6 @@ main-class: 'dicas'
 color: '#637a91'
 tags:
 - Dicarápida
-- ExtJS
 categories: Dicas 
 twitter_text: "Melhore a performance do seu código"
 introduction: "organize e melhore a performance de seus projetos."
