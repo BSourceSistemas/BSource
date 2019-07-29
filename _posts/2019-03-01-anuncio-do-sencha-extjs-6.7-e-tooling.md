@@ -5,7 +5,7 @@ title: "Anúncio do Sencha ExtJS 6.7 e Tooling"
 date: 2019-03-01 12:18:13
 image: '/assets/img/newcolorpick_1.gif'
 description: 'Nova versão do Sencha ExtJS'
-main-class: 'notícias'
+main-class: 'noticias'
 color: '#B31917'
 tags:
 - notícias
