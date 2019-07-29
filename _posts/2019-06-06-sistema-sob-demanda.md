@@ -11,7 +11,7 @@ tags:
 - investimento
 categories: Empreendedor
 twitter_text:
-introduction: 'A chave para o crescimento de sua empresa'
+introduction: A chave para o crescimento de sua empresa
 ---
 
 Olá, tudo certo?
