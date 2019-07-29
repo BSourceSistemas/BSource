@@ -36,12 +36,15 @@ Stencils Form Modern no Triton XD
 Agora você podera criar mockups com o novo tema disponivel no sencha ExtJS 6.6.O Stencils suporta o tema grafite disponivel no Adobe Illustrator CC,Adobe Illustrator CS4, Adobe XD, Balsamiq, Sketch e formatos PNG e SVG. Que estão incluisos no tema de toda a biblioteca classic do Sencha
 
 <img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424102/button_icd9ck.png" title="graphite" alt="botoes" class="responsive1"/> 
+
 Classic Grafite e seus Botões;
 
 <img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424148/graphite-form_hhac4y.png" title="components" alt="form" class="responsive1"/> 
+
 Classic Grafite e seu Form Field Stencils;
 
 <img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424148/graphite-windows_uazctq.png" title="window" alt="navegação" class="responsive1"/> 
+
 Janela Classic Grafite e barra de Navegação Stencils.
 
 ### Conclusão 
