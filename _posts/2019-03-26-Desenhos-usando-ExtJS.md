@@ -45,7 +45,7 @@ O Ext JS Charts vem com um pacote de desenho que permite criar gráficos e anima
  {% endhighlight %}
 
 
-<img src="/assets/img/Quadrado1.png" title="desenho" alt="Quadrado" class="responsive1"/> 
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424154/Quadrado1_dg4r5z.png" title="desenho" alt="Quadrado" class="responsive1"/> 
  
  *Aqui, o type: 'rect'corresponde ao alias do sprite , e o resto das propriedades de configuração são atributos de sprite*
 
@@ -150,13 +150,13 @@ rectSprite. setAttributes ( {
 
 Aqui, em vez de usar <a href="https://drafts.csswg.org/css-color-4/#named-colors" target="_blank">cores nomeadas</a>, usamos <a href="https://drafts.csswg.org/css-color-4/#rgb-functions" target="_blank">funções rgb</a> compatíveis com CSS para especificar nossos valores de cores
 
-<img src="/assets/img/Quadrado2.png" alt="Desenho" class="responsive1"/> 
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424154/Quadrado2_zfyqsz.png" title="quadrado" alt="Desenho" class="responsive1"/> 
 
 ### Conclusão
 
 Como você pode ver, usar sprites não é muito diferente do que usar componentes. Os mesmos princípios de componentes são usados ​​com sprites. Em vez de lidar diretamente com HTML, a abordagem do tipo componente economiza seu tempo ao não precisar lidar diretamente com elementos SVG e chamadas de API do Canvas. Você simplesmente cria sprites e configura os atributos, e o pacote Draw cuida do resto.
 
-<img src="/assets/img/Quadrado3.gif" title="animacao" alt="Animacao" class="responsive1"/> 
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424155/Quadrado3_ku60x0.gif" title="animacao" alt="Animacao" class="responsive1"/> 
 
 Enquanto isso, espero que você se divirta experimentando diferentes tipos de sprites, como círculo , linha ou texto, que estão disponíveis no pacote de desenhos.
 
