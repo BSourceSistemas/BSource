@@ -8,8 +8,7 @@ author: 'Daniel'
 main-class: 'noticias'
 color: '#B31917'
 tags:
-- notícias
-- ExtJS
+- OpenSource
 categories: 'Informação' 
 twitter_text: 'Novidade Sencha'
 introduction: 'Saiba mais sobre o mais recente anúncio da sencha o sencha community Edition.'
