@@ -9,7 +9,7 @@ main-class: 'Tutorial'
 color: '#EB7728'
 tags:
 - ExtJS
-- Tutorial
+- Melhore sua Aplicação
 categories: 'Tutorial'
 twitter_text:
 introduction: Deixe seu aplicativo mais amigável através de animações
@@ -52,6 +52,7 @@ Ext.create('Ext.Window', {
         }
     }}).show();
 {% endhighlight %}
+
 ## Entendendo o código
 
 No Window **show**, pegamos o elemento do componente usando **win.getEI()** porque Element(Ext.dom.Element)é a classe que contém todos os métodos de animação, onde você pode chamar **element.animate(config)** e esta propiedade  config deve ser uma configuração válida para Ext.fx.Anim.
@@ -65,7 +66,7 @@ Nota: Você poderia usar o mesmo conceito para exibir uma mensagem de confirmaç
 
 ## Resultado Final 
 
-<img src="https://www.sencha.com/wp-content/uploads/2018/10/image1.gif" alt="" width="483" height="442" class="aligncenter size-full wp-image-30915">
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424151/image1_yvo4ei.png" alt="upload" width="483" height="442" class="aligncenter size-full wp-image-30915">
 
 
 Espero que você ache essa dica útil, tenha um bom dia e até a próxima.
