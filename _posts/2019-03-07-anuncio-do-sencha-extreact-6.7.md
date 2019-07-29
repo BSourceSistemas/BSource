@@ -5,10 +5,10 @@ title: "Anúncio do Sencha ExtReact 6.7"
 date: 2019-03-07 12:27:15
 image: '/assets/img/ExtReact.png'
 description: 'Nova versão do Sencha ExtReact'
-main-class: 'Notícias'
+main-class: 'notícias'
 color: '#B31917'
 tags:
-- Notícias
+- notícias
 - ExtJS
 categories: Informação
 twitter_text:
