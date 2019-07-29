@@ -1,6 +1,6 @@
 # Site settings
 title: Blog BSource
-description: Criando Soluções, Conectando o Seu Negócio.
+description: #Criando Soluções, Conectando o Seu Negócio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.bsource.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
