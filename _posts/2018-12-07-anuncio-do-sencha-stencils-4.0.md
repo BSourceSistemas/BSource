@@ -23,11 +23,12 @@ Nesse pequeno post <strike>eu acho que será</strike> falarei sobre as novidades
 ### Stencils no AdobeXD
 Suporte ao Adobe XD, a sencha percebeu a ascenção do Adobe XD desde o seu lançamento. A equipe de design da Sencha oferece a você a opção de projetar modelos e protótipos usando o XD também.
 
-<img src="/assets/img/stencilsadobe.png" title="stencils" alt="layout" class="responsive1"/> 
+<img src="
+https://www.sencha.com/wp-content/uploads/2018/12/image3-1024x590.png" title="stencils" alt="layout" class="responsive1"/> 
 
 Botões Stencils modern no Triton XD
 
-<img src="/assets/img/triton_modern.png" title="layout button" alt="botoes" class="responsive1"/> 
+<img src="https://www.sencha.com/wp-content/uploads/2018/12/image6-1024x591.png" title="layout button" alt="botoes" class="responsive1"/> 
 
 Stencils Form Modern no Triton XD
 
