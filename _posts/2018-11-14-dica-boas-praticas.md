@@ -22,9 +22,14 @@ Recentemente contei um pouco sobre as versões de ExtJS e sugestões de cursos p
 
 Isso não afetara a performance do seu codigo mais fará ficar mais dificil seguir a estrutura do seu app, quando ele ficar maior, achar o codigo fonte e adicinar novos recursos a ele ficará muitos mais rapido e simples com uma estrutura organizada, veja os exemplos abaixo.
 
-![Folder](https://cdn.sencha.com/img/20130702-top-10-ext/top-10-ext-01.png)
+<img src="/assets/img/dica1.png" title="organizacao" alt="pastas" class="responsive1"/> 
+
+
 **todas as views estão em juntas ficando totalmente "bagunçado"**
-![folder2](https://cdn.sencha.com/img/20130702-top-10-ext/top-10-ext-02.png)
+
+
+<img src="/assets/img/dica2.png" title="estrutura" alt="pastas" class="responsive1"/> 
+
 <b>views organizadas por função lógica, ficando muito mais fácil para se trabalhar</b>.
 
 ### Aprenda a diferença entre classic e modern 
@@ -129,16 +134,20 @@ Exemplo 2: A grid ja é um panel, use apenas as propiedades do painel diretament
 Cuidado com os nomes duplicados! Uma boa regra é nomear seus xtypes da mesma forma que sua classe, incluindo namespaces, para que você possa rastrear a definição real da classe com muita facilidade.
 
 ### Não edite o código do Framework
+
 Leia sobre ele, teste ele, aprenda sobre ele, mas não edite ele! Se você fazer mudanças na biblioteca principal, seja ela JS ou CSS, você está plantando uma bomba relógio em sua aplicação. Quando você for atualizar para uma versão mais nova todas essas mudanças serão perdidas e você terá que trafegar tentando descobrir onde estão os erros.
 Se você quiser alterar o comportamento / aparência do framework, vá em frente, mas faça isso substituindo a classe (seja uma classe JS ou uma classe CSS) ou um método em um arquivo de script separado. Ao fazer isso, você pode removê-lo, se necessário, e acompanhá-lo quando se trata de revisar essas alterações quando novas versões são lançadas.
 
 ### Mantenha a documentação da API em mãos 
+
 Sempre recorra ao uso da documentação quando se deparar com qualquer problema no seu projeto ou estiver tentando algo novo, parafraseando a profissional **Loiane Groner** “O doc API é seu melhor amigo". A documentação é clara e fácil de se navegar, então faça o uso dela, e lembrasse de verificar se a documentação é compatível com sua versão de ExtJS <a href="https://docs.sencha.com/." target="_blank">Documentação</a>.	
 
 ### Familiarizasse com o Sencha Cmd
+
 Sencha Cmd é a fundação para o desenvolvimento das suas aplicações em Sencha. Oferecendo recursos abrangentes de gerenciamento do ciclo de vida de seu projeto desde a criação da estrutura inicial até a geração de construções. Um bom lugar para entender mais sobre é o <a href="https://docs.sencha.com/cmd/6.6.0/." target="_blank">Sencha Cmd</a>
 
 ### Aprenda sobre Binding
+
 Binding no ExtJS é uma ferramenta essencial para aprender e aproveitar. Usando <a href="https://docs.sencha.com/extjs/6.2.0/guides/application_architecture/view_models_data_binding.html" target="_blank">binding</a> podemos criar um código muito mais claro que pode fazer muito mais.  
 
 ###  Use o Fashion
@@ -149,7 +158,6 @@ Sencha O Cmd versão 6 introduziu um novo recurso para o tema chamado “Live Up
 
 Para quem está aprendendo uma nova tecnologia ter um direcionamento para um caminho correto e muito importante isso minimiza os possíveis erros que poderiam ocorrer e melhoram a performance do seu código. Se vocês usam alguma boa pratica que não foi citada nesse post, por favor deixe-nos um comentário que vamos adiciona-lo a lista.
 obrigado pela leitura e até a próxima.
-
 
 
 
