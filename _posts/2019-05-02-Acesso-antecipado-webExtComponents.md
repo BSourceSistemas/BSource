@@ -5,10 +5,10 @@ title: "Acesso antecipado ao WebExtComponents"
 date: 2019-05-02 12:18:13
 image: '/assets/img/SenchaExtWebComponents.png'
 description: 'Web components recebem um grande upgrade'
-main-class: 'Notícias'
+main-class: 'notícias'
 color: '#B31917'
 tags:
-- Notícias
+- notícias
 - ExtJS
 categories: Informação
 twitter_text:
