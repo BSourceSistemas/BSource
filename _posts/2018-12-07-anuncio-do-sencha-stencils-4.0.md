@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title: "Anúncio do Sencha ExtJS 6.7 e Tooling"
+title: "Anúncio do Sencha Stencils 4.0"
 date: 2019-03-01 12:18:13
 image: '/assets/img/Stencils.png'
-description: 'Nova versão do Sencha ExtJS'
+description: Novos recursos para o Sencha Stencils'
 main-class: 'noticias'
 color: '#B31917'
 tags:
@@ -13,7 +13,7 @@ tags:
 - notícias
 categories: Informação
 twitter_text:
-introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS
+introduction: Saiba mais sobre os novos recursos do Stencils
 ---
 Olá Pessoal tudo certo?
 
