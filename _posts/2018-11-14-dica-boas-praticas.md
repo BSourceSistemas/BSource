@@ -22,13 +22,13 @@ Recentemente contei um pouco sobre as versões de ExtJS e sugestões de cursos p
 
 Isso não afetara a performance do seu codigo mais fará ficar mais dificil seguir a estrutura do seu app, quando ele ficar maior, achar o codigo fonte e adicinar novos recursos a ele ficará muitos mais rapido e simples com uma estrutura organizada, veja os exemplos abaixo.
 
-<img src="/assets/img/dica1.png" title="organizacao" alt="pastas" class="responsive1"/> 
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424126/dica1_iypdbr.png" title="organizacao" alt="pastas" class="responsive1"/> 
 
 
 **todas as views estão em juntas ficando totalmente "bagunçado"**
 
 
-<img src="/assets/img/dica2.png" title="estrutura" alt="pastas" class="responsive1"/> 
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424126/dica2_qonj0n.png" title="estrutura" alt="pastas" class="responsive1"/> 
 
 <b>views organizadas por função lógica, ficando muito mais fácil para se trabalhar</b>.
 
