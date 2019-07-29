@@ -9,6 +9,7 @@ main-class: 'noticias'
 color: '#B31917'
 tags:
 - Novidade
+- notícias
 categories: Informação
 twitter_text:
 introduction: Confira o que há de novo na versão do Sencha Stencils 4.0
