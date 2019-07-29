@@ -5,8 +5,7 @@ date:   2018-11-01 17:05:20 -0200
 image: '/assets/img/logo-bsource.png'
 description: 'Introdução ao ExtJS'
 tags: 
-- Iniciante
-- ExtJS
+- Aprenda já
 main-class: 'iniciante'
 color: '#55780d'
 categories: Dicas
