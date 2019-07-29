@@ -8,10 +8,7 @@ description: 'Introdução ao Sencha CMD'
 main-class: cmd
 color: '#2da0c3'
 tags: 
-- Tutorial
-- ExtJS
-- Iniciante
-- CMD
+- Cmd Primeiro Passo
 categories: Guiabásico
 twitter_text:
 introduction: 'Guia básico sobre Sencha Cmd.'
