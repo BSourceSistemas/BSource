@@ -25,6 +25,7 @@ Ele permite que você criar as melhores aplicações multiplataformas usando nad
 ### **Versões do ExtJS**
 
 #### **ExtJS 1.1**
+
 Originalmente construído como uma extensão da biblioteca complementar da YUI por Jack Slocum em 15 de abril de 2007, essa versão não mantinha dependências em bibliotecas externas, tornando seu uso opcional.
 Atualmente ExtJS pode ser usado como um único script (com todas as classes e componentes em um arquivo) ou construindo o aplicativo pelo Sencha Cmd).
 
@@ -81,7 +82,6 @@ Suporte mutuo da aplicação para rodar em Browsers tanto de Desktop, quanto e b
 O ExtJS 5 suporta navegadores modernos e antigos, incluindo: Safari 6+, Firefox, IE8 +, Chrome e Opera 12+. Na plataforma móvel, o ExtJS 5 suporta o Safari no iOS 6 e 7, o Chrome no Android 4.1+ e os dispositivos de tela de toque do Windows 8 (como laptops Surface e touchscreen) executando o IE10 +.
 Importante: A partir da versão ExtJS 5, você não pode comprar licenças para menos de 5 desenvolvedores.
 
-
 #### **ExtJS 6**
 
 Em 1 de julho de 2015 e lançada a versão 6.0 do framework ExtJS, com ele o Sencha introduz uma estrutura única para criar aplicativos que são executados em todos os tipos de dispositivos, de telefones a tablets e desktops, produzindo uma experiência de usuário ideal ao escrever menos código.
@@ -98,8 +98,7 @@ As aplicações podem simplesmente escolher o seu kit de ferramentas e adicionar
 
 Os maiores novos recursos no pacote de gráficos são os aprimoramentos da série de torta 3D ('pie3d'). Agora ele suporta rótulos, legendas, realces, dicas de ferramentas, chanfros e melhorias no sombreamento com nível configurável de efeito 3D.
 
-<img src="/assets/img/graficochart.png" title="aprimoramento" alt="grafico" class="responsive1"/> 
-
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424148/graficochart_xozoh9.png" title="aprimoramento" alt="grafico" class="responsive1"/> 
 
 Os vários controladores deslizantes no novo exemplo Charts KitchenSink permitem que você jogue com cada um deles e veja como eles alteram a aparência do gráfico.
 Exportador 
