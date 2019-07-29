@@ -24,7 +24,7 @@ Hoje irei trazer um artigo de autoria da Sencha sobre como melhorar sua aplicaç
 
 O protocolo Web Push Notifications é relativamente novo. Ele permite que os aplicativos da Web funcionem como aplicativos nativos e recebam mensagens enviadas de um servidor a qualquer momento, mesmo quando o aplicativo da Web não está ativo ou não está carregado no momento em um navegador. Isso permite envolver os usuários com notificações urgentes e relevantes quando eles não estiverem usando seu aplicativo e motivá-los a retornar ao aplicativo.
 
-![pushweb](https://www.sencha.com/wp-content/uploads/2017/08/web-push-notifications-img1.png)
+<img src="/assets/img/imagenspost/usandopushcmd/web-push-notifications-img1.png" alt="web-push" class="responsive1"/>
 
 Isso deixa claro o valor comercial da implementação de notificações por push da Web em seus aplicativos da Web. Aumenta o engajamento do usuário. O valor geral do seu aplicativo também aumenta, porque as notificações por push tornam seu aplicativo mais útil para seus usuários. Isso melhora a usabilidade dos aplicativos da Web e nos aproxima do desenvolvimento de um único aplicativo da Web para todas as plataformas, em vez de precisarmos desenvolver um aplicativo nativo para cada plataforma.
 
@@ -68,7 +68,7 @@ Usando um jogo, demonstrarei como você pode adicionar notificações push da We
 
 • Há também especificações adicionais que descrevem a criptografia de mensagens push e a identificação do servidor de aplicativos que permitem ao servidor de aplicativos provar que tem permissão para enviar mensagens para o usuário.
 
-![jogo](https://www.sencha.com/wp-content/uploads/2017/08/web-push-notifications-img2-1024x485.png)
+<img src="/assets/img/imagenspost/usandopushcmd/web-push-notifications-img2-1024x485.png" title="notificacoes" alt="web-push" class="responsive1"/>
 
 ## Rodadas de Jogo
 
@@ -81,7 +81,8 @@ As Notificações por Push Web exigem que o Service Worker lide com mensagens pu
 O aplicativo da Web envia uma solicitação a um navegador para registrar um Service Worker e o navegador responde com o objeto SeviceWorkerRegistration se o Service Worker foi
 registrado com êxito.
 
-![service worker](https://www.sencha.com/wp-content/uploads/2017/08/web-push-notifications-img3-1024x623.png)
+<img src="/assets/img/imagenspost/usandopushcmd/web-push-notifications-img3-1024x623.png" title="registro" alt="ServiceWorker" class="responsive1"/>
+
 
 Para implementar essa rodada, adicione o seguinte código ao seu aplicativo Web
 
@@ -115,7 +116,8 @@ Esta rodada deve ser jogada quando um usuário estiver pronto para se inscrever.
 
 O que acontece nesta rodada? Seu aplicativo da Web solicita ao navegador que assine o usuário para receber notificações por push da Web. Se o usuário concordar, o navegador enviará uma solicitação ao servidor de envio para gerar uma assinatura de envio. O Servidor de Envio responde ao navegador com um objeto de assinatura de envio que o navegador encaminha para seu aplicativo da web. Como a última etapa, seu aplicativo da web envia esse objeto de assinatura de envio para seu servidor de aplicativos por meio de uma chamada do Ajax, por exemplo. E o seu servidor de aplicativos o salva para usar na próxima rodada.
 
-![foto round 2](https://www.sencha.com/wp-content/uploads/2017/08/web-push-notifications-img4-1024x634.png)
+
+<img src="/assets/img/imagenspost/usandopushcmd/web-push-notifications-img4-1024x634.png" title="appweb"  alt="Push" class="responsive1"/>
 
 Seu WebApp é o principal dessa rodada, portanto, esse código deve ser adicionado ao seu WebApp
 
@@ -193,7 +195,7 @@ A terceira rodada está enviando mensagens push. Essa rodada ocorre quando algo 
 
 Quais partes do jogo serão disputadas nesta rodada? O servidor de aplicativos envia uma mensagem de envio ao servidor de envio. O servidor de envio envia essa mensagem ao navegador quando o navegador está on-line. O navegador ativa o Service Worker associado à assinatura push usada para enviar esta mensagem. E o Service Worker manipula essa mensagem e mostra uma notificação ao usuário.
 
-![imagem 3rodada](https://www.sencha.com/wp-content/uploads/2017/08/web-push-notifications-img5-1024x621.png)
+<img src="/assets/img/imagenspost/usandopushcmd/web-push-notifications-img5-1024x621.png" title="Mensagem" alt="ServiceWorker" class="responsive1"/>
 
 A primeira etapa dessa rodada é feita pelo servidor de aplicativos. O servidor de aplicativos solicita a entrega de uma mensagem de envio enviando uma solicitação HTTP POST ao servidor de envio usando a URL do servidor de envio e o identificador de usuário do terminal recebido do aplicativo da Web na rodada anterior. O conteúdo da mensagem push criptografada é incluído no corpo da solicitação. Essa solicitação deve usar o protocolo HTTPS. Este protocolo fornece proteção de confidencialidade e integridade de partes externas para assinaturas e envio de mensagens.
 
@@ -290,6 +292,7 @@ A função de ouvinte do evento de envio do Service Worker recebe um objeto de e
 dois pontos importantes:
 
 •O Firefox permite que um número limitado (cota) de mensagens enviadas seja enviado para um aplicativo sem mostrar uma notificação, e o limite é atualizado sempre que o site é visitado. Mas o Chrome exige que todas as mensagens push mostrem uma notificação e, se você não exibir uma notificação, o Chrome mostrará uma notificação padrão.
+
 •O método waitUntil informa ao navegador para manter o Service Worker em execução até que a promessa passada a esse método seja resolvida. Se você não adicionar esse método, o navegador desligará o Service Worker imediatamente e a notificação não será exibida.
 
 ### Manipulando o clique de notificação
@@ -334,13 +337,13 @@ self.addEventListener('notificationclose', function(event) {
 });
 {% endhighlight %}
 
-Há uma exceção à regra para mostrar sempre uma notificação. Não é obrigatório mostrar uma Notificação quando o usuário estiver usando ativamente seu aplicativo. Mas e se você ainda quiser que o usuário saiba que um evento ocorreu? Uma abordagem é enviar uma mensagem do trabalhador de serviço para a página, assim a página da web pode mostrar ao usuário uma notificação ou atualização, informando-o do evento.
+Há uma exceção à regra para mostrar sempre uma notificação. Não é obrigatório mostrar uma Notificação quando o usuário estiver usando ativamente seu aplicativo. Mas e se você ainda quiser que o usuário saiba que um evento ocorreu? Uma abordagem é enviar uma mensagem do trabalhador de serviço para a página,assim a página da web pode mostrar ao usuário uma notificação ou atualização, informando-o do evento.
 
 Para lidar com este caso, podemos verificar se qualquer cliente de janela está focado e enviar a mensagem para cada cliente usando o método postMessage. Esse método é uma maneira comum de organizar um canal de comunicação entre um Service Worker e a página. E se nenhuma janela do cliente estiver focada, podemos mostrar uma notificação normal.
 
 {% highlight ruby %}
 if ( concentrado ) {
-clientes. forEach ( função ( cliente ) {
+clientes. forEach ( function ( cliente ) {
 cliente. postMessage ( {
 message : data. message
 } ) ;
@@ -360,23 +363,23 @@ A quarta rodada é a desinscrição das notificações por push da Web. Isso aco
 
 Todo o processo é semelhante ao processo de assinatura. Seu aplicativo da web pede ao navegador para cancelar a assinatura do usuário de receber notificações por push da Web. O navegador envia uma solicitação ao servidor de envio para remover a assinatura de envio. O Servidor de Envio responde ao navegador com a confirmação e o navegador encaminha essa confirmação para seu aplicativo da web. Como última etapa, seu aplicativo da web envia a confirmação para o servidor de aplicativos. E o servidor de aplicativos remove o registro de assinatura do banco de dados ou de outro armazenamento.
 
-![rodada4](https://www.sencha.com/wp-content/uploads/2017/08/web-push-notifications-img6-1024x621.png)
+<img src="/assets/img/imagenspost/usandopushcmd/web-push-notifications-img6-1024x621.png" title="assinatura" alt="ServiceWorker" class="responsive1"/>
 
 Seu aplicativo da web é o player principal, e o código abaixo deve ser adicionado ao seu web App:
 
 {% highlight ruby %}
-cadastro. pushManager . getSubscription ( ) . então ( function ( subscription ) {
+cadastro. pushManager . getSubscription ( ) . then ( function ( subscription ) {
 if ( assinatura ) {
-return subscription. unsubscribe ( ) . then ( função (com sucesso ) {
+return subscription. unsubscribe ( ) . then ( function (com sucesso ) {
 removePushSubscription ( assinatura ) ;
-} ) . catch ( function ( e ) {
+}) . catch ( function ( e ) {
 // tratamento de erros
-} ) ;
+}) ;
 }
-} )
-. catch ( função ( erro ) {
+})
+. catch ( function ( erro ) {
 // tratamento de erros
-} )
+})
 {% endhighlight %}
 
 Solicitamos um objeto Subscription de um pushManager, quando a promessa é resolvida, chamamos um método de cancelamento de assinatura do objeto de assinatura. E se a assinatura foi removida com sucesso do servidor de envio, chamamos um método que envia uma solicitação ao servidor de aplicativos para excluir essa assinatura.
@@ -384,7 +387,9 @@ Solicitamos um objeto Subscription de um pushManager, quando a promessa é resol
 ### Rodada adicional: Expiração da Assinatura
 
 Há também uma rodada adicional - vencimento da assinatura. Isso acontece quando a assinatura está prestes a expirar (o servidor fica sobrecarregado ou o usuário fica off-line por um longo período). Isso é altamente dependente do servidor, portanto, o comportamento exato é difícil de prever.
-![rodada adicional](https://www.sencha.com/wp-content/uploads/2017/08/web-push-notifications-img7-1024x623.png)
+
+
+<img src="/assets/img/imagenspost/usandopushcmd/web-push-notifications-img7-1024x623.png" title="expire" alt="ServiceWorker" class="responsive1"/>
 
 Em qualquer caso, você pode lidar com essa situação observando o evento <a href="https://developer.mozilla.org/en-US/docs/Web/Events/pushsubscriptionchange" target="black"> pushsubscriptionchange</a> em seu Service Worker e fornecendo um manipulador de eventos; esse evento é acionado apenas neste caso específico.
 
@@ -402,7 +407,7 @@ No manipulado de eventos, você precisa remover a assinatura antiga passada como
 
 •**Browser**: Chrome, Firefox, Edge, Safari, Opera, IE
 
-•**Desktop**: Chrome, Firefox, Edge, SAfari, Opera.
+•**Desktop**: Chrome, Firefox, Edge, Safari, Opera.
 
 •**Mobile**: Suporte ao Chrome, Firefox, Edge (beta), Opera
 
