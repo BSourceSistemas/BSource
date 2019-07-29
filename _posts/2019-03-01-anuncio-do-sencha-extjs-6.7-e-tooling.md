@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title: "Anúncio do Sencha ExtReact 6.7"
-date: 2019-03-07 12:27:15
-image: '/assets/img/ExtReact.png'
-description: 'Nova versão do Sencha ExtReact'
-main-class: 'noticias'
+title: "Anúncio do Sencha ExtJS 6.7 e Tooling"
+date: 2019-03-01 12:18:13
+image: '/assets/img/colorpicker.png'
+description: 'Nova versão do Sencha ExtJS'
+main-class: 'notícias'
 color: '#B31917'
 tags:
-- notícias
+- Novidade
 - ExtJS
 categories: Informação
 twitter_text:
@@ -17,80 +17,183 @@ introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS
 
 Olá pessoal tudo certo?
 
-Nesse post falaremos mais sobre a nova versão 6.7 do ExtReact a nova atualização que a sencha nos disponibilizou, ele vem com suporte ao ultimo React Framework versão 16.8.
-ExtReact 6.7 adicionou novos componentes e diversos aprimoramentos para componentes já existentes, incluindo novos recursos de grid e opções de combobox para formar componentes.
+Nesse post falaremos mais sobre a nova versão do Sencha ExtJS que está indo pra sua versão 6.7, essa versão traz com ela aprimoramentos do kit de ferramentas Modern entre eles suporte a filtragem de grid, bloqueio de grid, rolagem virtual para grid infinito, chip de material, multiseleção de combobox e no colorpicker. O kit de ferramentas do ExtJS 6.7 também inclui aprimoramentos no kit de ferramentas Classic como aprimoramento de componentes para grid, calendário, painel, gráficos, window, combobox, tabs e dashboard. O jetBrains, Eclipse e Visual Studio puglins agora suportam as últimas versões de IDE.
 
-## Destaques do ExtReact 6.7
+## Destaques do Sencha ExtJS 6.7
 
-Os principais recursos desta versão incluem:
+Novos recursos modernos nesta versão incluem:
 
-•**Suporte ao React 16.8**
+•**Filtro no Grid**: exibe facilmente registros do grid que atendem a vários critérios de texto, boolean, data, filtros de números.
 
-•**Novos recursos para o Grid** - Grid de bloqueio e Filtro
+•**Grid de bloqueio**: Semelhante ao Excel, bloqueia colunas na região esquerda ou direita.
 
-•**Novos Componentes Materiais** - Chip e Color Picker
+•**Chip**: Material design inspirado em compactação de componentes com miniatura e texto.
 
-•**Componentes Aprimorados** - Campos de Formulário Multiselect Combobox e Select
+•**Combobox**: Combobox com capacidade de selecionar vários chips.
 
-•Suporte atualizado para **Babel e WebPack**
+•**Seleção do Combobox**: Selecione facilmente vários valores no campo de seleção.
 
-•Crie temas customizados com o lançamento do novo Themer 1.3.5 
+•**Color picker**: Bonito com opções de HSVA e RGB.
 
-•Exemplos atualizados do ExtReact Kitchen Sink 
+**Ext atualizações de ferramentas JS nesta versão incluem**:
 
-## Baixar ExtReact 6.7 
+•**ExtGen** - Novos modelos de open tooling para suportar Ext JS 6.7
 
-**Clientes ExtReact e ExtJs Enterprise
+•**Sencha Cmd** - Controle aprimorado sobre opções de compactação de aplicativos
 
-•Você tem acesso aos pacotes ExtReact hospedados no registro npm privado do Sencha. Leia o  http://docs.sencha.com/extreact/6.7.0/guides/getting_started.html e crie seus aplicativos React com componentes do ExtReact
+•**JetBrains IDE Plugin** - suportando as últimas versões 2018+
 
-•https://support.sencha.com/Download Sencha Themer do Portal de Suporte
+•**Plugin do Eclipse IDE** - suporte ao mais recente Eclipse Neon, Oxygen e Photon
 
-**Experimente o ExtReact 6.7**
+•**4 Exemplos de ExtJS** - suporte ao Ext JS 6.7 e open tooling
 
-•Faça o Download da  versão gratuita por 30 dias do ExtReact  https://www.sencha.com/products/extreact/evaluate/versão 
+•**Plugin do Visual Studio IDE** - suportando o Visual Studio 2017
 
-•Download Exemplos do ExtReact https://github.com/sencha/ext-react/github e leia o Guia do ExtReact https://docs.sencha.com/extreact/6.7.0/
+### Experimente o ExtJS 6.7
 
-•Veja os exemplos do ExtReact Kitchen Sink https://examples.sencha.com/ExtReact/6.7.0/kitchensink/ e da Conference App  em qualquer dispositivo
-https://examples.sencha.com/ExtReact/6.7.0/conference-app/
+•   Baixe a versão de <a href="https://www.sencha.com/products/extjs/evaluate/" target="blank">avaliação</a>gratuita por 30 dias do Sencha ExtJS 6.7 com ferramentas open tooling
 
-•Leia o Tutorial do ExtReact Grid para aprender como adicionar o componente Grid ao seu aplicativo React https://www.sencha.com/blog/learn-how-to-build-react-16-based-web-applications-with-the-sencha-grid/
+•   Leia os primeiros <a href= "http://docs.sencha.com/extjs/6.7.0/guides/getting_started/open_tooling.html" target="blank">primeiros passos com open tooling</a>
 
-## Novidades no ExtReact 6.7
+•   Veja os <a href= "https://examples.sencha.com/extjs/6.7.0/" target="blank">exemplos</a> em ExtJS em qualquer dispositivo
 
-### Suporte ao React 16.8
+•   Os clientes podem usar seu login do <a href= "https://support.sencha.com/#login" target="blank">Portal de suporte</a> * para obter acesso ao framework Ext JS, ao cmd e a todos os pacotes do Ext JS npm
 
-O React 16.8 introduz o recurso Gancho, que permite usar o estado e outros recursos do React sem escrever uma classe. Você também pode criar seus próprios ganchos para compartilhar lógica stateful reutilizável entre os componentes. Há grandes melhorias de desempenho e correções no desempenho do React.lazy para um grande número de componentes carregados de forma lenta. O ExtReact 6.7 suporta o React 16.8 para utilizar as melhorias de desempenho mais recentes.
+### O que há de novo no Sencha Ext JS 6.7
+Filtragem de Grid
+Ext Modern 6.7 O Modern Grid fornece filtragem de grid, para que os usuários finais possam exibir registros de grid que atendam aos critérios especificados. Além do filtro de texto, o filtro da coluna de grid suporta os seguintes filtros de grid:
 
-### Novos recursos de Grid - Bloqueio e filtragem de Grid
+1.Filtro de grid de texto que limita os resultados aos valores correspondentes ao texto específico.
 
-ExtReact 6.7 o Grid fornece a Grid de bloqueio, para que os usuários finais possam bloquear colunas ou “congelar painel”, semelhante ao Excel. A Grid de bloqueio fornece um menu de coluna que fornece aos usuários a capacidade de bloquear uma coluna de Grid na região esquerda ou na região direita. O menu da coluna de Grid de bloqueio mostrará o status atual de bloqueio.
+2.Filtro de grid boolean que limita os resultados a valores correspondentes a verdadeiro ou falso.
 
-<img src="/assets/img/extreact_locked.png" title="Grid de bloqueio" alt="bloqueio" class="responsive1"/> 
+3 Filtro de grid de data que limita os resultados a valores que correspondem a restrições de data específicas.
 
-O Grid do ExtReact 6.7 também oferece o recurso de filtragem no grid, para que os usuários finais possam exibir registros do grid que atendam aos critérios especificados. Os critérios de filtro suportados são texto, booleano, data e número.
+4.Filtro de grid numérica que limita os resultados a valores que correspondem a restrições numéricas específicas.
 
-<img src="/assets/img/ExtReact-frid-filtering.png" title="Filtro de Grid" alt="Filtro" class="responsive1"/> 
+5.É fornecido um exemplo do Kitchensink que mostra todos os recursos do plug-in do filtro de grid, incluindo a capacidade de gerenciar todos os filtros globalmente.
 
-### Novos Componentes Materiais - Chip, Color Picker
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424152/kitchenSink1_hrrpap.png" title="KitchenSink" alt="componentes testaveis" class="responsive1"/> 
 
-O ExtReact 6.7 fornece um material compacto Chip que pode ser usado em tarefas comuns de experiência do usuário, como fazer uma seleção, filtrar conteúdo e desencadear ações. A visualização do componente de chip pode conter miniaturas e texto. O ExtReact 6.7 fornece o Seletor de cores, para que os usuários finais possam selecionar o seletor de cores usando amostra de cores, campo de formulário ou seletor de cores. O seletor de cores fornece opções para selecionar cores usando HSVA ou RGB.
+### Bloqueio de grid
 
-<img src="/assets/img/ExtReact-color-picker.png" title="color picker" alt="melhor color picker" class="responsive1"/> 
+Ext 6.7 O Modern Grid fornece Grid de Bloqueio , para que os usuários finais possam bloquear colunas ou “congelar o painel” similar ao Excel. O Grid de bloqueio fornece um menu de coluna que fornece aos usuários a capacidade de bloquear uma coluna do grid na região esquerda ou na região direita. O menu da coluna do gride de bloqueio mostrará o status atual de bloqueio.
 
-### Componentes aprimorados - Multiselect Combobox, Select
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424152/kitchenSink2_cjkftp.png" title="KitchenSink" alt="componentes testaveis" class="responsive1"/> 
 
-O ExtReact 6.7 fornece o Multiselect Combobox, para que os usuários finais possam ver vários valores selecionados como tags na caixa de combinação. Um comboBox padrão combina um campo de entrada de texto HTML tradicional e um campo de seleção. A caixa de combinação Multiselect oferece a opção de permitir que usuários finais selecionem vários valores em uma caixa de combinação. Os valores selecionados podem ser navegados usando as teclas de seta do teclado e podem ser excluídos com a tecla delete. O ExtReact 6.7 também oferece Multiselect Select, para que os usuários finais possam selecionar vários valores no campo de seleção.
+### Chip / Tags
 
-<img src="/assets/img/multiselect.png" title="multiseleção" alt="combobox" class="responsive1"/> 
+O Ext JS 6.7 fornece um material compacto Chip que pode ser usado em tarefas comuns de experiência do usuário, como fazer uma seleção, filtrar conteúdo e desencadear ações. A visualização do componente do chip com miniatura e texto pode ser criada como mostrado abaixo. Você pode configurar o displayTpl para fornecer diferentes exibições de chip para desktop vs mobile.
 
-### Crie temas personalizados com o Themrer 1.3.5
+{%highlight ruby%}
+chipView :  { 
+                iconField :  'avatar' , 
+                displayField :  'nome' , 
+                platformConfig :  { 
+                    '! phone' :  { 
+                        displayTpl :  '{nome} ({email})' 
+                    } 
+                } 
+            } ,
 
-Extreact 6.7 Inclue support ao Themer 1.3.5, Themer permite ambos designers e desenvolvedores a criar lindos temas para os aplicativos do ExtReact sem escrever nenhuma linha de código.
+ {%endhighlight%}
 
-<img src="/assets/img/image1.png" title="design de temas" alt="design support" class="responsive1"/> 
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424101/chiptags_nqpfga.png" title="user" alt="desktp vs mobile" class="responsive1"/> 
 
-## Conclusão
+### Multiseleção de Combobox e Select
 
-O ExtReact oferece suporte para a criação de aplicações web que unem robustes e a liberdade de criação de design para criação de belos temas para sua aplicação, espero que vocês testem essa nova versão do react e deem seu feedback nos comentários do que achou, por hoje é só uma abraço e até a proxíma.
+O Ext JS 6.7 fornece o Multiselect Combobox, para que os usuários finais possam ver vários valores selecionados como tags no combobox. Um comboBox padrão combina um campo de entrada de texto HTML tradicional e um campo de seleção. Se a configuração editável for verdadeira, o usuário poderá digitar livremente no campo e / ou escolher valores em uma lista de seleção suspensa. o combobox Multiselect também oferece a opção para “multiselect: true”, permitindo que os usuários finais selecionem vários valores em uma caixa de combinação. Os valores selecionados podem ser navegados usando as teclas de seta do teclado e podem ser excluídos com a tecla delete.
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424125/combobox_k1fhw2.png" title="combobox" alt="melhor combobox do mercado" class="responsive1"/> 
+
+ExtJS 6.7 também oferece uma **Seleção de multiplos itens**
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424125/combobox_k1fhw2.png" title="Multiselect combobox" alt="componente incrível" class="responsive1"/> 
+
+### Color Picker 
+
+ExtJS 6.7 fornece o Color Picker, para que os usuários finais possam selecionar o selecionador de cores usando amostra de cor, campo de formulário ou seletor de cores. O seletor de cores fornece opções para selecionar cores usando HSVA ou RGB.
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424125/colorpicker2_axrmsv.png" title="colorpicker" alt="seletor de cores" class="responsive1"/> 
+
+### Scroller Virtual
+
+O Ext JS 6.7 fornece um scroller virtual que permite um intervalo de rolagem além do intervalo normal de rolagem do navegador. A rolagem virtual é usada por padrão para todas as listas e Grids infinitas. Isso permite um número de linhas muito maior que o intervalo de rolagem máximo normal do navegador.
+
+{% highlight ruby %}
+    scrollable: {
+            type: 'virtual',
+            infinite: true  // enable MAX_SAFE_INTEGER scroll
+        },
+ {% endhighlight %}
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424158/virtualscroller_ajv5cq.png" title="rolagem do navegador" alt="listas e grid infinitas" class="responsive1"/> 
+
+## Novidades no ExtJS 6.7 Tolling 
+
+### ExtGen Templates
+
+O ExtGen 6.7 agora contém modelos atualizados para a criação de aplicativos de desktop e móveis que suportam a estrutura Ext JS 6.7. Os modelos permitem que você use o kit de ferramentas clássico e moderno. Você pode criar aplicativos de desktop e móveis usando apenas o Modern toolkit ou criar aplicativos universais com kits de ferramentas Clássicos e Modernos.
+
+### Melhor compactação com Sencha Cmd
+
+O Sencha Cmd 6.7 vem com um compilador de fechamento atualizado que aprimora seu controle sobre as opções de compactação. O Cmd 6.7 fornece opções para alterar facilmente os níveis de compactação para aprimorar a ofuscação de código e reduzir o tamanho do footprint para atender às suas necessidades. A API do compilador de fechamento fornece diferentes níveis de compactação e notas de lançamento incluem exemplos sobre o uso dessas opções.
+
+### Suporte ao JetBrains 2018+IDE
+
+Os plugins do JetBrain IDE são atualizados para suportar aplicativos gerados usando o ExtGen e disponíveis no jetbrains "https://plugins.jetbrains.com/plugin/7740-sencha-ext-js". O preenchimento de código, geração de código, navegação de código, inspeção de código, refatoração de código e pesquisa de documentação agora são suportados para aplicativos ExtGen. O plugin atualizado suporta os IDEs mais recentes do JetBrains, que incluem IntelliJ 2018+, WebStorm 2018+, PhpStorm 2018+, RubyMine 2018+ e PyCharm 2018+.
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424153/jetBrainsIDE_jxaivd.png" title="JetBrains" alt="Multifuncionalidade" class="responsive1"/> 
+
+### Suporte ao Eclipse Latest IDE
+
+Os plug-ins do Eclipse IDE agora suportam aplicativos gerados com o ExtGen e estão disponíveis no eclipse marketplace https://marketplace.eclipse.org/content/sencha-eclipse-plugin. O plug-in do Eclipse agora suporta IDEs do Eclipse Neon, Oxygen e Photon. O preenchimento de código, geração de código, navegação de código e consulta de documentação agora são suportados para todos os novos IDEs do Eclipse.
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424126/eclipseIIDe_rwu2cy.png" title="Suporte Eclipse" alt="Consulta de documentação" class="responsive1"/> 
+
+### Suporte para o Visual Studio 2017
+
+O plugin Sencha Visual Studio agora é suportado para o Visual Studio 2017 e está disponível no
+<a href="https://marketplace.visualstudio.com/items?itemName=SenchaVisualStudioPlugin.SenchaExtension" target="blank"> mercado</a>.O Plug-in IDE do Visual Studio 2017 oferece suporte a uma experiência de conclusão de código consistente dentro do IDE para:
+
+•   Nomes de configuração, método e propriedade para todas as classes Ext JS e de usuário
+
+•   Propriedades de alias, como xtype, controller, viewModel e layout
+
+•   Objetos de nomes e ouvintes de eventos
+
+•   Métodos de controle nos ouvintes
+
+•   Propriedades do ViewModel em configurações de ligação
+
+Nota: Para ativar o suporte à conclusão de código Ext JS, você precisará desativar o serviço de linguagem JavaScript VS2017. 
+O plug-in do Sencha Visual Studio que suporta 2015 continua disponível no 
+<a href="https://marketplace.visualstudio.com/items?itemName=SenchaVisualStudioPlugin.SenchaExtension" target="blank"> mercado</a>.
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564425252/VisualStudio_v1tg3r.png" title="Suporte Eclipse" alt="Visual Studio" class="responsive1"/> 
+
+
+### Ext JS 6.7 Exemplos
+
+O Ext JS 6.7 fornece vários exemplos que são construídos usando open tooling. Você pode usar esses aplicativos para começar rapidamente com o Ext JS 6.7 e abrir ferramentas:
+
+Aplicação Stack Employee Directory (Coworkee) Github Repo - 
+<a href="https://github.com/sencha-extjs-examples/Coworkee-Open-Tooling" target="blank">Github Repo</a>
+
+Aplicativo Progressive Web App (PWA) de pilha completa -  
+<a href="https://github.com/sencha-extjs-examples/PWA-Open-Tooling" target="blank">Github Repo</a>
+
+Aplicativo de Amostra de Tutorial Moderno -  
+<a href="https://github.com/sencha-extjs-examples/ModernTutorial-Open-Tooling" target="blank">Github Repo</a>
+
+Aplicativo de Amostra de Início Rápido -  
+<a href="https://github.com/sencha-extjs-examples/QuickStart-Open-Tooling" target="blank">Github Repo</a>
+Mais recursos e melhorias de desempenho.
+
+O Ext JS 6.7 inclui atualizações e aprimoramentos para vários componentes, bem como correções de bugs no kit de ferramentas Modern e Classic. O kit de ferramentas Ext JS 6.7 Classic inclui vários aprimoramentos em Grid, calendário, painel, gráficos, janela, caixa de combinação, guias e painel. O Ext JS 6.7 suportou extensas fases de teste, incluindo testes automatizados com o Sencha Test, resultando em mais de mil casos de teste.
+
+## Conclusão 
+
+O ExtJS 6.7 nos oferece novas features fantásticas para que você crie ou transformar suas aplicações web,
+nós da BSource estamos ansiosos para começar a utilizar essa nova versão e quanto a vocês?
+deixe seu comentário sobre o que achou dessa nova versão do ExtJS.
