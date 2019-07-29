@@ -5,7 +5,7 @@ title: "Anúncio do Sencha Stencils 4.0"
 date: 2018-12-07 13:30:43
 image: '/assets/img/Stencils.png'
 description: 'Novos recursos para o Sencha Stencils'
-main-class: 'noticias'
+main-class: 'notícias'
 color: '#B31917'
 tags:
 - Novidade
@@ -23,23 +23,26 @@ Nesse pequeno post <strike>eu acho que será</strike> falarei sobre as novidades
 ### Stencils no AdobeXD
 Suporte ao Adobe XD, a sencha percebeu a ascenção do Adobe XD desde o seu lançamento. A equipe de design da Sencha oferece a você a opção de projetar modelos e protótipos usando o XD também.
 
-![Stencils XD](https://www.sencha.com/wp-content/uploads/2018/12/image3-1024x590.png)
+<img src="/assets/img/stencilsadobe.png" title="stencils" alt="layout" class="responsive1"/> 
+
 Botões Stencils modern no Triton XD
 
-![Stencils XD](https://www.sencha.com/wp-content/uploads/2018/12/image6-1024x591.png)
+<img src="/assets/img/triton_modern.png" title="layout button" alt="botoes" class="responsive1"/> 
+
 Stencils Form Modern no Triton XD
 
 ### Suporte ao Tema Grafite
 
 Agora você podera criar mockups com o novo tema disponivel no sencha ExtJS 6.6.O Stencils suporta o tema grafite disponivel no Adobe Illustrator CC,Adobe Illustrator CS4, Adobe XD, Balsamiq, Sketch e formatos PNG e SVG. Que estão incluisos no tema de toda a biblioteca classic do Sencha
 
-![Stencils Grafite](https://www.sencha.com/wp-content/uploads/2018/12/image7.png)
-Classic Grafite e seus Botões;
 
-![Stencils Grafite](https://www.sencha.com/wp-content/uploads/2018/12/stencils-graphite-form-field.png)
+Classic Grafite e seus Botões;
+<img src="/assets/img/button.png" title="graphite" alt="botoes" class="responsive1"/> 
+
+<img src="/assets/img/graphite-form" title="components" alt="form" class="responsive1"/> 
 Classic Grafite e seu Form Field Stencils;
 
-![Stencils Grafite](https://www.sencha.com/wp-content/uploads/2018/12/stencils-graphite-windows-nav.png)
+<img src="/assets/img/graphite-windows" title="window" alt="navegação" class="responsive1"/> 
 Janela Classic Grafite e barra de Navegação Stencils.
 
 ### Conclusão 
