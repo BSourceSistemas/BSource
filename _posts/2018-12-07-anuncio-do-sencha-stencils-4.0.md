@@ -1,20 +1,20 @@
 ---
 layout: post
 comments: true
-title: "Anúncio do Sencha Stencils 4.0"
-date: 2018-12-07 13:30:43
-image: '/assets/img/Stencils.png'
-description: 'Novos recursos para o Sencha Stencils'
+title: "Anúncio do Sencha ExtJS 6.7 e Tooling"
+date: 2019-03-01 12:18:13
+image: '/assets/img/colorpicker.png'
+description: 'Nova versão do Sencha ExtJS'
 main-class: 'noticias'
 color: '#B31917'
 tags:
 - Novidade
+- ExtJS
 - notícias
-categories: 'Informação'
+categories: Informação
 twitter_text:
-introduction: 'Confira o que há de novo na versão do Sencha Stencils 4.0'
+introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS
 ---
-
 Olá Pessoal tudo certo?
 
 Nesse pequeno post <strike>eu acho que será</strike> falarei sobre as novidades da nova versão do Sencha Stencils a versão 4.0 que foi anunciada no dia 06 de dezembro de 2018.
