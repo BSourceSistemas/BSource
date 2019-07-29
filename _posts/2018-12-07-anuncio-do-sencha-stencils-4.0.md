@@ -39,10 +39,10 @@ Agora você podera criar mockups com o novo tema disponivel no sencha ExtJS 6.6.
 Classic Grafite e seus Botões;
 <img src="/assets/img/button.png" title="graphite" alt="botoes" class="responsive1"/> 
 
-<img src="/assets/img/graphite-form" title="components" alt="form" class="responsive1"/> 
+<img src="/assets/img/graphite-form.png" title="components" alt="form" class="responsive1"/> 
 Classic Grafite e seu Form Field Stencils;
 
-<img src="/assets/img/graphite-windows" title="window" alt="navegação" class="responsive1"/> 
+<img src="/assets/img/graphite-windows.png" title="window" alt="navegação" class="responsive1"/> 
 Janela Classic Grafite e barra de Navegação Stencils.
 
 ### Conclusão 
