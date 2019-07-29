@@ -39,7 +39,9 @@ Ponto marcante da versão é a disponibilidade de interfaces gráficas muito pr�
 Em 6 de julho de 2009 é lançada a versão 3.0. Essa versão adicionou suporte a REST e a criação do Ext.Direct (similar ao SignalR da Microsoft).
 Foram disponibilizados os componentes de gráficos em Flash e o componente ListView elementos foram adicionados aos componentes padrões de exibição.
 Essa é a primeira versão do framework que já é compatível com a versão anterior.
+
 #### **ExtJS 4**
+
 Em 26 de abril de 2011 é lançado a versão 4.0 com um sistema de classe inteiramente revisado, com uma nova estrutura de pacote acesso a dados.
 Controladores que fornecem uma solução global que permite aplicar todo aplicativo lógico.
 ExtJS agora suporta versões especificas de browser para a maioria de seus componentes, isso foi um grande avanço em relação ao ExtJS 3.
@@ -47,8 +49,11 @@ Agora qualquer componente pode ser facilmente arrastável (drag-and-drop) pela n
 A toolbar se tornou uma first-class container o que facilita a adição de novos componentes e customizar seu layout está bem mais simples do que no ExtJS 3.
 Os gráficos em Flash são trocados por gráficos em SVG.
 Capacidade de colocar a barra de guias à esquerda ou à direita de seus painéis de guias.
+
 Criada a opção de desenvolver aplicações na arquitetura MVC (Muito obrigado Sencha!)
+
 #### **ExtJS 5**
+
 Em 2 de junho de 2014 é lançado a versão 5.0 do framework ExtJS.
 ExtJS 5 adicionou suporte a uma alternativa popular ao MVC: MVVM (Model-View-ViewModel). Uma das maiores atrações para MVVM e a vinculação de dados. Não precisando gravar todo o código para conectar a camada do model à exibição e atualizar o model quando a exibição é modificada. 
 Foi implementado o roteamento, que permite implementar “links diretos” em seu aplicativo. Isso é conseguido traduzindo a URL do seu aplicativo em ações e métodos do controlador.
@@ -76,7 +81,9 @@ Suporte mutuo da aplicação para rodar em Browsers tanto de Desktop, quanto e b
 O ExtJS 5 suporta navegadores modernos e antigos, incluindo: Safari 6+, Firefox, IE8 +, Chrome e Opera 12+. Na plataforma móvel, o ExtJS 5 suporta o Safari no iOS 6 e 7, o Chrome no Android 4.1+ e os dispositivos de tela de toque do Windows 8 (como laptops Surface e touchscreen) executando o IE10 +.
 Importante: A partir da versão ExtJS 5, você não pode comprar licenças para menos de 5 desenvolvedores.
 
+
 #### **ExtJS 6**
+
 Em 1 de julho de 2015 e lançada a versão 6.0 do framework ExtJS, com ele o Sencha introduz uma estrutura única para criar aplicativos que são executados em todos os tipos de dispositivos, de telefones a tablets e desktops, produzindo uma experiência de usuário ideal ao escrever menos código.
 Toolkits (um pacote que contém apenas os elementos visuais do framework) existem dois toolkits o clássico e o moderno.
 Os elementos visuais do ExtJS estão agora contidos no kit de ferramentas clássico do ExtJS 6, enquanto os elementos visuais do Sencha Touch agora estão contidos no kit de ferramentas modern.
@@ -91,14 +98,16 @@ As aplicações podem simplesmente escolher o seu kit de ferramentas e adicionar
 
 Os maiores novos recursos no pacote de gráficos são os aprimoramentos da série de torta 3D ('pie3d'). Agora ele suporta rótulos, legendas, realces, dicas de ferramentas, chanfros e melhorias no sombreamento com nível configurável de efeito 3D.
 
-![Pizza 3D](https://docs.sencha.com/extjs/6.0.2/guides/whats_new/images/3dchart.png)
+<img src="/assets/img/graficochart.png" title="aprimoramento" alt="grafico" class="responsive1"/> 
 
 
 Os vários controladores deslizantes no novo exemplo Charts KitchenSink permitem que você jogue com cada um deles e veja como eles alteram a aparência do gráfico.
 Exportador 
 O pacote exportador contém classes que você pode usar para criar documentos do Excel e plugin exportador que permite que os dados do grid sejam exportados para o Excel. O exporter pacote que continha classes com Capacidade de gerar documentos XML do Excel com todos os dados de que você precisa.
 Suporte ao leitor de tela (acessibilidade). 
+
 ## **Aonde posso aprender?** 
+
 Conheça o site da Sencha: O site da Sencha é bem completo com documentações, fórum para tirar dúvidas, exemplos de código fonte etc.
 Página principal do ExtJS: <a href="https://www.sencha.com/products/extjs/#overview" target="_blank">Pagina Principal ExtJS</a> – Tem vários links nessa página, você pode usar algum deles como referência.
 Exemplos e Demos: <a href="https://examples.sencha.com/extjs/" target="_blank">Exemplos</a>	 - Essa página dá uma boa base ao desenvolvimento.
