@@ -4,11 +4,11 @@ main-class: 'Tutorial'
 ---
 
 <main class="home" id="scroll" role="main" itemprop="mainContentOfPage" itemscope="itemscope"
-    itemtype="http://schema.org/Blog">
+    itemtype="https://schema.org/Blog">
     {% for post in site.posts %}
     {% if post.main-class == 'Tutorial' %}
     </div>
-    <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting"
+    <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="https://schema.org/BlogPosting"
         itemprop="blogPost">
         <span class="ribbon">
             <a href="{{site.url}}{{site.baseurl}}/category/{{post.main-class}}"><span>{{post.main-class}}</span></a>
