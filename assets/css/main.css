@@ -744,7 +744,7 @@ body {
 		margin: 0 0 30px;
 		text-shadow: 3px 3px #004c79
 	}
-	@media only screen and (min-width:37.5rem) {
+	@media only screen and (min-width:27.5rem) {
 		.header-post h1 {
 			font-size: 3.75rem
 		}
@@ -1730,7 +1730,7 @@ body {
 	}
 	.header-post,
 	.header-site {
-		background-color: #919191
+		background-color: #1B75BA
 	}
 	.header-post h1,
 	.header-site h1 {
