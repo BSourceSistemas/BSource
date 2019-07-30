@@ -6,13 +6,15 @@
                 <use xlink:href="#icon-github"></use>
             </svg>
         </a>
+
         {% endif %}
         {% if site.facebook_username %}
-        <a itemprop="facebook" href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
+        <a itemprop="twitter" href="https://facebook.com/bsourceconsultoria" title="Facebook">
             <svg>
                 <use xlink:href="#icon-facebook"></use>
             </svg>
         </a>
+
         {% endif %}
         {% if site.twitter_username %}
         <a itemprop="twitter" href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
@@ -20,6 +22,7 @@
                 <use xlink:href="#icon-twitter"></use>
             </svg>
         </a>
+
         {% endif %}
         {% if site.instagram_username %}
         <a itemprop="instagram" href="https://www.instagram.com/{{ site.instagram_username }}" title="Instagram">
@@ -35,6 +38,13 @@
             </svg>
         </a>
         {% endif %}
+        {% if site.youtube_username %}
+        <a itemprop="youtube" href="https://www.youtube.com/channel/UCtUt5-tLjHflqiIoNJwrqNQ" title="Youtube">
+            <svg>
+                <use xlink:href="#icon-youtube"></use>
+            </svg>
+        </a>
+        {% endif %}
     </p>
     <ul>
         {% for link in site.links %}
@@ -44,7 +54,7 @@
     </ul>
     <p><span>Um Blog desenvolvido</span> com <svg class="love">
             <use xlink:href="#icon-heart"></use>
-        </svg> pela <a href="https://www.bsource.com.br/pt" target="_blank" class="creator">BSource</a></p>
+        </svg> pela <a href="http://bsource.com.br" target="_blank" class="creator">BSource</a></p>
 </footer>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}" </script> var disqus_loaded = false; function
         load_disqus() {
