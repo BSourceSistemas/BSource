@@ -25,32 +25,32 @@ Aqui eu mostrarei como usar os eventos **show** e **beforeclose** do componente 
 
 {% highlight ruby %}
 Ext.create('Ext.Window', {
-    title: "Window",
-    width: 400,
-    height: 300,
-    html: "<div id='example'>Hello</div> ",
-    listeners: {
-        show: function (win) {
-            var el = win.getEl();
+  title: "Window",
+  width: 400,
+  height: 300,
+  html: "<div id='example'>Hello</div> ",
+  listeners: {
+    show: function (win) {
+       var el = win.getEl();
  
-            el.setOpacity(0);
-            el.fadeIn({
-                duration: 2000
+       el.setOpacity(0);
+       el.fadeIn({
+           duration: 2000
+       });
+    },
+    beforeclose: function (win) {
+        if (!win.shouldClose) {
+            win.getEl().fadeOut({
+               duration: 2000, 
+               callback: function () {
+                    win.shouldClose = true;
+                    win.close();
+                }
             });
-        },
-        beforeclose: function (win) {
-            if (!win.shouldClose) {
-                win.getEl().fadeOut({
-                    duration: 2000,
-                    callback: function () {
-                        win.shouldClose = true;
-                        win.close();
-                    }
-                });
-            }
-            return win.shouldClose ? true : false;
         }
-    }}).show();
+        return win.shouldClose ? true : false;
+    }
+}}).show();
 {% endhighlight %}
 
 ## Entendendo o código
@@ -66,7 +66,7 @@ Nota: Você poderia usar o mesmo conceito para exibir uma mensagem de confirmaç
 
 ## Resultado Final 
 
-<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424151/image1_yvo4ei.png" alt="upload" width="483" height="442" class="aligncenter size-full wp-image-30915">
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_483/v1564424151/image1_yvo4ei.png" title="resultado final themer" alt="upload" class="responsive1">
 
 
 Espero que você ache essa dica útil, tenha um bom dia e até a próxima.
