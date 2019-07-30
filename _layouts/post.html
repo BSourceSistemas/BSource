@@ -1,61 +1,46 @@
 <!DOCTYPE html>
-<html
-  lang="pt"
-  itemscope
-  itemtype="http://schema.org/BlogPosting"
-  {%
+<html lang="pt" itemscope itemtype="https://schema.org/BlogPosting" {%
   if
   page.main-class
-  %}
-  class="post-{{page.main}}-class"
-  {%
+  %} class="post-{{page.main}}-class" {%
   endif
-  %}
->
-  {% include head.html %}
-  <body class="has-push-menu">
-    {% include minutes-to-read.html %} {% include svg-icons.html %} {% include header-post.html %}
+  %}>
+{% include head.html %}
 
-    <section class="post">
-      <article
-        role="article"
-        id="post"
-        class="post-content"
-        itemprop="articleBody"
-      >
-        <p itemprop="post-info" class="post-info">
-          {% if page.date %}
-          <svg id="date" class="icon-calendar">
-            <use xlink:href="#icon-calendar"></use>
-          </svg>
-          <time
-            itemprop="datePublished"
-            datetime="{{ page.date | date_to_xmlschema }}"
-            class="date"
-          >
-            {% include date.html date=page.date %}
-          </time>
-          {% endif %}
-          <svg id="clock" class="icon-clock">
-            <use xlink:href="#icon-clock"></use>
-          </svg>
-          <span>{{ minutesText }}</span>
-        </p>
-        {{ content }}
-      </article>
+<body class="has-push-menu">
+  {% include minutes-to-read.html %} {% include svg-icons.html %} {% include header-post.html %}
 
-      <!----<span>{{ minutesText }}</span>-->
-      <div class="progress-bar" data-minutes="{{ totalMinutes }}">
-        <span class="time-completed"></span>
-        <span class="time-remaining"></span>
-        <div class="bar">
-          <span class="completed" style="width:0%;"></span>
-          <span class="remaining" style="width:100%;"></span>
-        </div>
+  <section class="post">
+    <article role="article" id="post" class="post-content" itemprop="articleBody">
+      <p itemprop="post-info" class="post-info">
+        {% if page.date %}
+        <svg id="date" class="icon-calendar">
+          <use xlink:href="#icon-calendar"></use>
+        </svg>
+        <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">
+          {% include date.html date=page.date %}
+        </time>
+        {% endif %}
+        <svg id="clock" class="icon-clock">
+          <use xlink:href="#icon-clock"></use>
+        </svg>
+        <span>{{ minutesText }}</span>
+      </p>
+      {{ content }}
+    </article>
+
+    <!----<span>{{ minutesText }}</span>-->
+    <div class="progress-bar" data-minutes="{{ totalMinutes }}">
+      <span class="time-completed"></span>
+      <span class="time-remaining"></span>
+      <div class="bar">
+        <span class="completed" style="width:0%;"></span>
+        <span class="remaining" style="width:100%;"></span>
       </div>
+    </div>
 
-      {% include formularioBS.html %} {% include author.html %}
-      <!---- barra de progresso
+    {% include formularioBS.html %} {% include author.html %}
+    <!---- barra de progresso
         <div class="rect">
             
 
@@ -96,8 +81,9 @@
               {% endif %}
             {% endfor %}
           </div>--->
-      {% if site.disqus.shortname %} {% include comments.html %} {% endif %}
-    </section>
-    {% include footer.html %}
-  </body>
+    {% if site.disqus.shortname %} {% include comments.html %} {% endif %}
+  </section>
+  {% include footer.html %}
+</body>
+
 </html>
