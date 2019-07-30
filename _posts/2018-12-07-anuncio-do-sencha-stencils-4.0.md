@@ -9,8 +9,6 @@ main-class: 'noticias'
 color: '#B31917'
 tags:
 - Novidade
-- ExtJS
-- notícias
 categories: Informação
 twitter_text:
 introduction: Saiba mais sobre os novos recursos do Stencils
@@ -50,4 +48,5 @@ Janela Classic Grafite e barra de Navegação Stencils.
 
 ### Conclusão 
 
-A Sencha esta captando as tendências do mercado de design para implementar as ferramentas mais utilizados por esse ramo em suas aplicações ExtJS atravez do Sencha Stencils.
+A Sencha esta captando as tendências do mercado de design para implementar as ferramentas mais utilizados por esse ramo em suas aplicações ExtJS atravez do Sencha Stencils, se você gostou não deixe de deixar um comentário seu feedback nos ajuda bastante a saber se estamos no caminho certo, qualquer dúvida ou sugestão deixe nos comentários, por hoje é só e até a proxíma.
+
