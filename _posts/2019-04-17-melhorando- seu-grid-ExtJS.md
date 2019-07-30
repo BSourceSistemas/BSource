@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Aprenda novas maneiras de melhorar seu Grid ExtJS"
+title: "Melhorando seu Grid ExtJS"
 date: 2019-04-17 14:29:08
 image: '/assets/img/grafico.gif'
 description: Aprimore seu grid com uso de plugins
@@ -10,7 +10,7 @@ color:
 tags: ExtJS
 categories: 
 - ExtJS
-- Grid Fantástico
+- Grid 
 twitter_text:
 introduction: Uso de puglins para melhorar o Grid da sua aplicação.
 ---
@@ -54,7 +54,7 @@ Na versão atual, o pacote funciona apenas com o kit de ferramentas clássico em
 
 O recurso do Grid MultiGrouping permite que o Painel do Grid exiba os dados da Loja agrupados por vários agrupadores. Aqui está um exemplo do que parece:
 
-![tab](https://www.sencha.com/wp-content/uploads/2019/04/group_summry_2.png)
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_572/v1564499246/group_summry_2_wtudc0.png" title= "load" alt="dinamico" class="responsive1"/>
 
 E esta é a definição de classe:
 
@@ -86,9 +86,9 @@ Ext. define ( 'KitchenSink.grid.Grouped' ,  {
         { text : 'Quantity' , dataIndex :  'quantity' , xtype :  'numercolumn' , editor :  'numberfield' , align :  'right'  } 
     ] ,
  
-    recursos :  [ { 
+    recursos :  [{ 
         ftype :  'multigrouping' 
-    } ] ,
+    }] ,
  
     // mais configs 
 } ) ;
@@ -96,7 +96,7 @@ Ext. define ( 'KitchenSink.grid.Grouped' ,  {
 
 No exemplo acima, você pode ver que o armazenamento do Grid foi configurado com dois agrupadores e algumas colunas de Grid são configuradas com a configuração `groupable` definida como` true`. Para as colunas agrupáveis, o menu de cabeçalho é aprimorado para permitir que os usuários alterem o agrupamento em tempo real:
 
-![basic grouping2](https://www.sencha.com/wp-content/uploads/2019/04/basic_grouping_2.png)
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_520/v1564499246/grouping_panel_idgsoi.png" title= "load" alt="dinamico" class="responsive1"/>
 
 Os usuários podem substituir o agrupamento completamente escolhendo "Agrupar por este campo" ou podem adicionar essa dimensão ao agrupamento existente escolhendo "Adicionar ao agrupamento". Há também a possibilidade de expandir ou recolher todos os grupos existentes no Grid.
 
@@ -174,9 +174,10 @@ Ext. define ( 'KitchenSink.grid.Summary' ,  {
 
 Como você pode ver, você pode definir a posição dos resumos dos grupos e do resumo geral e ficará assim:
 
-![ex](https://www.sencha.com/wp-content/uploads/2019/04/group_summry_1.png)
 
-![ex1](https://www.sencha.com/wp-content/uploads/2019/04/group_summry_2.png)
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_520/v1564499245/group_summry_1_boxmw0.png" title= "load" alt="dinamico" class="responsive1"/>
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_572/v1564499246/group_summry_2_wtudc0.png" title= "load" alt="dinamico" class="responsive1"/>
 
 Os resumos dos grupos podem ser exibidos na parte superior ou na parte inferior do grupo. O resumo geral pode ser o primeiro no Grid, o último no Grid ou encaixado na parte superior ou inferior do Grid.
 
@@ -184,9 +185,10 @@ Plugin GroupingPanel
 
 Esse plug-in permite que seus usuários finais arrastem e soltem colunas do Grid na seção do painel de agrupamento que está visível acima do painel do Grid.
 
-![all plugins](https://www.sencha.com/wp-content/uploads/2019/04/all_plugins.png)
 
-![grouping panel](https://www.sencha.com/wp-content/uploads/2019/04/grouping_panel.png)
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_520/v1564499245/all_plugins_jegmi8.png" title= "GroupingPanel" alt="dinamico2" class="responsive1"/>
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_520/v1564499246/grouping_panel_idgsoi.png" title= "painel" alt="dinamico4" class="responsive1"/>
 
 O usuário pode mover as dimensões no painel de agrupamento na ordem que deseja
 
@@ -217,7 +219,8 @@ Ext. define ( 'KitchenSink.plugin.GroupingPanel' ,  {
 
 Este plugin permitirá que seus usuários finais alterem a função de resumo nas colunas do Grid.
 
-![grid](https://www.sencha.com/wp-content/uploads/2019/04/all_plugins_2.png)
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_520/v1564499245/all_plugins_2_znozdh.png" title= "colunas" alt="colunasdinamico" class="responsive1"/>
 
 As funções de resumo disponíveis em uma coluna do Grid são personalizáveis. Você precisa fornecer uma configuração para sua coluna do Grid, da seguinte maneira:
 
@@ -260,7 +263,8 @@ Se você quiser ter sua própria função de resumo usada nessa coluna, então v
 
  Este plug-in adicionará uma barra encaixada nos cabeçalhos da Grid e, dependendo da configuração das colunas do Grid, serão adicionados campos de filtro.
 
- ![barreira filtro](https://www.sencha.com/wp-content/uploads/2019/04/filter_bar_1.png)
+
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_520/v1564499246/filter_bar_1_dcmstc.png" title= "filtro" alt="barrafiltro" class="responsive1"/>
 
 {% highlight ruby %}
 Ext.define('KitchenSink.plugin.FilterBar', {
