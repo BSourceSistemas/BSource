@@ -3,16 +3,35 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+<html lang="pt" itemscope itemtype="https://schema.org/WebPage" {%
+  if
+  page.main-class
+  %} class="post-{{ page.main}}-class" {%
+  endif
+  %}>
+{% include head.html %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85665246-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "UA-85665246-1");
+</script>
 {% include head.html %}
 
-<body class="main-page has-push-menu">
-    {% include svg-icons.html %}
-    {% include header.html %}
-    <section class="content">
-        {{ content }}
-    </section>
+<body class="has-push-menu">
+  {% include svg-icons.html %} {% include header-post.html %}
+  <section class="post">
+    <article id="post" class="post-content" role="main" itemprop="mainContentOfPage">
+      {{ content }}
+    </article>
+
     {% include footer.html %}
+  </section>
 </body>
 
 </html>
