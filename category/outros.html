@@ -3,26 +3,43 @@ layout: default
 main-class: 'outros'
 ---
 
-<main class="home" id="scroll" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    
+<main class="home" id="scroll" role="main" itemprop="mainContentOfPage" itemscope="itemscope"
+    itemtype="https://schema.org/Blog">
+
     <div id="grid" class="row flex-grid">
-    {% for post in site.posts %}
+        {% for post in site.posts %}
         {% if post.main-class == 'outros' %}
-          <article class="box-item post-outros shown" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost"> <span class="ribbon"> <a href="https://blog.bsource.com.br/category/outros"><span>outros</span></a>
-    </span>
-    <div class="post-link">
-        <div style="height:170px;border-top-left-radius: 5px;border-top-right-radius: 5px;background-color: #dcdcdc; background-position: center center;background-repeat: no-repeat;background-image: url('/assets/img/Froala.gif') ;background-size: 100%;"></div>
-        <div class="box-body">
-            <meta itemprop="datePublished" content="2019-07-01T13:23:44+00:00">
-            <time itemprop="datePublished" datetime="2019-07-01 13:23:44 +0000" class="date">01 Jul 2019</time> <a class="post-link" href="/tecnologia/2019/07/01/froala/"><h2 class="post-title" itemprop="name"> Froala</h2></a>
-            <a class="post-link" href="/tecnologia/2019/07/01/froala/">
-                <p class="description">Um editor com recursos íncriveis</p>
-            </a>
-            <div class="tags"> <a href="/tags/#tecnologia">Tecnologia</a> <a href="/tags/#editor">Editor</a></div>
-        </div>
-    </div>
-</article>
+        <article class="box-item post-{{post.main-class}}" itemscope="itemscope"
+            itemtype="https://schema.org/BlogPosting" itemprop="blogPost">
+            <span class="ribbon">
+                <a href="{{site.url}}{{site.baseurl}}/category/{{post.main-class}}"><span>{{post.main-class}}</span></a>
+            </span>
+            <div class="post-link">
+                <div
+                    style="height:170px;border-top-left-radius: 5px;border-top-right-radius: 5px;background-color: #dcdcdc; background-position: center center;background-repeat: no-repeat;background-image: url('{{post.image}}') ;background-size: 100%;">
+                </div>
+                <div class="box-body">
+                    <!-- style="background-position: top !important;background-image: url('{{post.image}}') !important;background-size:cover!important;" -->
+                    <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
+                    <time itemprop="datePublished" datetime="{{ post.date }}"
+                        class="date">{{ post.date | date_to_string }}</time>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <h2 class="post-title" itemprop="name">
+                            {{ post.title }}
+                        </h2>
+                    </a>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <p class="description">{{ post.introduction }}</p>
+                    </a>
+                    <div class="tags">
+                        {% for tag in post.tags %}
+                        <a href="{{site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </article>
         {% endif %}
-    {% endfor %}
+        {% endfor %}
     </div>
 </main>
