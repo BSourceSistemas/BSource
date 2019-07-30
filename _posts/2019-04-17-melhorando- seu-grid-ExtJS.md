@@ -10,7 +10,7 @@ color:
 tags: ExtJS
 categories: 
 - ExtJS
-- Tutorial
+- Grid Fantástico
 twitter_text:
 introduction: Uso de puglins para melhorar o Grid da sua aplicação.
 ---
@@ -311,8 +311,8 @@ Ext.define('KitchenSink.plugin.FilterBar', {
 
 Se você quiser saber mais sobre o mzSolutions e seu produto comercial GridPlugins, siga estes links:
 
-•<a href="http://examples.mzsolutions.eu/GridPlugins/KitchenSink/" target="_blank">Exemplos do KitchenSink</a>
+•<a href="https://examples.mzsolutions.eu/GridPlugins/KitchenSink/" target="_blank">Exemplos do KitchenSink</a>
 
-•<a href="http://docs.mzsolutions.eu/GridPlugins/" target="_blank">Documentação do GridPlugins</a>
+•<a href="https://docs.mzsolutions.eu/GridPlugins/" target="_blank">Documentação do GridPlugins</a>
 
 •<a href="https://www.mzsolutions.eu/grid-plugins.html" target="_blank">Site da mz</a>
