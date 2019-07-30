@@ -2,20 +2,19 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="pt" itemscope itemtype="http://schema.org/WebPage"
-    {% if page.main-class %}class="post-{{ page.main}}-class" {% endif %}
->
+<html lang="pt" itemscope itemtype="https://schema.org/WebPage"
+    {% if page.main-class %}class="post-{{ page.main}}-class" {% endif %}>
 {% include head.html %}
+
 <body>
     {% include svg-icons.html %}
     {% include header-default.html %}
     <section class="content">
         {{ content }}
     </section>
-    {% include switch.html %}
     {% include footer.html %}
     {% if jekyll.environment == 'production' %}
-        {% include analytics.html %}
+    {% include analytics.html %}
     {% endif %}
 </body>
 
