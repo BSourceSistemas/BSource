@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Utilizando o Sencha Cmd para melhora do carregamento de seu app"
+title: "Carregue seu app rapidamente"
 date: 2019-04-30 10:30:19
 image: '/assets/img/SenchaCMD.png'
 description: 'facilite o carregamento de dados'
