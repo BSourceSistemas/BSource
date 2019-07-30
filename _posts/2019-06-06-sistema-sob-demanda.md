@@ -33,7 +33,7 @@ Controlar estoque, vendas, contas bancárias, contas a pagar e receber, vendas f
 Realizar todas essas funções em locais diferentes demanda de um esforço muito grande.
 A vantagem de um sistema de gestão nesses casos é a integração de todas as áreas, de forma 100% online, diminuindo os erros que são facilmente cometidos quando gerentes e/ou administradores não possuem ampla visão das áreas internas e da demanda externa.
 
-<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564427146/integracao_rmkxdm.jpg" title="integracao" alt="integração"/>
+<img src="https://res.cloudinary.com/dkwsuycgn/image/upload/c_scale,w_592/v1564427146/integracao_rmkxdm.jpg" title="integracao" alt="integração"/>
 
 **Redução do esforço, maior produtividade**
 
