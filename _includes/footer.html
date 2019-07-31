@@ -1,60 +1,41 @@
 <footer>
-    <p>
-        {% if site.github_username %}
-        <a itemprop="github" href="https://github.com/danielcbueno" title="Github">
-            <svg>
+    <p> <a itemprop="github" href="https://github.com/danielcbueno" title="Github" target="_blank"
+            class=" externalLink"> <svg>
                 <use xlink:href="#icon-github"></use>
-            </svg>
-        </a>
-
-        {% endif %}
-        {% if site.facebook_username %}
-        <a itemprop="twitter" href="https://facebook.com/bsourceconsultoria" title="Facebook">
-            <svg>
+            </svg> </a> <a itemprop="facebook" href="https://facebook.com/bsourceconsultoria" title="Facebook"
+            target="_blank" class=" externalLink"> <svg>
                 <use xlink:href="#icon-facebook"></use>
-            </svg>
-        </a>
-
-        {% endif %}
-        {% if site.twitter_username %}
-        <a itemprop="twitter" href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
-            <svg>
+            </svg> </a> <a itemprop="twitter" href="https://twitter.com/BSourceSistemas" title="Twitter" target="_blank"
+            class=" externalLink"> <svg>
                 <use xlink:href="#icon-twitter"></use>
-            </svg>
-        </a>
-
-        {% endif %}
-        {% if site.instagram_username %}
-        <a itemprop="instagram" href="https://www.instagram.com/{{ site.instagram_username }}" title="Instagram">
-            <svg>
+            </svg> </a> <a itemprop="instagram" href="https://www.instagram.com/BSourceConsultoria" title="Instagram"
+            target="_blank" class=" externalLink"> <svg>
                 <use xlink:href="#icon-instagram"></use>
-            </svg>
-        </a>
-        {% endif %}
-        {% if site.linkedin_username %}
-        <a itemprop="linkedin" href="https://www.linkedin.com/company/bsource/?viewAsMember=true" title="LinkedIn">
-            <svg>
+            </svg> </a> <a itemprop="linkedin" href="https://www.linkedin.com/company/bsource/?viewAsMember=true"
+            title="LinkedIn" target="_blank" class=" externalLink"> <svg>
                 <use xlink:href="#icon-linkedin"></use>
-            </svg>
-        </a>
-        {% endif %}
-        {% if site.youtube_username %}
-        <a itemprop="youtube" href="https://www.youtube.com/channel/UCtUt5-tLjHflqiIoNJwrqNQ" title="Youtube">
-            <svg>
+            </svg> </a> <a itemprop="youtube" href="https://www.youtube.com/channel/UCtUt5-tLjHflqiIoNJwrqNQ"
+            title="Youtube" target="_blank" class=" externalLink"> <svg>
                 <use xlink:href="#icon-youtube"></use>
-            </svg>
-        </a>
-        {% endif %}
-    </p>
-    <ul>
-        {% for link in site.links %}
-        <li><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-        <li><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
-    </ul>
+            </svg> </a></p>
+    <div style="width: 100px;">
+        <ul>
+            {% for link in site.links %}
+            <li><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+            <li><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
+        </ul>
+    </div>
+    <div class="footer-col" style="margin-left: 110px;margin-top: -215px;/* border-left: 2px solid #1B75BA; */"> <a
+            href="https://dextra.com.br/pt/contato" class="footer-menu-item externalLink" target="_blank" style="
+    text-align: center;">Contato </a><br> <span style="color: #808080;"> contato@bsource.com.br</span><br> <span style="
+    color: #808080;"> +55 19 3256-6722</span><br> <span style=" color: #808080;"> +55 11 3014-0305</span><br><a
+            href="https://goo.gl/maps/bguEuX9LjL22" target="_blank" class=" externalLink"> <span
+                style="width: 205px;display: inline-block;margin-top: 10px;">Rua Chile, 291 Vila Cechino Americana-SP
+                <br> CEP 13465-740</span></a></div><br><br><br>
     <p><span>Um Blog desenvolvido</span> com <svg class="love">
             <use xlink:href="#icon-heart"></use>
-        </svg> pela <a href="http://bsource.com.br" target="_blank" class="creator">BSource</a></p>
+        </svg> pela <a href="http://bsource.com.br" target="_blank" class="creator externalLink">BSource</a></p>
 </footer>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}" </script> var disqus_loaded = false; function
         load_disqus() {
