@@ -15,5 +15,5 @@ permalink: /leads
 <div class="container">
   <img src="/assets/img/message.gif" alt="Mensagem enviada!" style="width:80% !important;">
   <p><strong>Preenchimento Efetuado!</strong></p>
-  <p>Agradecemos o seu contato, assim que iremos responde-lo!</p>
+  <p>Agradecemos o seu contato, responderemos o mais breve possível!</p>
 </div>
