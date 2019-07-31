@@ -2182,10 +2182,6 @@ body {
 	text-align: center
 }
 
-.col-xs-12 {
-	width: 100%
-}
-
 body {
 	font-family: sans-serif
 }
@@ -2300,6 +2296,11 @@ footer::after {
 	clear: both
 }
 
+.separator{
+	border-top: 1px solid #e6e6e6;
+	padding-top: 8px;
+}
+
 @media only screen and (min-width:37.5rem) {
 	footer {
 		margin-top: 6.25rem
@@ -2334,7 +2335,7 @@ footer svg {
 footer svg.love {
 	width: 20px;
 	height: 20px;
-	fill: #1B75BA;
+	fill: #ff0a16;
 	margin-top: -.125rem;
 	margin-left: .188rem;
 	margin-right: .188rem
@@ -2456,6 +2457,10 @@ body {
 	}
 	
 	table td::before {
+	  /*
+	  * aria-label has no advantage, it won't be read inside a table
+	  content: attr(aria-label);
+	  */
 	  content: attr(data-label);
 	  float: left;
 	  font-weight: bold;
