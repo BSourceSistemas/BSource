@@ -17,7 +17,7 @@ permalink: /contato/
     <label for="txtNome">Seu Nome:</label>
     <input type="text" 
            id="txtNome" 
-           name="nome" 
+           name="name"
            placeholder="Nome" 
            data-vv-id="_jgffphqqw" 
            aria-required="true" 
@@ -29,6 +29,7 @@ permalink: /contato/
     <input type="email" 
            class="form-control" 
            id="txtEmail" 
+           name="_replyto"
            data-vv-id="_owa60l0p5"
            placeholder="nome@seudominio.com.br"
            aria-required="true" ria-invalid="false"/>

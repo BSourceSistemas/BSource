@@ -13,7 +13,7 @@ permalink: /leads
 </style>
 
 <div class="container">
-  <img src="/assets/img/message.gif" width="540" alt="Mensagem enviada!">
+  <img src="/assets/img/message.gif" alt="Mensagem enviada!" style="width:80% !important;">
   <p><strong>Preenchimento Efetuado!</strong></p>
-  <p>Agradecemos seu suporte, assim que sair um novo post você recebera uma notificação!</p>
+  <p>Agradecemos o seu contato, assim que iremos responde-lo!</p>
 </div>
