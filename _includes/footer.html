@@ -1,47 +1,59 @@
 <footer class="container">
     <div class="bootstrap-row">
-        <div class="col-xs-12 d-block d-sm-block d-md-block d-lg-none d-xs-none">
-            <div class="container">
-                <!-- <div class="col-12"> -->
-                <a itemprop="github" href="https://github.com/BSourceSistemas"
+        <div class="offset-1 col-11 d-block d-sm-block d-md-block d-lg-none d-xs-none">
+            <div class="bootstrap-row">
+                <a itemprop="github" href="https://github.com/BSourceSistemas" class="col-2"
                     title="GitHub BSource Consultoria em Sistemas" target="_blank">
                     <svg>
                         <use xlink:href="#icon-github"></use>
                     </svg>
                 </a>
                 <a itemprop="facebook" href="https://facebook.com/bsourceconsultoria"
-                    title="Facebook BSource Consultoria em Sistemas" target="_blank">
+                    title="Facebook BSource Consultoria em Sistemas" target="_blank"  class="col-2">
                     <svg>
                         <use xlink:href="#icon-facebook"></use>
                     </svg>
                 </a>
                 <a itemprop="twitter" href="https://twitter.com/BSourceSistemas"
-                    title="Twitter BSource Consultoria em Sistemas" target="_blank" class=" externalLink"> <svg>
+                    title="Twitter BSource Consultoria em Sistemas" target="_blank" class=" externalLink"  class="col-2"> <svg>
                         <use xlink:href="#icon-twitter"></use>
                     </svg>
                 </a>
                 <a itemprop="instagram" href="https://www.instagram.com/BSourceConsultoria"
-                    title="Instagram BSource Consultoria em Sistemas" target="_blank" class=" externalLink"> <svg>
+                    title="Instagram BSource Consultoria em Sistemas" target="_blank" class=" externalLink"  class="col-2"> <svg>
                         <use xlink:href="#icon-instagram"></use>
                     </svg>
                 </a>
                 <a itemprop="linkedin" href="https://www.linkedin.com/company/bsource/"
-                    title="LinkedIn BSource Consultoria em Sistemas" target="_blank" class=" externalLink"> <svg>
+                    title="LinkedIn BSource Consultoria em Sistemas" target="_blank" class=" externalLink"  class="col-2"> <svg>
                         <use xlink:href="#icon-linkedin"></use>
                     </svg>
                 </a>
                 <a itemprop="youtube" href="https://www.youtube.com/channel/UCtUt5-tLjHflqiIoNJwrqNQ?sub_confirmation=1"
-                    title="Youtube BSource Consultoria em Sistemas" target="_blank" class=" externalLink"> <svg>
+                    title="Youtube BSource Consultoria em Sistemas" target="_blank" class=" externalLink"  class="col-2"> <svg>
                         <use xlink:href="#icon-youtube"></use>
                     </svg>
                 </a>
-                <!-- </div> -->
             </div>
             <div class="bootstrap-row">
                 &nbsp;
             </div>
         </div>
-        <div class="col-lg-3 col-sm-5 col-md-5">
+        <div class="offset-1 col-11 d-block d-sm-block d-md-block d-lg-none d-xs-none">
+            <div class="bootstrap-row">
+                <h5>Mapa do Site</h5>
+            </div>
+            <ul>
+                {% for link in site.links %}
+                {% if  link.title != 'Tags' and 
+                       link.title != 'Series'  %}
+                    <li class="bootstrap-row"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                </li>
+                {% endif%}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-3 d-none d-sm-none d-md-none d-lg-block d-xs-block">
             <div class="bootstrap-row">
                 <h5>Mapa do Site</h5>
             </div>
@@ -57,7 +69,7 @@
             </ul>
         </div>
 
-        <div class="col-lg-3 d-none d-sm-none d-md-none d-lg-block d-xs-block">
+        <div class="col-3 d-none d-sm-none d-md-none d-lg-block d-xs-block">
             <div class="bootstrap-row">
                 <h5>Mídias sociais</h5>
             </div>
@@ -106,7 +118,7 @@
                 </a>
             </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 d-none d-sm-none d-md-none d-lg-block d-xs-block">
             <div class="bootstrap-row">
                 <h5>Tags</h5>
             </div>
@@ -116,28 +128,36 @@
                 </a>
             </div>
         </div>
-        <div class="col-xs-12 d-block d-sm-block d-md-block d-lg-none d-xs-none">
+        <div class="offset-1 col-11 d-block d-sm-block d-md-block d-lg-none d-xs-none">
             <div class="bootstrap-row">
-                <div class="col-12">
-                    &nbsp;
-                </div>
-                <div class="col-12">
-                    <h5>Nosso endereço</h5>
-                </div>
-                <div class="col-12">
-                    <address class="text-left">
-                        <a href="https://goo.gl/maps/bguEuX9LjL22" target="_blank" class=" externalLink">
-                            <strong>BSource Consultoria em Sistemas</strong>
-                        </a>
-                        <BR />Rua Chile, 291
-                        <BR />Vila Cechino
-                        <BR />Americana-SP
-                        <BR />CEP 13465-740
-                        <BR /><abbr title="Telefone">Tel:</abbr> +55 (19) 3405-6267
-                    </address>
-                </div>
+                <h5>Tags</h5>
+            </div>
+            <div class="bootstrap-row">
+                <a href="/tags/#opensource" title="OpenSource" class=" externalLink">
+                    OpenSource
+                </a>
             </div>
         </div>
+        <div class="col-12 d-block d-sm-block d-md-block d-lg-none d-xs-none">
+            <div class=" col-11">
+                &nbsp;
+            </div>
+            <div class="col-11">
+                <h5>Nosso endereço</h5>
+            </div>
+            <div class="col-11">
+                <address class="text-left">
+                    <a href="https://goo.gl/maps/bguEuX9LjL22" target="_blank" class=" externalLink">
+                        <strong>BSource Consultoria em Sistemas</strong>
+                    </a>
+                    <BR />Rua Chile, 291
+                    <BR />Vila Cechino
+                    <BR />Americana-SP
+                    <BR />CEP 13465-740
+                    <BR /><abbr title="Telefone">Tel:</abbr> +55 (19) 3405-6267
+                </address>
+            </div>
+    </div>
         <div class="col-lg-3 d-none d-sm-none d-md-none d-lg-block d-xs-block">
             <div class="bootstrap-row text-right">
                 <div class="col-12">
