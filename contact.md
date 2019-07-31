@@ -29,7 +29,7 @@ permalink: /contato/
     <input type="email" 
            class="form-control" 
            id="txtEmail" 
-           name="_replyto"
+           name="email"
            data-vv-id="_owa60l0p5"
            placeholder="nome@seudominio.com.br"
            aria-required="true" ria-invalid="false"/>
