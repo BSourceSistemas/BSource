@@ -11,7 +11,7 @@ tags:
 categories: Dicas 
 twitter_text: "Melhore a performance do seu código"
 introduction: "organize e melhore a performance de seus projetos."
-
+author: danielbueno
 ---
 
 Olá pessoal tudo certo?

@@ -12,6 +12,7 @@ tags:
 categories: Guiabásico
 twitter_text:
 introduction: 'Guia básico sobre Sencha Cmd.'
+author: danielbueno
 ---
 
 Olá Pessoal tudo certo?

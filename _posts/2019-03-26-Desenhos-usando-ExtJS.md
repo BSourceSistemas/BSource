@@ -13,6 +13,7 @@ tags:
 categories: 'Tutorial'
 twitter_text:
 introduction: Deixando sua aplicação web mais interativa
+author: danielbueno
 ---
 
 Olá pessoal tudo certo?

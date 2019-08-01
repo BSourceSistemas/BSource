@@ -13,6 +13,7 @@ tags:
 categories: 'Informação' 
 twitter_text: 'Novidade Sencha'
 introduction: 'Saiba mais sobre o mais recente anúncio da sencha o sencha community Edition.'
+author: danielbueno
 ---
 
 Olá pessoal tudo certo?

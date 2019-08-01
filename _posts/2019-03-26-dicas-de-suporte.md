@@ -14,6 +14,7 @@ tags:
 categories: Dicas
 twitter_text:
 introduction: 'Dicas que podem facilitar seu trabalho de suporte'
+author: danielbueno
 ---
 Olá pessoal tudo certo?
 

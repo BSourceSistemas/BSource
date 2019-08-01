@@ -657,9 +657,19 @@ body.search-overlay:after {
 	border: 1px solid #00395b;
 	background: #00395b
 }
-
+@media only screen and (max-width:47em) {
+	.img-rounded {
+		border-radius: 50%;
+		width: 40%;
+		height: 40%;
+	}
+}
+@media only screen and (min-width:48em) {
 .img-rounded {
-	border-radius: 50%
+	border-radius: 50%;
+	width: 45%;
+	height: 45%;
+}
 }
 
 html,
@@ -1524,8 +1534,23 @@ body {
 		display: table;
 		width: 100%;
 		padding: 0.1rem 0;
-		margin: 0.1rem 0
+		margin: 0.1rem 0;
+		color: white;
 	}
+
+	.author a{
+		font-weight:bolder;
+		color: white;
+	}
+	.author a:hover{
+		font-weight:bolder;
+		color: white;
+	}
+	.author a:visited{
+		font-weight:bolder;
+		color: white;
+	}
+
 	@media only screen and (min-width:37.5rem) {
 		.author {
 			padding: 3.125rem 0
@@ -1553,7 +1578,7 @@ body {
 		}
 	}
 	.author .def {
-		color: gray;
+		color: #fdfdfd;
 		font-size: 1.125rem;
 		font-family:"Montserrat", 'Open Sans', sans-serif;
 		font-weight: 300;
@@ -1571,14 +1596,20 @@ body {
 	}
 	.author .name a {
 		font-family: "Montserrat",'Open Sans', sans-serif;
-		font-weight: 800;
+		font-weight: bolder;
 		font-style: normal;
 		text-decoration: none;
 		color: rgb(255, 255, 255);
-		font-size: 1.875rem
+		font-size: 2.175rem
 	}
 	.author .name a:hover {
 		color: white
+	}
+	.author svg {
+		color: white;
+		fill: white;
+		width: 24px !important;
+		height: 24px !important;
 	}
 	@media only screen and (min-width:37.5rem) {
 		.author .name a {
@@ -2285,7 +2316,7 @@ footer {
 	padding-right: 0;
 	border-top: 1px solid #e6e6e6;
 	background: #fff;
-	padding: 0.25rem 1.563rem;
+	padding: 1.25rem 1.563rem;
 	margin-top: 0.125rem;
 	margin-bottom: 2.5rem;
 	font-family: "Montserrat",'Titillium Web', 'Helvetica Neue', Helvetica, sans-serif;
@@ -2306,7 +2337,7 @@ footer::after {
 
 @media only screen and (min-width:37.5rem) {
 	footer {
-		margin-top: 6.25rem
+		margin-top: 0
 	}
 }
 
@@ -2333,7 +2364,7 @@ footer svg {
 
 @media only screen and (min-width:37.5rem) {
 	footer svg {
-		margin-right: 1.25rem
+		margin-right: 0.35rem
 	}
 }
 

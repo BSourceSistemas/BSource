@@ -12,6 +12,7 @@ tags:
 categories: Empreendedor
 twitter_text:
 introduction: A chave para o crescimento de sua empresa
+author: danielbueno
 ---
 
 Olá, tudo certo?

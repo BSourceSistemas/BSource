@@ -11,6 +11,7 @@ color: '#55780d'
 categories: Dicas
 twitter_text: 'Saiba mais sobre framework javascript ExtJS.'
 introduction: 'Saiba mais sobre esse framework java script fantástico!'
+author: danielbueno
 ---
 
 Olá pessoal tudo certo?

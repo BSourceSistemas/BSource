@@ -14,6 +14,7 @@ tags:
 categories: Carregamentodedados
 twitter_text:
 introduction: 'Uma experiência de carregamento mais suave para o seu aplicativo corporativo'
+author: danielbueno
 ---
 
 Olá pessoal tudo certo?

@@ -12,6 +12,7 @@ tags:
 categories: Informação
 twitter_text:
 introduction: Saiba mais sobre os novos recursos do Stencils
+author: danielbueno
 ---
 Olá Pessoal tudo certo?
 

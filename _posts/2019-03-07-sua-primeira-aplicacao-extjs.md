@@ -14,6 +14,7 @@ color: '#eb7728'
 categories: 'Guiabásico'
 twitter_text: 'Saiba Como iniciar suas aplicações web com o framework javascript ExtJS.'
 introduction: 'Confira uma excelente opção pra você iniciante e/ou programador desktop migrar para web'
+author: danielbueno
 ---
 
 ## Iniciando sua Aplicação Web

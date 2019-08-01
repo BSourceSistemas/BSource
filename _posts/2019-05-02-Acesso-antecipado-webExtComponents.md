@@ -13,6 +13,7 @@ tags:
 categories: Informação
 twitter_text:
 introduction: Web components recebem um grande upgrade
+author: danielbueno
 ---
 
 Olá pessoal, tudo certo?

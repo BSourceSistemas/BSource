@@ -1,30 +1,69 @@
+{% assign author = site.data.authors[page.author] %}
+{% if author %}
 <section class="author" itemprop="author">
+    <div class="bootstrap-row">&nbsp;</div>
     <div class="details" itemscope itemtype="https://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/assets/img/blog-author.jpg" alt="http://www.bsource.com.br/">
-        <p class="def" style="color: white;">Autor</p>
-        <h3 class="name">
-            <a aria-label="Minha Conta stackoverflow" itemprop="name"
-                href="https://stackoverflow.com/users/10642151/daniel-da-cunha-bueno">{{site.username}}</a>
-        </h3>
-        <p class="desc" style="  color: white;">Senior Software Enginer em aplicações web e mobile (C#,Sencha ExtJS,
-            Xamarin).</p>
-        <p>
-            <h2 style=" color: white; text-align: center;"> Siga a BSource</h2>
-        </p>
+        <img itemprop="image" class="img-rounded" src="{{author.photo}}" alt="{{author.name}}">
+        <h3 class="name">{{author.name}}</h3>
+        <p class="desc">{{author.description}}</p>
+        <div class="bootstrap-row">
+            <div class="offset-1 d-block d-sm-block d-md-block d-lg-none d-xs-none"></div>
+            {% if author.github %}
+            <a itemprop="github" href="{{author.github}}" class="externalLink col-2"
+                title="Ir para GitHub de {{author.name}}" target="_blank">
+                <svg>
+                    <use xlink:href="#icon-github"></use>
+                </svg>
+            </a>
+            {% endif %}
+            {% if author.twitter %}
+            <a itemprop="twitter" href="{{author.twitter}}" class="externalLink col-2"
+                title="Ir para Twitter de {{author.name}}" target="_blank">
+                <svg>
+                    <use xlink:href="#icon-twitter"></use>
+                </svg>
+            </a>
+            {% endif %}
+            {% if author.linkedin %}
+            <a itemprop="linkedin" href="{{author.linkedin}}" class="externalLink col-2"
+                title="Ir para LinkedIn de {{author.name}}" target="_blank">
+                <svg>
+                    <use xlink:href="#icon-linkedin"></use>
+                </svg>
+            </a>
+            {% endif %}
+            {% if author.stackoverflow %}
+            <a itemprop="stackoverflow" href="{{author.stackoverflow}}" class="externalLink col-2"
+                title="Ir para StackOverflow de {{author.name}}" target="_blank">
+                <svg>
+                    <use xlink:href="#icon-stackoverflow"></use>
+                </svg>
+            </a>
+            {% endif %}
+            {% if author.instagram %}
+            <a itemprop="instagram" href="{{author.instagram}}" class="externalLink col-2"
+                title="Ir para Instagram de {{author.name}}" target="_blank">
+                <svg>
+                    <use xlink:href="#icon-instagram"></use>
+                </svg>
+            </a>
+            {% endif %}
+        </div>
+        <div class="bootstrap-row">&nbsp;</div>
     </div>
     <!---- <div class="sharethis-inline-follow-buttons"></div>-->
-    <style type="text/css">
+    <!-- <style type="text/css">
         #my_centered_buttons {
             display: flex;
             justify-content: center;
         }
-    </style>
-    <div class="a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow" id="my_centered_buttons">
+    </style> -->
+    <!-- <div class="a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow" id="my_centered_buttons">
         <a class="a2a_button_twitter" data-a2a-follow="BSourceSistemas"></a>
         <a class="a2a_button_facebook" data-a2a-follow="BSourceConsultoria/"></a>
         <a class="a2a_button_linkedin_company" data-a2a-follow="bsource/"></a>
         <a class="a2a_button_youtube_channel" data-a2a-follow="UCtUt5-tLjHflqiIoNJwrqNQ?view_as=subscriber"></a>
-
-    </div>
     <script async src="https://static.addtoany.com/menu/page.js"></script>
+    </div> -->
 </section>
+{% endif %}

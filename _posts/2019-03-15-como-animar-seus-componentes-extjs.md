@@ -13,6 +13,7 @@ tags:
 categories: 'Tutorial'
 twitter_text:
 introduction: Deixe seu aplicativo mais amigável através de animações
+author: danielbueno
 --- 
 
 Olá Pessoal, tudo certo?

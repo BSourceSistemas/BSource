@@ -14,6 +14,7 @@ tags:
 categories: Dicas
 twitter_text:
 introduction: "Adicionando notificações nativas que melhoram sua aplicação web"
+author: danielbueno
 ---
 
 Olá Pessoal tudo certo?

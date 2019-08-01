@@ -14,6 +14,7 @@ tags:
 categories: Informação
 twitter_text:
 introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS
+author: danielbueno
 ---
 
 Olá pessoal tudo certo?

@@ -13,6 +13,7 @@ categories:
 - Grid 
 twitter_text:
 introduction: Uso de puglins para melhorar o Grid da sua aplicação.
+author: danielbueno
 ---
 
 Olá pessoal tudo certo?
