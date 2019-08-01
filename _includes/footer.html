@@ -4,16 +4,14 @@
             <div class="bootstrap-row">
                 <h5>Mapa do Blog</h5>
             </div>
-            <ul>
-                {% for link in site.links %}
-                {% if  link.title != 'Tags' and 
-                       link.title != 'Series'  %}
-                <li class="bootstrap-row"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-                </li>
-                {% endif%}
-                {% endfor %}
-                <li class="bootstrap-row"><a href="https://www.bsource.com.br/">Institucional</a></li>
-            </ul>
+            {% for link in site.links %}
+            {% if  link.title != 'Tags' and 
+                    link.title != 'Series'  %}
+            <div class="bootstrap-row"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+            </iv>
+            {% endif%}
+            {% endfor %}
+            <iv class="bootstrap-row"><a href="https://www.bsource.com.br/">Institucional</a></iv>
         </div>
         <div class="col-3 d-none d-sm-none d-md-none d-lg-block d-xs-block">
             <div class="bootstrap-row">
