@@ -6,7 +6,7 @@ description: Inscreva-se!
 ---
 <div class="row">
   <div class="col-12 text-center">
-    <h1>Assinatura de nossa newsletter</h1>
+    <h1>Assinatura de nossa NewsLetter</h1>
   </div>
 </div>
 <form action="https://formspree.io/media@bsource.com.br" method="POST" target="_blank"  class="offset-1 col-10">

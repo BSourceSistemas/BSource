@@ -10,7 +10,7 @@ color: '#B31917'
 tags:
 - Novidade
 - ExtJS
-- notícias
+- Notícias
 categories: Informação
 twitter_text:
 introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS

@@ -8,7 +8,7 @@ description: 'Web components recebem um grande upgrade'
 main-class: 'noticias'
 color: '#B31917'
 tags:
-- notícias
+- Notícias
 - ExtJS
 categories: Informação
 twitter_text:

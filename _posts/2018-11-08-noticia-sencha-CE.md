@@ -9,7 +9,7 @@ main-class: 'noticias'
 color: '#B31917'
 tags:
 - OpenSource
-- notícias
+- Notícias
 categories: 'Informação' 
 twitter_text: 'Novidade Sencha'
 introduction: 'Saiba mais sobre o mais recente anúncio da sencha o sencha community Edition.'
