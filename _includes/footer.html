@@ -19,16 +19,14 @@
             <div class="bootstrap-row">
                 <h5>Mapa do Blog</h5>
             </div>
-            <ul>
-                {% for link in site.links %}
-                {% if  link.title != 'Tags' %}
-                <li class="bootstrap-row"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-                </li>
-                {% endif%}
-                {% endfor %}
-                <li class="bootstrap-row"><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml"
-                        title="Atom/RSS feed">Feed</a></li>
-            </ul>
+            {% for link in site.links %}
+            {% if  link.title != 'Tags' %}
+            <div class="bootstrap-row"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+            </div>
+            {% endif%}
+            {% endfor %}
+            <div class="bootstrap-row"><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml"
+            title="Atom/RSS feed">Feed</a></div>
         </div>
 
         <div class="col-3 d-none d-sm-none d-md-none d-lg-block d-xs-block">
