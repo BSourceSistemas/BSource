@@ -2246,9 +2246,6 @@ body {
 	max-width: 100%;
 	height: auto
 }
-
-/*teste post img*/
-
 .post {
 	position: relative;
 	top: 1.875rem;
@@ -2412,8 +2409,6 @@ footer ul a:hover {
 	color: #fff
 }
 
-/* footer colunas responsivas */ 
-
 body {
 	font-family:"Montserrat", "Open Sans", sans-serif;
 	line-height: 1.25;
@@ -2485,10 +2480,6 @@ body {
 	}
 	
 	table td::before {
-	  /*
-	  * aria-label has no advantage, it won't be read inside a table
-	  content: attr(aria-label);
-	  */
 	  content: attr(data-label);
 	  float: left;
 	  font-weight: bold;
