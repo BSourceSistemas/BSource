@@ -6,35 +6,25 @@ description: Inscreva-se!
 ---
 <div class="row">
   <div class="col-12 text-center">
-    <h1>Assinatura de nossa NewsLetter</h1>
-  </div>
+    <h1>Fale conosco.</h1>
 </div>
-<form action="https://formspree.io/media@bsource.com.br" method="POST" target="_blank"  class="offset-1 col-10">
-  <input type="hidden" name="_subject" value="Novo contato!" /> 
-  <input type="hidden" name="_next" value="https://blog.bsource.com.br/assinatura-newsletter" /> 
-  <input type="hidden" name="_language" value="pt" /> 
-  <div class="form-group">
-    <label for="txtNome">Seu Nome:</label>
-    <input type="text" 
-           id="txtNome" 
-           name="name"
-           placeholder="Nome" 
-           data-vv-id="_jgffphqqw" 
-           aria-required="true" 
-           aria-invalid="false"  
-           class="form-control"/>
-  </div>
-  <div class="form-group">
-    <label for="txtEmail">Seu E-mail</label>
-    <input type="email" 
-           class="form-control" 
-           id="txtEmail" 
-           name="email"
-           data-vv-id="_owa60l0p5"
-           placeholder="nome@seudominio.com.br"
-           aria-required="true" ria-invalid="false"/>
+<form action="https://bsource.us19.list-manage.com/subscribe/post?u=4d7d6690bbf57af15d4563d58&amp;id=fa3667bf0a" method="post" id="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Seu Nome</label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+  <div class="mc-field-group">
+    <label for="mce-EMAIL">Email 
+      <span class="asterisk">*
+      </span>
+    </label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
   </div>
   <button type="submit" class="btn btn-primary btn-block mb-2">Enviar</button>
 </form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
 
 
