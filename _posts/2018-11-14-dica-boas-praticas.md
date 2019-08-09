@@ -150,7 +150,7 @@ Sencha Cmd é a fundação para o desenvolvimento das suas aplicações em Sench
 
 Binding no ExtJS é uma ferramenta essencial para aprender e aproveitar. Usando <a href="https://docs.sencha.com/extjs/6.2.0/guides/application_architecture/view_models_data_binding.html" target="_blank">binding</a> podemos criar um código muito mais claro que pode fazer muito mais.  
 
-###  Use o Fashion
+### Use o Fashion
 
 Sencha O Cmd versão 6 introduziu um novo recurso para o tema chamado “Live Update”. O Live Update usa o Fashion para compilar e injetar o CSS em sua página à medida que você cria em seu IDE. Esta é uma grande economia de tempo, já que você não precisa mais atualizar seu navegador para ver mudanças de estilo.A aplicação do seu aplicativo nunca foi tão fácil, e estender o Sass agora pode ser feito na mesma linguagem do framework, o Fashion se tornará especialmente útil à medida que o número de páginas na sua aplicação crescer!
 

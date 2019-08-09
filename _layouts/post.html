@@ -6,6 +6,7 @@
   endif
   %}>
 {% include head.html %}
+
 <body class="has-push-menu">
   {% include minutes-to-read.html %} {% include svg-icons.html %} {% include header-post.html %}
   <section class="post">
@@ -40,7 +41,8 @@
       </div>
     </div> -->
     {% include author.html %}
-    {% if site.disqus.shortname %} 
+    {% include assinatura.html %}
+    {% if site.disqus.shortname %}
     {% include comments.html %}
     {% endif %}
   </section>
