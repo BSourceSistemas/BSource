@@ -1986,9 +1986,11 @@ body {
 		text-align: center
 	}
 }
+
 .box-item:hover .box-body .new-post:after {
 	background-color: #ffff
 }
+
 .box-item .box-body .new-post:after {
 	content: 'New post';
 	text-transform: uppercase;
@@ -2002,17 +2004,21 @@ body {
 	position: absolute;
 	margin-top: -2.187rem
 }
+
 .box-item .box-body h2 {
 	color: #1C75BA
 }
+
 .box-item .box-body .tags a {
 	color: #1C75BA;
 	border: 1px solid #1C75BA
 }
+
 .box-item .box-body .tags a:hover {
 	color: #fff;
 	background: #1C75BA
 }
+
 .image {
 	display: block;
 	max-width: 230px;
@@ -2020,6 +2026,7 @@ body {
 	width: auto;
 	height: auto
 }
+
 .icon-clock,
 .icon-calendar {
 	width: .938rem;
@@ -2028,9 +2035,11 @@ body {
 	vertical-align: middle;
 	margin-right: .188rem
 }
+
 .box-item .box-info {
 	padding: .938rem
 }
+
 .post-content p.post-info {
 	font-family:"Montserrat", 'Titillium Web', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: 300;
