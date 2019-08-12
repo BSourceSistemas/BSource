@@ -92,5 +92,4 @@ plugins:
   - jekyll-seo-tag
   - amp-jekyll
 
-#Pasta AMP
-ampdir: YOURDIR
+
