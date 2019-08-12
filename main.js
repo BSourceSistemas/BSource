@@ -18,51 +18,40 @@ var Zepto = function () {
     function r(t) {
         return "object" == c(t)
     }
-
     function u(t) {
         return r(t) && !o(t) && Object.getPrototypeOf(t) == Object.prototype
     }
-
     function l(t) {
         return "number" == typeof t.length
     }
-
     function f(t) {
         return t.replace(/::/g, "/").replace(/([A-Z]+)([A-Z][a-z])/g, "$1_$2").replace(/([a-z\d])([A-Z])/g, "$1_$2").replace(/_/g, "-").toLowerCase()
     }
-
     function n(t) {
         return t in e ? e[t] : e[t] = new RegExp("(^|\\s)" + t + "(\\s|$)")
     }
-
     function h(t, e) {
         return "number" != typeof e || O[f(t)] ? e : e + "px"
     }
-
     function i(t) {
         return "children" in t ? C.call(t.children) : w.map(t.childNodes, function (t) {
             return 1 == t.nodeType ? t : void 0
         })
     }
-
     function d(t, e) {
         return null == e ? w(t) : w(t).filter(e)
     }
-
     function p(t, e, n, i) {
         return s(e) ? e.call(t, n, i) : e
     }
-
     function m(t, e, n) {
         null == n ? t.removeAttribute(e) : t.setAttribute(e, n)
     }
-
     function v(t, e) {
         var n = t.className || "",
             i = n && n.baseVal !== y;
         return e === y ? i ? n.baseVal : n : void (i ? n.baseVal = e : t.className = e)
     }
-
     function g(e) {
         try {
             return e ? "true" == e || "false" != e && ("null" == e ? null : +e + "" == e ? +e : /^[\[\{]/.test(e) ? w.parseJSON(e) : e) : e
