@@ -2026,7 +2026,6 @@ body {
 	width: auto;
 	height: auto
 }
-
 .icon-clock,
 .icon-calendar {
 	width: .938rem;
@@ -2541,7 +2540,6 @@ body {
 	  .input-field:focus {
 		border: 2px solid dodgerblue;
 	  }
-	  /* Set a style for the submit button */
 	  .btn {
 		background-color: dodgerblue;
 		color: white;
