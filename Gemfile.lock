@@ -21,6 +21,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    amp-jekyll (1.0.2)
+      fastimage (>= 1.8.0)
+      jekyll (~> 3.0)
+      nokogiri (>= 1.6.0)
     builder (3.2.3)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
@@ -31,6 +35,7 @@ GEM
     erubi (1.8.0)
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
+    fastimage (2.1.5)
     ffi (1.11.1-x64-mingw32)
     ffi (1.11.1-x86-mingw32)
     forwardable-extended (2.6.0)
@@ -120,6 +125,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  amp-jekyll
   jekyll
   jekyll-multiple-languages-plugin
   jekyll-seo-tag
