@@ -39,10 +39,6 @@ C:\Users\Me\sencha-sdks    # Windows
 /home/me/sencha-sdks       # Linux
 {% endhighlight %}
 
-
-
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Y-BiAxkP6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Antes de ir embora

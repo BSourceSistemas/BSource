@@ -131,7 +131,7 @@ O Ext JS 6.7 fornece um scroller virtual que permite um intervalo de rolagem al�
 
 <img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424158/virtualscroller_ajv5cq.png" title="rolagem do navegador" alt="listas e grid infinitas" class="responsive1"/> 
 
-## Novidades no ExtJS 6.7 Tolling 
+### Novidades no ExtJS 6.7 Tolling 
 
 ### ExtGen Templates
 
@@ -194,7 +194,7 @@ Mais recursos e melhorias de desempenho.
 
 O Ext JS 6.7 inclui atualizações e aprimoramentos para vários componentes, bem como correções de bugs no kit de ferramentas Modern e Classic. O kit de ferramentas Ext JS 6.7 Classic inclui vários aprimoramentos em Grid, calendário, painel, gráficos, janela, caixa de combinação, guias e painel. O Ext JS 6.7 suportou extensas fases de teste, incluindo testes automatizados com o Sencha Test, resultando em mais de mil casos de teste.
 
-## Conclusão 
+### Conclusão 
 
 O ExtJS 6.7 nos oferece novas features fantásticas para que você crie ou transformar suas aplicações web,
 nós da BSource estamos ansiosos para começar a utilizar essa nova versão e quanto a vocês?

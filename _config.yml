@@ -90,6 +90,6 @@ plugins:
   - jekyll-sitemap
   - liquid_reading_time
   - jekyll-seo-tag
-  - amp-jekyll
+  
 
 
