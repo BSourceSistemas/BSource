@@ -28,6 +28,7 @@ Se você veio até aqui certamente está curioso para saber como programar a sua
 Alguns requisitos para a instalação do Sencha ExtJS
 
 <a href="https://www.sencha.com/products/sencha-cmd/" target="_blank">Sencha CMD</a>
+
 <a href="https://www.sencha.com/products/extjs/evaluate/" target="_blank">SDK</a>
 
 *Recomendamos extrair o Ext JS em um local fixo em seu diretório "home":*
