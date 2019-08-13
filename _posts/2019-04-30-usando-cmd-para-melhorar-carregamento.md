@@ -11,7 +11,7 @@ tags:
 - App
 - ExtJS
 - CMD
-categories: Carregamento de dados
+categories: Tutorial
 twitter_text:
 introduction: 'Uma experiência de carregamento mais suave para o seu aplicativo corporativo'
 author: danielbueno
