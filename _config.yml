@@ -68,9 +68,6 @@ collections:
 
 future: false
 
-#multilanguage
-gem: 'jekyll-multiple-languages-plugin'
-
 #setup multilanguage
 
 url: https://blog.bsource.com.br
@@ -90,6 +87,5 @@ plugins:
   - jekyll-sitemap
   - liquid_reading_time
   - jekyll-seo-tag
-  
 
 
