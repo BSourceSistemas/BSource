@@ -16,7 +16,6 @@ twitter_text:
 introduction: Saiba mais sobre a mais nova versão do Sencha ExtJS
 author: danielbueno
 ---
-
 Olá pessoal tudo certo?
 
 Nesse post falaremos mais sobre a nova versão do Sencha ExtJS que está indo pra sua versão 6.7, essa versão traz com ela aprimoramentos do kit de ferramentas Modern entre eles suporte a filtragem de grid, bloqueio de grid, rolagem virtual para grid infinito, chip de material, multiseleção de combobox e no colorpicker. O kit de ferramentas do ExtJS 6.7 também inclui aprimoramentos no kit de ferramentas Classic como aprimoramento de componentes para grid, calendário, painel, gráficos, window, combobox, tabs e dashboard. O jetBrains, Eclipse e Visual Studio puglins agora suportam as últimas versões de IDE.
@@ -62,6 +61,7 @@ Novos recursos modernos nesta versão incluem:
 •   Os clientes podem usar seu login do <a href= "https://support.sencha.com/#login" target="blank">Portal de suporte</a> * para obter acesso ao framework Ext JS, ao cmd e a todos os pacotes do Ext JS npm
 
 ### O que há de novo no Sencha Ext JS 6.7
+
 Filtragem de Grid
 Ext Modern 6.7 O Modern Grid fornece filtragem de grid, para que os usuários finais possam exibir registros de grid que atendam aos critérios especificados. Além do filtro de texto, o filtro da coluna de grid suporta os seguintes filtros de grid:
 
