@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Anúncio do Sencha ExtJS 6.7 e Tooling"
 date: 2019-03-01 12:18:13
-image: '/assets/img/anuncio.gif'
+image: '/assets/img/anuncio1.gif'
 description: 'Nova versão do Sencha ExtJS'
 main-class: 'noticias'
 color: '#B31917'
