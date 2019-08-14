@@ -2369,7 +2369,9 @@ body {
 	table td:last-child {
 	  border-bottom: 0;
 	}
+	
 	/*form final funil de vendas*/
+	/*
 	*{ margin:0; padding:0;}
 	body{ font:100% normal Arial, Helvetica, sans-serif; background:#161712;}
 	form,input,select,textarea{margin:0; padding:0; color:#fff;}
@@ -2519,8 +2521,9 @@ body {
 		}
 	}
 	/*icon form*/
+	/*
 	.input-container {
-		display: -ms-flexbox; /* IE10 */
+		display: -ms-flexbox; 
 		display: flex;
 		width: 100%;
 		margin-bottom: 15px;
