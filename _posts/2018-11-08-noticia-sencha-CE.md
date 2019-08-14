@@ -2,7 +2,7 @@
 layout: post
 title: "ExtJS Versão da Comunidade"
 date: 2018-11-08 20:34:26
-image: '/assets/img/comunidade.png'
+image: '/assets/img/community1.gif'
 description: 'Novidades Sencha ExtJS'
 author: 'Daniel'
 main-class: 'noticias'
