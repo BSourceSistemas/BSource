@@ -4,6 +4,7 @@ title: Quer saber mais sobre ExtJS?
 permalink: /newsletter
 description: Inscreva-se!
 ---
+
 <div class="row">
   <div class="col-12 text-center">
     <h1>Fale conosco.</h1>
