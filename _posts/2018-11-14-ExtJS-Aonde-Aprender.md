@@ -2,7 +2,7 @@
 layout: post
 title:  "ExtJS, o que é? Aonde aprender?"
 date:   2018-11-01 17:05:20 -0200
-image: '/assets/img/logo-bsource.png'
+image: '/assets/img/doubt.gif'
 description: 'Introdução ao ExtJS'
 tags: 
 - Aprenda já

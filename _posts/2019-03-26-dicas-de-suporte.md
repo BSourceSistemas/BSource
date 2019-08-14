@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Dicas de suporte"
 date: 2019-03-26 17:07:37
-image: '/assets/img/suport.gif'
+image: '/assets/img/suporte.gif'
 description: 'Detalhes fazem a diferença'
 main-class: 'dicas'
 color: '#637a91'

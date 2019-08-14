@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Carregue seu app rapidamente"
 date: 2019-04-30 10:30:19
-image: '/assets/img/SenchaCMD.png'
+image: '/assets/img/velocidade.gif'
 description: 'facilite o carregamento de dados'
 main-class: cmd
 color: '#2da0c3'
