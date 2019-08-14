@@ -686,7 +686,7 @@ body {
 	.header-post h1 {
 		font-size: 1.875rem;
 		margin: 0 0 30px;
-		text-shadow: 3px 3px #004c79
+	/*	text-shadow: 3px 3px #004c79*/
 	}
 	@media only screen and (min-width:27.5rem) {
 		.header-post h1 {
