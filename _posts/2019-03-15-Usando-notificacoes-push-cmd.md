@@ -19,7 +19,7 @@ author: danielbueno
 
 Olá Pessoal tudo certo?
 
-Antes de tudo se você ainda não tem o Sencha Cmd instalado em sua máquina leia nosso post anterior <a href="https://blog.bsource.com.br/guiab%C3%A1sico/2018/11/21/uso-do-sencha-cmd/" target="_blank">Introdução ao Sencha CMD</a>Hoje irei trazer um artigo de autoria da Sencha sobre como melhorar sua aplicação web através de notificações push e Webpush e seus conceitos, espero que ele ajude vocês com suas futuras aplicações web.
+Antes de tudo se você ainda não tem o Sencha Cmd instalado em sua máquina leia nosso post anterior <a href="https://blog.bsource.com.br/guiab%C3%A1sico/2018/11/21/uso-do-sencha-cmd/" target="_blank">Introdução ao Sencha CMD</a>, hoje irei trazer um artigo de autoria da Sencha sobre como melhorar sua aplicação web através de notificações push e Webpush e seus conceitos, espero que ele ajude vocês com suas futuras aplicações web.
 
 ## Protocolo de notificações por push da Web
 
