@@ -7,7 +7,7 @@ url: "https://blog.bsource.com.br" # the base hostname & protocol for your site 
 # User settings
 username: Daniel da Cunha Bueno 
 user_description: Senior Software Enginer em aplicações web e mobile (#C,Sencha Ext JS, Xamarin).
-email: 
+email: danielbueno@bsource.com.br
 twitter_username: BSourceSistemas
 github_username:  bsourcesistemas
 linkedin_username: bsource
@@ -15,9 +15,9 @@ gplus_username:  lorem_ipsum
 disqus_username: lorem_ipsum
 
 # User settings 2
-#username2: Dalton Eduardo da Silveira
+# username2: Dalton Eduardo da Silveira
 user_description: Senior Software Enginer em aplicações web e mobile (#C,Sencha Ext JS, Xamarin).
-email: 
+email: daltonsilveira@bsource.com.br 
 twitter_username: BSourceSistemas
 github_username:  bsourcesistemas
 linkedin_username: linkedin_username
@@ -45,7 +45,7 @@ links:
   - title: Newsletter
     url: /newsletter
     
-# html minify
+# Html Minify
 compress_html:
   clippings: all
   comments: all
@@ -64,11 +64,11 @@ collections:
   authors:
   output: true 
 
-#Schedule 
+# Schedule 
 
 future: false
 
-#setup multilanguage
+# Setup Multilanguage
 
 url: https://blog.bsource.com.br
 
@@ -78,8 +78,10 @@ defaultLang: en
 languageNames:
   de: Deutsch
   en: English
+
 # Google Analytics
 google_analytics: UA-85665246-1
+
 # Plugins
 plugins:
   - jemoji
@@ -87,5 +89,5 @@ plugins:
   - jekyll-sitemap
   - liquid_reading_time
   - jekyll-seo-tag
-
+ 
 

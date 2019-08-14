@@ -280,3 +280,5 @@ Usando transform (), você pode fazer qualquer processamento dos dados necessár
 
 Exemplo: usando transform ():<a href="https://fiddle.sencha.com/#fiddle/p05" target="_blank"> Fiddle</a> 
 
+Se você procura mais dicas de como aprimorar seu desempenho profissional leia também nossas <a href="https://blog.bsource.com.br/dicas/2019/03/26/dicas-de-suporte/" target="_blank">dicas de boas práticas</a>
+

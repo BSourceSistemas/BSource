@@ -21,7 +21,7 @@ author: danielbueno
 
 Olá pessoal, tudo certo? 
 
-Se você veio até aqui certamente está curioso para saber como programar a sua aplicação web robusta, utilizando o framework ExtJS, você vai ver como é fácil sua utilização, e para você que ainda não conhece nosso canal no youtube deixarei aqui o vídeo passo a passo de como iniciar sua primeira aplicação ExtJS, inscreva-se e confira isso e muito mais conteúdo sobre Sencha ExtJS por lá, se tiver alguma sugestão ou dúvida deixe nos comentários que tentaremos responder da melhor forma possível
+Se você veio até aqui certamente está curioso para saber como programar a sua aplicação web robusta, utilizando o framework ExtJS, você vai ver como é fácil sua utilização, e para você que ainda não conhece ExtJS acesse confira esse <a href="https://blog.bsource.com.br/dicas/2018/11/01/ExtJS-Aonde-Aprender/" target="_blank">post</a> canal no youtube deixarei aqui o vídeo passo a passo de como iniciar sua primeira aplicação ExtJS, inscreva-se e confira isso e muito mais conteúdo sobre Sencha ExtJS por lá, se tiver alguma sugestão ou dúvida deixe nos comentários que tentaremos responder da melhor forma possível
 
 # Pré requisitos
 

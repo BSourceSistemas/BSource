@@ -152,11 +152,11 @@ Binding no ExtJS é uma ferramenta essencial para aprender e aproveitar. Usando 
 
 ### Use o Fashion
 
-Sencha O Cmd versão 6 introduziu um novo recurso para o tema chamado “Live Update”. O Live Update usa o Fashion para compilar e injetar o CSS em sua página à medida que você cria em seu IDE. Esta é uma grande economia de tempo, já que você não precisa mais atualizar seu navegador para ver mudanças de estilo.A aplicação do seu aplicativo nunca foi tão fácil, e estender o Sass agora pode ser feito na mesma linguagem do framework, o Fashion se tornará especialmente útil à medida que o número de páginas na sua aplicação crescer!
+Sencha O Cmd versão 6 introduziu um novo recurso para o tema chamado “Live Update”. O Live Update usa o Fashion para compilar e injetar o CSS em sua página à medida que você cria em seu IDE. Esta é uma grande economia de tempo, já que você não precisa mais atualizar seu navegador para ver mudanças de estilo. A aplicação do seu aplicativo nunca foi tão fácil, e estender o Sass agora pode ser feito na mesma linguagem do framework, o Fashion se tornará especialmente útil à medida que o número de páginas na sua aplicação crescer!
 
 ### Conclusão 
 
-Para quem está aprendendo uma nova tecnologia ter um direcionamento para um caminho correto e muito importante isso minimiza os possíveis erros que poderiam ocorrer e melhoram a performance do seu código. Se vocês usam alguma boa pratica que não foi citada nesse post, por favor deixe-nos um comentário que vamos adiciona-lo a lista.
+Para quem está aprendendo uma nova tecnologia ter um direcionamento para um caminho correto e muito importante isso minimiza os possíveis erros que poderiam ocorrer e melhoram a performance do seu código, e se você quer mais dicas para melhorar seu desempenho profissional não deixe de confirir <a href="https://blog.bsource.com.br/dicas/2019/03/26/dicas-de-suporte/" target="_blank">Dicas de Suporte</a>. Se vocês usam alguma boa prática que não foi citada nesse post, por favor deixe-nos um comentário que vamos adiciona-lo a lista.
 obrigado pela leitura e até a próxima.
 
 
