@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Usando notificações por push pra aplicações Web"
 date: 2019-03-15 12:35:54
-image: "/assets/img/programador.jpg"
+image: "/assets/img/programador.gif"
 description: "Melhore seus app Web"
 main-class: cmd
 color: "#2da0c3"
