@@ -24,9 +24,7 @@ Isso não afetara a performance do seu codigo mais fará ficar mais dificil segu
 
 <img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424126/dica1_iypdbr.png" title="organizacao" alt="pastas" class="responsive1"/> 
 
-
 **todas as views estão em juntas ficando totalmente "bagunçado"**
-
 
 <img src="https://res.cloudinary.com/dkwsuycgn/image/upload/v1564424126/dica2_qonj0n.png" title="estrutura" alt="pastas" class="responsive1"/> 
 
