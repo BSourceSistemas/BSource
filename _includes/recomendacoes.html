@@ -1,16 +1,14 @@
-<div class="relatedPosts">
+<div class="offset-1 col-10 d-block d-sm-block d-md-block d-lg-none d-xs-none text-center">
+    <h4>Relacionados:</h4>
 
-    <h4>You May Also Enjoy</h4>
-
-    {% assign maxRelated = 4 %}
-    {% assign minCommonTags =  2 %}
-    {% assign maxRelatedCounter = 0 %}
+    {% assign maxRelated = 3 %}
+    {% assign minCommonTags =  1 %}
+    {% assign maxRelatedCounter = 1 %}
 
     {% for post in site.posts %}
 
     {% assign sameTagCount = 0 %}
     {% assign commonTags = '' %}
-
     {% for category in post.categories %}
     {% if post.url != page.url %}
     {% if page.categories contains category %}
@@ -22,9 +20,12 @@
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-    <div>
-        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
-    </div>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="offset-1 col-10 d-block d-sm-block d-md-block d-lg-none d-xs-none text-center">
+            <h5>{{ post.title }}</h5>
+            <img width="100%" src="{{post.image}}" class="">
+        </div>
+    </a>
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
     {% if maxRelatedCounter >= maxRelated %}
     {% break %}
@@ -32,5 +33,4 @@
     {% endif %}
 
     {% endfor %}
-
 </div>
