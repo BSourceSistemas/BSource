@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Acesso antecipado ao WebExtComponents"
 date: 2019-05-02 12:18:13
-image: '/assets/img/SenchaExtWebComponents.png'
+image: '/assets/img/earlyacess.gif'
 description: 'Web components recebem um grande upgrade'
 main-class: 'noticias'
 color: '#B31917'
