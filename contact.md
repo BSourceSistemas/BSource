@@ -10,7 +10,7 @@ permalink: /contato/
     <h1>Fale conosco.</h1>
 </div>
 
-<img src="https://res.cloudinary.com/dmmimj8jp/image/upload/v1565359979/BS_lc99je.png" alt="BSource" title="Software sob medida" class="responsive1">
+<a href="https://www.bsource.com.br/pt/"><img src="https://res.cloudinary.com/dmmimj8jp/image/upload/v1565359979/BS_lc99je.png" alt="BSource" title="Venha conhecer nosso site" class="responsive1"></a>
 
 <form action="https://bsource.us19.list-manage.com/subscribe/post?u=4d7d6690bbf57af15d4563d58&amp;id=fa3667bf0a" method="post" id="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
   <div class="mc-field-group">
