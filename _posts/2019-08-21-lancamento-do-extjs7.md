@@ -29,7 +29,7 @@ No nosso canal do youtube eu falei um pouco sobre os componentes do Ext JS  6.6 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fpim3DIqK6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Alto ROI para Desenvolvimento e Manutenção
+### Alto ROI para Desenvolvimento e Manutenção
 
 O uso de um portfólio de componentes completos acelera o desenvolvimento, pois você tem apenas uma curva de aprendizado. Enquanto um produto mais robusto vem com mais para aprender, uma vez que você perceba, a produtividade aumenta rapidamente. Muitas empresas estão agora enfrentando pela primeira vez a complexidade de atualizar entre versões de framework e gerenciar códigos obscuros de soucer que podem ou não ser mantidos. Embora as atualizações nunca sejam fáceis, nossa abordagem para liberações incrementais que minimizam as alterações de quebra de código deve fornecer o menor custo de manutenção possível.
 
