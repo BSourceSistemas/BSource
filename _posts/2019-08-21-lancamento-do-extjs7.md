@@ -99,6 +99,7 @@ O Ext JS 7.0 fornece um Grupo de Formulários que permite agrupar caixas de sele
 ### Froala Text Editor
 
 O Ext JS 7.0 Modern toolkit inclui o Froala Text Editor como parte do pacote premium. Froala é um dos mais belos editor de texto e rico em funcionalidades de alto desempenho WYSIWYG com um design simples e limpo. O Froala Editor estará disponível como um pacote premium, que está disponível como parte da licença Enterprise. Para o acesso antecipado, o usuário pode baixar e testar o Froala Editor localmente, se você quiser saber mais sobre o Froala Editor escrevi um post sobre ele no blog segue o link <a href="https://blog.bsource.com.br/tecnologia/2019/07/01/froala/" target="_blank">Saber mais</a>
+
 Nota: Para implantar totalmente o Froala Editor, o usuário precisará obter uma chave de ativação do Froala.
 
 ### Pacote de Localização
