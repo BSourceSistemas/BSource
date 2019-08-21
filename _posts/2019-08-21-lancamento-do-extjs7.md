@@ -59,7 +59,7 @@ Novos recursos clássicos nesta versão incluem:
 
 ### Novidades do Sencha Ext JS 7.0
 
-**Aprimoramentos de grid no kit de ferramentas moderno**
+**Aprimoramentos de grid no modern tool kit**
 
 O Ext 7.0 Modern Grid oferece edição de arrastar e soltar e fileira , para que o usuário final possa facilmente mover, reordenar ou inserir conteúdo em uma célula do grid.
 Plugin de arrastar e soltar - possui um elemento de arrastar para mover o cursor e o nó de visualização do grid onde o evento de mouse para baixo está registrado
