@@ -2,5 +2,3 @@
 
 User-agent: *
 Sitemap:https://blog.bsource.com.br/sitemap.xml 
-
-Ping: https://blog.bsource.com.br/ping?sitemap=http://www.sitemaps.org/schemas/sitemap/0.9
