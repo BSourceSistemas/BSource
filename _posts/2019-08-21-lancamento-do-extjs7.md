@@ -74,15 +74,9 @@ Você que ainda não conhece o grid do Sencha Ext JS, comentei sobr ele em nosso
 
 O Ext 7.0 Modern Grid fornece o Grupo Recolhível , para que o usuário final possa expandir e recolher grupos de linhas em um grid. O Collapsible Group fornece uma maneira de exibir e organizar um grande conjunto de dados e permite que o usuário final veja um resumo de alto nível dos dados ou faça drill-through em detalhes específicos a partir de um único grid.
 
-### Vista de Árvore Arrastar e Soltar
+### Tree View Drag and drop
 
-O modo de exibição de árvore moderna do Ext JS 7.0 fornece um plug - in de arrastar e soltar para que o usuário final possa mover e reorganizar o nó em uma hierarquia de árvore com facilidade. A zona de arrastar e a zona de soltura associadas à exibição em árvore participarão da funcionalidade arrastar e soltar. A operação de arrastar incluirá propriedades para especificar:
-
-### Visualização da Árvore de Origem a partir da qual o "arrasto" é originado
-
-Arraste o elemento que move o cursor
-Nó de exibição em árvore em que o evento do mouse está registrado
-Dados selecionados arrastados da exibição da árvore de origem
+O modo de exibição Tree modern do Ext JS 7.0 fornece um plug - in drag and drop para que o usuário final possa mover e reorganizar o nó em uma hierarquia de árvore com facilidade. A zona de arrastar e a zona de soltura associadas à exibição em árvore participarão da funcionalidade arrastar e soltar. A operação de arrastar incluirá propriedades para especificar:
 
 ### Layout Accordian
 
