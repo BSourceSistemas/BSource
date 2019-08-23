@@ -22,6 +22,12 @@ Muitos de vocês já devem estar familiarizados com o pacote Sencha Charting que
 É claro que você pode usar o HTML5 Canvas ou o SVG diretamente, mas eles geralmente levam a problemas em plataformas que não são suportadas. Lidar com problemas entre navegadores, diferenças entre telas regulares e de retina, animações, etc., não é uma tarefa fácil.
 O Ext JS Charts vem com um pacote de desenho que permite criar gráficos e animações arbitrários sem se preocupar com qual tecnologia um navegador em particular usa para renderizar seus desenhos. Seleciona automaticamente o renderizador mais apropriado (Canvas, SVG ou VML), dependendo do seu navegador. Sob o capô, o pacote de desenho segue o HTML5 Canvas como o modelo de API subjacente. Chamadas de API do Canvas são traduzidas automaticamente para SVG ou VML, se esses mecanismos forem necessários.
 
+<iframe height="422" style="width: 100%;" scrolling="no" title="ExtJS - Taming Bloated Charts" src="//codepen.io/bradyhouse/embed/OVogzo/?height=422&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/bradyhouse/pen/OVogzo/'>ExtJS - Taming Bloated Charts</a> by brady house
+  (<a href='https://codepen.io/bradyhouse'>@bradyhouse</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+
  Nesse artigo abordaremos o básico sobre os recursos do pacote de desenho que vem com os Gráficos do Sencha e como eles foram implementados, para que você não tenha que lidar com problemas de compatibilidade entre navegadores.
 
 ### Sprite Simples
