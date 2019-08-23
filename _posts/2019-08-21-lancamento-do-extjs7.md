@@ -61,12 +61,12 @@ Novos recursos clássicos nesta versão incluem:
 
 **Aprimoramentos de grid no modern tool kit**
 
-O Ext 7.0 Modern Grid oferece edição de arrastar e soltar e fileira , para que o usuário final possa facilmente mover, reordenar ou inserir conteúdo em uma célula do grid.
+O Ext 7.0 Modern Grid oferece edição de drag and drop de arquivos, para que o usuário final possa facilmente mover, reordenar ou inserir conteúdo em uma célula do grid.
 Plugin de arrastar e soltar - possui um elemento de arrastar para mover o cursor e o nó de visualização do grid onde o evento de mouse para baixo está registrado
 Plugin do editor de linha - permite que o usuário final edite em um nível de linha ou coluna. Haverá um botão para salvar ou cancelar as alterações.
 É fornecido um exemplo do Kitchensink que mostra todos os recursos de plug-ins do editor de arrastar e soltar para o Grid.
 
-Você que ainda não conhece o grid do Sencha Ext JS, comentei sobr ele em nosso canal do youtube, confira.
+Você que ainda não conhece o grid do Sencha Ext JS, comentei sobre ele em nosso canal do youtube, confira.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zcDnSzAynro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
