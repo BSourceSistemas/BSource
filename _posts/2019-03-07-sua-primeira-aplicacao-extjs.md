@@ -17,13 +17,13 @@ introduction: 'Confira uma excelente opção pra você iniciante e/ou programado
 author: danielbueno
 ---
 
-**Iniciando sua Aplicação Web**
+### Iniciando sua Aplicação Web
 
 Olá pessoal, tudo certo? 
 
 Se você veio até aqui certamente está curioso para saber como programar a sua aplicação web robusta, utilizando o framework ExtJS, você vai ver como é fácil sua utilização, e para você que ainda não conhece ExtJS acesse confira esse <a href="https://blog.bsource.com.br/dicas/2018/11/01/ExtJS-Aonde-Aprender/" target="_blank">post</a> canal no youtube deixarei aqui o vídeo passo a passo de como iniciar sua primeira aplicação ExtJS, inscreva-se e confira isso e muito mais conteúdo sobre Sencha ExtJS por lá, se tiver alguma sugestão ou dúvida deixe nos comentários que tentaremos responder da melhor forma possível
 
-**Pré requisitos**
+### Pré requisitos
 
 Alguns requisitos para a instalação do Sencha ExtJS
 
@@ -41,7 +41,7 @@ C:\Users\Me\sencha-sdks    # Windows
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Y-BiAxkP6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Antes de ir embora**
+### Antes de ir embora
 
 Deixe sua suas dúvidas sobre ExtJS nos comentários, que tentaremos responder o maxímo de dúvidas possíveis, com seu feedback montaremos as próximas pautas para os vídeos, por hoje é só um abraço e até a proxíma.
 
