@@ -1738,6 +1738,18 @@ body {
 		border-right: 3px solid #55780d;
 		border-top: 3px solid #55780d
 	}
+	.post-tecnologia .ribbon span {
+		background-color: #3c1de7
+	}
+	.post-tecnologia .ribbon span:before {
+		border-left: 3px solid #3c1de7;
+		border-top: 3px solid #3c1de7
+	}
+	.post-tecnologia .ribbon span:after {
+		border-right: 3px solid #3c1de7;
+		border-top: 3px solid #3c1de7
+	}
+	
 	body {
 		font-family: "Montserrat",-apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif
 	}
@@ -2447,160 +2459,39 @@ body {
 			background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;
 		  }
 		
-	/*test recommendation */
+	/* night */
 
-	.recommendation {
-		font-family: 'Titillium Web', 'Helvetica Neue', Helvetica, sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		position: fixed;
-		left: 0;
-		right: 0;
-		bottom: -100%;
-		display: block;
-		width: 100%;
-		padding: .625rem;
-		-webkit-transition: bottom .5s;
-		transition: bottom .5s;
-		background-color: rgba(0, 0, 0, 0.85);
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-ms-justify-content: space-between;
-		-webkit-box-pack: justify;
-		-ms-flex-pack: justify;
-		justify-content: space-between;
-	}
-	
-	@media only screen and (min-width:37.5rem) {
-		.recommendation {
-			padding: .938rem
-		}
-	}
-	
-	.recommendation .message {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-ms-justify-content: space-between;
-		-webkit-box-pack: justify;
-		-ms-flex-pack: justify;
-		justify-content: space-between;
-		font-size: 1rem;
-		color: #fff;
-		padding-right: 1.25rem;
-	}
-	
-	@media only screen and (min-width:37.5rem) {
-		.recommendation .message {
-			font-size: 1.25rem
-		}
-	}
-	
-	.recommendation .message strong {
-		display: block;
-		margin: .625rem 0
-	}
-	
-	.recommendation .message a {
-		display: inline-block;
-		font-size: .813rem;
-		color: #fff;
-		text-decoration: none;
-	}
-	
-	@media only screen and (min-width:37.5rem) {
-		.recommendation .message a {
-			font-size: .938rem
-		}
-	}
-	
-	.recommendation .message svg {
-		fill: #fff;
-		width: 1.375rem;
-		height: 1.375rem;
-		-webkit-transform: rotate(-90deg);
-		transform: rotate(-90deg);
-		border: 1px solid #fff;
-		border-radius: 50%;
-		padding: 5px;
-		margin-right: 10px;
-		vertical-align: middle;
-	}
-	
-	@media only screen and (min-width:37.5rem) {
-		.recommendation .message svg {
-			width: 1.75rem;
-			height: 1.75rem
-		}
-	}
-	
-	.recommendation .message span {
-		vertical-align: middle
-	}
-	
-	.recommendation .post-preview {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-align: center;
-		-ms-align-items: center;
-		-ms-flex-align: center;
-		align-items: center;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		background-color: #000;
-		padding: .313rem;
-		max-width: 35%;
-		text-decoration: none;
-	}
-	
-	@media only screen and (min-width:37.5rem) {
-		.recommendation .post-preview {
-			-webkit-box-orient: vertical;
-			-webkit-box-direction: normal;
-			-ms-flex-direction: row;
-			flex-direction: row;
-			padding: .313rem 3.125rem .313rem .313rem;
-			max-width: 50%
-		}
-	}
-	
-	.recommendation .post-preview:hover .title {
-		color: rgba(255, 255, 255, 0.5)
-	}
-	
-	.recommendation .post-preview:hover .image>img {
-		-webkit-filter: grayscale(100%);
-		filter: grayscale(100%)
-	}
-	
-	.recommendation .post-preview .image,
-	.recommendation .post-preview .image>img {
-		display: block;
-		width: 100%;
-		max-width: 12.5rem;
-		-webkit-transition: all .3s;
-		transition: all .3s
-	}
-	
-	.recommendation .post-preview .title {
-		font-size: 1rem;
-		color: #fff;
-		margin: .313rem 0;
-		-webkit-transition: all .3s;
-		transition: all .3s;
-	}
-	
-	@media only screen and (min-width:37.5rem) {
-		.recommendation .post-preview .title {
-			font-size: 1.438rem;
-			margin: 0 0 0 1.25rem
-		}
+	:root {
+  
+		--background: rgb(20,20,20);
+	  
+		  --black: rgb(20,20,20);
+		  --dark-gray: rgb(75,75,75);
+		  --light-gray: rgb(185,185,185);
+		  --white: rgb(240,240,240);
+	  
+	  }
+	  
+	  body {
+		  background: var(--background);
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: 100% 100%;
+	  
+		  font-size: 100%;
+		  color: var(--white);
+		text-align: center;
+	  }
+	  
+	  p {
+		margin: 30px auto 0;
+		padding: 20px;
+		max-width: 720px;
+		font-size: 120%;
+		text-align: left;
+		border: var(--white) solid;
+		border-width: 0 1px;
+	  }
+
+	  /**/
 	}
