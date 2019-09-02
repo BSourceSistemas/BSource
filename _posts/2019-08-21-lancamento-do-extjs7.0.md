@@ -13,6 +13,7 @@ tags:
 categories: ExtJS
 twitter_text: Nova versão do Sencha Ext JS
 introduction: Saiba mais sobre a nova versão do Sencha Ext JS
+author: danielbueno
 ---
 Finalmente chegou a nova <a href="https://www.sencha.com/blog/enterprise-in-the-era-of-ext-js-7-0/" target="_blank">versão do Ext JS</a>, e hoje vamos ver um pouco sobre o que o Ext JS 7.0 traz de novidade, como conjuntos de componentes para **Angular, React** e os blocos de construção para *Web Componentes - que podem ser usados em qualquer ambiente JS*, com essas novidades teremos uma alteração moderada da última versão, a 6.7.
 
