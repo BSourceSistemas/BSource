@@ -17,6 +17,53 @@ author: danielbueno
 ---
 Finalmente chegou a nova <a href="https://www.sencha.com/blog/enterprise-in-the-era-of-ext-js-7-0/" target="_blank">versão do Ext JS</a>, e hoje vamos ver um pouco sobre o que o Ext JS 7.0 traz de novidade, como conjuntos de componentes para **Angular, React** e os blocos de construção para *Web Componentes - que podem ser usados em qualquer ambiente JS*, com essas novidades teremos uma alteração moderada da última versão, a 6.7.
 
+### Destaques
+
+A estrutura Ext JS Modern foi aprimorada extensivamente. Agora, recomendamos começar com o nosso kit de ferramentas Modern para desenvolvimento de desktop e mobile. Existem outras melhorias no ExtGen, a ferramenta de geração de aplicativos, bem como no ExtReact, ExtAngular e CMD.
+
+7.0 Suporte à extensão VSCode para VSCode
+
+Anúncio do lançamento do ExtWebComponents, um framework independente do framework, um novo produto que oferece aos desenvolvedores a capacidade de criar facilmente aplicativos corporativos complexos e ricos em dados, com componentes Ext JS como elementos html, com qualquer estrutura JavaScript de sua escolha ou nenhuma estrutura.
+
+### Aprimoramentos do kit de ferramentas modern
+
+• <a href="https://www.froala.com/wysiwyg-editor" target="_blank">Froala WYSIWYG HTML Editor</a>- O Froala, um leve editor de HTML WYSIWYG escrito em JavaScript, agora faz parte da estrutura Ext JS. Edite o código do aplicativo usando os recursos de edição mais inteligentes e ricos em recursos
+
+• <a href="https://examples.sencha.com/extjs/7.0.0/examples/kitchensink/?modern#tree-reorder" target="_blank">Tree drag and drop</a> - Facil de mover e reordenar menus de árvore
+
+• <a href="" target="_blank">CheckBoxGroup Form Component</a> - G coleção rupo de botões checkbox em um formato flexível
+
+• <a href="https://examples.sencha.com/extjs/7.0.0/examples/kitchensink/?modern#form-radiogroup" target="_blank">RadioGroup Form Component</a> - Personalize a seleção de opções com os botões de opção
+
+• <a href="https://examples.sencha.com/extjs/7.0.0/examples/kitchensink/?modern#breadcrumb-toolbar" target="_blank">Barra de ferramentas de navegação</a> - apresente informações em um formato hierárquico facilmente navegável 
+
+• <a href="https://examples.sencha.com/extjs/7.0.0/examples/kitchensink/?modern#panel-accordion" target="_blank">Painel do acordeão</a> - Suporte de múltiplos / painéis dobráveis expansíveis
+
+• **Suporte de localização** para 10 idiomas adicionais: holandês, dinamarquês, italiano, tcheco, norueguês, finlandês, russo, coreano, japonês, chinês simplificado
+
+• **Aprimoramentos de acessibilidade** : Gerenciamento de teclado / foco, indexação de guias
+
+• **Melhorias de qualidade em** todo o kit de ferramentas moderno e clássico, cobrindo mais de 70 solicitações de clientes
+
+• **Aprimoramentos do grid**
+
+  • Drag and drop de colunas
+
+  • Editor de linhas
+
+  • Grupos recolhíveis
+
+  • Drag (arraste) para o Grid
+
+### Desenvolvimento de Plataforma Cruzada 
+
+Suporte aprimorado para vários tipos de dispositivos: telefone, mesa e desktop. O desenvolvimento de plataforma cruzada pode ser feito em um único projeto Ext JS - aplicativo Ext JS Universal
+Todos os tipos de dispositivos agora podem ser gravados no kit de ferramentas moderno
+Compartilhe código entre módulos, armazene e visualize controladores
+
+![grid extjs](https://www.sencha.com/wp-content/uploads/2019/08/row-editing.gif)
+
+
 ### Segurança e Alto Desempenho em sua aplicações
 
 O Ext JS continua na nova versão com os mesmos 115 componentes, porém houveram aprimoramento em diversos componentes, incluindo o melhor grid do mercado que se destaca pela sua arquitetura robusta, capacidade de compartilhar propiedades entre componentes e falta de dependências de componentes Open Source menos confiáveis que são díficeis de manter. Ele lida com milhares de registros e fornece 
@@ -30,7 +77,7 @@ No nosso canal do youtube eu falei um pouco sobre os componentes do Ext JS  6.6 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fpim3DIqK6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### Alto ROI para Desenvolvimento e Manutenção
+## Alto ROI para Desenvolvimento e Manutenção
 
 O uso de um portfólio de componentes completos acelera o desenvolvimento, pois você tem apenas uma curva de aprendizado. Enquanto um produto mais robusto vem com mais para aprender, uma vez que você perceba, a produtividade aumenta rapidamente. Muitas empresas estão agora enfrentando pela primeira vez a complexidade de atualizar entre versões de framework e gerenciar códigos obscuros de soucer que podem ou não ser mantidos. Embora as atualizações nunca sejam fáceis, nossa abordagem para liberações incrementais que minimizam as alterações de quebra de código deve fornecer o menor custo de manutenção possível.
 
@@ -39,6 +86,11 @@ O uso de um portfólio de componentes completos acelera o desenvolvimento, pois 
 Novos recursos para o modern:
 
 **Aprimoramentos no Grid** - Arrastar e soltar e plug-ins de editor de linha , mover, reordenar ou inserir conteúdo facilmente em uma célula do grid.
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="DataPackageModels13" src="//codepen.io/murilobds/embed/eYOgjEM/?height=265&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/murilobds/pen/eYOgjEM/'>DataPackageModels13</a> by murilobds
+  (<a href='https://codepen.io/murilobds'>@murilobds</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 **Grupo recolhível**, expandir e recolher o grupo de linhas em um grid.
 
@@ -58,16 +110,16 @@ Novos recursos clássicos nesta versão incluem:
 
 **Material Theme**, com sua aparência minimalista e cores fortes, é muito popular como uma base de design para muitas aplicações. O kit de ferramentas clássico suportará o tema Material com cores fortes, espaçamento e preenchimento, profundidade de componentes e sombras e fonte. Ele também usará o poder da variável CSS e do Fashion para permitir atualizações instantâneas.
 
-### Novidades do Sencha Ext JS 7.0
+### Novidades do Sencha Ext JS 7.0 
 
-**Aprimoramentos de grid no modern tool kit**
+**Aprimoramentos de grid no kit de ferramentas moderno**
 
-O Ext 7.0 Modern Grid oferece edição de drag and drop de arquivos, para que o usuário final possa facilmente mover, reordenar ou inserir conteúdo em uma célula do grid.
+O Ext 7.0 Modern Grid oferece edição de arrastar e soltar e fileira , para que o usuário final possa facilmente mover, reordenar ou inserir conteúdo em uma célula do grid.
 Plugin de arrastar e soltar - possui um elemento de arrastar para mover o cursor e o nó de visualização do grid onde o evento de mouse para baixo está registrado
 Plugin do editor de linha - permite que o usuário final edite em um nível de linha ou coluna. Haverá um botão para salvar ou cancelar as alterações.
 É fornecido um exemplo do Kitchensink que mostra todos os recursos de plug-ins do editor de arrastar e soltar para o Grid.
 
-Você que ainda não conhece o grid do Sencha Ext JS, comentei sobre ele em nosso canal do youtube, confira.
+Você que ainda não conhece o grid do Sencha Ext JS, comentei sobr ele em nosso canal do youtube, confira.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zcDnSzAynro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -75,9 +127,20 @@ Você que ainda não conhece o grid do Sencha Ext JS, comentei sobre ele em noss
 
 O Ext 7.0 Modern Grid fornece o Grupo Recolhível , para que o usuário final possa expandir e recolher grupos de linhas em um grid. O Collapsible Group fornece uma maneira de exibir e organizar um grande conjunto de dados e permite que o usuário final veja um resumo de alto nível dos dados ou faça drill-through em detalhes específicos a partir de um único grid.
 
+<iframe height="417" style="width: 100%;" scrolling="no" title="Knockout JS HTML5 File Bindings with upload preview and drag and drop" src="//codepen.io/safrazik/embed/uIrwC/?height=417&theme-id=0&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/safrazik/pen/uIrwC/'>Knockout JS HTML5 File Bindings with upload preview and drag and drop</a> by Safraz Razik
+  (<a href='https://codepen.io/safrazik'>@safrazik</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 ### Tree View Drag and drop
 
 O modo de exibição Tree modern do Ext JS 7.0 fornece um plug - in drag and drop para que o usuário final possa mover e reorganizar o nó em uma hierarquia de árvore com facilidade. A zona de arrastar e a zona de soltura associadas à exibição em árvore participarão da funcionalidade arrastar e soltar. A operação de arrastar incluirá propriedades para especificar:
+
+### Visualização da Árvore de Origem a partir da qual o "arrasto" é originado
+
+Arraste o elemento que move o cursor
+Nó de exibição em árvore em que o evento do mouse está registrado
+Dados selecionados arrastados da exibição da árvore de origem
 
 ### Layout Accordian
 
