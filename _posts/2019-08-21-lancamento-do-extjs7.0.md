@@ -17,43 +17,13 @@ author: danielbueno
 ---
 Finalmente chegou a nova <a href="https://www.sencha.com/blog/enterprise-in-the-era-of-ext-js-7-0/" target="_blank">versão do Ext JS</a>, e hoje vamos ver um pouco sobre o que o Ext JS 7.0 traz de novidade, como conjuntos de componentes para **Angular, React** e os blocos de construção para *Web Componentes - que podem ser usados em qualquer ambiente JS*, com essas novidades teremos uma alteração moderada da última versão, a 6.7.
 
-### Destaques
+### Aprimoramentos
 
 A estrutura Ext JS Modern foi aprimorada extensivamente. Agora, recomendamos começar com o nosso kit de ferramentas Modern para desenvolvimento de desktop e mobile. Existem outras melhorias no ExtGen, a ferramenta de geração de aplicativos, bem como no ExtReact, ExtAngular e CMD.
 
 7.0 Suporte à extensão VSCode para VSCode
 
 Anúncio do lançamento do ExtWebComponents, um framework independente do framework, um novo produto que oferece aos desenvolvedores a capacidade de criar facilmente aplicativos corporativos complexos e ricos em dados, com componentes Ext JS como elementos html, com qualquer estrutura JavaScript de sua escolha ou nenhuma estrutura.
-
-### Aprimoramentos do kit de ferramentas modern
-
-• <a href="https://www.froala.com/wysiwyg-editor" target="_blank">Froala WYSIWYG HTML Editor</a>- O Froala, um leve editor de HTML WYSIWYG escrito em JavaScript, agora faz parte da estrutura Ext JS. Edite o código do aplicativo usando os recursos de edição mais inteligentes e ricos em recursos
-
-• <a href="https://examples.sencha.com/extjs/7.0.0/examples/kitchensink/?modern#tree-reorder" target="_blank">Tree drag and drop</a> - Facil de mover e reordenar menus de árvore
-
-• <a href="" target="_blank">CheckBoxGroup Form Component</a> - G coleção rupo de botões checkbox em um formato flexível
-
-• <a href="https://examples.sencha.com/extjs/7.0.0/examples/kitchensink/?modern#form-radiogroup" target="_blank">RadioGroup Form Component</a> - Personalize a seleção de opções com os botões de opção
-
-• <a href="https://examples.sencha.com/extjs/7.0.0/examples/kitchensink/?modern#breadcrumb-toolbar" target="_blank">Barra de ferramentas de navegação</a> - apresente informações em um formato hierárquico facilmente navegável 
-
-• <a href="https://examples.sencha.com/extjs/7.0.0/examples/kitchensink/?modern#panel-accordion" target="_blank">Painel do acordeão</a> - Suporte de múltiplos / painéis dobráveis expansíveis
-
-• **Suporte de localização** para 10 idiomas adicionais: holandês, dinamarquês, italiano, tcheco, norueguês, finlandês, russo, coreano, japonês, chinês simplificado
-
-• **Aprimoramentos de acessibilidade** : Gerenciamento de teclado / foco, indexação de guias
-
-• **Melhorias de qualidade em** todo o kit de ferramentas moderno e clássico, cobrindo mais de 70 solicitações de clientes
-
-• **Aprimoramentos do grid**
-
-  • Drag and drop de colunas
-
-  • Editor de linhas
-
-  • Grupos recolhíveis
-
-  • Drag (arraste) para o Grid
 
 ### Desenvolvimento de Plataforma Cruzada 
 
