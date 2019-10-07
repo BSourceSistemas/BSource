@@ -2317,6 +2317,52 @@ body {
 	font-family:"Montserrat", "Open Sans", sans-serif;
 	line-height: 1.25;
   }
+  /*botão licença extjs */
+  html,body{
+	height:100%;
+  }
+  button{
+	background:#1476ba;
+	color:#fff;
+	border:none;
+	position:relative;
+	height:60px;
+	font-size:1.6em;
+	padding:0 2em;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
+  }
+  body {
+	font-family:"Montserrat", "Open Sans", sans-serif;
+	line-height: 1.25;
+  }
+  button:hover{
+	background:#fff;
+	color:#1476ba;
+  }
+  button:before,button:after{
+	content:'';
+	position:absolute;
+	top:0;
+	right:0;
+	height:2px;
+	width:0;
+	background: #1476ba;
+	transition:400ms ease all;
+  }
+  button:after{
+	right:inherit;
+	top:inherit;
+	left:0;
+	bottom:0;
+  }
+  button:hover:before,button:hover:after{
+	width:100%;
+	transition:800ms ease all;
+  }
+
+  /*fim*/
   table {
 	border: 1px solid #ccc;
 	border-collapse: collapse;
@@ -2458,5 +2504,7 @@ body {
 			overflow: visible;
 			background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;
 		  }
+		  
+		}
 
-	}
+

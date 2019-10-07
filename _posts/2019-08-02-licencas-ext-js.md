@@ -132,62 +132,10 @@ Modificando uma API Ext
 ## Ficou interessado? 
 
 Nós da BSource somos revendedores de licenças da Sencha, e teremos o maior prazer de tirar qualquer dúvida sobre seus produtos e conseguirmos a melhor condição de pagamento, preencha o formulário abaixo para entrar em contato conosco e saber mais. 
+https://mailchi.mp/e84989610bb1/minhalicencaextjs
 
-<img src="https://res.cloudinary.com/dmmimj8jp/image/upload/v1565359979/BS_lc99je.png" alt="BSource" title="Software sob medida" class="responsive1">
+{% include botaolicencaextjs.html %}
 
-<div class="row">
-<form action="https://formspree.io/media@bsource.com.br" method="POST" target="_blank"  class="offset-1 col-10">
-	    <label for="txtNome">Seu Nome:</label>
-    <input type="text" 
-           id="txtNome" 
-           name="name"
-           placeholder="Nome" 
-           data-vv-id="_jgffphqqw" 
-           aria-required="true" 
-           aria-invalid="false"  
-           class="form-control"
-     />
-		<div class="form-group">
-      <label for="txtEmail">Seu E-mail</label>
-      <input type="email" 
-           class="form-control" 
-           id="txtEmail" 
-           name="email"
-           data-vv-id="_owa60l0p5"
-           placeholder="nome@seudominio.com.br"
-           aria-required="true" ria-invalid="false"/>
-    </div>
-    	<div class="form-group">
-      <label for="txtEmpresa">Nome da sua Empresa</label>
-      <input type="Empresa" 
-           class="form-control" 
-           id="txtEmpresa" 
-           name="empresa"
-           data-vv-id="_owa60l0p5"
-           placeholder="nome@seudominio.com.br"
-           aria-required="true" ria-invalid="false"/>
-    </div>
-		<label for="phone">Telefone</label><input type="tel" id="phone" placeholder="Preencha seu telefone aqui" />
-		<div class="form-group">
-      <label for="txtMensagem">Sua mensagem</label>
-      <textarea name="mensagem" 
-              onkeyup="adjust_textarea(this)" 
-              placeholder="Sua mensagem" 
-              class="form-control" 
-              id="txtMensagem"
-              data-vv-id="_oubcr77fc" 
-              aria-required="true" 
-              rows="7"
-              aria-invalid="false"></textarea>
-      </div>
-			<p>Número de funcionários</p>
-			<ul class="flex-inner">
-				<input type="checkbox" id="10"/><label for="twenty">1-10 </label>
-				<input type="checkbox" id="20"/><label for="thirty">10-30 </label>
-				<input type="checkbox" id="30"/><label for="forty">30-50 </label>
-				<input type="checkbox" id="other"/><label for="other">Outro valor</label>
-			</ul>
-	    <button type="submit">Enviar Formulário</button>
-</form>
-</div>
+
+
 
