@@ -132,7 +132,6 @@ Modificando uma API Ext
 ## Ficou interessado? 
 
 Nós da BSource somos revendedores de licenças da Sencha, e teremos o maior prazer de tirar qualquer dúvida sobre seus produtos e conseguirmos a melhor condição de pagamento, preencha o formulário abaixo para entrar em contato conosco e saber mais. 
-https://mailchi.mp/e84989610bb1/minhalicencaextjs
 
 {% include botaolicencaextjs.html %}
 
