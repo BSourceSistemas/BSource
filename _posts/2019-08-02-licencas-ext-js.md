@@ -5,8 +5,9 @@ date:   2019-08-01 17:05:20 -0200
 image: '/assets/img/logo-bsource.png'
 description: 'Introdução ao ExtJS'
 tags: 
-- Aprenda já
-main-class: 'iniciante'
+- Investimento
+- ExtJS
+main-class: 'ExtJS'
 color: '#55780d'
 categories: 
 twitter_text: 'Saiba mais sobre framework javascript ExtJS.'

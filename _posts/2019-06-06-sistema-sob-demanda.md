@@ -8,7 +8,7 @@ description: 'Investir é preciso'
 main-class: outros
 color: '#D6BA32'
 tags:  
-- investimento
+- Investimento
 categories: Tecnologia
 twitter_text:
 introduction: A chave para o crescimento de sua empresa
