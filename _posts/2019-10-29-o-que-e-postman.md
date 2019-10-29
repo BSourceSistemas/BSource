@@ -97,5 +97,5 @@ Na resposta, temos como foi enviado a informação para o serviço e depois uma 
 
 <img src="https://i.ibb.co/nLkFzby/Postmangetrequest.png" alt="Postmangetrequest" border="0">
 
-Com este post é possível, ter o conhecimento inicial do **POSTMAN**, e como fazer a comunicação dele com suas api’s ou de terceiros.
+Com este post Você adquiriu o conhecimento inicial do **POSTMAN**, e como fazer a comunicação dele com suas api’s ou de terceiros, espero ter ajudado e qualquer dúvidas deixe nos comentários, abraços e até a proxíma.
 
