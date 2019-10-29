@@ -81,13 +81,13 @@ perceba que se digitar algo que não seja formato com **JSON** ele aponta que h�
 
 • **Tests**: onde é possível realizar validações e testes na request do valor retornado.
 
-Para iniciarmos com o **POSTMAN** vamos usar a como exemplo uma requisição que retorna um usuario randomico.
+Para iniciarmos com o **POSTMAN** vamos usar a como exemplo de uma requisição da coletânea do **POSTMAN**, e iremos adicionar nosso header, confira a figura abaixo.
 
-<img src="https://i.ibb.co/ySyHkjd/postman-requisi-es.png" alt="postman-requisi-es" class="responsive1" border="0">
+<img src="https://i.ibb.co/dJMGczk/headers-Postman.png" alt="headers-Postman" border="0">
 
 A resposta do serviço do POSTMAN irá nos retornar um json com atributo headers, e tendo uma propriedade com nosso header e valor. Também é possível observar na parte superior da resposta uma barra onde contém todas as informações referente a este request, conforme a **Figura abaixo**
 
-<img src="https://i.ibb.co/ZmWVJrq/User-Radom.png" alt="User-Radom" border="0">
+<img src="https://i.ibb.co/51m2qVn/exemplopostman.png" alt="exemplopostman" border="0">
 
 Agora iremos fazer uma requisição “POST” utilizando o exemplo “POST Request”, nesta requisição iremos alterar na guia body, o corpo da requisição que desejamos enviar e avaliar o seu retorno, conforme Figura abaixo.
 
@@ -97,5 +97,5 @@ Na resposta, temos como foi enviado a informação para o serviço e depois uma 
 
 <img src="https://i.ibb.co/nLkFzby/Postmangetrequest.png" alt="Postmangetrequest" border="0">
 
-Com este post Você adquiriu o conhecimento inicial do **POSTMAN**, e como fazer a comunicação dele com suas api’s ou de terceiros, espero ter ajudado e qualquer dúvidas deixe nos comentários, abraços e até a proxíma.
+Com este post você adquiriu o conhecimento inicial do **POSTMAN**, e como fazer a comunicação dele com suas api’s ou de terceiros, espero ter ajudado e qualquer dúvidas deixe nos comentários, abraços e até a proxíma.
 
