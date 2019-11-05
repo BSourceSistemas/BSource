@@ -3,36 +3,26 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html
-  lang="pt"
-  itemscope
-  itemtype="http://schema.org/WebPage"
-  {%
+<html lang="pt" itemscope itemtype="http://schema.org/WebPage" {%
   if
   page.main-class
-  %}
-  class="post-{{ page.main}}-class"
-  {%
+  %} class="post-{{ page.main}}-class" {%
   endif
-  %}
->
-  {% include head.html %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=UA-85665246-1"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+  %}>
+{% include head.html %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85665246-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-    gtag("config", "UA-85665246-1");
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics Antigo -->
-  <!----
+  gtag("config", "UA-85665246-1");
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics Antigo -->
+<!----
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129298107-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -41,20 +31,17 @@ layout: compress
 
   gtag('config', 'UA-129298107-1');
 </script> -->
-  {% include head.html %}
-  <body class="has-push-menu">
-    {% include svg-icons.html %} {% include header-post.html %}
-  <section class="post">
-      <article
-        id="post"
-        class="post-content"
-        role="main"
-        itemprop="mainContentOfPage"
-      >
-        {{ content }}
-      </article>
+{% include head.html %}
 
-      {% include footer.html %}
-    </section>
-  </body>
+<body class="has-push-menu">
+  {% include svg-icons.html %} {% include header-post.html %}
+  <section class="post">
+    <article id="post" class="post-content" role="main" itemprop="mainContentOfPage">
+      {{ content }}
+    </article>
+
+    {% include footer.html %}
+  </section>
+</body>
+
 </html>

@@ -4,7 +4,6 @@ title: "ExtJS Versão da Comunidade"
 date: 2018-11-08 20:34:26
 image: '/assets/img/comunidade.gif'
 description: 'Novidades Sencha ExtJS'
-author: 'Daniel'
 main-class: 'noticias'
 color: '#B31917'
 tags:

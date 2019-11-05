@@ -4,6 +4,7 @@ comments: true
 title: "Lançamento do Ext JS 7.0"
 date: 2019-08-21 12:06:58
 image: '/assets/img/ExtJS_2.gif'
+author: danielbueno
 description: Comece agora a criar aplicações web incríveis.
 main-class: 'ExtJS'
 color:
