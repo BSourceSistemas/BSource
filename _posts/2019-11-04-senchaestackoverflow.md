@@ -45,6 +45,7 @@ Para poder postar ou responder a perguntas por meio de um usuário registrado, v
 Para ajudar a ilustrar isso na prática, aqui estão alguns bons exemplos de perguntas e respostas:
 
 Coluna da grid e do filtro Sencha
+
 Tornar filtro na loja Ext JS
 Como usar o filtro na grid, exceto em registros vazios (ExtJS 6.5.3)
 Qual é a melhor maneira de adicionar um ouvinte de clique no botão Ext JS após a renderização?
