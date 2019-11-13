@@ -58,10 +58,10 @@ Estrutura Ext JS e componentes para React, Angular, **WebComponents**:
 <a href="https://stackoverflow.com/questions/tagged/extjs" target="_blank">extjs</a>, 
 <a href="https://stackoverflow.com/questions/tagged/extreact" target="_blank"> extreact </a>,<a href="https://stackoverflow.com/questions/tagged/extangular" target="_blank"> extangular </a>, <a href="https://stackoverflow.com/questions/tagged/extwebcomponents" target="_blank"> extwebcomponents </a> **Ferramentas Sencha**:
 <a href="https://stackoverflow.com/questions/tagged/sencha-architect" target="_blank"> sencha-architect </a>, <a href="https://stackoverflow.com/questions/tagged/sencha-themer" target="_blank">
- sencha-themer </a>,<a href="https://stackoverflow.com/questions/tagged/sencha-cmd" target="_blank"> sencha-cmd </a>, 
+ sencha-themer</a>,<a href="https://stackoverflow.com/questions/tagged/sencha-cmd" target="_blank"> sencha-cmd </a>, 
 <a href="https://stackoverflow.com/questions/tagged/sencha-stencils" target="_blank"> sencha -stencils</a>, 
 <a href="https://stackoverflow.com/questions/tagged/sencha-inspector" target="_blank"> sencha-inspector </a>, <a href="https://stackoverflow.com/questions/tagged/sencha-test" target="_blank"> 
- sencha-test </a>. Você também pode usar tags adicionais para a versão, idioma, bibliotecas e APIs relacionadas à sua pergunta. Exemplos:  <a href="https://stackoverflow.com/questions/tagged/javascript" target="_blank"> javascript</a>, <a href="https://stackoverflow.com/questions/tagged/ajax" target="_blank">   ajax</a> ,<a href="https://stackoverflow.com/questions/tagged/html" target="_blank">     html</a>,<a href="https://stackoverflow.com/questions/tagged/javascript" target="_blank">       extjs7.0</a> 
+ sencha-test </a>. Você também pode usar tags adicionais para a versão, idioma, bibliotecas e APIs relacionadas à sua pergunta. Exemplos:  <a href="https://stackoverflow.com/questions/tagged/javascript" target="_blank"> javascript</a>, <a href="https://stackoverflow.com/questions/tagged/ajax" target="_blank">   ajax</a> ,<a href="https://stackoverflow.com/questions/tagged/html" target="_blank">   html</a>,<a href="https://stackoverflow.com/questions/tagged/javascript" target="_blank">     extjs7.0</a> 
 
 ### Como arquivar bugs ou solicitações de recursos?
 
@@ -82,5 +82,4 @@ A colaboração da Sencha com o Stack Overflow permitirá idéias mais diversas 
 **Suporte dedicado ao cliente**
 
 Nós nos esforçamos para fornecer o suporte técnico da mais alta qualidade para nossos clientes. Essa alteração nos permitirá fornecer suporte mais rápido, pois o portal servirá como um canal dedicado para nossos clientes ativos com o Suporte Standard e Platina.
-
 
