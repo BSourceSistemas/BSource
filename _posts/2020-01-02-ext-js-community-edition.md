@@ -40,7 +40,7 @@ E aproveite e se <a href="http://bit.ly/InscrevaSeBSource" target="_blank">INSCR
 
 Esquecemos de citar que para obter o seu usuário do myget, além do email da Sencha (citado <a href="https://youtu.be/zeIfbW6l48I?t=976" target="_blank">aqui</a> no vídeo) que você irá receber, você também receberá um email do myget, pedindo para você recuperar a sua senha, conforme a imagem abaixo:
 
-<img src="/assets/img/ep15-aviso-my-get" alt="Email recebido da MyGet"/>
+<img src="/assets/img/ep15-aviso-my-get.jpg" alt="Email recebido da MyGet"/>
 
 
 ## Relação de Links
