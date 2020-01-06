@@ -35,7 +35,7 @@ Fizemos um vídeo para mostrar como você faz o download, instalação e codific
 * <a href="https://www.youtube.com/watch?v=zeIfbW6l48I&t=1823s" target="_blank">30:23<a/> - ATÉ QUE ENFIM, VAMOS CODIFICAR.
 * <a href="https://www.youtube.com/watch?v=zeIfbW6l48I&t=3122s" target="_blank">52:02<a/> - CONCLUSÃO.
 
-E aproveite e se <a href="http://bit.ly/InscrevaSeBSource" target="_blank">INSCREVA</a> em nosso canal para não perder mais novidades como essa.
+E aproveite e se <a href="http://bit.ly/InscrevaSeBSource" target="_blank">INSCREVA</a> em nosso canal para não perder mais novidades como essa.<BR/>
 <strong>ERRATA</strong>.
 
 Esquecemos de citar que para obter o seu usuário do myget, além do email da Sencha (citado <a href="https://youtu.be/zeIfbW6l48I?t=976" target="_blank">aqui</a> no vídeo) que você irá receber, você também receberá um email do myget, pedindo para você recuperar a sua senha, conforme a imagem abaixo:
